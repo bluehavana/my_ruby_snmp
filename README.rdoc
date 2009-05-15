@@ -1,9 +1,11 @@
-= SNMP Library for Ruby
+= A Few Minor Changes for Ruby SNMP
 
 == Summary
 
+An attempt to try to improve a little on the orginal design
+
 This library implements SNMP (the Simple Network Management Protocol).  It is
-implemented in pure Ruby, so there are no dependencies on external libraries
+implemented in pure Ruby, so there are no dependencies <b>(read only one on libsmi to import MIBs)</b> on external libraries
 like net-snmp[http://www.net-snmp.org/].  You can run this library anywhere
 that Ruby can run.
 
