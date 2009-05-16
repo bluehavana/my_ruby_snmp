@@ -1,19 +1,37 @@
 --- 
-agentID: 1.3.6.1.6.3.6.1.1.1
-agentTime: 1.3.6.1.6.3.6.1.1.3
-usecStatsUnknownUserNames: 1.3.6.1.6.3.6.1.2.3
-usecStatsUnknownContexts: 1.3.6.1.6.3.6.1.2.5
-usecMIBConformance: 1.3.6.1.6.3.6.2
-usecStatsBadParameters: 1.3.6.1.6.3.6.1.2.6
-usecAgent: 1.3.6.1.6.3.6.1.1
-usecMIB: 1.3.6.1.6.3.6
-usecMIBObjects: 1.3.6.1.6.3.6.1
-usecStats: 1.3.6.1.6.3.6.1.2
-usecStatsUnsupportedQoS: 1.3.6.1.6.3.6.1.2.1
-usecStatsNotInWindows: 1.3.6.1.6.3.6.1.2.2
-usecStatsWrongDigestValues: 1.3.6.1.6.3.6.1.2.4
-agentBoots: 1.3.6.1.6.3.6.1.1.2
-usecStatsUnauthorizedOperations: 1.3.6.1.6.3.6.1.2.7
-usecMIBCompliances: 1.3.6.1.6.3.6.2.1
-usecMIBGroups: 1.3.6.1.6.3.6.2.2
-agentSize: 1.3.6.1.6.3.6.1.1.4
+usecMIBConformance: 
+  oid: 1.3.6.1.6.3.6.2
+usecStatsUnknownContexts: 
+  oid: 1.3.6.1.6.3.6.1.2.5
+usecStatsUnknownUserNames: 
+  oid: 1.3.6.1.6.3.6.1.2.3
+agentTime: 
+  oid: 1.3.6.1.6.3.6.1.1.3
+agentID: 
+  oid: 1.3.6.1.6.3.6.1.1.1
+usecStatsBadParameters: 
+  oid: 1.3.6.1.6.3.6.1.2.6
+usecAgent: 
+  oid: 1.3.6.1.6.3.6.1.1
+usecStatsNotInWindows: 
+  oid: 1.3.6.1.6.3.6.1.2.2
+usecStatsUnsupportedQoS: 
+  oid: 1.3.6.1.6.3.6.1.2.1
+usecStats: 
+  oid: 1.3.6.1.6.3.6.1.2
+usecMIBObjects: 
+  oid: 1.3.6.1.6.3.6.1
+usecMIB: 
+  oid: 1.3.6.1.6.3.6
+usecStatsWrongDigestValues: 
+  oid: 1.3.6.1.6.3.6.1.2.4
+agentBoots: 
+  oid: 1.3.6.1.6.3.6.1.1.2
+usecMIBCompliances: 
+  oid: 1.3.6.1.6.3.6.2.1
+usecStatsUnauthorizedOperations: 
+  oid: 1.3.6.1.6.3.6.1.2.7
+usecMIBGroups: 
+  oid: 1.3.6.1.6.3.6.2.2
+agentSize: 
+  oid: 1.3.6.1.6.3.6.1.1.4

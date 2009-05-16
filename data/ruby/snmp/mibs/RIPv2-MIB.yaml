@@ -1,34 +1,67 @@
 --- 
-rip2PeerVersion: 1.3.6.1.2.1.23.4.1.4
-rip2IfStatEntry: 1.3.6.1.2.1.23.2.1
-rip2IfConfDomain: 1.3.6.1.2.1.23.3.1.2
-rip2IfConfStatus: 1.3.6.1.2.1.23.3.1.8
-rip2PeerTable: 1.3.6.1.2.1.23.4
-rip2PeerEntry: 1.3.6.1.2.1.23.4.1
-rip2IfConfTable: 1.3.6.1.2.1.23.3
-rip2IfConfEntry: 1.3.6.1.2.1.23.3.1
-rip2IfStatAddress: 1.3.6.1.2.1.23.2.1.1
-rip2PeerAddress: 1.3.6.1.2.1.23.4.1.1
-rip2GlobalRouteChanges: 1.3.6.1.2.1.23.1.1
-rip2Globals: 1.3.6.1.2.1.23.1
-rip2IfStatRcvBadPackets: 1.3.6.1.2.1.23.2.1.2
-rip2IfConfDefaultMetric: 1.3.6.1.2.1.23.3.1.7
-rip2PeerRcvBadRoutes: 1.3.6.1.2.1.23.4.1.6
-rip2IfConfSend: 1.3.6.1.2.1.23.3.1.5
-rip2Groups: 1.3.6.1.2.1.23.5.1
-rip2: 1.3.6.1.2.1.23
-rip2IfConfAuthKey: 1.3.6.1.2.1.23.3.1.4
-rip2IfStatTable: 1.3.6.1.2.1.23.2
-rip2IfStatSentUpdates: 1.3.6.1.2.1.23.2.1.4
-rip2IfConfAddress: 1.3.6.1.2.1.23.3.1.1
-rip2PeerLastUpdate: 1.3.6.1.2.1.23.4.1.3
-rip2IfStatRcvBadRoutes: 1.3.6.1.2.1.23.2.1.3
-rip2IfConfReceive: 1.3.6.1.2.1.23.3.1.6
-rip2PeerDomain: 1.3.6.1.2.1.23.4.1.2
-rip2PeerRcvBadPackets: 1.3.6.1.2.1.23.4.1.5
-rip2Compliances: 1.3.6.1.2.1.23.5.2
-rip2GlobalQueries: 1.3.6.1.2.1.23.1.2
-rip2IfStatStatus: 1.3.6.1.2.1.23.2.1.5
-rip2IfConfAuthType: 1.3.6.1.2.1.23.3.1.3
-rip2IfConfSrcAddress: 1.3.6.1.2.1.23.3.1.9
-rip2Conformance: 1.3.6.1.2.1.23.5
+rip2PeerVersion: 
+  oid: 1.3.6.1.2.1.23.4.1.4
+rip2PeerEntry: 
+  oid: 1.3.6.1.2.1.23.4.1
+rip2PeerTable: 
+  oid: 1.3.6.1.2.1.23.4
+rip2IfConfStatus: 
+  oid: 1.3.6.1.2.1.23.3.1.8
+rip2IfConfDomain: 
+  oid: 1.3.6.1.2.1.23.3.1.2
+rip2IfStatEntry: 
+  oid: 1.3.6.1.2.1.23.2.1
+rip2IfConfEntry: 
+  oid: 1.3.6.1.2.1.23.3.1
+rip2IfConfTable: 
+  oid: 1.3.6.1.2.1.23.3
+rip2PeerAddress: 
+  oid: 1.3.6.1.2.1.23.4.1.1
+rip2IfStatAddress: 
+  oid: 1.3.6.1.2.1.23.2.1.1
+rip2GlobalRouteChanges: 
+  oid: 1.3.6.1.2.1.23.1.1
+rip2PeerRcvBadRoutes: 
+  oid: 1.3.6.1.2.1.23.4.1.6
+rip2IfConfDefaultMetric: 
+  oid: 1.3.6.1.2.1.23.3.1.7
+rip2IfStatRcvBadPackets: 
+  oid: 1.3.6.1.2.1.23.2.1.2
+rip2Globals: 
+  oid: 1.3.6.1.2.1.23.1
+rip2Groups: 
+  oid: 1.3.6.1.2.1.23.5.1
+rip2IfConfSend: 
+  oid: 1.3.6.1.2.1.23.3.1.5
+rip2IfConfAuthKey: 
+  oid: 1.3.6.1.2.1.23.3.1.4
+rip2: 
+  oid: 1.3.6.1.2.1.23
+rip2PeerLastUpdate: 
+  oid: 1.3.6.1.2.1.23.4.1.3
+rip2IfConfAddress: 
+  oid: 1.3.6.1.2.1.23.3.1.1
+rip2IfStatSentUpdates: 
+  oid: 1.3.6.1.2.1.23.2.1.4
+rip2IfStatTable: 
+  oid: 1.3.6.1.2.1.23.2
+rip2Compliances: 
+  oid: 1.3.6.1.2.1.23.5.2
+rip2PeerRcvBadPackets: 
+  oid: 1.3.6.1.2.1.23.4.1.5
+rip2PeerDomain: 
+  oid: 1.3.6.1.2.1.23.4.1.2
+rip2IfConfReceive: 
+  oid: 1.3.6.1.2.1.23.3.1.6
+rip2IfStatRcvBadRoutes: 
+  oid: 1.3.6.1.2.1.23.2.1.3
+rip2Conformance: 
+  oid: 1.3.6.1.2.1.23.5
+rip2IfConfSrcAddress: 
+  oid: 1.3.6.1.2.1.23.3.1.9
+rip2IfConfAuthType: 
+  oid: 1.3.6.1.2.1.23.3.1.3
+rip2IfStatStatus: 
+  oid: 1.3.6.1.2.1.23.2.1.5
+rip2GlobalQueries: 
+  oid: 1.3.6.1.2.1.23.1.2

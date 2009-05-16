@@ -1,33 +1,65 @@
 --- 
-dot12Commands: 1.3.6.1.2.1.10.45.1.1.1.7
-dot12ControlMode: 1.3.6.1.2.1.10.45.1.1.1.9
-dot12InNormPriorityOctets: 1.3.6.1.2.1.10.45.1.2.1.4
-dot12MIBObjects: 1.3.6.1.2.1.10.45.1
-dot12ConfigTable: 1.3.6.1.2.1.10.45.1.1
-dot12DesiredFramingType: 1.3.6.1.2.1.10.45.1.1.1.2
-dot12FramingCapability: 1.3.6.1.2.1.10.45.1.1.1.3
-dot12TrainingVersion: 1.3.6.1.2.1.10.45.1.1.1.5
-dot12StatEntry: 1.3.6.1.2.1.10.45.1.2.1
-dot12InIPMErrors: 1.3.6.1.2.1.10.45.1.2.1.5
-dot12InOversizeFrameErrors: 1.3.6.1.2.1.10.45.1.2.1.6
-dot12HCInHighPriorityOctets: 1.3.6.1.2.1.10.45.1.2.1.12
-dot12InHighPriorityOctets: 1.3.6.1.2.1.10.45.1.2.1.2
-dot12HCInNormPriorityOctets: 1.3.6.1.2.1.10.45.1.2.1.13
-dot12Compliances: 1.3.6.1.2.1.10.45.2.1
-dot12TransitionIntoTrainings: 1.3.6.1.2.1.10.45.1.2.1.11
-dot12Conformance: 1.3.6.1.2.1.10.45.2
-dot12DesiredPromiscStatus: 1.3.6.1.2.1.10.45.1.1.1.4
-dot12StatTable: 1.3.6.1.2.1.10.45.1.2
-dot12Status: 1.3.6.1.2.1.10.45.1.1.1.8
-dot12InNullAddressedFrames: 1.3.6.1.2.1.10.45.1.2.1.8
-dot12OutHighPriorityOctets: 1.3.6.1.2.1.10.45.1.2.1.10
-dot12InDataErrors: 1.3.6.1.2.1.10.45.1.2.1.7
-dot12HCOutHighPriorityOctets: 1.3.6.1.2.1.10.45.1.2.1.14
-dot12Groups: 1.3.6.1.2.1.10.45.2.2
-dot12InHighPriorityFrames: 1.3.6.1.2.1.10.45.1.2.1.1
-dot12OutHighPriorityFrames: 1.3.6.1.2.1.10.45.1.2.1.9
-dot12MIB: 1.3.6.1.2.1.10.45
-dot12ConfigEntry: 1.3.6.1.2.1.10.45.1.1.1
-dot12CurrentFramingType: 1.3.6.1.2.1.10.45.1.1.1.1
-dot12LastTrainingConfig: 1.3.6.1.2.1.10.45.1.1.1.6
-dot12InNormPriorityFrames: 1.3.6.1.2.1.10.45.1.2.1.3
+dot12ControlMode: 
+  oid: 1.3.6.1.2.1.10.45.1.1.1.9
+dot12Commands: 
+  oid: 1.3.6.1.2.1.10.45.1.1.1.7
+dot12InNormPriorityOctets: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.4
+dot12HCInHighPriorityOctets: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.12
+dot12InOversizeFrameErrors: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.6
+dot12InIPMErrors: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.5
+dot12StatEntry: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1
+dot12TrainingVersion: 
+  oid: 1.3.6.1.2.1.10.45.1.1.1.5
+dot12FramingCapability: 
+  oid: 1.3.6.1.2.1.10.45.1.1.1.3
+dot12DesiredFramingType: 
+  oid: 1.3.6.1.2.1.10.45.1.1.1.2
+dot12ConfigTable: 
+  oid: 1.3.6.1.2.1.10.45.1.1
+dot12MIBObjects: 
+  oid: 1.3.6.1.2.1.10.45.1
+dot12Compliances: 
+  oid: 1.3.6.1.2.1.10.45.2.1
+dot12HCInNormPriorityOctets: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.13
+dot12InHighPriorityOctets: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.2
+dot12Conformance: 
+  oid: 1.3.6.1.2.1.10.45.2
+dot12TransitionIntoTrainings: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.11
+dot12StatTable: 
+  oid: 1.3.6.1.2.1.10.45.1.2
+dot12DesiredPromiscStatus: 
+  oid: 1.3.6.1.2.1.10.45.1.1.1.4
+dot12Status: 
+  oid: 1.3.6.1.2.1.10.45.1.1.1.8
+dot12OutHighPriorityOctets: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.10
+dot12InNullAddressedFrames: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.8
+dot12Groups: 
+  oid: 1.3.6.1.2.1.10.45.2.2
+dot12HCOutHighPriorityOctets: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.14
+dot12InDataErrors: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.7
+dot12OutHighPriorityFrames: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.9
+dot12InHighPriorityFrames: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.1
+dot12InNormPriorityFrames: 
+  oid: 1.3.6.1.2.1.10.45.1.2.1.3
+dot12LastTrainingConfig: 
+  oid: 1.3.6.1.2.1.10.45.1.1.1.6
+dot12CurrentFramingType: 
+  oid: 1.3.6.1.2.1.10.45.1.1.1.1
+dot12ConfigEntry: 
+  oid: 1.3.6.1.2.1.10.45.1.1.1
+dot12MIB: 
+  oid: 1.3.6.1.2.1.10.45

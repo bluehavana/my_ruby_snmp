@@ -1,34 +1,67 @@
 --- 
-hcAlarmVariable: 1.3.6.1.2.1.16.29.1.1.1.1.3
-hcAlarmValueFailedAttempts: 1.3.6.1.2.1.16.29.1.1.1.1.16
-hcAlarmStatus: 1.3.6.1.2.1.16.29.1.1.1.1.19
-hcAlarmCapabilities: 1.3.6.1.2.1.16.29.1.2.1
-hcAlarmNotifPrefix: 1.3.6.1.2.1.16.29.2.0
-hcAlarmControlObjects: 1.3.6.1.2.1.16.29.1.1
-hcAlarmValueStatus: 1.3.6.1.2.1.16.29.1.1.1.1.6
-hcAlarmRisingThreshAbsValueHi: 1.3.6.1.2.1.16.29.1.1.1.1.9
-hcAlarmRisingEventIndex: 1.3.6.1.2.1.16.29.1.1.1.1.14
-hcAlarmStorageType: 1.3.6.1.2.1.16.29.1.1.1.1.18
-hcAlarmStartupAlarm: 1.3.6.1.2.1.16.29.1.1.1.1.7
-hcAlarmFallingThresholdValStatus: 1.3.6.1.2.1.16.29.1.1.1.1.13
-hcAlarmGroups: 1.3.6.1.2.1.16.29.3.2
-hcAlarmSampleType: 1.3.6.1.2.1.16.29.1.1.1.1.4
-hcAlarmRisingThreshAbsValueLo: 1.3.6.1.2.1.16.29.1.1.1.1.8
-hcRisingAlarm: 1.3.6.1.2.1.16.29.2.0.1
-hcAlarmMIB: 1.3.6.1.2.1.16.29
-hcAlarmTable: 1.3.6.1.2.1.16.29.1.1.1
-hcAlarmEntry: 1.3.6.1.2.1.16.29.1.1.1.1
-hcAlarmIndex: 1.3.6.1.2.1.16.29.1.1.1.1.1
-hcAlarmFallingThreshAbsValueHi: 1.3.6.1.2.1.16.29.1.1.1.1.12
-hcAlarmCompliances: 1.3.6.1.2.1.16.29.3.1
-hcAlarmOwner: 1.3.6.1.2.1.16.29.1.1.1.1.17
-hcAlarmNotifications: 1.3.6.1.2.1.16.29.2
-hcAlarmObjects: 1.3.6.1.2.1.16.29.1
-hcAlarmRisingThresholdValStatus: 1.3.6.1.2.1.16.29.1.1.1.1.10
-hcAlarmFallingThreshAbsValueLo: 1.3.6.1.2.1.16.29.1.1.1.1.11
-hcAlarmCapabilitiesObjects: 1.3.6.1.2.1.16.29.1.2
-hcFallingAlarm: 1.3.6.1.2.1.16.29.2.0.2
-hcAlarmInterval: 1.3.6.1.2.1.16.29.1.1.1.1.2
-hcAlarmFallingEventIndex: 1.3.6.1.2.1.16.29.1.1.1.1.15
-hcAlarmConformance: 1.3.6.1.2.1.16.29.3
-hcAlarmAbsValue: 1.3.6.1.2.1.16.29.1.1.1.1.5
+hcAlarmVariable: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.3
+hcAlarmNotifPrefix: 
+  oid: 1.3.6.1.2.1.16.29.2.0
+hcAlarmCapabilities: 
+  oid: 1.3.6.1.2.1.16.29.1.2.1
+hcAlarmStatus: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.19
+hcAlarmValueFailedAttempts: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.16
+hcAlarmStorageType: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.18
+hcAlarmRisingEventIndex: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.14
+hcAlarmRisingThreshAbsValueHi: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.9
+hcAlarmValueStatus: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.6
+hcAlarmControlObjects: 
+  oid: 1.3.6.1.2.1.16.29.1.1
+hcAlarmGroups: 
+  oid: 1.3.6.1.2.1.16.29.3.2
+hcAlarmFallingThresholdValStatus: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.13
+hcAlarmStartupAlarm: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.7
+hcAlarmRisingThreshAbsValueLo: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.8
+hcAlarmSampleType: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.4
+hcAlarmMIB: 
+  oid: 1.3.6.1.2.1.16.29
+hcRisingAlarm: 
+  oid: 1.3.6.1.2.1.16.29.2.0.1
+hcAlarmCompliances: 
+  oid: 1.3.6.1.2.1.16.29.3.1
+hcAlarmFallingThreshAbsValueHi: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.12
+hcAlarmIndex: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.1
+hcAlarmEntry: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1
+hcAlarmTable: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1
+hcAlarmNotifications: 
+  oid: 1.3.6.1.2.1.16.29.2
+hcAlarmOwner: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.17
+hcAlarmCapabilitiesObjects: 
+  oid: 1.3.6.1.2.1.16.29.1.2
+hcAlarmFallingThreshAbsValueLo: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.11
+hcAlarmRisingThresholdValStatus: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.10
+hcAlarmObjects: 
+  oid: 1.3.6.1.2.1.16.29.1
+hcAlarmConformance: 
+  oid: 1.3.6.1.2.1.16.29.3
+hcAlarmFallingEventIndex: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.15
+hcAlarmInterval: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.2
+hcFallingAlarm: 
+  oid: 1.3.6.1.2.1.16.29.2.0.2
+hcAlarmAbsValue: 
+  oid: 1.3.6.1.2.1.16.29.1.1.1.1.5

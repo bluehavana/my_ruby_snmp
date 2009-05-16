@@ -1,75 +1,149 @@
 --- 
-ifInUnknownProtos: 1.3.6.1.2.1.2.2.1.15
-ifInErrors: 1.3.6.1.2.1.2.2.1.14
-ifHCOutUcastPkts: 1.3.6.1.2.1.31.1.1.1.11
-ifXTable: 1.3.6.1.2.1.31.1.1
-ifXEntry: 1.3.6.1.2.1.31.1.1.1
-ifOutErrors: 1.3.6.1.2.1.2.2.1.20
-ifTestType: 1.3.6.1.2.1.31.1.3.1.3
-ifStackLastChange: 1.3.6.1.2.1.31.1.6
-ifInOctets: 1.3.6.1.2.1.2.2.1.10
-ifInMulticastPkts: 1.3.6.1.2.1.31.1.1.1.2
-ifRcvAddressTable: 1.3.6.1.2.1.31.1.4
-ifRcvAddressEntry: 1.3.6.1.2.1.31.1.4.1
-ifHCInOctets: 1.3.6.1.2.1.31.1.1.1.6
-ifStackHigherLayer: 1.3.6.1.2.1.31.1.2.1.1
-ifTable: 1.3.6.1.2.1.2.2
-ifEntry: 1.3.6.1.2.1.2.2.1
-ifInDiscards: 1.3.6.1.2.1.2.2.1.13
-ifDescr: 1.3.6.1.2.1.2.2.1.2
-ifAdminStatus: 1.3.6.1.2.1.2.2.1.7
-ifHCOutOctets: 1.3.6.1.2.1.31.1.1.1.10
-ifLastChange: 1.3.6.1.2.1.2.2.1.9
-ifOutOctets: 1.3.6.1.2.1.2.2.1.16
-ifStackEntry: 1.3.6.1.2.1.31.1.2.1
-ifCompliances: 1.3.6.1.2.1.31.2.2
-ifHighSpeed: 1.3.6.1.2.1.31.1.1.1.15
-ifHCInUcastPkts: 1.3.6.1.2.1.31.1.1.1.7
-ifLinkUpDownTrapEnable: 1.3.6.1.2.1.31.1.1.1.14
-ifConnectorPresent: 1.3.6.1.2.1.31.1.1.1.17
-ifTableLastChange: 1.3.6.1.2.1.31.1.5
-ifOutUcastPkts: 1.3.6.1.2.1.2.2.1.17
-ifOutQLen: 1.3.6.1.2.1.2.2.1.21
-ifStackStatus: 1.3.6.1.2.1.31.1.2.1.3
-ifInNUcastPkts: 1.3.6.1.2.1.2.2.1.12
-ifAlias: 1.3.6.1.2.1.31.1.1.1.18
-ifStackLowerLayer: 1.3.6.1.2.1.31.1.2.1.2
-ifHCInBroadcastPkts: 1.3.6.1.2.1.31.1.1.1.9
-ifTestStatus: 1.3.6.1.2.1.31.1.3.1.2
-ifPromiscuousMode: 1.3.6.1.2.1.31.1.1.1.16
-ifRcvAddressType: 1.3.6.1.2.1.31.1.4.1.3
-ifMIB: 1.3.6.1.2.1.31
-ifMtu: 1.3.6.1.2.1.2.2.1.4
-interfaces: 1.3.6.1.2.1.2
-ifName: 1.3.6.1.2.1.31.1.1.1.1
-ifRcvAddressAddress: 1.3.6.1.2.1.31.1.4.1.1
-ifOperStatus: 1.3.6.1.2.1.2.2.1.8
-ifOutBroadcastPkts: 1.3.6.1.2.1.31.1.1.1.5
-ifHCInMulticastPkts: 1.3.6.1.2.1.31.1.1.1.8
-ifTestCode: 1.3.6.1.2.1.31.1.3.1.5
-ifOutNUcastPkts: 1.3.6.1.2.1.2.2.1.18
-ifHCOutBroadcastPkts: 1.3.6.1.2.1.31.1.1.1.13
-ifSpeed: 1.3.6.1.2.1.2.2.1.5
-ifOutDiscards: 1.3.6.1.2.1.2.2.1.19
-ifRcvAddressStatus: 1.3.6.1.2.1.31.1.4.1.2
-ifIndex: 1.3.6.1.2.1.2.2.1.1
-ifGroups: 1.3.6.1.2.1.31.2.1
-ifTestResult: 1.3.6.1.2.1.31.1.3.1.4
-ifTestId: 1.3.6.1.2.1.31.1.3.1.1
-ifHCOutMulticastPkts: 1.3.6.1.2.1.31.1.1.1.12
-ifInUcastPkts: 1.3.6.1.2.1.2.2.1.11
-ifOutMulticastPkts: 1.3.6.1.2.1.31.1.1.1.4
-ifMIBObjects: 1.3.6.1.2.1.31.1
-ifSpecific: 1.3.6.1.2.1.2.2.1.22
-ifNumber: 1.3.6.1.2.1.2.1
-ifType: 1.3.6.1.2.1.2.2.1.3
-ifStackTable: 1.3.6.1.2.1.31.1.2
-ifTestTable: 1.3.6.1.2.1.31.1.3
-ifTestEntry: 1.3.6.1.2.1.31.1.3.1
-ifConformance: 1.3.6.1.2.1.31.2
-linkUp: 1.3.6.1.6.3.1.1.5.4
-linkDown: 1.3.6.1.6.3.1.1.5.3
-ifCounterDiscontinuityTime: 1.3.6.1.2.1.31.1.1.1.19
-ifTestOwner: 1.3.6.1.2.1.31.1.3.1.6
-ifInBroadcastPkts: 1.3.6.1.2.1.31.1.1.1.3
-ifPhysAddress: 1.3.6.1.2.1.2.2.1.6
+ifInUnknownProtos: 
+  oid: 1.3.6.1.2.1.2.2.1.15
+ifInErrors: 
+  oid: 1.3.6.1.2.1.2.2.1.14
+ifHCOutUcastPkts: 
+  oid: 1.3.6.1.2.1.31.1.1.1.11
+ifXTable: 
+  oid: 1.3.6.1.2.1.31.1.1
+ifXEntry: 
+  oid: 1.3.6.1.2.1.31.1.1.1
+ifOutErrors: 
+  oid: 1.3.6.1.2.1.2.2.1.20
+ifTestType: 
+  oid: 1.3.6.1.2.1.31.1.3.1.3
+ifStackLastChange: 
+  oid: 1.3.6.1.2.1.31.1.6
+ifInOctets: 
+  oid: 1.3.6.1.2.1.2.2.1.10
+ifInMulticastPkts: 
+  oid: 1.3.6.1.2.1.31.1.1.1.2
+ifRcvAddressTable: 
+  oid: 1.3.6.1.2.1.31.1.4
+ifRcvAddressEntry: 
+  oid: 1.3.6.1.2.1.31.1.4.1
+ifHCInOctets: 
+  oid: 1.3.6.1.2.1.31.1.1.1.6
+ifStackHigherLayer: 
+  oid: 1.3.6.1.2.1.31.1.2.1.1
+ifTable: 
+  oid: 1.3.6.1.2.1.2.2
+ifEntry: 
+  oid: 1.3.6.1.2.1.2.2.1
+ifInDiscards: 
+  oid: 1.3.6.1.2.1.2.2.1.13
+ifDescr: 
+  oid: 1.3.6.1.2.1.2.2.1.2
+ifAdminStatus: 
+  oid: 1.3.6.1.2.1.2.2.1.7
+ifHCOutOctets: 
+  oid: 1.3.6.1.2.1.31.1.1.1.10
+ifLastChange: 
+  oid: 1.3.6.1.2.1.2.2.1.9
+ifOutOctets: 
+  oid: 1.3.6.1.2.1.2.2.1.16
+ifStackEntry: 
+  oid: 1.3.6.1.2.1.31.1.2.1
+ifCompliances: 
+  oid: 1.3.6.1.2.1.31.2.2
+ifHighSpeed: 
+  oid: 1.3.6.1.2.1.31.1.1.1.15
+ifHCInUcastPkts: 
+  oid: 1.3.6.1.2.1.31.1.1.1.7
+ifLinkUpDownTrapEnable: 
+  oid: 1.3.6.1.2.1.31.1.1.1.14
+ifConnectorPresent: 
+  oid: 1.3.6.1.2.1.31.1.1.1.17
+ifTableLastChange: 
+  oid: 1.3.6.1.2.1.31.1.5
+ifOutUcastPkts: 
+  oid: 1.3.6.1.2.1.2.2.1.17
+ifOutQLen: 
+  oid: 1.3.6.1.2.1.2.2.1.21
+ifStackStatus: 
+  oid: 1.3.6.1.2.1.31.1.2.1.3
+ifInNUcastPkts: 
+  oid: 1.3.6.1.2.1.2.2.1.12
+ifAlias: 
+  oid: 1.3.6.1.2.1.31.1.1.1.18
+ifStackLowerLayer: 
+  oid: 1.3.6.1.2.1.31.1.2.1.2
+ifHCInBroadcastPkts: 
+  oid: 1.3.6.1.2.1.31.1.1.1.9
+ifTestStatus: 
+  oid: 1.3.6.1.2.1.31.1.3.1.2
+ifPromiscuousMode: 
+  oid: 1.3.6.1.2.1.31.1.1.1.16
+ifRcvAddressType: 
+  oid: 1.3.6.1.2.1.31.1.4.1.3
+ifMIB: 
+  oid: 1.3.6.1.2.1.31
+ifMtu: 
+  oid: 1.3.6.1.2.1.2.2.1.4
+interfaces: 
+  oid: 1.3.6.1.2.1.2
+ifName: 
+  oid: 1.3.6.1.2.1.31.1.1.1.1
+ifRcvAddressAddress: 
+  oid: 1.3.6.1.2.1.31.1.4.1.1
+ifOperStatus: 
+  oid: 1.3.6.1.2.1.2.2.1.8
+ifOutBroadcastPkts: 
+  oid: 1.3.6.1.2.1.31.1.1.1.5
+ifHCInMulticastPkts: 
+  oid: 1.3.6.1.2.1.31.1.1.1.8
+ifTestCode: 
+  oid: 1.3.6.1.2.1.31.1.3.1.5
+ifOutNUcastPkts: 
+  oid: 1.3.6.1.2.1.2.2.1.18
+ifHCOutBroadcastPkts: 
+  oid: 1.3.6.1.2.1.31.1.1.1.13
+ifSpeed: 
+  oid: 1.3.6.1.2.1.2.2.1.5
+ifOutDiscards: 
+  oid: 1.3.6.1.2.1.2.2.1.19
+ifRcvAddressStatus: 
+  oid: 1.3.6.1.2.1.31.1.4.1.2
+ifIndex: 
+  oid: 1.3.6.1.2.1.2.2.1.1
+ifGroups: 
+  oid: 1.3.6.1.2.1.31.2.1
+ifTestResult: 
+  oid: 1.3.6.1.2.1.31.1.3.1.4
+ifTestId: 
+  oid: 1.3.6.1.2.1.31.1.3.1.1
+ifHCOutMulticastPkts: 
+  oid: 1.3.6.1.2.1.31.1.1.1.12
+ifInUcastPkts: 
+  oid: 1.3.6.1.2.1.2.2.1.11
+ifOutMulticastPkts: 
+  oid: 1.3.6.1.2.1.31.1.1.1.4
+ifMIBObjects: 
+  oid: 1.3.6.1.2.1.31.1
+ifSpecific: 
+  oid: 1.3.6.1.2.1.2.2.1.22
+ifNumber: 
+  oid: 1.3.6.1.2.1.2.1
+ifType: 
+  oid: 1.3.6.1.2.1.2.2.1.3
+ifStackTable: 
+  oid: 1.3.6.1.2.1.31.1.2
+ifTestTable: 
+  oid: 1.3.6.1.2.1.31.1.3
+ifConformance: 
+  oid: 1.3.6.1.2.1.31.2
+ifTestEntry: 
+  oid: 1.3.6.1.2.1.31.1.3.1
+ifPhysAddress: 
+  oid: 1.3.6.1.2.1.2.2.1.6
+ifInBroadcastPkts: 
+  oid: 1.3.6.1.2.1.31.1.1.1.3
+ifTestOwner: 
+  oid: 1.3.6.1.2.1.31.1.3.1.6
+ifCounterDiscontinuityTime: 
+  oid: 1.3.6.1.2.1.31.1.1.1.19
+linkDown: 
+  oid: 1.3.6.1.6.3.1.1.5.3
+linkUp: 
+  oid: 1.3.6.1.6.3.1.1.5.4

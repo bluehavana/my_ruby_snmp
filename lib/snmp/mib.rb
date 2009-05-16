@@ -12,6 +12,9 @@ require 'rbconfig'
 require 'fileutils'
 require 'yaml'
 
+# TODO: require 'file_import'
+# 		include FileImport
+
 module SNMP
 
 class MIB
@@ -20,7 +23,7 @@ class MIB
     share_path = File.join(Config::CONFIG["datadir"], "ruby", "snmp", "mibs")
     data_path = File.expand_path(
         File.join(File.dirname(__FILE__), "..", "..", "data", "ruby", "snmp", "mibs")
-    )
+	)
     if (File.exist?(share_path) && File.exist?(data_path))
         warn "Found two MIB directories:\n  #{share_path}\n  #{data_path}\n" +
              "Using MIB::DEFAULT_MIB_PATH=#{data_path}"
@@ -40,6 +43,14 @@ class MIB
     class ModuleNotLoadedError < RuntimeError; end
     
     class << self
+        # TODO: all of these class functions should be taken out into a module
+        # 		of their own and made instance functions.  Maybe just leave
+        # 		a import_to_yaml function to clean up the python
+        
+        # TODO: import_module needs to be taken out and refactored in to dynamic
+        # 		loading via load_module_mib a long with load_module_py
+        # TODO: should all the load_module_* be private?
+        
         ##
         # Import an SMIv2 MIB file for later loading.  A module only needs to
         # be installed once.
@@ -51,20 +62,30 @@ class MIB
         # in the PATH.  This tool can be obtained from the libsmi website at
         # http://http://www.ibr.cs.tu-bs.de/projects/libsmi/ .
         #
-        # ALSO NOTE: The file format in future releases is subject to
+        # <i>Outdated Note: The file format in future releases is subject to
         # change.  For now, it is a simple YAML hash with the MIB symbol
         # as the key and the OID as the value.  These files could be
-        # generated manually if 'smidump' is not available.
+        # generated manually if 'smidump' is not available.</i>
         #
-        # Here is an example of the contents of an output file:
+        # <b>File format updated on fork!</b>  Now the entire hash is loaded and dumped,
+        # but only name and oid are used at the moment.  This was done for future
+        # possibilities of using description et al.
+        #
+        # Here is an example of the contents of an output file (update with new format):
         #
         #   --- 
-        #   ipDefaultTTL: 1.3.6.1.2.1.4.2
-        #   ipForwDatagrams: 1.3.6.1.2.1.4.6
-        #   ipOutRequests: 1.3.6.1.2.1.4.10
-        #   ipOutNoRoutes: 1.3.6.1.2.1.4.12
-        #   ipReasmTimeout: 1.3.6.1.2.1.4.13
-        #   icmpInDestUnreachs: 1.3.6.1.2.1.5.3
+        #   ipDefaultTTL:
+        #     oid: 1.3.6.1.2.1.4.2
+        #   ipForwDatagrams:
+        #     oid: 1.3.6.1.2.1.4.6
+        #   ipOutRequests:
+        #     oid: 1.3.6.1.2.1.4.10
+        #   ipOutNoRoutes:
+        #     oid: 1.3.6.1.2.1.4.12
+        #   ipReasmTimeout:
+        #     oid: 1.3.6.1.2.1.4.13
+        #   icmpInDestUnreachs:
+        #     oid: 1.3.6.1.2.1.5.3
         #
         def import_module(module_file, mib_dir=DEFAULT_MIB_PATH)
             raise "smidump tool must be installed" unless import_supported?
@@ -76,9 +97,9 @@ class MIB
                 raise "#{module_file}: invalid file format; no module name" unless module_name
                 if mib["nodes"]
                     oid_hash = {}
-                    mib["nodes"].each { |key, value| oid_hash[key] = value["oid"] }
+                    mib["nodes"].each { |key, value| oid_hash[key] = value }
                     if mib["notifications"]
-                        mib["notifications"].each { |key, value| oid_hash[key] = value["oid"] }
+                        mib["notifications"].each { |key, value| oid_hash[key] = value }
                     end
                     File.open(module_file_name(module_name, mib_dir), 'w') do |file|
                         YAML.dump(oid_hash, file)
@@ -102,7 +123,7 @@ class MIB
         def module_file_name(module_name, mib_dir=DEFAULT_MIB_PATH)
             File.join(mib_dir, module_name + "." + MODULE_EXT)
         end
-
+        
         ##
         # The MIB.import_module method is only supported if the external
         # 'smidump' tool is available.  This method returns true if a
@@ -132,6 +153,7 @@ class MIB
         private 
         
         def eval_mib_data(mib_hash)
+            #TODO: watch out for python multiline quotes or """
             ruby_hash = mib_hash.
                 gsub(':', '=>').                  # fix hash syntax
                 gsub('(', '[').gsub(')', ']').    # fix tuple syntax
@@ -153,17 +175,34 @@ class MIB
     # can be loaded.  See MIB.import_module .
     #
     def load_module(module_name, mib_dir=DEFAULT_MIB_PATH)
-        oid_hash = nil
-        File.open(MIB.module_file_name(module_name, mib_dir)) do |file|
-            oid_hash = YAML.load(file.read)
-        end
-        @by_name.merge!(oid_hash) do |key, old, value|
-            warn "warning: overwriting old MIB name '#{key}'"
-        end
+        mib_module_hash = {}
+        file_list = find_module_files(module_name, mib_dir)
+        raise "Unknown module" if file_list.empty?
+        file_list.each do |file_name|
+        	#TODO: NoMethodError = No file importer and comment on file_import include
+	        mib_module_hash = self.send("load_module_" +
+	        							File.extname(file_name).delete("."),
+	        							file_name)
+	    end
+    	@by_name.merge!(mib_module_hash)
         @by_module_by_name[module_name] = {}
-        @by_module_by_name[module_name].merge!(oid_hash)
+        @by_module_by_name[module_name].merge!(mib_module_hash)
     end
 
+	##
+	# Returns YAML hash from the yaml file provided.
+	#
+	def load_module_yaml(file_name)
+		File.open(file_name) { |file| YAML.load(file) }
+	end
+	
+    ##
+    # Returns list of possible file names for the module.
+    # Allows use of other file formats in the future.
+    def find_module_files(module_name, mib_dir=DEFAULT_MIB_PATH)
+        Dir.glob(mib_dir + "/" + module_name + "*")
+    end
+    
     ##
     # Returns a VarBindList for the provided list of objects.  If a
     # string is provided it is interpretted as a symbolic OID.
@@ -247,7 +286,7 @@ class MIB
     def parse_oid(node_hash, name)
         oid_parts = name.split(".")
         first_part = oid_parts.shift
-        oid_string = node_hash[first_part]
+        oid_string = node_hash[first_part]['oid'] if node_hash[first_part]
         if oid_string
             oid_array = oid_string.split(".")
         else

@@ -1,210 +1,419 @@
 --- 
-prtInterpreterIndex: 1.3.6.1.2.1.43.15.1.1.1
-prtInterpreterLangLevel: 1.3.6.1.2.1.43.15.1.1.3
-prtAlertTrainingLevel: 1.3.6.1.2.1.43.18.1.1.3
-prtAlertLocation: 1.3.6.1.2.1.43.18.1.1.6
-prtAlert: 1.3.6.1.2.1.43.18
-prtChannelIfIndex: 1.3.6.1.2.1.43.14.1.1.7
-prtMarkerPowerOnCount: 1.3.6.1.2.1.43.10.2.1.5
-prtInputMediaColor: 1.3.6.1.2.1.43.8.2.1.22
-prtMarkerAddressabilityFeedDir: 1.3.6.1.2.1.43.10.2.1.9
-prtOutputMaxDimXFeedDir: 1.3.6.1.2.1.43.9.2.1.16
-prtChannelStatus: 1.3.6.1.2.1.43.14.1.1.8
-prtInputSecurity: 1.3.6.1.2.1.43.8.2.1.19
-prtGeneralSerialNumber: 1.3.6.1.2.1.43.5.1.1.17
-prtLocalizationCharacterSet: 1.3.6.1.2.1.43.7.1.1.4
-prtGeneralPrinterName: 1.3.6.1.2.1.43.5.1.1.16
-prtChannelCurrentJobCntlLangIndex: 1.3.6.1.2.1.43.14.1.1.4
-prtOutputName: 1.3.6.1.2.1.43.9.2.1.7
-prtAlertGroupIndex: 1.3.6.1.2.1.43.18.1.1.5
-prtMIBConformance: 1.3.6.1.2.1.43.2
-prtAlertIndex: 1.3.6.1.2.1.43.18.1.1.1
-prtMediaPathMediaSizeUnit: 1.3.6.1.2.1.43.13.4.1.3
-prtMediaPathMaxSpeed: 1.3.6.1.2.1.43.13.4.1.4
-prtInputEntry: 1.3.6.1.2.1.43.8.2.1
-prtMarkerStatus: 1.3.6.1.2.1.43.10.2.1.15
-prtCoverTable: 1.3.6.1.2.1.43.6.1
-prtInputCurrentLevel: 1.3.6.1.2.1.43.8.2.1.10
-prtStorageRefEntry: 1.3.6.1.2.1.43.5.2.1
-prtInputModel: 1.3.6.1.2.1.43.8.2.1.15
-prtOutputMinDimXFeedDir: 1.3.6.1.2.1.43.9.2.1.18
-prtCoverDescription: 1.3.6.1.2.1.43.6.1.1.2
-prtConsoleLocalization: 1.3.6.1.2.1.43.5.1.1.10
-prtMIBGroups: 1.3.6.1.2.1.43.2.2
-prtOutputEntry: 1.3.6.1.2.1.43.9.2.1
-prtInputMediaWeight: 1.3.6.1.2.1.43.8.2.1.20
-prtOutputDefaultIndex: 1.3.6.1.2.1.43.5.1.1.7
-prtAlertCode: 1.3.6.1.2.1.43.18.1.1.7
-prtOutputVersion: 1.3.6.1.2.1.43.9.2.1.10
-prtInterpreter: 1.3.6.1.2.1.43.15
-prtInputMediaLoadTimeout: 1.3.6.1.2.1.43.8.2.1.24
-prtMarkerColorant: 1.3.6.1.2.1.43.12
-prtDeviceRefTable: 1.3.6.1.2.1.43.5.3
-prtConsoleDisplayBufferTable: 1.3.6.1.2.1.43.16.5
-prtOutputModel: 1.3.6.1.2.1.43.9.2.1.9
-prtInputNextIndex: 1.3.6.1.2.1.43.8.2.1.25
-prtOutputMinDimFeedDir: 1.3.6.1.2.1.43.9.2.1.17
-prtConsoleDisable: 1.3.6.1.2.1.43.5.1.1.13
-prtConsoleDisplayBufferText: 1.3.6.1.2.1.43.16.5.1.2
-prtStorageRefIndex: 1.3.6.1.2.1.43.5.2.1.2
-prtInputCapacityUnit: 1.3.6.1.2.1.43.8.2.1.8
-prtChannelState: 1.3.6.1.2.1.43.14.1.1.6
-prtInterpreterLangVersion: 1.3.6.1.2.1.43.15.1.1.4
-prtMarkerSupplies: 1.3.6.1.2.1.43.11
-prtInputIndex: 1.3.6.1.2.1.43.8.2.1.1
-prtInputDimUnit: 1.3.6.1.2.1.43.8.2.1.3
-prtMarkerColorantRole: 1.3.6.1.2.1.43.12.1.1.3
-prtMarkerSuppliesLevel: 1.3.6.1.2.1.43.11.1.1.9
-prtConsoleNumberOfDisplayLines: 1.3.6.1.2.1.43.5.1.1.11
-prtMediaPathMaxSpeedPrintUnit: 1.3.6.1.2.1.43.13.4.1.2
-prtMarkerSpotColorants: 1.3.6.1.2.1.43.10.2.1.7
-prtMarkerAddressabilityXFeedDir: 1.3.6.1.2.1.43.10.2.1.10
-prtAlertGroup: 1.3.6.1.2.1.43.18.1.1.4
-prtOutputIndex: 1.3.6.1.2.1.43.9.2.1.1
-prtMarkerSuppliesMarkerIndex: 1.3.6.1.2.1.43.11.1.1.2
-prtMediaPathTable: 1.3.6.1.2.1.43.13.4
-prtMarkerColorantEntry: 1.3.6.1.2.1.43.12.1.1
-prtOutput: 1.3.6.1.2.1.43.9
-prtOutputStackingOrder: 1.3.6.1.2.1.43.9.2.1.19
-prtLocalizationTable: 1.3.6.1.2.1.43.7.1
-prtChannelEntry: 1.3.6.1.2.1.43.14.1.1
-prtMediaPathMaxMediaFeedDir: 1.3.6.1.2.1.43.13.4.1.5
-prtInterpreterXFeedAddressability: 1.3.6.1.2.1.43.15.1.1.9
-prtMarkerSuppliesTable: 1.3.6.1.2.1.43.11.1
-prtGeneralEntry: 1.3.6.1.2.1.43.5.1.1
-prtLocalizationCountry: 1.3.6.1.2.1.43.7.1.1.3
-prtConsoleLightIndex: 1.3.6.1.2.1.43.17.6.1.1
-prtInterpreterDefaultCharSetIn: 1.3.6.1.2.1.43.15.1.1.10
-prtAuxiliarySheetStartupPage: 1.3.6.1.2.1.43.5.1.1.14
-prtMarkerTable: 1.3.6.1.2.1.43.10.2
-printerV2AlertPrefix: 1.3.6.1.2.1.43.18.2.0
-prtInterpreterTable: 1.3.6.1.2.1.43.15.1
-prtOutputDecollating: 1.3.6.1.2.1.43.9.2.1.22
-prtInputDescription: 1.3.6.1.2.1.43.8.2.1.18
-prtMarkerColorantIndex: 1.3.6.1.2.1.43.12.1.1.1
-prtInputMediaDimXFeedDirChosen: 1.3.6.1.2.1.43.8.2.1.7
-prtMediaPathDefaultIndex: 1.3.6.1.2.1.43.5.1.1.9
-prtMarkerColorantMarkerIndex: 1.3.6.1.2.1.43.12.1.1.2
-prtMediaPathMinMediaXFeedDir: 1.3.6.1.2.1.43.13.4.1.8
-prtChannelIndex: 1.3.6.1.2.1.43.14.1.1.1
-prtChannelDefaultPageDescLangIndex: 1.3.6.1.2.1.43.14.1.1.5
-prtOutputCapacityUnit: 1.3.6.1.2.1.43.9.2.1.3
-prtConsoleLightEntry: 1.3.6.1.2.1.43.17.6.1
-prtConsoleDisplayBuffer: 1.3.6.1.2.1.43.16
-prtAlertAllEvents: 1.3.6.1.2.1.43.5.1.1.19
-prtOutputRemainingCapacity: 1.3.6.1.2.1.43.9.2.1.5
-prtMarkerSuppliesType: 1.3.6.1.2.1.43.11.1.1.5
-prtMarkerSouthMargin: 1.3.6.1.2.1.43.10.2.1.12
-prtConsoleOffTime: 1.3.6.1.2.1.43.17.6.1.3
-prtMediaPathMaxMediaXFeedDir: 1.3.6.1.2.1.43.13.4.1.6
-prtCoverStatus: 1.3.6.1.2.1.43.6.1.1.3
-prtInputMediaFormParts: 1.3.6.1.2.1.43.8.2.1.23
-prtMarkerSuppliesDescription: 1.3.6.1.2.1.43.11.1.1.6
-prtOutputBursting: 1.3.6.1.2.1.43.9.2.1.21
-prtInputMediaDimXFeedDirDeclared: 1.3.6.1.2.1.43.8.2.1.5
-printerV2Alert: 1.3.6.1.2.1.43.18.2.0.1
-prtGeneralConfigChanges: 1.3.6.1.2.1.43.5.1.1.1
-printmib: 1.3.6.1.2.1.43
-prtAlertTable: 1.3.6.1.2.1.43.18.1
-prtConsoleNumberOfDisplayChars: 1.3.6.1.2.1.43.5.1.1.12
-prtMarkerMarkTech: 1.3.6.1.2.1.43.10.2.1.2
-prtInputName: 1.3.6.1.2.1.43.8.2.1.13
-prtLocalizationLanguage: 1.3.6.1.2.1.43.7.1.1.2
-prtAlertDescription: 1.3.6.1.2.1.43.18.1.1.8
-prtGeneralCurrentOperator: 1.3.6.1.2.1.43.5.1.1.4
-prtInputType: 1.3.6.1.2.1.43.8.2.1.2
-prtInputMaxCapacity: 1.3.6.1.2.1.43.8.2.1.9
-prtInputSerialNumber: 1.3.6.1.2.1.43.8.2.1.17
-prtMarkerLifeCount: 1.3.6.1.2.1.43.10.2.1.4
-prtMarkerCounterUnit: 1.3.6.1.2.1.43.10.2.1.3
-prtOutputPageCollated: 1.3.6.1.2.1.43.9.2.1.23
-prtMarkerColorantValue: 1.3.6.1.2.1.43.12.1.1.4
-prtInterpreterTwoWay: 1.3.6.1.2.1.43.15.1.1.12
-prtConsoleOnTime: 1.3.6.1.2.1.43.17.6.1.2
-prtAuxiliarySheetBannerPage: 1.3.6.1.2.1.43.5.1.1.15
-prtLocalization: 1.3.6.1.2.1.43.7
-prtCoverEntry: 1.3.6.1.2.1.43.6.1.1
-prtMarkerSuppliesClass: 1.3.6.1.2.1.43.11.1.1.4
-prtInputTable: 1.3.6.1.2.1.43.8.2
-prtOutputOffsetStacking: 1.3.6.1.2.1.43.9.2.1.24
-prtOutputVendorName: 1.3.6.1.2.1.43.9.2.1.8
-prtGeneral: 1.3.6.1.2.1.43.5
-prtOutputDimUnit: 1.3.6.1.2.1.43.9.2.1.14
-prtInput: 1.3.6.1.2.1.43.8
-prtMediaPathDescription: 1.3.6.1.2.1.43.13.4.1.10
-prtInterpreterFeedAddressability: 1.3.6.1.2.1.43.15.1.1.8
-prtStorageRefTable: 1.3.6.1.2.1.43.5.2
-prtChannel: 1.3.6.1.2.1.43.14
-prtChannelTable: 1.3.6.1.2.1.43.14.1
-prtConsoleLights: 1.3.6.1.2.1.43.17
-prtDeviceRefEntry: 1.3.6.1.2.1.43.5.3.1
-prtMarkerColorantTonality: 1.3.6.1.2.1.43.12.1.1.5
-prtMediaPathMinMediaFeedDir: 1.3.6.1.2.1.43.13.4.1.7
-prtInterpreterLangFamily: 1.3.6.1.2.1.43.15.1.1.2
-prtInterpreterDescription: 1.3.6.1.2.1.43.15.1.1.5
-prtConsoleDisplayBufferEntry: 1.3.6.1.2.1.43.16.5.1
-prtCoverIndex: 1.3.6.1.2.1.43.6.1.1.1
-prtOutputTable: 1.3.6.1.2.1.43.9.2
-prtMarkerEastMargin: 1.3.6.1.2.1.43.10.2.1.14
-prtStorageRefSeqNumber: 1.3.6.1.2.1.43.5.2.1.1
-prtGeneralReset: 1.3.6.1.2.1.43.5.1.1.3
-prtInputVendorName: 1.3.6.1.2.1.43.8.2.1.14
-prtInterpreterDefaultOrientation: 1.3.6.1.2.1.43.15.1.1.7
-prtConsoleDescription: 1.3.6.1.2.1.43.17.6.1.5
-printerV1Alert: 1.3.6.1.2.1.43.18.2
-prtCover: 1.3.6.1.2.1.43.6
-prtMarkerAddressabilityUnit: 1.3.6.1.2.1.43.10.2.1.8
-prtOutputDescription: 1.3.6.1.2.1.43.9.2.1.12
-prtInputMediaDimFeedDirDeclared: 1.3.6.1.2.1.43.8.2.1.4
-prtMarkerProcessColorants: 1.3.6.1.2.1.43.10.2.1.6
-prtMarkerSuppliesSupplyUnit: 1.3.6.1.2.1.43.11.1.1.7
-prtMediaPathEntry: 1.3.6.1.2.1.43.13.4.1
-prtConsoleLightTable: 1.3.6.1.2.1.43.17.6
-prtInputVersion: 1.3.6.1.2.1.43.8.2.1.16
-prtDeviceRefIndex: 1.3.6.1.2.1.43.5.3.1.2
-prtMarkerSuppliesMaxCapacity: 1.3.6.1.2.1.43.11.1.1.8
-prtMediaPathStatus: 1.3.6.1.2.1.43.13.4.1.11
-prtConsoleDisplayBufferIndex: 1.3.6.1.2.1.43.16.5.1.1
-prtOutputStatus: 1.3.6.1.2.1.43.9.2.1.6
-prtInputMediaDimFeedDirChosen: 1.3.6.1.2.1.43.8.2.1.6
-prtLocalizationEntry: 1.3.6.1.2.1.43.7.1.1
-prtMarkerNorthMargin: 1.3.6.1.2.1.43.10.2.1.11
-prtMarkerSuppliesEntry: 1.3.6.1.2.1.43.11.1.1
-prtMarkerColorantTable: 1.3.6.1.2.1.43.12.1
-prtChannelProtocolVersion: 1.3.6.1.2.1.43.14.1.1.3
-prtMarkerEntry: 1.3.6.1.2.1.43.10.2.1
-prtMarkerWestMargin: 1.3.6.1.2.1.43.10.2.1.13
-prtMediaPath: 1.3.6.1.2.1.43.13
-prtChannelType: 1.3.6.1.2.1.43.14.1.1.2
-prtInterpreterVersion: 1.3.6.1.2.1.43.15.1.1.6
-prtInputStatus: 1.3.6.1.2.1.43.8.2.1.11
-prtInputMediaName: 1.3.6.1.2.1.43.8.2.1.12
-prtDeviceRefSeqNumber: 1.3.6.1.2.1.43.5.3.1.1
-prtMarker: 1.3.6.1.2.1.43.10
-prtMIB2Groups: 1.3.6.1.2.1.43.2.4
-prtAlertCriticalEvents: 1.3.6.1.2.1.43.5.1.1.18
-prtMediaPathIndex: 1.3.6.1.2.1.43.13.4.1.1
-prtGeneralTable: 1.3.6.1.2.1.43.5.1
-prtOutputPageDeliveryOrientation: 1.3.6.1.2.1.43.9.2.1.20
-prtInputMediaType: 1.3.6.1.2.1.43.8.2.1.21
-prtOutputMaxCapacity: 1.3.6.1.2.1.43.9.2.1.4
-prtInterpreterEntry: 1.3.6.1.2.1.43.15.1.1
-prtInterpreterDefaultCharSetOut: 1.3.6.1.2.1.43.15.1.1.11
-prtAlertSeverityLevel: 1.3.6.1.2.1.43.18.1.1.2
-prtOutputMaxDimFeedDir: 1.3.6.1.2.1.43.9.2.1.15
-prtOutputType: 1.3.6.1.2.1.43.9.2.1.2
-prtGeneralServicePerson: 1.3.6.1.2.1.43.5.1.1.5
-prtLocalizationIndex: 1.3.6.1.2.1.43.7.1.1.1
-prtOutputSecurity: 1.3.6.1.2.1.43.9.2.1.13
-prtMarkerSuppliesIndex: 1.3.6.1.2.1.43.11.1.1.1
-prtMarkerSuppliesColorantIndex: 1.3.6.1.2.1.43.11.1.1.3
-prtChannelInformation: 1.3.6.1.2.1.43.14.1.1.9
-prtAlertTime: 1.3.6.1.2.1.43.18.1.1.9
-prtMarkerIndex: 1.3.6.1.2.1.43.10.2.1.1
-prtOutputSerialNumber: 1.3.6.1.2.1.43.9.2.1.11
-prtGeneralCurrentLocalization: 1.3.6.1.2.1.43.5.1.1.2
-prtMarkerDefaultIndex: 1.3.6.1.2.1.43.5.1.1.8
-prtInputDefaultIndex: 1.3.6.1.2.1.43.5.1.1.6
-prtMediaPathType: 1.3.6.1.2.1.43.13.4.1.9
-prtConsoleColor: 1.3.6.1.2.1.43.17.6.1.4
-prtAlertEntry: 1.3.6.1.2.1.43.18.1.1
+prtInterpreterIndex: 
+  oid: 1.3.6.1.2.1.43.15.1.1.1
+prtInterpreterLangLevel: 
+  oid: 1.3.6.1.2.1.43.15.1.1.3
+prtAlertTrainingLevel: 
+  oid: 1.3.6.1.2.1.43.18.1.1.3
+prtAlertLocation: 
+  oid: 1.3.6.1.2.1.43.18.1.1.6
+prtAlert: 
+  oid: 1.3.6.1.2.1.43.18
+prtChannelIfIndex: 
+  oid: 1.3.6.1.2.1.43.14.1.1.7
+prtMarkerPowerOnCount: 
+  oid: 1.3.6.1.2.1.43.10.2.1.5
+prtInputMediaColor: 
+  oid: 1.3.6.1.2.1.43.8.2.1.22
+prtMarkerAddressabilityFeedDir: 
+  oid: 1.3.6.1.2.1.43.10.2.1.9
+prtOutputMaxDimXFeedDir: 
+  oid: 1.3.6.1.2.1.43.9.2.1.16
+prtChannelStatus: 
+  oid: 1.3.6.1.2.1.43.14.1.1.8
+prtInputSecurity: 
+  oid: 1.3.6.1.2.1.43.8.2.1.19
+prtGeneralSerialNumber: 
+  oid: 1.3.6.1.2.1.43.5.1.1.17
+prtLocalizationCharacterSet: 
+  oid: 1.3.6.1.2.1.43.7.1.1.4
+prtGeneralPrinterName: 
+  oid: 1.3.6.1.2.1.43.5.1.1.16
+prtChannelCurrentJobCntlLangIndex: 
+  oid: 1.3.6.1.2.1.43.14.1.1.4
+prtOutputName: 
+  oid: 1.3.6.1.2.1.43.9.2.1.7
+prtAlertGroupIndex: 
+  oid: 1.3.6.1.2.1.43.18.1.1.5
+prtMIBConformance: 
+  oid: 1.3.6.1.2.1.43.2
+prtAlertIndex: 
+  oid: 1.3.6.1.2.1.43.18.1.1.1
+prtMediaPathMediaSizeUnit: 
+  oid: 1.3.6.1.2.1.43.13.4.1.3
+prtMediaPathMaxSpeed: 
+  oid: 1.3.6.1.2.1.43.13.4.1.4
+prtInputEntry: 
+  oid: 1.3.6.1.2.1.43.8.2.1
+prtMarkerStatus: 
+  oid: 1.3.6.1.2.1.43.10.2.1.15
+prtCoverTable: 
+  oid: 1.3.6.1.2.1.43.6.1
+prtInputCurrentLevel: 
+  oid: 1.3.6.1.2.1.43.8.2.1.10
+prtStorageRefEntry: 
+  oid: 1.3.6.1.2.1.43.5.2.1
+prtInputModel: 
+  oid: 1.3.6.1.2.1.43.8.2.1.15
+prtOutputMinDimXFeedDir: 
+  oid: 1.3.6.1.2.1.43.9.2.1.18
+prtCoverDescription: 
+  oid: 1.3.6.1.2.1.43.6.1.1.2
+prtConsoleLocalization: 
+  oid: 1.3.6.1.2.1.43.5.1.1.10
+prtMIBGroups: 
+  oid: 1.3.6.1.2.1.43.2.2
+prtOutputEntry: 
+  oid: 1.3.6.1.2.1.43.9.2.1
+prtInputMediaWeight: 
+  oid: 1.3.6.1.2.1.43.8.2.1.20
+prtOutputDefaultIndex: 
+  oid: 1.3.6.1.2.1.43.5.1.1.7
+prtAlertCode: 
+  oid: 1.3.6.1.2.1.43.18.1.1.7
+prtOutputVersion: 
+  oid: 1.3.6.1.2.1.43.9.2.1.10
+prtInterpreter: 
+  oid: 1.3.6.1.2.1.43.15
+prtInputMediaLoadTimeout: 
+  oid: 1.3.6.1.2.1.43.8.2.1.24
+prtMarkerColorant: 
+  oid: 1.3.6.1.2.1.43.12
+prtDeviceRefTable: 
+  oid: 1.3.6.1.2.1.43.5.3
+prtConsoleDisplayBufferTable: 
+  oid: 1.3.6.1.2.1.43.16.5
+prtOutputModel: 
+  oid: 1.3.6.1.2.1.43.9.2.1.9
+prtInputNextIndex: 
+  oid: 1.3.6.1.2.1.43.8.2.1.25
+prtOutputMinDimFeedDir: 
+  oid: 1.3.6.1.2.1.43.9.2.1.17
+prtConsoleDisable: 
+  oid: 1.3.6.1.2.1.43.5.1.1.13
+prtConsoleDisplayBufferText: 
+  oid: 1.3.6.1.2.1.43.16.5.1.2
+prtStorageRefIndex: 
+  oid: 1.3.6.1.2.1.43.5.2.1.2
+prtChannelState: 
+  oid: 1.3.6.1.2.1.43.14.1.1.6
+prtInputCapacityUnit: 
+  oid: 1.3.6.1.2.1.43.8.2.1.8
+prtInterpreterLangVersion: 
+  oid: 1.3.6.1.2.1.43.15.1.1.4
+prtMarkerSupplies: 
+  oid: 1.3.6.1.2.1.43.11
+prtInputIndex: 
+  oid: 1.3.6.1.2.1.43.8.2.1.1
+prtInputDimUnit: 
+  oid: 1.3.6.1.2.1.43.8.2.1.3
+prtMarkerColorantRole: 
+  oid: 1.3.6.1.2.1.43.12.1.1.3
+prtMarkerSuppliesLevel: 
+  oid: 1.3.6.1.2.1.43.11.1.1.9
+prtConsoleNumberOfDisplayLines: 
+  oid: 1.3.6.1.2.1.43.5.1.1.11
+prtMediaPathMaxSpeedPrintUnit: 
+  oid: 1.3.6.1.2.1.43.13.4.1.2
+prtMarkerSpotColorants: 
+  oid: 1.3.6.1.2.1.43.10.2.1.7
+prtMarkerAddressabilityXFeedDir: 
+  oid: 1.3.6.1.2.1.43.10.2.1.10
+prtAlertGroup: 
+  oid: 1.3.6.1.2.1.43.18.1.1.4
+prtMarkerSuppliesMarkerIndex: 
+  oid: 1.3.6.1.2.1.43.11.1.1.2
+prtOutputIndex: 
+  oid: 1.3.6.1.2.1.43.9.2.1.1
+prtMediaPathTable: 
+  oid: 1.3.6.1.2.1.43.13.4
+prtMarkerColorantEntry: 
+  oid: 1.3.6.1.2.1.43.12.1.1
+prtOutput: 
+  oid: 1.3.6.1.2.1.43.9
+prtOutputStackingOrder: 
+  oid: 1.3.6.1.2.1.43.9.2.1.19
+prtLocalizationTable: 
+  oid: 1.3.6.1.2.1.43.7.1
+prtChannelEntry: 
+  oid: 1.3.6.1.2.1.43.14.1.1
+prtMediaPathMaxMediaFeedDir: 
+  oid: 1.3.6.1.2.1.43.13.4.1.5
+prtInterpreterXFeedAddressability: 
+  oid: 1.3.6.1.2.1.43.15.1.1.9
+prtMarkerSuppliesTable: 
+  oid: 1.3.6.1.2.1.43.11.1
+prtGeneralEntry: 
+  oid: 1.3.6.1.2.1.43.5.1.1
+prtLocalizationCountry: 
+  oid: 1.3.6.1.2.1.43.7.1.1.3
+prtConsoleLightIndex: 
+  oid: 1.3.6.1.2.1.43.17.6.1.1
+prtInterpreterDefaultCharSetIn: 
+  oid: 1.3.6.1.2.1.43.15.1.1.10
+prtAuxiliarySheetStartupPage: 
+  oid: 1.3.6.1.2.1.43.5.1.1.14
+prtMarkerTable: 
+  oid: 1.3.6.1.2.1.43.10.2
+printerV2AlertPrefix: 
+  oid: 1.3.6.1.2.1.43.18.2.0
+prtInterpreterTable: 
+  oid: 1.3.6.1.2.1.43.15.1
+prtOutputDecollating: 
+  oid: 1.3.6.1.2.1.43.9.2.1.22
+prtInputDescription: 
+  oid: 1.3.6.1.2.1.43.8.2.1.18
+prtMarkerColorantIndex: 
+  oid: 1.3.6.1.2.1.43.12.1.1.1
+prtInputMediaDimXFeedDirChosen: 
+  oid: 1.3.6.1.2.1.43.8.2.1.7
+prtMediaPathDefaultIndex: 
+  oid: 1.3.6.1.2.1.43.5.1.1.9
+prtMarkerColorantMarkerIndex: 
+  oid: 1.3.6.1.2.1.43.12.1.1.2
+prtMediaPathMinMediaXFeedDir: 
+  oid: 1.3.6.1.2.1.43.13.4.1.8
+prtChannelIndex: 
+  oid: 1.3.6.1.2.1.43.14.1.1.1
+prtChannelDefaultPageDescLangIndex: 
+  oid: 1.3.6.1.2.1.43.14.1.1.5
+prtOutputCapacityUnit: 
+  oid: 1.3.6.1.2.1.43.9.2.1.3
+prtConsoleLightEntry: 
+  oid: 1.3.6.1.2.1.43.17.6.1
+prtConsoleDisplayBuffer: 
+  oid: 1.3.6.1.2.1.43.16
+prtAlertAllEvents: 
+  oid: 1.3.6.1.2.1.43.5.1.1.19
+prtOutputRemainingCapacity: 
+  oid: 1.3.6.1.2.1.43.9.2.1.5
+prtMarkerSuppliesType: 
+  oid: 1.3.6.1.2.1.43.11.1.1.5
+prtMarkerSouthMargin: 
+  oid: 1.3.6.1.2.1.43.10.2.1.12
+prtConsoleOffTime: 
+  oid: 1.3.6.1.2.1.43.17.6.1.3
+prtMediaPathMaxMediaXFeedDir: 
+  oid: 1.3.6.1.2.1.43.13.4.1.6
+prtCoverStatus: 
+  oid: 1.3.6.1.2.1.43.6.1.1.3
+prtInputMediaFormParts: 
+  oid: 1.3.6.1.2.1.43.8.2.1.23
+prtMarkerSuppliesDescription: 
+  oid: 1.3.6.1.2.1.43.11.1.1.6
+prtOutputBursting: 
+  oid: 1.3.6.1.2.1.43.9.2.1.21
+prtInputMediaDimXFeedDirDeclared: 
+  oid: 1.3.6.1.2.1.43.8.2.1.5
+prtGeneralConfigChanges: 
+  oid: 1.3.6.1.2.1.43.5.1.1.1
+printmib: 
+  oid: 1.3.6.1.2.1.43
+prtAlertTable: 
+  oid: 1.3.6.1.2.1.43.18.1
+prtConsoleNumberOfDisplayChars: 
+  oid: 1.3.6.1.2.1.43.5.1.1.12
+printerV2Alert: 
+  oid: 1.3.6.1.2.1.43.18.2.0.1
+prtMarkerMarkTech: 
+  oid: 1.3.6.1.2.1.43.10.2.1.2
+prtInputMaxCapacity: 
+  oid: 1.3.6.1.2.1.43.8.2.1.9
+prtInputName: 
+  oid: 1.3.6.1.2.1.43.8.2.1.13
+prtLocalizationLanguage: 
+  oid: 1.3.6.1.2.1.43.7.1.1.2
+prtAlertDescription: 
+  oid: 1.3.6.1.2.1.43.18.1.1.8
+prtGeneralCurrentOperator: 
+  oid: 1.3.6.1.2.1.43.5.1.1.4
+prtInputType: 
+  oid: 1.3.6.1.2.1.43.8.2.1.2
+prtConsoleOnTime: 
+  oid: 1.3.6.1.2.1.43.17.6.1.2
+prtInterpreterTwoWay: 
+  oid: 1.3.6.1.2.1.43.15.1.1.12
+prtMarkerColorantValue: 
+  oid: 1.3.6.1.2.1.43.12.1.1.4
+prtOutputPageCollated: 
+  oid: 1.3.6.1.2.1.43.9.2.1.23
+prtMarkerCounterUnit: 
+  oid: 1.3.6.1.2.1.43.10.2.1.3
+prtMarkerLifeCount: 
+  oid: 1.3.6.1.2.1.43.10.2.1.4
+prtInputSerialNumber: 
+  oid: 1.3.6.1.2.1.43.8.2.1.17
+prtMarkerSuppliesClass: 
+  oid: 1.3.6.1.2.1.43.11.1.1.4
+prtCoverEntry: 
+  oid: 1.3.6.1.2.1.43.6.1.1
+prtLocalization: 
+  oid: 1.3.6.1.2.1.43.7
+prtAuxiliarySheetBannerPage: 
+  oid: 1.3.6.1.2.1.43.5.1.1.15
+prtInterpreterFeedAddressability: 
+  oid: 1.3.6.1.2.1.43.15.1.1.8
+prtMediaPathDescription: 
+  oid: 1.3.6.1.2.1.43.13.4.1.10
+prtInput: 
+  oid: 1.3.6.1.2.1.43.8
+prtOutputDimUnit: 
+  oid: 1.3.6.1.2.1.43.9.2.1.14
+prtGeneral: 
+  oid: 1.3.6.1.2.1.43.5
+prtOutputVendorName: 
+  oid: 1.3.6.1.2.1.43.9.2.1.8
+prtOutputOffsetStacking: 
+  oid: 1.3.6.1.2.1.43.9.2.1.24
+prtInputTable: 
+  oid: 1.3.6.1.2.1.43.8.2
+prtConsoleLights: 
+  oid: 1.3.6.1.2.1.43.17
+prtChannelTable: 
+  oid: 1.3.6.1.2.1.43.14.1
+prtChannel: 
+  oid: 1.3.6.1.2.1.43.14
+prtStorageRefTable: 
+  oid: 1.3.6.1.2.1.43.5.2
+prtConsoleDisplayBufferEntry: 
+  oid: 1.3.6.1.2.1.43.16.5.1
+prtInterpreterDescription: 
+  oid: 1.3.6.1.2.1.43.15.1.1.5
+prtInterpreterLangFamily: 
+  oid: 1.3.6.1.2.1.43.15.1.1.2
+prtMediaPathMinMediaFeedDir: 
+  oid: 1.3.6.1.2.1.43.13.4.1.7
+prtMarkerColorantTonality: 
+  oid: 1.3.6.1.2.1.43.12.1.1.5
+prtDeviceRefEntry: 
+  oid: 1.3.6.1.2.1.43.5.3.1
+prtMarkerEastMargin: 
+  oid: 1.3.6.1.2.1.43.10.2.1.14
+prtOutputTable: 
+  oid: 1.3.6.1.2.1.43.9.2
+prtCoverIndex: 
+  oid: 1.3.6.1.2.1.43.6.1.1.1
+printerV1Alert: 
+  oid: 1.3.6.1.2.1.43.18.2
+prtConsoleDescription: 
+  oid: 1.3.6.1.2.1.43.17.6.1.5
+prtInterpreterDefaultOrientation: 
+  oid: 1.3.6.1.2.1.43.15.1.1.7
+prtInputVendorName: 
+  oid: 1.3.6.1.2.1.43.8.2.1.14
+prtGeneralReset: 
+  oid: 1.3.6.1.2.1.43.5.1.1.3
+prtStorageRefSeqNumber: 
+  oid: 1.3.6.1.2.1.43.5.2.1.1
+prtConsoleLightTable: 
+  oid: 1.3.6.1.2.1.43.17.6
+prtMediaPathEntry: 
+  oid: 1.3.6.1.2.1.43.13.4.1
+prtMarkerSuppliesSupplyUnit: 
+  oid: 1.3.6.1.2.1.43.11.1.1.7
+prtMarkerProcessColorants: 
+  oid: 1.3.6.1.2.1.43.10.2.1.6
+prtInputMediaDimFeedDirDeclared: 
+  oid: 1.3.6.1.2.1.43.8.2.1.4
+prtOutputDescription: 
+  oid: 1.3.6.1.2.1.43.9.2.1.12
+prtMarkerAddressabilityUnit: 
+  oid: 1.3.6.1.2.1.43.10.2.1.8
+prtCover: 
+  oid: 1.3.6.1.2.1.43.6
+prtConsoleDisplayBufferIndex: 
+  oid: 1.3.6.1.2.1.43.16.5.1.1
+prtMediaPathStatus: 
+  oid: 1.3.6.1.2.1.43.13.4.1.11
+prtMarkerSuppliesMaxCapacity: 
+  oid: 1.3.6.1.2.1.43.11.1.1.8
+prtDeviceRefIndex: 
+  oid: 1.3.6.1.2.1.43.5.3.1.2
+prtInputVersion: 
+  oid: 1.3.6.1.2.1.43.8.2.1.16
+prtChannelProtocolVersion: 
+  oid: 1.3.6.1.2.1.43.14.1.1.3
+prtMarkerColorantTable: 
+  oid: 1.3.6.1.2.1.43.12.1
+prtMarkerSuppliesEntry: 
+  oid: 1.3.6.1.2.1.43.11.1.1
+prtMarkerNorthMargin: 
+  oid: 1.3.6.1.2.1.43.10.2.1.11
+prtLocalizationEntry: 
+  oid: 1.3.6.1.2.1.43.7.1.1
+prtInputMediaDimFeedDirChosen: 
+  oid: 1.3.6.1.2.1.43.8.2.1.6
+prtOutputStatus: 
+  oid: 1.3.6.1.2.1.43.9.2.1.6
+prtInterpreterVersion: 
+  oid: 1.3.6.1.2.1.43.15.1.1.6
+prtChannelType: 
+  oid: 1.3.6.1.2.1.43.14.1.1.2
+prtMediaPath: 
+  oid: 1.3.6.1.2.1.43.13
+prtMarkerWestMargin: 
+  oid: 1.3.6.1.2.1.43.10.2.1.13
+prtMarkerEntry: 
+  oid: 1.3.6.1.2.1.43.10.2.1
+prtMediaPathIndex: 
+  oid: 1.3.6.1.2.1.43.13.4.1.1
+prtAlertCriticalEvents: 
+  oid: 1.3.6.1.2.1.43.5.1.1.18
+prtMIB2Groups: 
+  oid: 1.3.6.1.2.1.43.2.4
+prtMarker: 
+  oid: 1.3.6.1.2.1.43.10
+prtDeviceRefSeqNumber: 
+  oid: 1.3.6.1.2.1.43.5.3.1.1
+prtInputMediaName: 
+  oid: 1.3.6.1.2.1.43.8.2.1.12
+prtInputStatus: 
+  oid: 1.3.6.1.2.1.43.8.2.1.11
+prtAlertSeverityLevel: 
+  oid: 1.3.6.1.2.1.43.18.1.1.2
+prtInterpreterDefaultCharSetOut: 
+  oid: 1.3.6.1.2.1.43.15.1.1.11
+prtInterpreterEntry: 
+  oid: 1.3.6.1.2.1.43.15.1.1
+prtOutputMaxCapacity: 
+  oid: 1.3.6.1.2.1.43.9.2.1.4
+prtInputMediaType: 
+  oid: 1.3.6.1.2.1.43.8.2.1.21
+prtOutputPageDeliveryOrientation: 
+  oid: 1.3.6.1.2.1.43.9.2.1.20
+prtGeneralTable: 
+  oid: 1.3.6.1.2.1.43.5.1
+prtAlertTime: 
+  oid: 1.3.6.1.2.1.43.18.1.1.9
+prtChannelInformation: 
+  oid: 1.3.6.1.2.1.43.14.1.1.9
+prtMarkerSuppliesColorantIndex: 
+  oid: 1.3.6.1.2.1.43.11.1.1.3
+prtMarkerSuppliesIndex: 
+  oid: 1.3.6.1.2.1.43.11.1.1.1
+prtOutputSecurity: 
+  oid: 1.3.6.1.2.1.43.9.2.1.13
+prtLocalizationIndex: 
+  oid: 1.3.6.1.2.1.43.7.1.1.1
+prtGeneralServicePerson: 
+  oid: 1.3.6.1.2.1.43.5.1.1.5
+prtOutputType: 
+  oid: 1.3.6.1.2.1.43.9.2.1.2
+prtOutputMaxDimFeedDir: 
+  oid: 1.3.6.1.2.1.43.9.2.1.15
+prtGeneralCurrentLocalization: 
+  oid: 1.3.6.1.2.1.43.5.1.1.2
+prtOutputSerialNumber: 
+  oid: 1.3.6.1.2.1.43.9.2.1.11
+prtMarkerIndex: 
+  oid: 1.3.6.1.2.1.43.10.2.1.1
+prtAlertEntry: 
+  oid: 1.3.6.1.2.1.43.18.1.1
+prtConsoleColor: 
+  oid: 1.3.6.1.2.1.43.17.6.1.4
+prtMediaPathType: 
+  oid: 1.3.6.1.2.1.43.13.4.1.9
+prtInputDefaultIndex: 
+  oid: 1.3.6.1.2.1.43.5.1.1.6
+prtMarkerDefaultIndex: 
+  oid: 1.3.6.1.2.1.43.5.1.1.8

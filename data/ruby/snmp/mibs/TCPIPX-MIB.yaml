@@ -1,24 +1,47 @@
 --- 
-tcpIpxConnTable: 1.3.6.1.4.1.23.2.29.1.1
-tcpIpxConnEntry: 1.3.6.1.4.1.23.2.29.1.1.1
-tcpIpxConnRemAddress: 1.3.6.1.4.1.23.2.29.1.1.1.4
-tcpUnspecConnLocalPort: 1.3.6.1.4.1.23.2.29.1.2.1.2
-udpUnspecEntry: 1.3.6.1.4.1.23.2.29.2.2.1
-tcpx: 1.3.6.1.4.1.23.2.29
-udpUnspecLocalPort: 1.3.6.1.4.1.23.2.29.2.2.1.1
-tcpIpxConnRemPort: 1.3.6.1.4.1.23.2.29.1.1.1.5
-tcpUnspecConnTable: 1.3.6.1.4.1.23.2.29.1.2
-tcpIpxConnState: 1.3.6.1.4.1.23.2.29.1.1.1.1
-tcpIpxConnLocalAddress: 1.3.6.1.4.1.23.2.29.1.1.1.2
-udpIpxEntry: 1.3.6.1.4.1.23.2.29.2.1.1
-mibDoc: 1.3.6.1.4.1.23.2
-udpIpxLocalAddress: 1.3.6.1.4.1.23.2.29.2.1.1.1
-udpUnspecTable: 1.3.6.1.4.1.23.2.29.2.2
-udpIpxTable: 1.3.6.1.4.1.23.2.29.2.1
-novell: 1.3.6.1.4.1.23
-tcpIpxConnLocalPort: 1.3.6.1.4.1.23.2.29.1.1.1.3
-tcpUnspecConnState: 1.3.6.1.4.1.23.2.29.1.2.1.1
-tcpxTcp: 1.3.6.1.4.1.23.2.29.1
-tcpUnspecConnEntry: 1.3.6.1.4.1.23.2.29.1.2.1
-tcpxUdp: 1.3.6.1.4.1.23.2.29.2
-udpIpxLocalPort: 1.3.6.1.4.1.23.2.29.2.1.1.2
+udpUnspecEntry: 
+  oid: 1.3.6.1.4.1.23.2.29.2.2.1
+tcpUnspecConnLocalPort: 
+  oid: 1.3.6.1.4.1.23.2.29.1.2.1.2
+tcpIpxConnRemAddress: 
+  oid: 1.3.6.1.4.1.23.2.29.1.1.1.4
+tcpIpxConnEntry: 
+  oid: 1.3.6.1.4.1.23.2.29.1.1.1
+tcpIpxConnTable: 
+  oid: 1.3.6.1.4.1.23.2.29.1.1
+udpUnspecLocalPort: 
+  oid: 1.3.6.1.4.1.23.2.29.2.2.1.1
+tcpx: 
+  oid: 1.3.6.1.4.1.23.2.29
+tcpUnspecConnTable: 
+  oid: 1.3.6.1.4.1.23.2.29.1.2
+tcpIpxConnRemPort: 
+  oid: 1.3.6.1.4.1.23.2.29.1.1.1.5
+tcpIpxConnState: 
+  oid: 1.3.6.1.4.1.23.2.29.1.1.1.1
+tcpIpxConnLocalAddress: 
+  oid: 1.3.6.1.4.1.23.2.29.1.1.1.2
+udpIpxEntry: 
+  oid: 1.3.6.1.4.1.23.2.29.2.1.1
+udpUnspecTable: 
+  oid: 1.3.6.1.4.1.23.2.29.2.2
+udpIpxLocalAddress: 
+  oid: 1.3.6.1.4.1.23.2.29.2.1.1.1
+mibDoc: 
+  oid: 1.3.6.1.4.1.23.2
+udpIpxTable: 
+  oid: 1.3.6.1.4.1.23.2.29.2.1
+tcpUnspecConnState: 
+  oid: 1.3.6.1.4.1.23.2.29.1.2.1.1
+tcpIpxConnLocalPort: 
+  oid: 1.3.6.1.4.1.23.2.29.1.1.1.3
+novell: 
+  oid: 1.3.6.1.4.1.23
+udpIpxLocalPort: 
+  oid: 1.3.6.1.4.1.23.2.29.2.1.1.2
+tcpxUdp: 
+  oid: 1.3.6.1.4.1.23.2.29.2
+tcpUnspecConnEntry: 
+  oid: 1.3.6.1.4.1.23.2.29.1.2.1
+tcpxTcp: 
+  oid: 1.3.6.1.4.1.23.2.29.1

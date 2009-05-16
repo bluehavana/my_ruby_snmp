@@ -1,41 +1,81 @@
 --- 
-dlurDefaultDefPrimDlusName: 1.3.6.1.2.1.34.5.1.1.1.5
-dlurNondisDlusDlurSessDeactSup: 1.3.6.1.2.1.34.5.1.1.1.7
-dlurPuSscpSuppliedName: 1.3.6.1.2.1.34.5.1.2.1.1.2
-dlurDlusEntry: 1.3.6.1.2.1.34.5.1.3.1.1
-dlurDlusName: 1.3.6.1.2.1.34.5.1.3.1.1.1
-dlurMultiSubnetSupport: 1.3.6.1.2.1.34.5.1.1.1.4
-dlurNetworkNameForwardingSupport: 1.3.6.1.2.1.34.5.1.1.1.6
-dlurDefaultDefBackupDlusEntry: 1.3.6.1.2.1.34.5.1.1.2.1
-dlurDefaultDefBackupDlusIndex: 1.3.6.1.2.1.34.5.1.1.2.1.1
-dlurPuEntry: 1.3.6.1.2.1.34.5.1.2.1.1
-dlurPuAnsSupport: 1.3.6.1.2.1.34.5.1.2.1.1.4
-dlurCompliances: 1.3.6.1.2.1.34.5.2.1
-dlurReleaseLevel: 1.3.6.1.2.1.34.5.1.1.1.2
-dlurNodeInfo: 1.3.6.1.2.1.34.5.1.1
-dlurPuName: 1.3.6.1.2.1.34.5.1.2.1.1.1
-dlurDlusInfo: 1.3.6.1.2.1.34.5.1.3
-dlurDlusTable: 1.3.6.1.2.1.34.5.1.3.1
-dlurGroups: 1.3.6.1.2.1.34.5.2.2
-dlurObjects: 1.3.6.1.2.1.34.5.1
-dlurPuTable: 1.3.6.1.2.1.34.5.1.2.1
-dlurPuDefBackupDlusTable: 1.3.6.1.2.1.34.5.1.2.2
-dlurPuDefBackupDlusEntry: 1.3.6.1.2.1.34.5.1.2.2.1
-dlurPuDefBackupDlusIndex: 1.3.6.1.2.1.34.5.1.2.2.1.2
-dlurMIB: 1.3.6.1.2.1.34.5
-dlurPuActiveDlusName: 1.3.6.1.2.1.34.5.1.2.1.1.8
-dlurConformance: 1.3.6.1.2.1.34.5.2
-dlurDefaultDefBackupDlusName: 1.3.6.1.2.1.34.5.1.1.2.1.2
-dlurPuInfo: 1.3.6.1.2.1.34.5.1.2
-dlurPuStatus: 1.3.6.1.2.1.34.5.1.2.1.1.3
-dlurNodeCapabilities: 1.3.6.1.2.1.34.5.1.1.1
-dlurAnsSupport: 1.3.6.1.2.1.34.5.1.1.1.3
-dlurDefaultDefBackupDlusTable: 1.3.6.1.2.1.34.5.1.1.2
-dlurPuDefPrimDlusName: 1.3.6.1.2.1.34.5.1.2.1.1.9
-dlurPuDefBackupDlusName: 1.3.6.1.2.1.34.5.1.2.2.1.3
-dlurDlusSessnStatus: 1.3.6.1.2.1.34.5.1.3.1.1.2
-dlurPuDlusSessnStatus: 1.3.6.1.2.1.34.5.1.2.1.1.7
-dlurPuDefBackupDlusPuName: 1.3.6.1.2.1.34.5.1.2.2.1.1
-dlurNodeCpName: 1.3.6.1.2.1.34.5.1.1.1.1
-dlurPuLocation: 1.3.6.1.2.1.34.5.1.2.1.1.5
-dlurPuLsName: 1.3.6.1.2.1.34.5.1.2.1.1.6
+dlurDlusName: 
+  oid: 1.3.6.1.2.1.34.5.1.3.1.1.1
+dlurDlusEntry: 
+  oid: 1.3.6.1.2.1.34.5.1.3.1.1
+dlurPuSscpSuppliedName: 
+  oid: 1.3.6.1.2.1.34.5.1.2.1.1.2
+dlurNondisDlusDlurSessDeactSup: 
+  oid: 1.3.6.1.2.1.34.5.1.1.1.7
+dlurDefaultDefPrimDlusName: 
+  oid: 1.3.6.1.2.1.34.5.1.1.1.5
+dlurCompliances: 
+  oid: 1.3.6.1.2.1.34.5.2.1
+dlurPuAnsSupport: 
+  oid: 1.3.6.1.2.1.34.5.1.2.1.1.4
+dlurPuEntry: 
+  oid: 1.3.6.1.2.1.34.5.1.2.1.1
+dlurDefaultDefBackupDlusIndex: 
+  oid: 1.3.6.1.2.1.34.5.1.1.2.1.1
+dlurDefaultDefBackupDlusEntry: 
+  oid: 1.3.6.1.2.1.34.5.1.1.2.1
+dlurNetworkNameForwardingSupport: 
+  oid: 1.3.6.1.2.1.34.5.1.1.1.6
+dlurMultiSubnetSupport: 
+  oid: 1.3.6.1.2.1.34.5.1.1.1.4
+dlurReleaseLevel: 
+  oid: 1.3.6.1.2.1.34.5.1.1.1.2
+dlurGroups: 
+  oid: 1.3.6.1.2.1.34.5.2.2
+dlurDlusTable: 
+  oid: 1.3.6.1.2.1.34.5.1.3.1
+dlurDlusInfo: 
+  oid: 1.3.6.1.2.1.34.5.1.3
+dlurPuName: 
+  oid: 1.3.6.1.2.1.34.5.1.2.1.1.1
+dlurNodeInfo: 
+  oid: 1.3.6.1.2.1.34.5.1.1
+dlurPuDefBackupDlusIndex: 
+  oid: 1.3.6.1.2.1.34.5.1.2.2.1.2
+dlurPuDefBackupDlusEntry: 
+  oid: 1.3.6.1.2.1.34.5.1.2.2.1
+dlurPuDefBackupDlusTable: 
+  oid: 1.3.6.1.2.1.34.5.1.2.2
+dlurPuTable: 
+  oid: 1.3.6.1.2.1.34.5.1.2.1
+dlurObjects: 
+  oid: 1.3.6.1.2.1.34.5.1
+dlurConformance: 
+  oid: 1.3.6.1.2.1.34.5.2
+dlurPuActiveDlusName: 
+  oid: 1.3.6.1.2.1.34.5.1.2.1.1.8
+dlurMIB: 
+  oid: 1.3.6.1.2.1.34.5
+dlurPuStatus: 
+  oid: 1.3.6.1.2.1.34.5.1.2.1.1.3
+dlurPuInfo: 
+  oid: 1.3.6.1.2.1.34.5.1.2
+dlurDefaultDefBackupDlusName: 
+  oid: 1.3.6.1.2.1.34.5.1.1.2.1.2
+dlurDlusSessnStatus: 
+  oid: 1.3.6.1.2.1.34.5.1.3.1.1.2
+dlurPuDefBackupDlusName: 
+  oid: 1.3.6.1.2.1.34.5.1.2.2.1.3
+dlurPuDefPrimDlusName: 
+  oid: 1.3.6.1.2.1.34.5.1.2.1.1.9
+dlurDefaultDefBackupDlusTable: 
+  oid: 1.3.6.1.2.1.34.5.1.1.2
+dlurAnsSupport: 
+  oid: 1.3.6.1.2.1.34.5.1.1.1.3
+dlurNodeCapabilities: 
+  oid: 1.3.6.1.2.1.34.5.1.1.1
+dlurPuDefBackupDlusPuName: 
+  oid: 1.3.6.1.2.1.34.5.1.2.2.1.1
+dlurPuDlusSessnStatus: 
+  oid: 1.3.6.1.2.1.34.5.1.2.1.1.7
+dlurPuLocation: 
+  oid: 1.3.6.1.2.1.34.5.1.2.1.1.5
+dlurNodeCpName: 
+  oid: 1.3.6.1.2.1.34.5.1.1.1.1
+dlurPuLsName: 
+  oid: 1.3.6.1.2.1.34.5.1.2.1.1.6

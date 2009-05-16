@@ -1,122 +1,243 @@
 --- 
-fcFxPortFcphVersionAgreed: 1.3.6.1.2.1.75.1.2.3.1.2
-fcFxPortIndex: 1.3.6.1.2.1.75.1.1.5.1.1
-fcFxPortFcphVersionLow: 1.3.6.1.2.1.75.1.1.5.1.4
-fcFeConfig: 1.3.6.1.2.1.75.1.1
-fcFxPortC2AccountingEntry: 1.3.6.1.2.1.75.1.4.2.1
-fcFeModuleObjectID: 1.3.6.1.2.1.75.1.1.4.1.3
-fcFxPortErrorTable: 1.3.6.1.2.1.75.1.3.1
-fcFxPortOlsIns: 1.3.6.1.2.1.75.1.3.1.1.11
-fcFxPortCapFcphVersionLow: 1.3.6.1.2.1.75.1.5.1.1.2
-fcFxPortInvalidCrcs: 1.3.6.1.2.1.75.1.3.1.1.6
-fcFxPortOlsOuts: 1.3.6.1.2.1.75.1.3.1.1.12
-fcFxPortCapTable: 1.3.6.1.2.1.75.1.5.1
-fcFeModuleIndex: 1.3.6.1.2.1.75.1.1.4.1.1
-fcFxPortCosSupported: 1.3.6.1.2.1.75.1.1.5.1.9
-fcFxPortC1FrjtFrames: 1.3.6.1.2.1.75.1.4.1.1.7
-fcFxLoginEntry: 1.3.6.1.2.1.75.1.2.3.1
-fcFxPortCapFcphVersionHigh: 1.3.6.1.2.1.75.1.5.1.1.1
-fcFxPortClass3SeqDelivAgreed: 1.3.6.1.2.1.75.1.2.3.1.9
-fcFxPortIntermixSuppAgreed: 1.3.6.1.2.1.75.1.2.3.1.6
-fcFxPortIntermixSupported: 1.3.6.1.2.1.75.1.1.5.1.10
-fcFeMIBCompliances: 1.3.6.1.2.1.75.2.1
-fcFxPortC2FbsyFrames: 1.3.6.1.2.1.75.1.4.2.1.6
-fcFeStatus: 1.3.6.1.2.1.75.1.2
-fcFxPortDelimiterErrors: 1.3.6.1.2.1.75.1.3.1.1.7
-fcFxPortClass3SeqDeliv: 1.3.6.1.2.1.75.1.1.5.1.13
-fcFxPortPhysOperStatus: 1.3.6.1.2.1.75.1.2.2.1.2
-fcFxPortCosSuppAgreed: 1.3.6.1.2.1.75.1.2.3.1.5
-fcFxPortC3InOctets: 1.3.6.1.2.1.75.1.4.3.1.3
-fcFxPortC3AccountingTable: 1.3.6.1.2.1.75.1.4.3
-fcFeMIBConformance: 1.3.6.1.2.1.75.2
-fcFxPortStatusTable: 1.3.6.1.2.1.75.1.2.1
-fcFxPortPhysAdminStatus: 1.3.6.1.2.1.75.1.2.2.1.1
-fcFxPortCapClass3SeqDeliv: 1.3.6.1.2.1.75.1.5.1.1.11
-fcFxPortC1OutConnections: 1.3.6.1.2.1.75.1.4.1.1.9
-fcFeModuleTable: 1.3.6.1.2.1.75.1.1.4
-fcFeModuleDescr: 1.3.6.1.2.1.75.1.1.4.1.2
-fcFxPortC1AccountingEntry: 1.3.6.1.2.1.75.1.4.1.1
-fcFxPortPhysLastChange: 1.3.6.1.2.1.75.1.2.2.1.3
-fcFxPortSyncLosses: 1.3.6.1.2.1.75.1.3.1.1.2
-fcFxPortHoldTime: 1.3.6.1.2.1.75.1.1.5.1.14
-fcFxPortClass2SeqDeliv: 1.3.6.1.2.1.75.1.1.5.1.12
-fcFeModuleFxPortCapacity: 1.3.6.1.2.1.75.1.1.4.1.6
-fcFxPortCapHoldTimeMin: 1.3.6.1.2.1.75.1.5.1.1.13
-fcFxPortC1ConnTime: 1.3.6.1.2.1.75.1.4.1.1.10
-fcFeModuleName: 1.3.6.1.2.1.75.1.1.4.1.7
-fcFxPortNxLoginIndex: 1.3.6.1.2.1.75.1.2.3.1.1
-fcFxPortC3InFrames: 1.3.6.1.2.1.75.1.4.3.1.1
-fcFxPortCapRxDataFieldSizeMin: 1.3.6.1.2.1.75.1.5.1.1.6
-fcFxPortC1InOctets: 1.3.6.1.2.1.75.1.4.1.1.3
-fcFxPortTable: 1.3.6.1.2.1.75.1.1.5
-fcFxPortC2InOctets: 1.3.6.1.2.1.75.1.4.2.1.3
-fcFxPortNxPortRxDataFieldSize: 1.3.6.1.2.1.75.1.2.3.1.4
-fcFxPortCapBbCreditMax: 1.3.6.1.2.1.75.1.5.1.1.3
-fcFxPortStackedConnModeAgreed: 1.3.6.1.2.1.75.1.2.3.1.7
-fcFxPortPhysEntry: 1.3.6.1.2.1.75.1.2.2.1
-fcFxPortBbCredit: 1.3.6.1.2.1.75.1.1.5.1.5
-fcFxPortCapClass2SeqDeliv: 1.3.6.1.2.1.75.1.5.1.1.10
-fcFxPortRatov: 1.3.6.1.2.1.75.1.1.5.1.7
-fcFxPortC3Discards: 1.3.6.1.2.1.75.1.4.3.1.5
-fcFxPortAddressIdErrors: 1.3.6.1.2.1.75.1.3.1.1.8
-fcFxPortLinkResetIns: 1.3.6.1.2.1.75.1.3.1.1.9
-fcFxPortErrorEntry: 1.3.6.1.2.1.75.1.3.1.1
-fcFxPortID: 1.3.6.1.2.1.75.1.2.1.1.1
-fcFxPortBbCreditAvailable: 1.3.6.1.2.1.75.1.2.1.1.2
-fcFeCapabilities: 1.3.6.1.2.1.75.1.5
-fcFxPortCapEntry: 1.3.6.1.2.1.75.1.5.1.1
-fcFxPortC1OutOctets: 1.3.6.1.2.1.75.1.4.1.1.4
-fcFxPortRxBufSize: 1.3.6.1.2.1.75.1.1.5.1.6
-fcFxPortC2AccountingTable: 1.3.6.1.2.1.75.1.4.2
-fcFxPortConnectedNxPort: 1.3.6.1.2.1.75.1.2.3.1.11
-fcFxPortC2InFrames: 1.3.6.1.2.1.75.1.4.2.1.1
-fcFxPortC2OutOctets: 1.3.6.1.2.1.75.1.4.2.1.4
-fcFeFabricName: 1.3.6.1.2.1.75.1.1.1
-fcFxPortFcphVersionHigh: 1.3.6.1.2.1.75.1.1.5.1.3
-fcFxPortAdminMode: 1.3.6.1.2.1.75.1.2.1.1.4
-fcFeMIB: 1.3.6.1.2.1.75
-fcFeMIBGroups: 1.3.6.1.2.1.75.2.2
-fcFxPortC1FbsyFrames: 1.3.6.1.2.1.75.1.4.1.1.6
-fcFxPortC2FrjtFrames: 1.3.6.1.2.1.75.1.4.2.1.7
-fcFeModuleCapacity: 1.3.6.1.2.1.75.1.1.3
-fcFxLoginTable: 1.3.6.1.2.1.75.1.2.3
-fcFxPortCapStackedConnMode: 1.3.6.1.2.1.75.1.5.1.1.9
-fcFxPortC2Discards: 1.3.6.1.2.1.75.1.4.2.1.5
-fcFxPortC1InConnections: 1.3.6.1.2.1.75.1.4.1.1.8
-fcFxPortSigLosses: 1.3.6.1.2.1.75.1.3.1.1.3
-fcFxPortC1OutFrames: 1.3.6.1.2.1.75.1.4.1.1.2
-fcFxPortStatusEntry: 1.3.6.1.2.1.75.1.2.1.1
-fcFxPortC3AccountingEntry: 1.3.6.1.2.1.75.1.4.3.1
-fcFxPortC1InFrames: 1.3.6.1.2.1.75.1.4.1.1.1
-fcFxPortCapCos: 1.3.6.1.2.1.75.1.5.1.1.7
-fcFxPortBbCreditModel: 1.3.6.1.2.1.75.1.2.3.1.12
-fcFxPortCapIntermix: 1.3.6.1.2.1.75.1.5.1.1.8
-fcFxPortEdtov: 1.3.6.1.2.1.75.1.1.5.1.8
-fcFxPortLinkResetOuts: 1.3.6.1.2.1.75.1.3.1.1.10
-fcFeError: 1.3.6.1.2.1.75.1.3
-fcFxPortNxPortName: 1.3.6.1.2.1.75.1.2.3.1.10
-fcFeElementName: 1.3.6.1.2.1.75.1.1.2
-fcFxPortC3OutOctets: 1.3.6.1.2.1.75.1.4.3.1.4
-fcFeMIBObjects: 1.3.6.1.2.1.75.1
-fcFeModuleOperStatus: 1.3.6.1.2.1.75.1.1.4.1.4
-fcFxPortName: 1.3.6.1.2.1.75.1.1.5.1.2
-fcFeAccounting: 1.3.6.1.2.1.75.1.4
-fcFxPortOperMode: 1.3.6.1.2.1.75.1.2.1.1.3
-fcFxPortCapHoldTimeMax: 1.3.6.1.2.1.75.1.5.1.1.12
-fcFxPortClass2SeqDelivAgreed: 1.3.6.1.2.1.75.1.2.3.1.8
-fcFxPortC1Discards: 1.3.6.1.2.1.75.1.4.1.1.5
-fcFxPortInvalidTxWords: 1.3.6.1.2.1.75.1.3.1.1.5
-fcFxPortPhysRttov: 1.3.6.1.2.1.75.1.2.2.1.4
-fcFxPortC1AccountingTable: 1.3.6.1.2.1.75.1.4.1
-fcFxPortCapRxDataFieldSizeMax: 1.3.6.1.2.1.75.1.5.1.1.5
-fcFxPortPrimSeqProtoErrors: 1.3.6.1.2.1.75.1.3.1.1.4
-fcFxPortNxPortBbCredit: 1.3.6.1.2.1.75.1.2.3.1.3
-fcFxPortLinkFailures: 1.3.6.1.2.1.75.1.3.1.1.1
-fcFxPortEntry: 1.3.6.1.2.1.75.1.1.5.1
-fcFeModuleLastChange: 1.3.6.1.2.1.75.1.1.4.1.5
-fcFxPortC2OutFrames: 1.3.6.1.2.1.75.1.4.2.1.2
-fcFxPortStackedConnMode: 1.3.6.1.2.1.75.1.1.5.1.11
-fcFxPortC3OutFrames: 1.3.6.1.2.1.75.1.4.3.1.2
-fcFxPortCapBbCreditMin: 1.3.6.1.2.1.75.1.5.1.1.4
-fcFxPortPhysTable: 1.3.6.1.2.1.75.1.2.2
-fcFeModuleEntry: 1.3.6.1.2.1.75.1.1.4.1
+fcFxPortFcphVersionAgreed: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.2
+fcFxPortIndex: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.1
+fcFxPortFcphVersionLow: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.4
+fcFeConfig: 
+  oid: 1.3.6.1.2.1.75.1.1
+fcFxPortC2AccountingEntry: 
+  oid: 1.3.6.1.2.1.75.1.4.2.1
+fcFeModuleObjectID: 
+  oid: 1.3.6.1.2.1.75.1.1.4.1.3
+fcFxPortErrorTable: 
+  oid: 1.3.6.1.2.1.75.1.3.1
+fcFxPortOlsIns: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.11
+fcFxPortCapFcphVersionLow: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.2
+fcFxPortInvalidCrcs: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.6
+fcFxPortOlsOuts: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.12
+fcFxPortCapTable: 
+  oid: 1.3.6.1.2.1.75.1.5.1
+fcFeModuleIndex: 
+  oid: 1.3.6.1.2.1.75.1.1.4.1.1
+fcFxPortCosSupported: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.9
+fcFxPortC1FrjtFrames: 
+  oid: 1.3.6.1.2.1.75.1.4.1.1.7
+fcFxLoginEntry: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1
+fcFxPortCapFcphVersionHigh: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.1
+fcFxPortClass3SeqDelivAgreed: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.9
+fcFxPortIntermixSuppAgreed: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.6
+fcFxPortIntermixSupported: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.10
+fcFeMIBCompliances: 
+  oid: 1.3.6.1.2.1.75.2.1
+fcFxPortC2FbsyFrames: 
+  oid: 1.3.6.1.2.1.75.1.4.2.1.6
+fcFeStatus: 
+  oid: 1.3.6.1.2.1.75.1.2
+fcFxPortDelimiterErrors: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.7
+fcFxPortClass3SeqDeliv: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.13
+fcFxPortPhysOperStatus: 
+  oid: 1.3.6.1.2.1.75.1.2.2.1.2
+fcFxPortCosSuppAgreed: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.5
+fcFxPortC3InOctets: 
+  oid: 1.3.6.1.2.1.75.1.4.3.1.3
+fcFxPortC3AccountingTable: 
+  oid: 1.3.6.1.2.1.75.1.4.3
+fcFeMIBConformance: 
+  oid: 1.3.6.1.2.1.75.2
+fcFxPortStatusTable: 
+  oid: 1.3.6.1.2.1.75.1.2.1
+fcFxPortPhysAdminStatus: 
+  oid: 1.3.6.1.2.1.75.1.2.2.1.1
+fcFxPortCapClass3SeqDeliv: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.11
+fcFxPortC1OutConnections: 
+  oid: 1.3.6.1.2.1.75.1.4.1.1.9
+fcFeModuleTable: 
+  oid: 1.3.6.1.2.1.75.1.1.4
+fcFeModuleDescr: 
+  oid: 1.3.6.1.2.1.75.1.1.4.1.2
+fcFxPortC1AccountingEntry: 
+  oid: 1.3.6.1.2.1.75.1.4.1.1
+fcFxPortPhysLastChange: 
+  oid: 1.3.6.1.2.1.75.1.2.2.1.3
+fcFxPortSyncLosses: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.2
+fcFxPortHoldTime: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.14
+fcFxPortClass2SeqDeliv: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.12
+fcFeModuleFxPortCapacity: 
+  oid: 1.3.6.1.2.1.75.1.1.4.1.6
+fcFxPortCapHoldTimeMin: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.13
+fcFxPortC1ConnTime: 
+  oid: 1.3.6.1.2.1.75.1.4.1.1.10
+fcFeModuleName: 
+  oid: 1.3.6.1.2.1.75.1.1.4.1.7
+fcFxPortNxLoginIndex: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.1
+fcFxPortC3InFrames: 
+  oid: 1.3.6.1.2.1.75.1.4.3.1.1
+fcFxPortCapRxDataFieldSizeMin: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.6
+fcFxPortC1InOctets: 
+  oid: 1.3.6.1.2.1.75.1.4.1.1.3
+fcFxPortTable: 
+  oid: 1.3.6.1.2.1.75.1.1.5
+fcFxPortC2InOctets: 
+  oid: 1.3.6.1.2.1.75.1.4.2.1.3
+fcFxPortNxPortRxDataFieldSize: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.4
+fcFxPortCapBbCreditMax: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.3
+fcFxPortStackedConnModeAgreed: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.7
+fcFxPortPhysEntry: 
+  oid: 1.3.6.1.2.1.75.1.2.2.1
+fcFxPortBbCredit: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.5
+fcFxPortCapClass2SeqDeliv: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.10
+fcFxPortRatov: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.7
+fcFxPortC3Discards: 
+  oid: 1.3.6.1.2.1.75.1.4.3.1.5
+fcFxPortAddressIdErrors: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.8
+fcFxPortLinkResetIns: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.9
+fcFxPortErrorEntry: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1
+fcFxPortID: 
+  oid: 1.3.6.1.2.1.75.1.2.1.1.1
+fcFxPortBbCreditAvailable: 
+  oid: 1.3.6.1.2.1.75.1.2.1.1.2
+fcFeCapabilities: 
+  oid: 1.3.6.1.2.1.75.1.5
+fcFxPortCapEntry: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1
+fcFxPortC1OutOctets: 
+  oid: 1.3.6.1.2.1.75.1.4.1.1.4
+fcFxPortRxBufSize: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.6
+fcFxPortC2AccountingTable: 
+  oid: 1.3.6.1.2.1.75.1.4.2
+fcFxPortConnectedNxPort: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.11
+fcFxPortC2InFrames: 
+  oid: 1.3.6.1.2.1.75.1.4.2.1.1
+fcFxPortC2OutOctets: 
+  oid: 1.3.6.1.2.1.75.1.4.2.1.4
+fcFeFabricName: 
+  oid: 1.3.6.1.2.1.75.1.1.1
+fcFxPortFcphVersionHigh: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.3
+fcFxPortAdminMode: 
+  oid: 1.3.6.1.2.1.75.1.2.1.1.4
+fcFeMIB: 
+  oid: 1.3.6.1.2.1.75
+fcFeMIBGroups: 
+  oid: 1.3.6.1.2.1.75.2.2
+fcFxPortC1FbsyFrames: 
+  oid: 1.3.6.1.2.1.75.1.4.1.1.6
+fcFxPortC2FrjtFrames: 
+  oid: 1.3.6.1.2.1.75.1.4.2.1.7
+fcFeModuleCapacity: 
+  oid: 1.3.6.1.2.1.75.1.1.3
+fcFxLoginTable: 
+  oid: 1.3.6.1.2.1.75.1.2.3
+fcFxPortCapStackedConnMode: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.9
+fcFxPortC2Discards: 
+  oid: 1.3.6.1.2.1.75.1.4.2.1.5
+fcFxPortC1InConnections: 
+  oid: 1.3.6.1.2.1.75.1.4.1.1.8
+fcFxPortSigLosses: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.3
+fcFxPortC1OutFrames: 
+  oid: 1.3.6.1.2.1.75.1.4.1.1.2
+fcFxPortStatusEntry: 
+  oid: 1.3.6.1.2.1.75.1.2.1.1
+fcFxPortC3AccountingEntry: 
+  oid: 1.3.6.1.2.1.75.1.4.3.1
+fcFxPortC1InFrames: 
+  oid: 1.3.6.1.2.1.75.1.4.1.1.1
+fcFxPortCapCos: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.7
+fcFxPortBbCreditModel: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.12
+fcFxPortCapIntermix: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.8
+fcFxPortEdtov: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.8
+fcFxPortLinkResetOuts: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.10
+fcFeError: 
+  oid: 1.3.6.1.2.1.75.1.3
+fcFxPortNxPortName: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.10
+fcFeElementName: 
+  oid: 1.3.6.1.2.1.75.1.1.2
+fcFxPortC3OutOctets: 
+  oid: 1.3.6.1.2.1.75.1.4.3.1.4
+fcFeMIBObjects: 
+  oid: 1.3.6.1.2.1.75.1
+fcFeModuleOperStatus: 
+  oid: 1.3.6.1.2.1.75.1.1.4.1.4
+fcFxPortName: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.2
+fcFeAccounting: 
+  oid: 1.3.6.1.2.1.75.1.4
+fcFxPortOperMode: 
+  oid: 1.3.6.1.2.1.75.1.2.1.1.3
+fcFxPortCapHoldTimeMax: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.12
+fcFxPortClass2SeqDelivAgreed: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.8
+fcFxPortC1Discards: 
+  oid: 1.3.6.1.2.1.75.1.4.1.1.5
+fcFxPortInvalidTxWords: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.5
+fcFxPortPhysRttov: 
+  oid: 1.3.6.1.2.1.75.1.2.2.1.4
+fcFxPortC1AccountingTable: 
+  oid: 1.3.6.1.2.1.75.1.4.1
+fcFxPortCapRxDataFieldSizeMax: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.5
+fcFxPortPrimSeqProtoErrors: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.4
+fcFxPortNxPortBbCredit: 
+  oid: 1.3.6.1.2.1.75.1.2.3.1.3
+fcFxPortLinkFailures: 
+  oid: 1.3.6.1.2.1.75.1.3.1.1.1
+fcFxPortEntry: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1
+fcFxPortC2OutFrames: 
+  oid: 1.3.6.1.2.1.75.1.4.2.1.2
+fcFeModuleLastChange: 
+  oid: 1.3.6.1.2.1.75.1.1.4.1.5
+fcFxPortC3OutFrames: 
+  oid: 1.3.6.1.2.1.75.1.4.3.1.2
+fcFxPortStackedConnMode: 
+  oid: 1.3.6.1.2.1.75.1.1.5.1.11
+fcFeModuleEntry: 
+  oid: 1.3.6.1.2.1.75.1.1.4.1
+fcFxPortPhysTable: 
+  oid: 1.3.6.1.2.1.75.1.2.2
+fcFxPortCapBbCreditMin: 
+  oid: 1.3.6.1.2.1.75.1.5.1.1.4

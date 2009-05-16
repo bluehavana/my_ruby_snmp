@@ -1,20 +1,39 @@
 --- 
-pppSecurityConfigEntry: 1.3.6.1.2.1.10.23.2.2.1
-pppSecuritySecretsEntry: 1.3.6.1.2.1.10.23.2.3.1
-pppSecuritySecretsLink: 1.3.6.1.2.1.10.23.2.3.1.1
-pppSecurityConfigProtocol: 1.3.6.1.2.1.10.23.2.2.1.3
-pppSecuritySecretsSecret: 1.3.6.1.2.1.10.23.2.3.1.6
-pppSecurityProtocols: 1.3.6.1.2.1.10.23.2.1
-pppSecurityConfigStatus: 1.3.6.1.2.1.10.23.2.2.1.4
-pppSecuritySecretsProtocol: 1.3.6.1.2.1.10.23.2.3.1.4
-pppSecurityConfigLink: 1.3.6.1.2.1.10.23.2.2.1.1
-pppSecuritySecretsTable: 1.3.6.1.2.1.10.23.2.3
-pppSecuritySecretsDirection: 1.3.6.1.2.1.10.23.2.3.1.3
-pppSecurityConfigPreference: 1.3.6.1.2.1.10.23.2.2.1.2
-pppSecuritySecretsIdentity: 1.3.6.1.2.1.10.23.2.3.1.5
-pppSecurityPapProtocol: 1.3.6.1.2.1.10.23.2.1.1
-pppSecurityChapMD5Protocol: 1.3.6.1.2.1.10.23.2.1.2
-pppSecuritySecretsIdIndex: 1.3.6.1.2.1.10.23.2.3.1.2
-pppSecurity: 1.3.6.1.2.1.10.23.2
-pppSecuritySecretsStatus: 1.3.6.1.2.1.10.23.2.3.1.7
-pppSecurityConfigTable: 1.3.6.1.2.1.10.23.2.2
+pppSecurityConfigEntry: 
+  oid: 1.3.6.1.2.1.10.23.2.2.1
+pppSecuritySecretsLink: 
+  oid: 1.3.6.1.2.1.10.23.2.3.1.1
+pppSecuritySecretsEntry: 
+  oid: 1.3.6.1.2.1.10.23.2.3.1
+pppSecuritySecretsSecret: 
+  oid: 1.3.6.1.2.1.10.23.2.3.1.6
+pppSecurityConfigProtocol: 
+  oid: 1.3.6.1.2.1.10.23.2.2.1.3
+pppSecuritySecretsProtocol: 
+  oid: 1.3.6.1.2.1.10.23.2.3.1.4
+pppSecurityConfigStatus: 
+  oid: 1.3.6.1.2.1.10.23.2.2.1.4
+pppSecurityProtocols: 
+  oid: 1.3.6.1.2.1.10.23.2.1
+pppSecuritySecretsDirection: 
+  oid: 1.3.6.1.2.1.10.23.2.3.1.3
+pppSecuritySecretsTable: 
+  oid: 1.3.6.1.2.1.10.23.2.3
+pppSecurityConfigLink: 
+  oid: 1.3.6.1.2.1.10.23.2.2.1.1
+pppSecuritySecretsIdentity: 
+  oid: 1.3.6.1.2.1.10.23.2.3.1.5
+pppSecurityConfigPreference: 
+  oid: 1.3.6.1.2.1.10.23.2.2.1.2
+pppSecurityChapMD5Protocol: 
+  oid: 1.3.6.1.2.1.10.23.2.1.2
+pppSecurityPapProtocol: 
+  oid: 1.3.6.1.2.1.10.23.2.1.1
+pppSecuritySecretsIdIndex: 
+  oid: 1.3.6.1.2.1.10.23.2.3.1.2
+pppSecuritySecretsStatus: 
+  oid: 1.3.6.1.2.1.10.23.2.3.1.7
+pppSecurity: 
+  oid: 1.3.6.1.2.1.10.23.2
+pppSecurityConfigTable: 
+  oid: 1.3.6.1.2.1.10.23.2.2

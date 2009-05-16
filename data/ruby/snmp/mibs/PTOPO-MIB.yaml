@@ -1,40 +1,79 @@
 --- 
-ptopoConnLocalPort: 1.3.6.1.2.1.79.1.1.1.1.3
-ptopoConnRemotePort: 1.3.6.1.2.1.79.1.1.1.1.8
-ptopoConnLastVerifyTime: 1.3.6.1.2.1.79.1.1.1.1.15
-ptopoConnRowStatus: 1.3.6.1.2.1.79.1.1.1.1.16
-ptopoLastChangeTime: 1.3.6.1.2.1.79.1.2.1
-ptopoConformance: 1.3.6.1.2.1.79.4
-ptopoConnRemotePortType: 1.3.6.1.2.1.79.1.1.1.1.7
-ptopoConfig: 1.3.6.1.2.1.79.1.3
-ptopoConfigTrapInterval: 1.3.6.1.2.1.79.1.3.1
-ptopoMIBNotifications: 1.3.6.1.2.1.79.2
-ptopoGroups: 1.3.6.1.2.1.79.4.2
-ptopoData: 1.3.6.1.2.1.79.1.1
-ptopoConnAgentNetAddr: 1.3.6.1.2.1.79.1.1.1.1.11
-ptopoConnRemoteChassis: 1.3.6.1.2.1.79.1.1.1.1.6
-ptopoConnMultiMacSASeen: 1.3.6.1.2.1.79.1.1.1.1.12
-ptopoConnMultiNetSASeen: 1.3.6.1.2.1.79.1.1.1.1.13
-ptopoConnRemoteChassisType: 1.3.6.1.2.1.79.1.1.1.1.5
-ptopoConfigMaxHoldTime: 1.3.6.1.2.1.79.1.3.2
-ptopoDiscoveryMechanisms: 1.3.6.1.2.1.79.3.1
-ptopoConnTimeMark: 1.3.6.1.2.1.79.1.1.1.1.1
-ptopoConnTabInserts: 1.3.6.1.2.1.79.1.2.2
-ptopoConnTabAgeouts: 1.3.6.1.2.1.79.1.2.5
-ptopoMIBTrapPrefix: 1.3.6.1.2.1.79.2.0
-ptopoDiscoveryLocal: 1.3.6.1.2.1.79.3.1.1
-ptopoConfigChange: 1.3.6.1.2.1.79.2.0.1
-ptopoMIB: 1.3.6.1.2.1.79
-ptopoMIBObjects: 1.3.6.1.2.1.79.1
-ptopoConnTable: 1.3.6.1.2.1.79.1.1.1
-ptopoConnEntry: 1.3.6.1.2.1.79.1.1.1.1
-ptopoConnLocalChassis: 1.3.6.1.2.1.79.1.1.1.1.2
-ptopoConnIndex: 1.3.6.1.2.1.79.1.1.1.1.4
-ptopoRegistrationPoints: 1.3.6.1.2.1.79.3
-ptopoConnAgentNetAddrType: 1.3.6.1.2.1.79.1.1.1.1.10
-ptopoConnIsStatic: 1.3.6.1.2.1.79.1.1.1.1.14
-ptopoCompliances: 1.3.6.1.2.1.79.4.1
-ptopoConnDiscAlgorithm: 1.3.6.1.2.1.79.1.1.1.1.9
-ptopoGeneral: 1.3.6.1.2.1.79.1.2
-ptopoConnTabDeletes: 1.3.6.1.2.1.79.1.2.3
-ptopoConnTabDrops: 1.3.6.1.2.1.79.1.2.4
+ptopoConformance: 
+  oid: 1.3.6.1.2.1.79.4
+ptopoLastChangeTime: 
+  oid: 1.3.6.1.2.1.79.1.2.1
+ptopoConnRowStatus: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.16
+ptopoConnLastVerifyTime: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.15
+ptopoConnRemotePort: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.8
+ptopoConnLocalPort: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.3
+ptopoGroups: 
+  oid: 1.3.6.1.2.1.79.4.2
+ptopoMIBNotifications: 
+  oid: 1.3.6.1.2.1.79.2
+ptopoConfigTrapInterval: 
+  oid: 1.3.6.1.2.1.79.1.3.1
+ptopoConfig: 
+  oid: 1.3.6.1.2.1.79.1.3
+ptopoConnRemotePortType: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.7
+ptopoConnAgentNetAddr: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.11
+ptopoData: 
+  oid: 1.3.6.1.2.1.79.1.1
+ptopoConnMultiNetSASeen: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.13
+ptopoConnMultiMacSASeen: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.12
+ptopoConnRemoteChassis: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.6
+ptopoDiscoveryMechanisms: 
+  oid: 1.3.6.1.2.1.79.3.1
+ptopoConfigMaxHoldTime: 
+  oid: 1.3.6.1.2.1.79.1.3.2
+ptopoConnRemoteChassisType: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.5
+ptopoDiscoveryLocal: 
+  oid: 1.3.6.1.2.1.79.3.1.1
+ptopoMIBTrapPrefix: 
+  oid: 1.3.6.1.2.1.79.2.0
+ptopoConnTabAgeouts: 
+  oid: 1.3.6.1.2.1.79.1.2.5
+ptopoConnTabInserts: 
+  oid: 1.3.6.1.2.1.79.1.2.2
+ptopoConnTimeMark: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.1
+ptopoRegistrationPoints: 
+  oid: 1.3.6.1.2.1.79.3
+ptopoConnIndex: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.4
+ptopoConnLocalChassis: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.2
+ptopoConnEntry: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1
+ptopoConnTable: 
+  oid: 1.3.6.1.2.1.79.1.1.1
+ptopoMIBObjects: 
+  oid: 1.3.6.1.2.1.79.1
+ptopoMIB: 
+  oid: 1.3.6.1.2.1.79
+ptopoConfigChange: 
+  oid: 1.3.6.1.2.1.79.2.0.1
+ptopoCompliances: 
+  oid: 1.3.6.1.2.1.79.4.1
+ptopoConnIsStatic: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.14
+ptopoConnAgentNetAddrType: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.10
+ptopoGeneral: 
+  oid: 1.3.6.1.2.1.79.1.2
+ptopoConnDiscAlgorithm: 
+  oid: 1.3.6.1.2.1.79.1.1.1.1.9
+ptopoConnTabDrops: 
+  oid: 1.3.6.1.2.1.79.1.2.4
+ptopoConnTabDeletes: 
+  oid: 1.3.6.1.2.1.79.1.2.3

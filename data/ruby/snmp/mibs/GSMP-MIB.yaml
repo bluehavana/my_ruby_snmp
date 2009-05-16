@@ -1,92 +1,183 @@
 --- 
-gsmpSessionUp: 1.3.6.1.2.1.98.0.2
-gsmpControllerPartitionType: 1.3.6.1.2.1.98.1.1.1.6
-gsmpAtmEncapVci: 1.3.6.1.2.1.98.1.3.1.4
-gsmpPortUpEvent: 1.3.6.1.2.1.98.0.5
-gsmpSessionStartUptime: 1.3.6.1.2.1.98.1.5.1.12
-gsmpSwitchPort: 1.3.6.1.2.1.98.1.2.1.5
-gsmpSessionStatAdjUpdateEvents: 1.3.6.1.2.1.98.1.5.1.22
-gsmpAtmEncapEntityId: 1.3.6.1.2.1.98.1.3.1.1
-gsmpSessionThisSideId: 1.3.6.1.2.1.98.1.5.1.1
-gsmpGroups: 1.3.6.1.2.1.98.3.1
-gsmpAtmEncapVpi: 1.3.6.1.2.1.98.1.3.1.3
-gsmpAtmEncapEntry: 1.3.6.1.2.1.98.1.3.1
-gsmpTcpIpEncapRowStatus: 1.3.6.1.2.1.98.1.4.1.6
-gsmpSessionFarSideId: 1.3.6.1.2.1.98.1.5.1.2
-gsmpEventPort: 1.3.6.1.2.1.98.2.1
-gsmpSwitchPartitionType: 1.3.6.1.2.1.98.1.2.1.7
-gsmpSessionDiscontinuityTime: 1.3.6.1.2.1.98.1.5.1.11
-gsmpSessionFarSideName: 1.3.6.1.2.1.98.1.5.1.7
-gsmpSwitchTimer: 1.3.6.1.2.1.98.1.2.1.3
-gsmpSwitchWindowSize: 1.3.6.1.2.1.98.1.2.1.11
-gsmpSentFailureInd: 1.3.6.1.2.1.98.0.3
-gsmpSessionTable: 1.3.6.1.2.1.98.1.5
-gsmpControllerSessionState: 1.3.6.1.2.1.98.1.1.1.10
-gsmpSwitchInstance: 1.3.6.1.2.1.98.1.2.1.6
-gsmpSwitchTable: 1.3.6.1.2.1.98.1.2
-gsmpSwitchEntry: 1.3.6.1.2.1.98.1.2.1
-gsmpControllerPort: 1.3.6.1.2.1.98.1.1.1.4
-gsmpControllerNotificationMap: 1.3.6.1.2.1.98.1.1.1.9
-gsmpControllerMaxVersion: 1.3.6.1.2.1.98.1.1.1.2
-gsmpControllerDoResync: 1.3.6.1.2.1.98.1.1.1.8
-gsmpSessionStatDeadPortEvents: 1.3.6.1.2.1.98.1.5.1.21
-gsmpTcpIpEncapEntityId: 1.3.6.1.2.1.98.1.4.1.1
-gsmpSwitchEntityId: 1.3.6.1.2.1.98.1.2.1.1
-gsmpAtmEncapStorageType: 1.3.6.1.2.1.98.1.3.1.5
-gsmpEventPortSessionNumber: 1.3.6.1.2.1.98.2.2
-gsmpControllerRowStatus: 1.3.6.1.2.1.98.1.1.1.12
-gsmpSessionStatReceivedFailures: 1.3.6.1.2.1.98.1.5.1.16
-gsmpSessionLastFailureCode: 1.3.6.1.2.1.98.1.5.1.10
-gsmpEventSequenceNumber: 1.3.6.1.2.1.98.2.3
-gsmpSessionStatFailureInds: 1.3.6.1.2.1.98.1.5.1.14
-gsmpSwitchPartitionId: 1.3.6.1.2.1.98.1.2.1.8
-gsmpSessionStatPortUpEvents: 1.3.6.1.2.1.98.1.5.1.17
-gsmpTcpIpEncapAddressType: 1.3.6.1.2.1.98.1.4.1.2
-gsmpSessionAdjacencyCount: 1.3.6.1.2.1.98.1.5.1.6
-gsmpSessionVersion: 1.3.6.1.2.1.98.1.5.1.3
-gsmpControllerInstance: 1.3.6.1.2.1.98.1.1.1.5
-gsmpControllerEntityId: 1.3.6.1.2.1.98.1.1.1.1
-gsmpAdjacencyUpdateEvent: 1.3.6.1.2.1.98.0.10
-gsmpControllerStorageType: 1.3.6.1.2.1.98.1.1.1.11
-gsmpSessionFarSideInstance: 1.3.6.1.2.1.98.1.5.1.9
-gsmpSwitchName: 1.3.6.1.2.1.98.1.2.1.4
-gsmpSessionStatPortDownEvents: 1.3.6.1.2.1.98.1.5.1.18
-gsmpMIB: 1.3.6.1.2.1.98
-gsmpSessionStatInvLabelEvents: 1.3.6.1.2.1.98.1.5.1.19
-gsmpTcpIpEncapTable: 1.3.6.1.2.1.98.1.4
-gsmpSessionTimer: 1.3.6.1.2.1.98.1.5.1.4
-gsmpConformance: 1.3.6.1.2.1.98.3
-gsmpNotificationsObjects: 1.3.6.1.2.1.98.2
-gsmpTcpIpEncapPortNumber: 1.3.6.1.2.1.98.1.4.1.4
-gsmpSwitchNotificationMap: 1.3.6.1.2.1.98.1.2.1.9
-gsmpReceivedFailureInd: 1.3.6.1.2.1.98.0.4
-gsmpNewPortEvent: 1.3.6.1.2.1.98.0.8
-gsmpCompliances: 1.3.6.1.2.1.98.3.2
-gsmpSessionStatSentMessages: 1.3.6.1.2.1.98.1.5.1.13
-gsmpSessionStatReceivedMessages: 1.3.6.1.2.1.98.1.5.1.15
-gsmpSessionEntry: 1.3.6.1.2.1.98.1.5.1
-gsmpSwitchSwitchType: 1.3.6.1.2.1.98.1.2.1.10
-gsmpControllerTimer: 1.3.6.1.2.1.98.1.1.1.3
-gsmpSessionPartitionId: 1.3.6.1.2.1.98.1.5.1.5
-gsmpSessionDown: 1.3.6.1.2.1.98.0.1
-gsmpInvalidLabelEvent: 1.3.6.1.2.1.98.0.7
-gsmpSwitchRowStatus: 1.3.6.1.2.1.98.1.2.1.14
-gsmpSwitchMaxVersion: 1.3.6.1.2.1.98.1.2.1.2
-gsmpSwitchSessionState: 1.3.6.1.2.1.98.1.2.1.12
-gsmpControllerEntry: 1.3.6.1.2.1.98.1.1.1
-gsmpControllerTable: 1.3.6.1.2.1.98.1.1
-gsmpTcpIpEncapStorageType: 1.3.6.1.2.1.98.1.4.1.5
-gsmpDeadPortEvent: 1.3.6.1.2.1.98.0.9
-gsmpPortDownEvent: 1.3.6.1.2.1.98.0.6
-gsmpSessionFarSidePort: 1.3.6.1.2.1.98.1.5.1.8
-gsmpAtmEncapTable: 1.3.6.1.2.1.98.1.3
-gsmpEventLabel: 1.3.6.1.2.1.98.2.4
-gsmpTcpIpEncapAddress: 1.3.6.1.2.1.98.1.4.1.3
-gsmpObjects: 1.3.6.1.2.1.98.1
-gsmpTcpIpEncapEntry: 1.3.6.1.2.1.98.1.4.1
-gsmpAtmEncapRowStatus: 1.3.6.1.2.1.98.1.3.1.6
-gsmpNotifications: 1.3.6.1.2.1.98.0
-gsmpControllerPartitionId: 1.3.6.1.2.1.98.1.1.1.7
-gsmpAtmEncapIfIndex: 1.3.6.1.2.1.98.1.3.1.2
-gsmpSwitchStorageType: 1.3.6.1.2.1.98.1.2.1.13
-gsmpSessionStatNewPortEvents: 1.3.6.1.2.1.98.1.5.1.20
+gsmpControllerPartitionType: 
+  oid: 1.3.6.1.2.1.98.1.1.1.6
+gsmpSessionUp: 
+  oid: 1.3.6.1.2.1.98.0.2
+gsmpAtmEncapVci: 
+  oid: 1.3.6.1.2.1.98.1.3.1.4
+gsmpSessionStartUptime: 
+  oid: 1.3.6.1.2.1.98.1.5.1.12
+gsmpPortUpEvent: 
+  oid: 1.3.6.1.2.1.98.0.5
+gsmpSwitchPort: 
+  oid: 1.3.6.1.2.1.98.1.2.1.5
+gsmpSessionStatAdjUpdateEvents: 
+  oid: 1.3.6.1.2.1.98.1.5.1.22
+gsmpAtmEncapEntityId: 
+  oid: 1.3.6.1.2.1.98.1.3.1.1
+gsmpSessionThisSideId: 
+  oid: 1.3.6.1.2.1.98.1.5.1.1
+gsmpGroups: 
+  oid: 1.3.6.1.2.1.98.3.1
+gsmpAtmEncapVpi: 
+  oid: 1.3.6.1.2.1.98.1.3.1.3
+gsmpAtmEncapEntry: 
+  oid: 1.3.6.1.2.1.98.1.3.1
+gsmpTcpIpEncapRowStatus: 
+  oid: 1.3.6.1.2.1.98.1.4.1.6
+gsmpSessionFarSideId: 
+  oid: 1.3.6.1.2.1.98.1.5.1.2
+gsmpEventPort: 
+  oid: 1.3.6.1.2.1.98.2.1
+gsmpSwitchPartitionType: 
+  oid: 1.3.6.1.2.1.98.1.2.1.7
+gsmpSessionDiscontinuityTime: 
+  oid: 1.3.6.1.2.1.98.1.5.1.11
+gsmpSessionFarSideName: 
+  oid: 1.3.6.1.2.1.98.1.5.1.7
+gsmpSwitchTimer: 
+  oid: 1.3.6.1.2.1.98.1.2.1.3
+gsmpSwitchWindowSize: 
+  oid: 1.3.6.1.2.1.98.1.2.1.11
+gsmpSentFailureInd: 
+  oid: 1.3.6.1.2.1.98.0.3
+gsmpSessionTable: 
+  oid: 1.3.6.1.2.1.98.1.5
+gsmpControllerSessionState: 
+  oid: 1.3.6.1.2.1.98.1.1.1.10
+gsmpSwitchInstance: 
+  oid: 1.3.6.1.2.1.98.1.2.1.6
+gsmpSwitchTable: 
+  oid: 1.3.6.1.2.1.98.1.2
+gsmpSwitchEntry: 
+  oid: 1.3.6.1.2.1.98.1.2.1
+gsmpControllerPort: 
+  oid: 1.3.6.1.2.1.98.1.1.1.4
+gsmpControllerNotificationMap: 
+  oid: 1.3.6.1.2.1.98.1.1.1.9
+gsmpControllerMaxVersion: 
+  oid: 1.3.6.1.2.1.98.1.1.1.2
+gsmpControllerDoResync: 
+  oid: 1.3.6.1.2.1.98.1.1.1.8
+gsmpSessionStatDeadPortEvents: 
+  oid: 1.3.6.1.2.1.98.1.5.1.21
+gsmpTcpIpEncapEntityId: 
+  oid: 1.3.6.1.2.1.98.1.4.1.1
+gsmpSwitchEntityId: 
+  oid: 1.3.6.1.2.1.98.1.2.1.1
+gsmpAtmEncapStorageType: 
+  oid: 1.3.6.1.2.1.98.1.3.1.5
+gsmpEventPortSessionNumber: 
+  oid: 1.3.6.1.2.1.98.2.2
+gsmpControllerRowStatus: 
+  oid: 1.3.6.1.2.1.98.1.1.1.12
+gsmpSessionStatReceivedFailures: 
+  oid: 1.3.6.1.2.1.98.1.5.1.16
+gsmpSessionLastFailureCode: 
+  oid: 1.3.6.1.2.1.98.1.5.1.10
+gsmpEventSequenceNumber: 
+  oid: 1.3.6.1.2.1.98.2.3
+gsmpSessionStatFailureInds: 
+  oid: 1.3.6.1.2.1.98.1.5.1.14
+gsmpSwitchPartitionId: 
+  oid: 1.3.6.1.2.1.98.1.2.1.8
+gsmpSessionStatPortUpEvents: 
+  oid: 1.3.6.1.2.1.98.1.5.1.17
+gsmpTcpIpEncapAddressType: 
+  oid: 1.3.6.1.2.1.98.1.4.1.2
+gsmpSessionAdjacencyCount: 
+  oid: 1.3.6.1.2.1.98.1.5.1.6
+gsmpSessionVersion: 
+  oid: 1.3.6.1.2.1.98.1.5.1.3
+gsmpControllerInstance: 
+  oid: 1.3.6.1.2.1.98.1.1.1.5
+gsmpControllerEntityId: 
+  oid: 1.3.6.1.2.1.98.1.1.1.1
+gsmpControllerStorageType: 
+  oid: 1.3.6.1.2.1.98.1.1.1.11
+gsmpSessionFarSideInstance: 
+  oid: 1.3.6.1.2.1.98.1.5.1.9
+gsmpSwitchName: 
+  oid: 1.3.6.1.2.1.98.1.2.1.4
+gsmpAdjacencyUpdateEvent: 
+  oid: 1.3.6.1.2.1.98.0.10
+gsmpSessionStatPortDownEvents: 
+  oid: 1.3.6.1.2.1.98.1.5.1.18
+gsmpMIB: 
+  oid: 1.3.6.1.2.1.98
+gsmpSessionStatInvLabelEvents: 
+  oid: 1.3.6.1.2.1.98.1.5.1.19
+gsmpTcpIpEncapTable: 
+  oid: 1.3.6.1.2.1.98.1.4
+gsmpSessionTimer: 
+  oid: 1.3.6.1.2.1.98.1.5.1.4
+gsmpConformance: 
+  oid: 1.3.6.1.2.1.98.3
+gsmpNotificationsObjects: 
+  oid: 1.3.6.1.2.1.98.2
+gsmpTcpIpEncapPortNumber: 
+  oid: 1.3.6.1.2.1.98.1.4.1.4
+gsmpSwitchNotificationMap: 
+  oid: 1.3.6.1.2.1.98.1.2.1.9
+gsmpReceivedFailureInd: 
+  oid: 1.3.6.1.2.1.98.0.4
+gsmpCompliances: 
+  oid: 1.3.6.1.2.1.98.3.2
+gsmpSessionStatSentMessages: 
+  oid: 1.3.6.1.2.1.98.1.5.1.13
+gsmpNewPortEvent: 
+  oid: 1.3.6.1.2.1.98.0.8
+gsmpSessionStatReceivedMessages: 
+  oid: 1.3.6.1.2.1.98.1.5.1.15
+gsmpSessionEntry: 
+  oid: 1.3.6.1.2.1.98.1.5.1
+gsmpSessionPartitionId: 
+  oid: 1.3.6.1.2.1.98.1.5.1.5
+gsmpControllerTimer: 
+  oid: 1.3.6.1.2.1.98.1.1.1.3
+gsmpSwitchSwitchType: 
+  oid: 1.3.6.1.2.1.98.1.2.1.10
+gsmpSwitchMaxVersion: 
+  oid: 1.3.6.1.2.1.98.1.2.1.2
+gsmpSwitchRowStatus: 
+  oid: 1.3.6.1.2.1.98.1.2.1.14
+gsmpInvalidLabelEvent: 
+  oid: 1.3.6.1.2.1.98.0.7
+gsmpSessionDown: 
+  oid: 1.3.6.1.2.1.98.0.1
+gsmpTcpIpEncapStorageType: 
+  oid: 1.3.6.1.2.1.98.1.4.1.5
+gsmpControllerTable: 
+  oid: 1.3.6.1.2.1.98.1.1
+gsmpControllerEntry: 
+  oid: 1.3.6.1.2.1.98.1.1.1
+gsmpSwitchSessionState: 
+  oid: 1.3.6.1.2.1.98.1.2.1.12
+gsmpEventLabel: 
+  oid: 1.3.6.1.2.1.98.2.4
+gsmpAtmEncapTable: 
+  oid: 1.3.6.1.2.1.98.1.3
+gsmpSessionFarSidePort: 
+  oid: 1.3.6.1.2.1.98.1.5.1.8
+gsmpPortDownEvent: 
+  oid: 1.3.6.1.2.1.98.0.6
+gsmpDeadPortEvent: 
+  oid: 1.3.6.1.2.1.98.0.9
+gsmpNotifications: 
+  oid: 1.3.6.1.2.1.98.0
+gsmpAtmEncapRowStatus: 
+  oid: 1.3.6.1.2.1.98.1.3.1.6
+gsmpTcpIpEncapEntry: 
+  oid: 1.3.6.1.2.1.98.1.4.1
+gsmpObjects: 
+  oid: 1.3.6.1.2.1.98.1
+gsmpTcpIpEncapAddress: 
+  oid: 1.3.6.1.2.1.98.1.4.1.3
+gsmpSessionStatNewPortEvents: 
+  oid: 1.3.6.1.2.1.98.1.5.1.20
+gsmpSwitchStorageType: 
+  oid: 1.3.6.1.2.1.98.1.2.1.13
+gsmpAtmEncapIfIndex: 
+  oid: 1.3.6.1.2.1.98.1.3.1.2
+gsmpControllerPartitionId: 
+  oid: 1.3.6.1.2.1.98.1.1.1.7

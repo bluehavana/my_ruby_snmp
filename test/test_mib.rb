@@ -11,6 +11,14 @@ class TestMib < Test::Unit::TestCase
         @mib.load_module("IF-MIB")
     end
     
+    def test_load_module
+		@mib = MIB.new 
+		assert_kind_of Hash, @mib.load_module("SNMPv2-MIB")
+		assert_raise(RuntimeError) {
+			@mib.load_module("IFMIB")
+		}
+	end
+    
     def test_name_to_oid
         oid = @mib.oid("1.2.3.4")
         assert_equal("1.2.3.4", oid.to_s)

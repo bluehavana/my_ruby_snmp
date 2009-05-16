@@ -1,23 +1,45 @@
 --- 
-lookupCtlRc: 1.3.6.1.2.1.82.1.3.1.7
-lookupResultsTable: 1.3.6.1.2.1.82.1.4
-lookupResultsEntry: 1.3.6.1.2.1.82.1.4.1
-lookupResultsIndex: 1.3.6.1.2.1.82.1.4.1.1
-lookupMIB: 1.3.6.1.2.1.82
-lookupCtlOperStatus: 1.3.6.1.2.1.82.1.3.1.5
-lookupCtlTable: 1.3.6.1.2.1.82.1.3
-lookupResultsAddress: 1.3.6.1.2.1.82.1.4.1.3
-lookupGroups: 1.3.6.1.2.1.82.2.2
-lookupCtlOwnerIndex: 1.3.6.1.2.1.82.1.3.1.1
-lookupCtlRowStatus: 1.3.6.1.2.1.82.1.3.1.8
-lookupCtlOperationName: 1.3.6.1.2.1.82.1.3.1.2
-lookupCtlTargetAddress: 1.3.6.1.2.1.82.1.3.1.4
-lookupCtlTime: 1.3.6.1.2.1.82.1.3.1.6
-lookupResultsAddressType: 1.3.6.1.2.1.82.1.4.1.2
-lookupObjects: 1.3.6.1.2.1.82.1
-lookupPurgeTime: 1.3.6.1.2.1.82.1.2
-lookupCompliances: 1.3.6.1.2.1.82.2.1
-lookupMaxConcurrentRequests: 1.3.6.1.2.1.82.1.1
-lookupConformance: 1.3.6.1.2.1.82.2
-lookupCtlEntry: 1.3.6.1.2.1.82.1.3.1
-lookupCtlTargetAddressType: 1.3.6.1.2.1.82.1.3.1.3
+lookupResultsIndex: 
+  oid: 1.3.6.1.2.1.82.1.4.1.1
+lookupResultsEntry: 
+  oid: 1.3.6.1.2.1.82.1.4.1
+lookupResultsTable: 
+  oid: 1.3.6.1.2.1.82.1.4
+lookupCtlRc: 
+  oid: 1.3.6.1.2.1.82.1.3.1.7
+lookupCtlOperStatus: 
+  oid: 1.3.6.1.2.1.82.1.3.1.5
+lookupMIB: 
+  oid: 1.3.6.1.2.1.82
+lookupResultsAddress: 
+  oid: 1.3.6.1.2.1.82.1.4.1.3
+lookupCtlTable: 
+  oid: 1.3.6.1.2.1.82.1.3
+lookupGroups: 
+  oid: 1.3.6.1.2.1.82.2.2
+lookupCtlRowStatus: 
+  oid: 1.3.6.1.2.1.82.1.3.1.8
+lookupCtlOwnerIndex: 
+  oid: 1.3.6.1.2.1.82.1.3.1.1
+lookupCtlTargetAddress: 
+  oid: 1.3.6.1.2.1.82.1.3.1.4
+lookupCtlOperationName: 
+  oid: 1.3.6.1.2.1.82.1.3.1.2
+lookupResultsAddressType: 
+  oid: 1.3.6.1.2.1.82.1.4.1.2
+lookupCtlTime: 
+  oid: 1.3.6.1.2.1.82.1.3.1.6
+lookupCompliances: 
+  oid: 1.3.6.1.2.1.82.2.1
+lookupPurgeTime: 
+  oid: 1.3.6.1.2.1.82.1.2
+lookupObjects: 
+  oid: 1.3.6.1.2.1.82.1
+lookupConformance: 
+  oid: 1.3.6.1.2.1.82.2
+lookupMaxConcurrentRequests: 
+  oid: 1.3.6.1.2.1.82.1.1
+lookupCtlTargetAddressType: 
+  oid: 1.3.6.1.2.1.82.1.3.1.3
+lookupCtlEntry: 
+  oid: 1.3.6.1.2.1.82.1.3.1

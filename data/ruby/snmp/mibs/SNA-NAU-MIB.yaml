@@ -1,141 +1,281 @@
 --- 
-snaLuOperTerm: 1.3.6.1.2.1.34.1.2.2.1.7
-snaNodeOperLastStateChange: 1.3.6.1.2.1.34.1.1.3.1.14
-snaLuOperSnaName: 1.3.6.1.2.1.34.1.2.2.1.2
-snaPu20StatsSentBytes: 1.3.6.1.2.1.34.1.1.5.1.1
-snanauMIB: 1.3.6.1.2.1.34
-snaNodeOperActFailures: 1.3.6.1.2.1.34.1.1.3.1.15
-snaNodeActFailTrap: 1.3.6.1.2.1.34.1.1.10.2
-snaNodeOperType: 1.3.6.1.2.1.34.1.1.3.1.2
-snaLuRtmDef: 1.3.6.1.2.1.34.1.3.1.1.5
-snanauConformance: 1.3.6.1.2.1.34.2
-snaLuRtmLastRspTime: 1.3.6.1.2.1.34.1.3.1.1.18
-snaLuAdminRowStatus: 1.3.6.1.2.1.34.1.2.1.1.9
-snaLuAdminLuIndex: 1.3.6.1.2.1.34.1.2.1.1.1
-snaLuSessnTerminationRu: 1.3.6.1.2.1.34.1.2.3.1.13
-snaLuAdminDepType: 1.3.6.1.2.1.34.1.2.1.1.5
-snaNodeTraps: 1.3.6.1.2.1.34.1.1.10
-snaLuRtmObjRange: 1.3.6.1.2.1.34.1.3.1.1.16
-snaNodeLinkAdminSpecific: 1.3.6.1.2.1.34.1.1.6.1.2
-snaNodeAdminTableLastChange: 1.3.6.1.2.1.34.1.1.2
-snaLuRtmOverFlows: 1.3.6.1.2.1.34.1.3.1.1.14
-snaLuAdminEntry: 1.3.6.1.2.1.34.1.2.1.1
-snaNodeOperTableLastChange: 1.3.6.1.2.1.34.1.1.4
-snaNodeAdminRowStatus: 1.3.6.1.2.1.34.1.1.1.1.13
-snaLuStateChangeTrap: 1.3.6.1.2.1.34.1.2.5.1
-snaNodeLinkAdminTable: 1.3.6.1.2.1.34.1.1.6
-snaNodeOperActFailureReason: 1.3.6.1.2.1.34.1.1.3.1.16
-snaLuRtmBoundary1: 1.3.6.1.2.1.34.1.3.1.1.6
-snaLuRtmObjPercent: 1.3.6.1.2.1.34.1.3.1.1.15
-snaLuSessnOperState: 1.3.6.1.2.1.34.1.2.3.1.11
-snaNodeOperName: 1.3.6.1.2.1.34.1.1.3.1.1
-snaNodeAdminXidFormat: 1.3.6.1.2.1.34.1.1.1.1.4
-snaLuSessnLinkIndex: 1.3.6.1.2.1.34.1.2.3.1.15
-snaLuRtmBoundary2: 1.3.6.1.2.1.34.1.3.1.1.7
-snaLuAdminType: 1.3.6.1.2.1.34.1.2.1.1.4
-snaNodeOperLuTermDefault: 1.3.6.1.2.1.34.1.1.3.1.7
-snaLuRtmBoundary3: 1.3.6.1.2.1.34.1.3.1.1.8
-snaLuRtmNumTrans: 1.3.6.1.2.1.34.1.3.1.1.17
-snaLuRtmBoundary4: 1.3.6.1.2.1.34.1.3.1.1.9
-snaLuSessnTable: 1.3.6.1.2.1.34.1.2.3
-snaLu: 1.3.6.1.2.1.34.1.2
-snaLuOperLocalAddress: 1.3.6.1.2.1.34.1.2.2.1.5
-snaNodeAdminTable: 1.3.6.1.2.1.34.1.1.1
-snaLuRtmTable: 1.3.6.1.2.1.34.1.3.1
-snaNodeAdminBlockNum: 1.3.6.1.2.1.34.1.1.1.1.5
-snaLuSessnLocalApplName: 1.3.6.1.2.1.34.1.2.3.1.3
-snaNodeAdminType: 1.3.6.1.2.1.34.1.1.1.1.3
-snaNodeLinkAdminMaxPiu: 1.3.6.1.2.1.34.1.1.6.1.3
-snaLuAdminTerm: 1.3.6.1.2.1.34.1.2.1.1.8
-snaLuSessnAdminState: 1.3.6.1.2.1.34.1.2.3.1.10
-snaLuSessnStatsSentNegativeResps: 1.3.6.1.2.1.34.1.2.4.1.5
-snaLuOperTable: 1.3.6.1.2.1.34.1.2.2
-snaLuSessnMaxRcvRuSize: 1.3.6.1.2.1.34.1.2.3.1.6
-snaNodeAdminHostDescription: 1.3.6.1.2.1.34.1.1.1.1.10
-snaPu20StatsInActLus: 1.3.6.1.2.1.34.1.1.5.1.8
-snaNodeOperTable: 1.3.6.1.2.1.34.1.1.3
-snaNodeAdminMaxLu: 1.3.6.1.2.1.34.1.1.1.1.9
-snaNodeAdminIdNum: 1.3.6.1.2.1.34.1.1.1.1.6
-snaLuSessnStatsEntry: 1.3.6.1.2.1.34.1.2.4.1
-snaPu20StatsEntry: 1.3.6.1.2.1.34.1.1.5.1
-snaLuAdminLocalAddress: 1.3.6.1.2.1.34.1.2.1.1.6
-snaLuOperDepType: 1.3.6.1.2.1.34.1.2.2.1.4
-snaLuAdminName: 1.3.6.1.2.1.34.1.2.1.1.2
-snaMgtTools: 1.3.6.1.2.1.34.1.3
-snaPu20StatsBindLus: 1.3.6.1.2.1.34.1.1.5.1.9
-snaLuSessnSndPacingSize: 1.3.6.1.2.1.34.1.2.3.1.7
-snaNodeOperXidFormat: 1.3.6.1.2.1.34.1.1.3.1.3
-snaNodeLinkOperEntry: 1.3.6.1.2.1.34.1.1.8.1
-snaLuSessnRcvPacingSize: 1.3.6.1.2.1.34.1.2.3.1.8
-snaPu20StatsReceivedPius: 1.3.6.1.2.1.34.1.1.5.1.4
-snaNodeAdminName: 1.3.6.1.2.1.34.1.1.1.1.2
-snaPu20StatsSentNegativeResps: 1.3.6.1.2.1.34.1.1.5.1.5
-snaNodeOperMaxLu: 1.3.6.1.2.1.34.1.1.3.1.8
-snaLuSessnMaxSndRuSize: 1.3.6.1.2.1.34.1.2.3.1.5
-snaNodeOperIdNum: 1.3.6.1.2.1.34.1.1.3.1.5
-snaNodeLinkOperSpecific: 1.3.6.1.2.1.34.1.1.8.1.1
-snaPu20StatsReceivedBytes: 1.3.6.1.2.1.34.1.1.5.1.2
-snaNodeOperBlockNum: 1.3.6.1.2.1.34.1.1.3.1.4
-snaLuSessnStatsReceivedNegativeResps: 1.3.6.1.2.1.34.1.2.4.1.6
-snaNodeStateChangeTrap: 1.3.6.1.2.1.34.1.1.10.1
-snaLuRtmAvgRspTime: 1.3.6.1.2.1.34.1.3.1.1.19
-snaNodeLinkAdminRowStatus: 1.3.6.1.2.1.34.1.1.6.1.4
-snaNodeOperHostDescription: 1.3.6.1.2.1.34.1.1.3.1.9
-snanauGroups: 1.3.6.1.2.1.34.2.2
-snaNodeLinkOperMaxPiu: 1.3.6.1.2.1.34.1.1.8.1.2
-snaLuSessnStatsSentBytes: 1.3.6.1.2.1.34.1.2.4.1.1
-snaLuRtmPuIndex: 1.3.6.1.2.1.34.1.3.1.1.1
-snaLuOperDisplayModel: 1.3.6.1.2.1.34.1.2.2.1.6
-snaLuAdminTable: 1.3.6.1.2.1.34.1.2.1
-snaLuRtmState: 1.3.6.1.2.1.34.1.3.1.1.3
-snaNodeAdminLuTermDefault: 1.3.6.1.2.1.34.1.1.1.1.8
-snaNodeOperStopMethod: 1.3.6.1.2.1.34.1.1.3.1.10
-snaPu20StatsSentPius: 1.3.6.1.2.1.34.1.1.5.1.3
-snaLuAdminSnaName: 1.3.6.1.2.1.34.1.2.1.1.3
-snaLuOperType: 1.3.6.1.2.1.34.1.2.2.1.3
-snaNodeLinkAdminEntry: 1.3.6.1.2.1.34.1.1.6.1
-snaLuSessnRemoteLuName: 1.3.6.1.2.1.34.1.2.3.1.4
-snaLuSessnEntry: 1.3.6.1.2.1.34.1.2.3.1
-snaNodeOperEnablingMethod: 1.3.6.1.2.1.34.1.1.3.1.6
-snaLuSessnSenseData: 1.3.6.1.2.1.34.1.2.3.1.12
-snaLuSessnStatsTable: 1.3.6.1.2.1.34.1.2.4
-snaNodeAdminEntry: 1.3.6.1.2.1.34.1.1.1.1
-snaLuOperSessnCount: 1.3.6.1.2.1.34.1.2.2.1.9
-snaNodeAdminStopMethod: 1.3.6.1.2.1.34.1.1.1.1.11
-snaNodeLinkOperTable: 1.3.6.1.2.1.34.1.1.8
-snaLuAdminDisplayModel: 1.3.6.1.2.1.34.1.2.1.1.7
-snaNodeAdminEnablingMethod: 1.3.6.1.2.1.34.1.1.1.1.7
-snaLuTraps: 1.3.6.1.2.1.34.1.2.5
-snaLuRtmEntry: 1.3.6.1.2.1.34.1.3.1.1
-snaNodeLinkOperTableLastChange: 1.3.6.1.2.1.34.1.1.9
-snaNodeLinkAdminIndex: 1.3.6.1.2.1.34.1.1.6.1.1
-snaLuSessnStatsSentRus: 1.3.6.1.2.1.34.1.2.4.1.3
-snaNode: 1.3.6.1.2.1.34.1.1
-snaLuOperEntry: 1.3.6.1.2.1.34.1.2.2.1
-snaLuRtmStateTime: 1.3.6.1.2.1.34.1.3.1.1.4
-snaLuSessnRluIndex: 1.3.6.1.2.1.34.1.2.3.1.1
-snaNodeOperHostSscpId: 1.3.6.1.2.1.34.1.1.3.1.12
-snaPu20StatsReceivedNegativeResps: 1.3.6.1.2.1.34.1.1.5.1.6
-snaLuSessnStatsReceivedRus: 1.3.6.1.2.1.34.1.2.4.1.4
-snaNodeAdminState: 1.3.6.1.2.1.34.1.1.1.1.12
-snaLuRtmCounter1: 1.3.6.1.2.1.34.1.3.1.1.10
-snaLuRtmLuIndex: 1.3.6.1.2.1.34.1.3.1.1.2
-snaLuSessnBindFailTrap: 1.3.6.1.2.1.34.1.2.5.2
-snaLuSessnStatsReceivedBytes: 1.3.6.1.2.1.34.1.2.4.1.2
-snaLuSessnIndex: 1.3.6.1.2.1.34.1.2.3.1.2
-snaNodeOperEntry: 1.3.6.1.2.1.34.1.1.3.1
-snaNodeAdminIndex: 1.3.6.1.2.1.34.1.1.1.1.1
-snaLuRtmCounter2: 1.3.6.1.2.1.34.1.3.1.1.11
-snaLuOperState: 1.3.6.1.2.1.34.1.2.2.1.8
-snaNodeOperStartTime: 1.3.6.1.2.1.34.1.1.3.1.13
-snanauObjects: 1.3.6.1.2.1.34.1
-snaLuOperName: 1.3.6.1.2.1.34.1.2.2.1.1
-snaLuSessnActiveTime: 1.3.6.1.2.1.34.1.2.3.1.9
-snaPu20StatsActLus: 1.3.6.1.2.1.34.1.1.5.1.7
-snaLuSessnUnbindType: 1.3.6.1.2.1.34.1.2.3.1.14
-snaLuRtmCounter3: 1.3.6.1.2.1.34.1.3.1.1.12
-snaNodeLinkAdminTableLastChange: 1.3.6.1.2.1.34.1.1.7
-snaLuRtmCounter4: 1.3.6.1.2.1.34.1.3.1.1.13
-snaPu20StatsTable: 1.3.6.1.2.1.34.1.1.5
-snaNodeOperState: 1.3.6.1.2.1.34.1.1.3.1.11
-snanauCompliances: 1.3.6.1.2.1.34.2.1
+snaLuOperTerm: 
+  oid: 1.3.6.1.2.1.34.1.2.2.1.7
+snaNodeOperLastStateChange: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.14
+snaLuOperSnaName: 
+  oid: 1.3.6.1.2.1.34.1.2.2.1.2
+snaPu20StatsSentBytes: 
+  oid: 1.3.6.1.2.1.34.1.1.5.1.1
+snanauMIB: 
+  oid: 1.3.6.1.2.1.34
+snaNodeOperActFailures: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.15
+snaNodeOperType: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.2
+snaNodeActFailTrap: 
+  oid: 1.3.6.1.2.1.34.1.1.10.2
+snaLuRtmDef: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.5
+snanauConformance: 
+  oid: 1.3.6.1.2.1.34.2
+snaLuRtmLastRspTime: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.18
+snaLuAdminRowStatus: 
+  oid: 1.3.6.1.2.1.34.1.2.1.1.9
+snaLuAdminLuIndex: 
+  oid: 1.3.6.1.2.1.34.1.2.1.1.1
+snaLuSessnTerminationRu: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.13
+snaLuAdminDepType: 
+  oid: 1.3.6.1.2.1.34.1.2.1.1.5
+snaNodeTraps: 
+  oid: 1.3.6.1.2.1.34.1.1.10
+snaLuRtmObjRange: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.16
+snaNodeLinkAdminSpecific: 
+  oid: 1.3.6.1.2.1.34.1.1.6.1.2
+snaNodeAdminTableLastChange: 
+  oid: 1.3.6.1.2.1.34.1.1.2
+snaLuRtmOverFlows: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.14
+snaLuAdminEntry: 
+  oid: 1.3.6.1.2.1.34.1.2.1.1
+snaNodeOperTableLastChange: 
+  oid: 1.3.6.1.2.1.34.1.1.4
+snaNodeAdminRowStatus: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.13
+snaNodeLinkAdminTable: 
+  oid: 1.3.6.1.2.1.34.1.1.6
+snaNodeOperActFailureReason: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.16
+snaLuStateChangeTrap: 
+  oid: 1.3.6.1.2.1.34.1.2.5.1
+snaLuRtmBoundary1: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.6
+snaLuRtmObjPercent: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.15
+snaLuSessnOperState: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.11
+snaNodeOperName: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.1
+snaNodeAdminXidFormat: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.4
+snaLuSessnLinkIndex: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.15
+snaLuRtmBoundary2: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.7
+snaLuAdminType: 
+  oid: 1.3.6.1.2.1.34.1.2.1.1.4
+snaNodeOperLuTermDefault: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.7
+snaLuRtmBoundary3: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.8
+snaLuRtmNumTrans: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.17
+snaLuRtmBoundary4: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.9
+snaLuSessnTable: 
+  oid: 1.3.6.1.2.1.34.1.2.3
+snaLu: 
+  oid: 1.3.6.1.2.1.34.1.2
+snaLuOperLocalAddress: 
+  oid: 1.3.6.1.2.1.34.1.2.2.1.5
+snaNodeAdminTable: 
+  oid: 1.3.6.1.2.1.34.1.1.1
+snaLuRtmTable: 
+  oid: 1.3.6.1.2.1.34.1.3.1
+snaNodeAdminBlockNum: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.5
+snaLuSessnLocalApplName: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.3
+snaNodeAdminType: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.3
+snaNodeLinkAdminMaxPiu: 
+  oid: 1.3.6.1.2.1.34.1.1.6.1.3
+snaLuAdminTerm: 
+  oid: 1.3.6.1.2.1.34.1.2.1.1.8
+snaLuSessnAdminState: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.10
+snaLuSessnStatsSentNegativeResps: 
+  oid: 1.3.6.1.2.1.34.1.2.4.1.5
+snaLuOperTable: 
+  oid: 1.3.6.1.2.1.34.1.2.2
+snaLuSessnMaxRcvRuSize: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.6
+snaNodeAdminHostDescription: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.10
+snaPu20StatsInActLus: 
+  oid: 1.3.6.1.2.1.34.1.1.5.1.8
+snaNodeOperTable: 
+  oid: 1.3.6.1.2.1.34.1.1.3
+snaNodeAdminMaxLu: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.9
+snaNodeAdminIdNum: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.6
+snaLuSessnStatsEntry: 
+  oid: 1.3.6.1.2.1.34.1.2.4.1
+snaPu20StatsEntry: 
+  oid: 1.3.6.1.2.1.34.1.1.5.1
+snaLuAdminLocalAddress: 
+  oid: 1.3.6.1.2.1.34.1.2.1.1.6
+snaLuOperDepType: 
+  oid: 1.3.6.1.2.1.34.1.2.2.1.4
+snaLuAdminName: 
+  oid: 1.3.6.1.2.1.34.1.2.1.1.2
+snaMgtTools: 
+  oid: 1.3.6.1.2.1.34.1.3
+snaPu20StatsBindLus: 
+  oid: 1.3.6.1.2.1.34.1.1.5.1.9
+snaLuSessnSndPacingSize: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.7
+snaNodeOperXidFormat: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.3
+snaNodeLinkOperEntry: 
+  oid: 1.3.6.1.2.1.34.1.1.8.1
+snaLuSessnRcvPacingSize: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.8
+snaPu20StatsReceivedPius: 
+  oid: 1.3.6.1.2.1.34.1.1.5.1.4
+snaNodeAdminName: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.2
+snaPu20StatsSentNegativeResps: 
+  oid: 1.3.6.1.2.1.34.1.1.5.1.5
+snaNodeOperMaxLu: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.8
+snaLuSessnMaxSndRuSize: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.5
+snaNodeOperIdNum: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.5
+snaNodeLinkOperSpecific: 
+  oid: 1.3.6.1.2.1.34.1.1.8.1.1
+snaPu20StatsReceivedBytes: 
+  oid: 1.3.6.1.2.1.34.1.1.5.1.2
+snaNodeOperBlockNum: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.4
+snaLuSessnStatsReceivedNegativeResps: 
+  oid: 1.3.6.1.2.1.34.1.2.4.1.6
+snaLuRtmAvgRspTime: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.19
+snaNodeLinkAdminRowStatus: 
+  oid: 1.3.6.1.2.1.34.1.1.6.1.4
+snaNodeOperHostDescription: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.9
+snanauGroups: 
+  oid: 1.3.6.1.2.1.34.2.2
+snaNodeStateChangeTrap: 
+  oid: 1.3.6.1.2.1.34.1.1.10.1
+snaNodeLinkOperMaxPiu: 
+  oid: 1.3.6.1.2.1.34.1.1.8.1.2
+snaLuSessnStatsSentBytes: 
+  oid: 1.3.6.1.2.1.34.1.2.4.1.1
+snaLuRtmPuIndex: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.1
+snaLuOperDisplayModel: 
+  oid: 1.3.6.1.2.1.34.1.2.2.1.6
+snaLuAdminTable: 
+  oid: 1.3.6.1.2.1.34.1.2.1
+snaLuRtmState: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.3
+snaNodeAdminLuTermDefault: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.8
+snaNodeOperStopMethod: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.10
+snaPu20StatsSentPius: 
+  oid: 1.3.6.1.2.1.34.1.1.5.1.3
+snaLuAdminSnaName: 
+  oid: 1.3.6.1.2.1.34.1.2.1.1.3
+snaLuOperType: 
+  oid: 1.3.6.1.2.1.34.1.2.2.1.3
+snaNodeLinkAdminEntry: 
+  oid: 1.3.6.1.2.1.34.1.1.6.1
+snaLuSessnRemoteLuName: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.4
+snaLuSessnEntry: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1
+snaNodeOperEnablingMethod: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.6
+snaLuSessnSenseData: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.12
+snaLuSessnStatsTable: 
+  oid: 1.3.6.1.2.1.34.1.2.4
+snaNodeAdminEntry: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1
+snaLuOperSessnCount: 
+  oid: 1.3.6.1.2.1.34.1.2.2.1.9
+snaNodeAdminStopMethod: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.11
+snaNodeLinkOperTable: 
+  oid: 1.3.6.1.2.1.34.1.1.8
+snaLuAdminDisplayModel: 
+  oid: 1.3.6.1.2.1.34.1.2.1.1.7
+snaNodeAdminEnablingMethod: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.7
+snaLuTraps: 
+  oid: 1.3.6.1.2.1.34.1.2.5
+snaLuRtmEntry: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1
+snaNodeLinkOperTableLastChange: 
+  oid: 1.3.6.1.2.1.34.1.1.9
+snaNodeLinkAdminIndex: 
+  oid: 1.3.6.1.2.1.34.1.1.6.1.1
+snaLuSessnStatsSentRus: 
+  oid: 1.3.6.1.2.1.34.1.2.4.1.3
+snaNode: 
+  oid: 1.3.6.1.2.1.34.1.1
+snaLuOperEntry: 
+  oid: 1.3.6.1.2.1.34.1.2.2.1
+snaLuRtmStateTime: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.4
+snaLuRtmLuIndex: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.2
+snaLuRtmCounter1: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.10
+snaNodeAdminState: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.12
+snaLuSessnStatsReceivedRus: 
+  oid: 1.3.6.1.2.1.34.1.2.4.1.4
+snaPu20StatsReceivedNegativeResps: 
+  oid: 1.3.6.1.2.1.34.1.1.5.1.6
+snaNodeOperHostSscpId: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.12
+snaLuSessnRluIndex: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.1
+snaLuRtmCounter2: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.11
+snaNodeAdminIndex: 
+  oid: 1.3.6.1.2.1.34.1.1.1.1.1
+snaNodeOperEntry: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1
+snaLuSessnIndex: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.2
+snaLuSessnStatsReceivedBytes: 
+  oid: 1.3.6.1.2.1.34.1.2.4.1.2
+snaLuSessnBindFailTrap: 
+  oid: 1.3.6.1.2.1.34.1.2.5.2
+snaLuRtmCounter3: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.12
+snaLuSessnUnbindType: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.14
+snaPu20StatsActLus: 
+  oid: 1.3.6.1.2.1.34.1.1.5.1.7
+snaLuSessnActiveTime: 
+  oid: 1.3.6.1.2.1.34.1.2.3.1.9
+snaLuOperName: 
+  oid: 1.3.6.1.2.1.34.1.2.2.1.1
+snanauObjects: 
+  oid: 1.3.6.1.2.1.34.1
+snaNodeOperStartTime: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.13
+snaLuOperState: 
+  oid: 1.3.6.1.2.1.34.1.2.2.1.8
+snaLuRtmCounter4: 
+  oid: 1.3.6.1.2.1.34.1.3.1.1.13
+snaNodeLinkAdminTableLastChange: 
+  oid: 1.3.6.1.2.1.34.1.1.7
+snanauCompliances: 
+  oid: 1.3.6.1.2.1.34.2.1
+snaNodeOperState: 
+  oid: 1.3.6.1.2.1.34.1.1.3.1.11
+snaPu20StatsTable: 
+  oid: 1.3.6.1.2.1.34.1.1.5

@@ -1,75 +1,149 @@
 --- 
-traceRouteHopsAverageRtt: 1.3.6.1.2.1.81.1.5.1.6
-traceRouteCtlTargetAddress: 1.3.6.1.2.1.81.1.2.1.4
-traceRouteCtlMiscOptions: 1.3.6.1.2.1.81.1.2.1.15
-traceRouteResultsTestAttempts: 1.3.6.1.2.1.81.1.3.1.6
-traceRouteHopsRttSumOfSquares: 1.3.6.1.2.1.81.1.5.1.7
-traceRouteCtlAdminStatus: 1.3.6.1.2.1.81.1.2.1.21
-traceRouteProbeHistoryResponse: 1.3.6.1.2.1.81.1.4.1.6
-traceRouteImplementationTypeDomains: 1.3.6.1.2.1.81.3
-traceRouteCtlType: 1.3.6.1.2.1.81.1.2.1.26
-traceRouteProbeHistoryStatus: 1.3.6.1.2.1.81.1.4.1.7
-traceRouteCtlInitialTtl: 1.3.6.1.2.1.81.1.2.1.18
-traceRouteConformance: 1.3.6.1.2.1.81.2
-traceRouteNotifications: 1.3.6.1.2.1.81.0
-traceRouteCtlDontFragment: 1.3.6.1.2.1.81.1.2.1.17
-traceRouteProbeHistoryHAddrType: 1.3.6.1.2.1.81.1.4.1.4
-traceRouteProbeHistoryIndex: 1.3.6.1.2.1.81.1.4.1.1
-traceRouteCompliances: 1.3.6.1.2.1.81.2.1
-traceRouteHopsSentProbes: 1.3.6.1.2.1.81.1.5.1.8
-traceRouteHopsEntry: 1.3.6.1.2.1.81.1.5.1
-traceRouteCtlDescr: 1.3.6.1.2.1.81.1.2.1.22
-traceRouteCtlPort: 1.3.6.1.2.1.81.1.2.1.9
-traceRouteCtlTable: 1.3.6.1.2.1.81.1.2
-traceRouteCtlEntry: 1.3.6.1.2.1.81.1.2.1
-traceRouteCtlTimeOut: 1.3.6.1.2.1.81.1.2.1.7
-traceRouteCtlFrequency: 1.3.6.1.2.1.81.1.2.1.19
-traceRouteResultsLastGoodPath: 1.3.6.1.2.1.81.1.3.1.8
-traceRouteHopsMaxRtt: 1.3.6.1.2.1.81.1.5.1.5
-traceRouteCtlTestName: 1.3.6.1.2.1.81.1.2.1.2
-traceRouteUsingUdpProbes: 1.3.6.1.2.1.81.3.1
-traceRouteResultsOperStatus: 1.3.6.1.2.1.81.1.3.1.1
-traceRouteResultsTable: 1.3.6.1.2.1.81.1.3
-traceRouteHopsLastGoodProbe: 1.3.6.1.2.1.81.1.5.1.10
-traceRouteCtlCreateHopsEntries: 1.3.6.1.2.1.81.1.2.1.25
-traceRouteResultsCurHopCount: 1.3.6.1.2.1.81.1.3.1.2
-traceRouteCtlIfIndex: 1.3.6.1.2.1.81.1.2.1.14
-traceRouteResultsIpTgtAddrType: 1.3.6.1.2.1.81.1.3.1.4
-traceRouteCtlMaxFailures: 1.3.6.1.2.1.81.1.2.1.16
-traceRouteProbeHistoryHAddr: 1.3.6.1.2.1.81.1.4.1.5
-traceRouteMaxConcurrentRequests: 1.3.6.1.2.1.81.1.1
-traceRouteCtlByPassRouteTable: 1.3.6.1.2.1.81.1.2.1.5
-traceRouteProbeHistoryLastRC: 1.3.6.1.2.1.81.1.4.1.8
-traceRouteCtlProbesPerHop: 1.3.6.1.2.1.81.1.2.1.8
-traceRouteTestCompleted: 1.3.6.1.2.1.81.0.3
-traceRouteMIB: 1.3.6.1.2.1.81
-traceRouteResultsIpTgtAddr: 1.3.6.1.2.1.81.1.3.1.5
-traceRouteProbeHistoryTime: 1.3.6.1.2.1.81.1.4.1.9
-traceRouteCtlStorageType: 1.3.6.1.2.1.81.1.2.1.20
-traceRouteHopsMinRtt: 1.3.6.1.2.1.81.1.5.1.4
-traceRoutePathChange: 1.3.6.1.2.1.81.0.1
-traceRouteProbeHistoryTable: 1.3.6.1.2.1.81.1.4
-traceRouteProbeHistoryEntry: 1.3.6.1.2.1.81.1.4.1
-traceRouteCtlDSField: 1.3.6.1.2.1.81.1.2.1.11
-traceRouteCtlDataSize: 1.3.6.1.2.1.81.1.2.1.6
-traceRouteResultsTestSuccesses: 1.3.6.1.2.1.81.1.3.1.7
-traceRouteTestFailed: 1.3.6.1.2.1.81.0.2
-traceRouteCtlTrapGeneration: 1.3.6.1.2.1.81.1.2.1.24
-traceRouteProbeHistoryHopIndex: 1.3.6.1.2.1.81.1.4.1.2
-traceRouteCtlMaxTtl: 1.3.6.1.2.1.81.1.2.1.10
-traceRouteResultsCurProbeCount: 1.3.6.1.2.1.81.1.3.1.3
-traceRouteCtlOwnerIndex: 1.3.6.1.2.1.81.1.2.1.1
-traceRouteProbeHistoryProbeIndex: 1.3.6.1.2.1.81.1.4.1.3
-traceRouteCtlSourceAddress: 1.3.6.1.2.1.81.1.2.1.13
-traceRouteCtlTargetAddressType: 1.3.6.1.2.1.81.1.2.1.3
-traceRouteHopsIpTgtAddress: 1.3.6.1.2.1.81.1.5.1.3
-traceRouteHopsHopIndex: 1.3.6.1.2.1.81.1.5.1.1
-traceRouteResultsEntry: 1.3.6.1.2.1.81.1.3.1
-traceRouteCtlRowStatus: 1.3.6.1.2.1.81.1.2.1.27
-traceRouteGroups: 1.3.6.1.2.1.81.2.2
-traceRouteHopsTable: 1.3.6.1.2.1.81.1.5
-traceRouteHopsIpTgtAddressType: 1.3.6.1.2.1.81.1.5.1.2
-traceRouteObjects: 1.3.6.1.2.1.81.1
-traceRouteCtlSourceAddressType: 1.3.6.1.2.1.81.1.2.1.12
-traceRouteHopsProbeResponses: 1.3.6.1.2.1.81.1.5.1.9
-traceRouteCtlMaxRows: 1.3.6.1.2.1.81.1.2.1.23
+traceRouteHopsAverageRtt: 
+  oid: 1.3.6.1.2.1.81.1.5.1.6
+traceRouteCtlTargetAddress: 
+  oid: 1.3.6.1.2.1.81.1.2.1.4
+traceRouteCtlMiscOptions: 
+  oid: 1.3.6.1.2.1.81.1.2.1.15
+traceRouteResultsTestAttempts: 
+  oid: 1.3.6.1.2.1.81.1.3.1.6
+traceRouteHopsRttSumOfSquares: 
+  oid: 1.3.6.1.2.1.81.1.5.1.7
+traceRouteCtlAdminStatus: 
+  oid: 1.3.6.1.2.1.81.1.2.1.21
+traceRouteProbeHistoryResponse: 
+  oid: 1.3.6.1.2.1.81.1.4.1.6
+traceRouteImplementationTypeDomains: 
+  oid: 1.3.6.1.2.1.81.3
+traceRouteCtlType: 
+  oid: 1.3.6.1.2.1.81.1.2.1.26
+traceRouteProbeHistoryStatus: 
+  oid: 1.3.6.1.2.1.81.1.4.1.7
+traceRouteCtlInitialTtl: 
+  oid: 1.3.6.1.2.1.81.1.2.1.18
+traceRouteConformance: 
+  oid: 1.3.6.1.2.1.81.2
+traceRouteNotifications: 
+  oid: 1.3.6.1.2.1.81.0
+traceRouteCtlDontFragment: 
+  oid: 1.3.6.1.2.1.81.1.2.1.17
+traceRouteProbeHistoryHAddrType: 
+  oid: 1.3.6.1.2.1.81.1.4.1.4
+traceRouteProbeHistoryIndex: 
+  oid: 1.3.6.1.2.1.81.1.4.1.1
+traceRouteCompliances: 
+  oid: 1.3.6.1.2.1.81.2.1
+traceRouteHopsSentProbes: 
+  oid: 1.3.6.1.2.1.81.1.5.1.8
+traceRouteHopsEntry: 
+  oid: 1.3.6.1.2.1.81.1.5.1
+traceRouteCtlDescr: 
+  oid: 1.3.6.1.2.1.81.1.2.1.22
+traceRouteCtlPort: 
+  oid: 1.3.6.1.2.1.81.1.2.1.9
+traceRouteCtlTable: 
+  oid: 1.3.6.1.2.1.81.1.2
+traceRouteCtlEntry: 
+  oid: 1.3.6.1.2.1.81.1.2.1
+traceRouteCtlTimeOut: 
+  oid: 1.3.6.1.2.1.81.1.2.1.7
+traceRouteCtlFrequency: 
+  oid: 1.3.6.1.2.1.81.1.2.1.19
+traceRouteResultsLastGoodPath: 
+  oid: 1.3.6.1.2.1.81.1.3.1.8
+traceRouteHopsMaxRtt: 
+  oid: 1.3.6.1.2.1.81.1.5.1.5
+traceRouteCtlTestName: 
+  oid: 1.3.6.1.2.1.81.1.2.1.2
+traceRouteUsingUdpProbes: 
+  oid: 1.3.6.1.2.1.81.3.1
+traceRouteResultsOperStatus: 
+  oid: 1.3.6.1.2.1.81.1.3.1.1
+traceRouteResultsTable: 
+  oid: 1.3.6.1.2.1.81.1.3
+traceRouteHopsLastGoodProbe: 
+  oid: 1.3.6.1.2.1.81.1.5.1.10
+traceRouteCtlCreateHopsEntries: 
+  oid: 1.3.6.1.2.1.81.1.2.1.25
+traceRouteResultsCurHopCount: 
+  oid: 1.3.6.1.2.1.81.1.3.1.2
+traceRouteCtlIfIndex: 
+  oid: 1.3.6.1.2.1.81.1.2.1.14
+traceRouteResultsIpTgtAddrType: 
+  oid: 1.3.6.1.2.1.81.1.3.1.4
+traceRouteCtlMaxFailures: 
+  oid: 1.3.6.1.2.1.81.1.2.1.16
+traceRouteProbeHistoryHAddr: 
+  oid: 1.3.6.1.2.1.81.1.4.1.5
+traceRouteMaxConcurrentRequests: 
+  oid: 1.3.6.1.2.1.81.1.1
+traceRouteCtlByPassRouteTable: 
+  oid: 1.3.6.1.2.1.81.1.2.1.5
+traceRouteProbeHistoryLastRC: 
+  oid: 1.3.6.1.2.1.81.1.4.1.8
+traceRouteCtlProbesPerHop: 
+  oid: 1.3.6.1.2.1.81.1.2.1.8
+traceRouteTestCompleted: 
+  oid: 1.3.6.1.2.1.81.0.3
+traceRouteMIB: 
+  oid: 1.3.6.1.2.1.81
+traceRouteResultsIpTgtAddr: 
+  oid: 1.3.6.1.2.1.81.1.3.1.5
+traceRouteProbeHistoryTime: 
+  oid: 1.3.6.1.2.1.81.1.4.1.9
+traceRouteCtlStorageType: 
+  oid: 1.3.6.1.2.1.81.1.2.1.20
+traceRouteHopsMinRtt: 
+  oid: 1.3.6.1.2.1.81.1.5.1.4
+traceRouteProbeHistoryTable: 
+  oid: 1.3.6.1.2.1.81.1.4
+traceRouteProbeHistoryEntry: 
+  oid: 1.3.6.1.2.1.81.1.4.1
+traceRouteCtlDSField: 
+  oid: 1.3.6.1.2.1.81.1.2.1.11
+traceRouteCtlDataSize: 
+  oid: 1.3.6.1.2.1.81.1.2.1.6
+traceRouteResultsTestSuccesses: 
+  oid: 1.3.6.1.2.1.81.1.3.1.7
+traceRoutePathChange: 
+  oid: 1.3.6.1.2.1.81.0.1
+traceRouteCtlTrapGeneration: 
+  oid: 1.3.6.1.2.1.81.1.2.1.24
+traceRouteProbeHistoryHopIndex: 
+  oid: 1.3.6.1.2.1.81.1.4.1.2
+traceRouteCtlMaxTtl: 
+  oid: 1.3.6.1.2.1.81.1.2.1.10
+traceRouteTestFailed: 
+  oid: 1.3.6.1.2.1.81.0.2
+traceRouteResultsCurProbeCount: 
+  oid: 1.3.6.1.2.1.81.1.3.1.3
+traceRouteCtlOwnerIndex: 
+  oid: 1.3.6.1.2.1.81.1.2.1.1
+traceRouteProbeHistoryProbeIndex: 
+  oid: 1.3.6.1.2.1.81.1.4.1.3
+traceRouteCtlSourceAddress: 
+  oid: 1.3.6.1.2.1.81.1.2.1.13
+traceRouteGroups: 
+  oid: 1.3.6.1.2.1.81.2.2
+traceRouteCtlRowStatus: 
+  oid: 1.3.6.1.2.1.81.1.2.1.27
+traceRouteCtlTargetAddressType: 
+  oid: 1.3.6.1.2.1.81.1.2.1.3
+traceRouteHopsIpTgtAddress: 
+  oid: 1.3.6.1.2.1.81.1.5.1.3
+traceRouteHopsHopIndex: 
+  oid: 1.3.6.1.2.1.81.1.5.1.1
+traceRouteResultsEntry: 
+  oid: 1.3.6.1.2.1.81.1.3.1
+traceRouteCtlSourceAddressType: 
+  oid: 1.3.6.1.2.1.81.1.2.1.12
+traceRouteObjects: 
+  oid: 1.3.6.1.2.1.81.1
+traceRouteHopsIpTgtAddressType: 
+  oid: 1.3.6.1.2.1.81.1.5.1.2
+traceRouteHopsTable: 
+  oid: 1.3.6.1.2.1.81.1.5
+traceRouteCtlMaxRows: 
+  oid: 1.3.6.1.2.1.81.1.2.1.23
+traceRouteHopsProbeResponses: 
+  oid: 1.3.6.1.2.1.81.1.5.1.9

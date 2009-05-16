@@ -1,357 +1,713 @@
 --- 
-appnCosTgRowSecurityMin: 1.3.6.1.2.1.34.4.1.5.4.1.10
-appnNnTgFRDestHprTrans: 1.3.6.1.2.1.34.4.1.2.2.4.1.23
-appnIsInEntry: 1.3.6.1.2.1.34.4.1.6.2.1
-appnCosNameEntry: 1.3.6.1.2.1.34.4.1.5.2.1
-appnLsBfNceId: 1.3.6.1.2.1.34.4.1.1.5.1.1.40
-appnNodeBrNn: 1.3.6.1.2.1.34.4.1.1.1.18
-appnNnTopoMaxNodes: 1.3.6.1.2.1.34.4.1.2.1.1
-appnVrnName: 1.3.6.1.2.1.34.4.1.1.6.1.1.1
-appnCosTgRowUsr1Min: 1.3.6.1.2.1.34.4.1.5.4.1.14
-appnTraps: 1.3.6.1.2.1.34.4.2
-appnIsInSsRecvNxWndwSize: 1.3.6.1.2.1.34.4.1.6.2.1.37
-appnCosNodeRowName: 1.3.6.1.2.1.34.4.1.5.3.1.1
-appnNnTgFRDlcData: 1.3.6.1.2.1.34.4.1.2.2.4.1.7
-appnNnTopoNodePurges: 1.3.6.1.2.1.34.4.1.2.1.3
-appnPortDynLsGoodXids: 1.3.6.1.2.1.34.4.1.1.4.1.1.14
-appnLsStatusEndSense: 1.3.6.1.2.1.34.4.1.1.5.2.1.9
-appnLocalEnTgDelay: 1.3.6.1.2.1.34.4.1.3.2.1.13
-appnIsInPcid: 1.3.6.1.2.1.34.4.1.6.2.1.2
-appnNnTopoTotalTduWars: 1.3.6.1.2.1.34.4.1.2.1.5
-appnCosModeName: 1.3.6.1.2.1.34.4.1.5.1.1.1
-appnDirOutLocates: 1.3.6.1.2.1.34.4.1.4.1.7
-appnNodeNnCentralDirectory: 1.3.6.1.2.1.34.4.1.1.2.1
-appnLsTgNum: 1.3.6.1.2.1.34.4.1.1.5.1.1.9
-appnMIB: 1.3.6.1.2.1.34.4
-appnCosModeTable: 1.3.6.1.2.1.34.4.1.5.1
-appnLocalEnTgSecurity: 1.3.6.1.2.1.34.4.1.3.2.1.12
-appnNnTgFREntryTimeLeft: 1.3.6.1.2.1.34.4.1.2.2.4.1.5
-appnLsLocalAddr: 1.3.6.1.2.1.34.4.1.1.5.1.1.41
-appnCosNodeRowEntry: 1.3.6.1.2.1.34.4.1.5.3.1
-appnLsMinDelay: 1.3.6.1.2.1.34.4.1.1.5.1.1.27
-appnCosTgRowUsr2Min: 1.3.6.1.2.1.34.4.1.5.4.1.16
-appnCosNodeRowMaxCongestAllow: 1.3.6.1.2.1.34.4.1.5.3.1.7
-appnNodeNnCongested: 1.3.6.1.2.1.34.4.1.1.2.11
-appnLocalTgEffCap: 1.3.6.1.2.1.34.4.1.3.1.1.9
-appnPortPortType: 1.3.6.1.2.1.34.4.1.1.4.1.1.5
-appnPortTable: 1.3.6.1.2.1.34.4.1.1.4.1
-appnIsInCtrUpTime: 1.3.6.1.2.1.34.4.1.6.2.1.11
-appnIsInGlobal: 1.3.6.1.2.1.34.4.1.6.1
-appnLocalTgOperational: 1.3.6.1.2.1.34.4.1.3.1.1.7
-appnNodeNnSafeStoreFreq: 1.3.6.1.2.1.34.4.1.1.2.9
-appnCosModeEntry: 1.3.6.1.2.1.34.4.1.5.1.1
-appnNnTgFRDest: 1.3.6.1.2.1.34.4.1.2.2.4.1.3
-appnIsInPsSendNxWndwSize: 1.3.6.1.2.1.34.4.1.6.2.1.25
-appnNodeParallelTg: 1.3.6.1.2.1.34.4.1.1.1.6
-appnNnTgFRFrsn: 1.3.6.1.2.1.34.4.1.2.2.4.1.1
-appnNodeEnLuSearch: 1.3.6.1.2.1.34.4.1.1.3.3
-appnNode: 1.3.6.1.2.1.34.4.1.1
-appnLsInXidBytes: 1.3.6.1.2.1.34.4.1.1.5.1.1.16
-appnCosTransPriority: 1.3.6.1.2.1.34.4.1.5.2.1.2
-appnLsCpCpSessionSupport: 1.3.6.1.2.1.34.4.1.1.5.1.1.14
-appnNnTgFRTypeIndicator: 1.3.6.1.2.1.34.4.1.2.2.4.1.24
-appnNodeId: 1.3.6.1.2.1.34.4.1.1.1.3
-appnPortCounterDisconTime: 1.3.6.1.2.1.34.4.1.1.4.1.1.18
-appnLsStatusEntry: 1.3.6.1.2.1.34.4.1.1.5.2.1
-appnIsInSessUpTime: 1.3.6.1.2.1.34.4.1.6.2.1.10
-appnCosNodeRowResistMin: 1.3.6.1.2.1.34.4.1.5.3.1.4
-appnDirNotFoundLocates: 1.3.6.1.2.1.34.4.1.4.1.9
-appnCosTgRowUsr3Min: 1.3.6.1.2.1.34.4.1.5.4.1.18
-appnLsName: 1.3.6.1.2.1.34.4.1.1.5.1.1.1
-appnNnTgFROwner: 1.3.6.1.2.1.34.4.1.2.2.4.1.2
-appnCosTgRowEffCapMax: 1.3.6.1.2.1.34.4.1.5.4.1.5
-appnCosNodeRowMinCongestAllow: 1.3.6.1.2.1.34.4.1.5.3.1.6
-appnPortDlcLocalAddr: 1.3.6.1.2.1.34.4.1.1.4.1.1.17
-appnIsInP2SNonFmdPius: 1.3.6.1.2.1.34.4.1.6.2.1.14
-appnNodeNnInterchangeSup: 1.3.6.1.2.1.34.4.1.1.2.7
-appnIsInS2PFmdBytes: 1.3.6.1.2.1.34.4.1.6.2.1.17
-appnDirInBcastLocates: 1.3.6.1.2.1.34.4.1.4.1.6
-appnLocalEnTgTable: 1.3.6.1.2.1.34.4.1.3.2
-appnNnTgFRGarbageCollect: 1.3.6.1.2.1.34.4.1.2.2.4.1.20
-appnLocalEnTgByteCost: 1.3.6.1.2.1.34.4.1.3.2.1.11
-appnLocalTgDestVirtual: 1.3.6.1.2.1.34.4.1.3.1.1.3
-appnLocalTopology: 1.3.6.1.2.1.34.4.1.3
-appnPortMaxRcvBtuSize: 1.3.6.1.2.1.34.4.1.1.4.1.1.10
-appnNnTgTopologyFRTable: 1.3.6.1.2.1.34.4.1.2.2.4
-appnLsOutXidBytes: 1.3.6.1.2.1.34.4.1.1.5.1.1.20
-appnVrnTable: 1.3.6.1.2.1.34.4.1.1.6.1
-appnDirMaxCaches: 1.3.6.1.2.1.34.4.1.4.1.1
-appnIsInSsAdjTgNum: 1.3.6.1.2.1.34.4.1.6.2.1.30
-appnNodeHprOrgRteSetups: 1.3.6.1.2.1.34.4.1.1.1.12
-appnNnTgFRNum: 1.3.6.1.2.1.34.4.1.2.2.4.1.4
-appnLocalEnTgNum: 1.3.6.1.2.1.34.4.1.3.2.1.3
-appnLsStatusXidByteInError: 1.3.6.1.2.1.34.4.1.1.5.2.1.12
-appnLsCommand: 1.3.6.1.2.1.34.4.1.1.5.1.1.2
-appnIsInSsSendPacingType: 1.3.6.1.2.1.34.4.1.6.2.1.32
-appnIsInGlobeCtrOperStatus: 1.3.6.1.2.1.34.4.1.6.1.2
-appnLsStatusPartnerId: 1.3.6.1.2.1.34.4.1.1.5.2.1.5
-appnLocalTgEntry: 1.3.6.1.2.1.34.4.1.3.1.1
-appnLocalEnTgDestVirtual: 1.3.6.1.2.1.34.4.1.3.2.1.5
-appnDirOutBcastLocates: 1.3.6.1.2.1.34.4.1.4.1.8
-appnCosNodeRowWgt: 1.3.6.1.2.1.34.4.1.5.3.1.3
-appnNnTgFRUsr1: 1.3.6.1.2.1.34.4.1.2.2.4.1.17
-appnLsActiveTime: 1.3.6.1.2.1.34.4.1.1.5.1.1.32
-appnLocalTgQuiescing: 1.3.6.1.2.1.34.4.1.3.1.1.6
-appnIsInGlobeRscvTime: 1.3.6.1.2.1.34.4.1.6.1.5
-appnCosTgRowIndex: 1.3.6.1.2.1.34.4.1.5.4.1.2
-appnNnTgFRUsr2: 1.3.6.1.2.1.34.4.1.2.2.4.1.18
-appnIsInS2PFmdPius: 1.3.6.1.2.1.34.4.1.6.2.1.13
-appnLsStatusGeneralSense: 1.3.6.1.2.1.34.4.1.1.5.2.1.7
-appnNodeUpTime: 1.3.6.1.2.1.34.4.1.1.1.5
-appnNnTgFRUsr3: 1.3.6.1.2.1.34.4.1.2.2.4.1.19
-appnDirInLocates: 1.3.6.1.2.1.34.4.1.4.1.5
-appnLsActOnDemand: 1.3.6.1.2.1.34.4.1.1.5.1.1.11
-appnPortDefLsGoodXids: 1.3.6.1.2.1.34.4.1.1.4.1.1.12
-appnNnNodeFREntryTimeLeft: 1.3.6.1.2.1.34.4.1.2.2.3.1.3
-appnDirRegEntries: 1.3.6.1.2.1.34.4.1.4.1.4
-appnObjects: 1.3.6.1.2.1.34.4.1
-appnNodeNnFrsn: 1.3.6.1.2.1.34.4.1.1.2.5
-appnIsInRtpNceId: 1.3.6.1.2.1.34.4.1.6.2.1.39
-appnCos: 1.3.6.1.2.1.34.4.1.5
-appnIsInSessState: 1.3.6.1.2.1.34.4.1.6.2.1.3
-appnNnTgFRBranchTg: 1.3.6.1.2.1.34.4.1.2.2.4.1.27
-appnNodeMibVersion: 1.3.6.1.2.1.34.4.1.1.1.2
-appnPortOperState: 1.3.6.1.2.1.34.4.1.1.4.1.1.3
-appnLsStatusXidBitInError: 1.3.6.1.2.1.34.4.1.1.5.2.1.13
-appnNodeLsCounterType: 1.3.6.1.2.1.34.4.1.1.1.17
-appnIsInSsRecvPacingType: 1.3.6.1.2.1.34.4.1.6.2.1.35
-appnLsLimResource: 1.3.6.1.2.1.34.4.1.1.5.1.1.10
-appnNnTgFRRsn: 1.3.6.1.2.1.34.4.1.2.2.4.1.8
-appnNnTgFRConnCost: 1.3.6.1.2.1.34.4.1.2.2.4.1.13
-appnIsInSsSendRpc: 1.3.6.1.2.1.34.4.1.6.2.1.33
-appnCosModeCosName: 1.3.6.1.2.1.34.4.1.5.1.1.2
-appnLocalTgHprSup: 1.3.6.1.2.1.34.4.1.3.1.1.17
-appnLocalTgMltgLinkType: 1.3.6.1.2.1.34.4.1.3.1.1.19
-appnDirType: 1.3.6.1.2.1.34.4.1.4.2.1.5
-appnNnNodeFRFrsn: 1.3.6.1.2.1.34.4.1.2.2.3.1.1
-appnIsInPsRecvRpc: 1.3.6.1.2.1.34.4.1.6.2.1.27
-appnNnTgFRMltgLinkType: 1.3.6.1.2.1.34.4.1.2.2.4.1.26
-appnLocalTgCpCpSession: 1.3.6.1.2.1.34.4.1.3.1.1.8
-appnIsInSsRecvRpc: 1.3.6.1.2.1.34.4.1.6.2.1.36
-appnPortSIMRIM: 1.3.6.1.2.1.34.4.1.1.4.1.1.6
-appnIsRtpSessions: 1.3.6.1.2.1.34.4.1.6.3.1.3
-appnNodeHprIntRteRejects: 1.3.6.1.2.1.34.4.1.1.1.11
-appnIsRtpTable: 1.3.6.1.2.1.34.4.1.6.3
-appnDirLuLocation: 1.3.6.1.2.1.34.4.1.4.2.1.4
-appnIsInGlobeCtrStatusTime: 1.3.6.1.2.1.34.4.1.6.1.3
-appnLsOutMsgFrames: 1.3.6.1.2.1.34.4.1.1.5.1.1.23
-appnNnNodeFRIsr: 1.3.6.1.2.1.34.4.1.2.2.3.1.12
-appnNnTgFROperational: 1.3.6.1.2.1.34.4.1.2.2.4.1.9
-appnLsSpecific: 1.3.6.1.2.1.34.4.1.1.5.1.1.31
-appnNnTopoCurNumNodes: 1.3.6.1.2.1.34.4.1.2.1.2
-appnNnTgTopologyFREntry: 1.3.6.1.2.1.34.4.1.2.2.4.1
-appnVrnEntry: 1.3.6.1.2.1.34.4.1.1.6.1.1
-appnCosTgRowTable: 1.3.6.1.2.1.34.4.1.5.4
-appnLsStatusXidRemoteSense: 1.3.6.1.2.1.34.4.1.1.5.2.1.11
-appnIsRtpEntry: 1.3.6.1.2.1.34.4.1.6.3.1
-appnLocalEnTgEffCap: 1.3.6.1.2.1.34.4.1.3.2.1.9
-appnLsStatusRemoteAddr: 1.3.6.1.2.1.34.4.1.1.5.2.1.16
-appnLocalTgDelay: 1.3.6.1.2.1.34.4.1.3.1.1.13
-appnLsForAnrLabel: 1.3.6.1.2.1.34.4.1.1.5.1.1.36
-appnPortNegotLs: 1.3.6.1.2.1.34.4.1.1.4.1.1.8
-appnLsOutXidFrames: 1.3.6.1.2.1.34.4.1.1.5.1.1.22
-appnPortDynLsBadXids: 1.3.6.1.2.1.34.4.1.1.4.1.1.15
-appnLsStatusTable: 1.3.6.1.2.1.34.4.1.1.5.2
-appnIsInGlobeRscv: 1.3.6.1.2.1.34.4.1.6.1.4
-appnNnTopoTgPurges: 1.3.6.1.2.1.34.4.1.2.1.4
-appnCosTgRowEntry: 1.3.6.1.2.1.34.4.1.5.4.1
-appnIsInModeName: 1.3.6.1.2.1.34.4.1.6.2.1.6
-appnNodeHprOrgRteRejects: 1.3.6.1.2.1.34.4.1.1.1.13
-appnIsInPsSendMaxBtuSize: 1.3.6.1.2.1.34.4.1.6.2.1.22
-appnLocalTgBranchLinkType: 1.3.6.1.2.1.34.4.1.3.1.1.20
-appnEnUniqueCaps: 1.3.6.1.2.1.34.4.1.1.3
-appnVrnPortName: 1.3.6.1.2.1.34.4.1.1.6.1.1.3
-appnLsEntry: 1.3.6.1.2.1.34.4.1.1.5.1.1
-appnLocalEnTgDlcData: 1.3.6.1.2.1.34.4.1.3.2.1.6
-appnPortName: 1.3.6.1.2.1.34.4.1.1.4.1.1.1
-appnSessIntermediate: 1.3.6.1.2.1.34.4.1.6
-appnNodeNnIsr: 1.3.6.1.2.1.34.4.1.1.2.4
-appnIsInPsSendRpc: 1.3.6.1.2.1.34.4.1.6.2.1.24
-appnNodeNnTreeCache: 1.3.6.1.2.1.34.4.1.1.2.2
-appnLsAdjNodeType: 1.3.6.1.2.1.34.4.1.1.5.1.1.8
-appnNodeEnNnServer: 1.3.6.1.2.1.34.4.1.1.3.2
-appnLsStatusIndex: 1.3.6.1.2.1.34.4.1.1.5.2.1.1
-appnIsInSecLuName: 1.3.6.1.2.1.34.4.1.6.2.1.5
-appnLsStatusLsName: 1.3.6.1.2.1.34.4.1.1.5.2.1.3
-appnDirLuOwnerName: 1.3.6.1.2.1.34.4.1.4.2.1.3
-appnCosTgRowEffCapMin: 1.3.6.1.2.1.34.4.1.5.4.1.4
-appnLsCounterDisconTime: 1.3.6.1.2.1.34.4.1.1.5.1.1.44
-appnLsMltgMember: 1.3.6.1.2.1.34.4.1.1.5.1.1.45
-appnNodeMaxSessPerRtpConn: 1.3.6.1.2.1.34.4.1.1.1.9
-appnLocalTgNum: 1.3.6.1.2.1.34.4.1.3.1.1.2
-appnNnNodeFRExteBorderSup: 1.3.6.1.2.1.34.4.1.2.2.3.1.17
-appnLocalEnTgOrigin: 1.3.6.1.2.1.34.4.1.3.2.1.1
-appnDirPerf: 1.3.6.1.2.1.34.4.1.4.1
-appnVrnTgNum: 1.3.6.1.2.1.34.4.1.1.6.1.1.2
-appnLsStatusLocalAddr: 1.3.6.1.2.1.34.4.1.1.5.2.1.15
-appnNnTgFRSubareaNum: 1.3.6.1.2.1.34.4.1.2.2.4.1.21
-appnLsStatusXidLocalSense: 1.3.6.1.2.1.34.4.1.1.5.2.1.10
-appnNodeHprIntRteSetups: 1.3.6.1.2.1.34.4.1.1.1.10
-appnPortDefLsBadXids: 1.3.6.1.2.1.34.4.1.1.4.1.1.13
-appnNnNodeFRHprSupport: 1.3.6.1.2.1.34.4.1.2.2.3.1.14
-appnDirApparentLuOwnerName: 1.3.6.1.2.1.34.4.1.4.2.1.6
-appnLsGoodXids: 1.3.6.1.2.1.34.4.1.1.5.1.1.29
-appnLocalTgConnCost: 1.3.6.1.2.1.34.4.1.3.1.1.10
-appnIsInCosName: 1.3.6.1.2.1.34.4.1.6.2.1.7
-appnLsEchoRsps: 1.3.6.1.2.1.34.4.1.1.5.1.1.24
-appnNnNodeFRBranchAwareness: 1.3.6.1.2.1.34.4.1.2.2.3.1.18
-appnDirNotFoundBcastLocates: 1.3.6.1.2.1.34.4.1.4.1.10
-appnIsInS2PNonFmdPius: 1.3.6.1.2.1.34.4.1.6.2.1.15
-appnIsInTransPriority: 1.3.6.1.2.1.34.4.1.6.2.1.8
-appnNnNodeFRInterchangeSup: 1.3.6.1.2.1.34.4.1.2.2.3.1.16
-appnLocalTgTable: 1.3.6.1.2.1.34.4.1.3.1
-appnDir: 1.3.6.1.2.1.34.4.1.4
-appnIsInSessType: 1.3.6.1.2.1.34.4.1.6.2.1.9
-alertIdNumber: 1.3.6.1.2.1.34.4.2.2
-appnNnTgFRIntersubnet: 1.3.6.1.2.1.34.4.1.2.2.4.1.25
-appnCosTgRowConnCostMax: 1.3.6.1.2.1.34.4.1.5.4.1.7
-appnNnNodeFRPeriBorderSup: 1.3.6.1.2.1.34.4.1.2.2.3.1.15
-appnConformance: 1.3.6.1.2.1.34.4.3
-appnNodeNnRouteAddResist: 1.3.6.1.2.1.34.4.1.1.2.3
-appnLocalTgUsr1: 1.3.6.1.2.1.34.4.1.3.1.1.14
-alertTrap: 1.3.6.1.2.1.34.4.2.1
-appnDirLocateOutstands: 1.3.6.1.2.1.34.4.1.4.1.11
-appnCosTgRowDelayMax: 1.3.6.1.2.1.34.4.1.5.4.1.13
-appnIsInPriLuName: 1.3.6.1.2.1.34.4.1.6.2.1.4
-appnNnNodeFRRsn: 1.3.6.1.2.1.34.4.1.2.2.3.1.5
-appnIsInPsAdjTgNum: 1.3.6.1.2.1.34.4.1.6.2.1.21
-appnLocalTgUsr2: 1.3.6.1.2.1.34.4.1.3.1.1.15
-appnLsStatusTime: 1.3.6.1.2.1.34.4.1.1.5.2.1.2
-appnLocalEnTgDest: 1.3.6.1.2.1.34.4.1.3.2.1.2
-appnLsPartnerNodeId: 1.3.6.1.2.1.34.4.1.1.5.1.1.13
-appnLocalTgUsr3: 1.3.6.1.2.1.34.4.1.3.1.1.16
-appnLocalTgSecurity: 1.3.6.1.2.1.34.4.1.3.1.1.12
-appnLsDynamic: 1.3.6.1.2.1.34.4.1.1.5.1.1.6
-appnPortInformation: 1.3.6.1.2.1.34.4.1.1.4
-appnPortLsRole: 1.3.6.1.2.1.34.4.1.1.4.1.1.7
-appnLsCpCpNceId: 1.3.6.1.2.1.34.4.1.1.5.1.1.38
-appnLinkStationInformation: 1.3.6.1.2.1.34.4.1.1.5
-appnLsInMsgBytes: 1.3.6.1.2.1.34.4.1.1.5.1.1.17
-appnPortDynamicLinkSupport: 1.3.6.1.2.1.34.4.1.1.4.1.1.9
-appnDirLuName: 1.3.6.1.2.1.34.4.1.4.2.1.1
-appnNodeType: 1.3.6.1.2.1.34.4.1.1.1.4
-appnLsRouteNceId: 1.3.6.1.2.1.34.4.1.1.5.1.1.39
-appnLocalEnTgCpCpSession: 1.3.6.1.2.1.34.4.1.3.2.1.8
-appnDirNnServerName: 1.3.6.1.2.1.34.4.1.4.2.1.2
-appnCosTgRowByteCostMax: 1.3.6.1.2.1.34.4.1.5.4.1.9
-appnIsInPsAdjCpName: 1.3.6.1.2.1.34.4.1.6.2.1.20
-appnIsInSsSendNxWndwSize: 1.3.6.1.2.1.34.4.1.6.2.1.34
-appnCompliances: 1.3.6.1.2.1.34.4.3.1
-appnLsDlcType: 1.3.6.1.2.1.34.4.1.1.5.1.1.5
-appnNodeNnRsn: 1.3.6.1.2.1.34.4.1.1.2.10
-appnCosTgRowSecurityMax: 1.3.6.1.2.1.34.4.1.5.4.1.11
-appnNodeNnQuiescing: 1.3.6.1.2.1.34.4.1.1.2.13
-appnLocalTgByteCost: 1.3.6.1.2.1.34.4.1.3.1.1.11
-appnNodeHprSupport: 1.3.6.1.2.1.34.4.1.1.1.8
-appnNnNodeFRType: 1.3.6.1.2.1.34.4.1.2.2.3.1.4
-appnLsOutMsgBytes: 1.3.6.1.2.1.34.4.1.1.5.1.1.21
-appnNodeEnModeCosMap: 1.3.6.1.2.1.34.4.1.1.3.1
-appnCosTgRowUsr1Max: 1.3.6.1.2.1.34.4.1.5.4.1.15
-appnIsInS2PNonFmdBytes: 1.3.6.1.2.1.34.4.1.6.2.1.19
-appnLsMigration: 1.3.6.1.2.1.34.4.1.1.5.1.1.12
-appnNnTgFRQuiescing: 1.3.6.1.2.1.34.4.1.2.2.4.1.10
-appnNodeHprEndRteRejects: 1.3.6.1.2.1.34.4.1.1.1.15
-appnIsInP2SFmdPius: 1.3.6.1.2.1.34.4.1.6.2.1.12
-appnIsInP2SNonFmdBytes: 1.3.6.1.2.1.34.4.1.6.2.1.18
-appnIsRtpNceId: 1.3.6.1.2.1.34.4.1.6.3.1.1
-appnLsRevAnrLabel: 1.3.6.1.2.1.34.4.1.1.5.1.1.37
-appnLocalTgPortName: 1.3.6.1.2.1.34.4.1.3.1.1.5
-appnNnNodeFRCongested: 1.3.6.1.2.1.34.4.1.2.2.3.1.7
-appnNnTgFRSecurity: 1.3.6.1.2.1.34.4.1.2.2.4.1.15
-appnLocalEnTgConnCost: 1.3.6.1.2.1.34.4.1.3.2.1.10
-appnDirCurHomeEntries: 1.3.6.1.2.1.34.4.1.4.1.3
-appnIsInPsRecvNxWndwSize: 1.3.6.1.2.1.34.4.1.6.2.1.28
-appnIsInSsAdjCpName: 1.3.6.1.2.1.34.4.1.6.2.1.29
-appnIsInRouteInfo: 1.3.6.1.2.1.34.4.1.6.2.1.38
-appnLocalEnTgEntryTimeLeft: 1.3.6.1.2.1.34.4.1.3.2.1.4
-appnLsStatusRetry: 1.3.6.1.2.1.34.4.1.1.5.2.1.8
-appnNnTgFREffCap: 1.3.6.1.2.1.34.4.1.2.2.4.1.12
-appnLocalTgDest: 1.3.6.1.2.1.34.4.1.3.1.1.1
-appnCosTgRowName: 1.3.6.1.2.1.34.4.1.5.4.1.1
-appnIsInGlobeCtrAdminStatus: 1.3.6.1.2.1.34.4.1.6.1.1
-appnLsHprSup: 1.3.6.1.2.1.34.4.1.1.5.1.1.34
-appnCosTgRowUsr2Max: 1.3.6.1.2.1.34.4.1.5.4.1.17
-appnIsInPsSendPacingType: 1.3.6.1.2.1.34.4.1.6.2.1.23
-appnIsRtpTcid: 1.3.6.1.2.1.34.4.1.6.3.1.2
-appnNnNodeFRGarbageCollect: 1.3.6.1.2.1.34.4.1.2.2.3.1.13
-appnNnNodeFRQuiescing: 1.3.6.1.2.1.34.4.1.2.2.3.1.9
-appnLsStatusTgNum: 1.3.6.1.2.1.34.4.1.1.5.2.1.6
-appnLsTable: 1.3.6.1.2.1.34.4.1.1.5.1
-appnLsBadXids: 1.3.6.1.2.1.34.4.1.1.5.1.1.30
-appnPortCommand: 1.3.6.1.2.1.34.4.1.1.4.1.1.2
-appnLsMaxDelayTime: 1.3.6.1.2.1.34.4.1.1.5.1.1.28
-appnLsAdjCpName: 1.3.6.1.2.1.34.4.1.1.5.1.1.7
-appnLsPortName: 1.3.6.1.2.1.34.4.1.1.5.1.1.4
-appnLsErrRecoSup: 1.3.6.1.2.1.34.4.1.1.5.1.1.35
-appnIsInGlobeActSess: 1.3.6.1.2.1.34.4.1.6.1.6
-appnLsOperState: 1.3.6.1.2.1.34.4.1.1.5.1.1.3
-appnNnTgFRDelay: 1.3.6.1.2.1.34.4.1.2.2.4.1.16
-appnNnTopo: 1.3.6.1.2.1.34.4.1.2.1
-appnNnTgFRDestVirtual: 1.3.6.1.2.1.34.4.1.2.2.4.1.6
-appnNnNodeFRIsrDepleted: 1.3.6.1.2.1.34.4.1.2.2.3.1.8
-appnIsInSsSendMaxBtuSize: 1.3.6.1.2.1.34.4.1.6.2.1.31
-appnNnTgFRByteCost: 1.3.6.1.2.1.34.4.1.2.2.4.1.14
-appnPortEntry: 1.3.6.1.2.1.34.4.1.1.4.1.1
-appnCosNameTable: 1.3.6.1.2.1.34.4.1.5.2
-appnCosNodeRowResistMax: 1.3.6.1.2.1.34.4.1.5.3.1.5
-appnCosTgRowUsr3Max: 1.3.6.1.2.1.34.4.1.5.4.1.19
-appnNodeNnIsrDepleted: 1.3.6.1.2.1.34.4.1.1.2.12
-appnNnNodeFRName: 1.3.6.1.2.1.34.4.1.2.2.3.1.2
-appnIsInPsRecvPacingType: 1.3.6.1.2.1.34.4.1.6.2.1.26
-appnGroups: 1.3.6.1.2.1.34.4.3.2
-appnNodeNnExteBorderSup: 1.3.6.1.2.1.34.4.1.1.2.8
-appnLsStatusDlcType: 1.3.6.1.2.1.34.4.1.1.5.2.1.14
-appnNodeHprEndRteSetups: 1.3.6.1.2.1.34.4.1.1.1.14
-appnNnTopologyFRTable: 1.3.6.1.2.1.34.4.1.2.2.3
-appnCosTgRowWgt: 1.3.6.1.2.1.34.4.1.5.4.1.3
-affectedObject: 1.3.6.1.2.1.34.4.2.3
-appnLsCurrentStateTime: 1.3.6.1.2.1.34.4.1.1.5.1.1.33
-appnLocalEnTgOperational: 1.3.6.1.2.1.34.4.1.3.2.1.7
-appnDirTable: 1.3.6.1.2.1.34.4.1.4.2
-appnIsInRtpTcid: 1.3.6.1.2.1.34.4.1.6.2.1.40
-appnLocalEnTgEntry: 1.3.6.1.2.1.34.4.1.3.2.1
-appnPortSpecific: 1.3.6.1.2.1.34.4.1.1.4.1.1.16
-appnLsInMsgFrames: 1.3.6.1.2.1.34.4.1.1.5.1.1.19
-appnNnTopologyFREntry: 1.3.6.1.2.1.34.4.1.2.2.3.1
-appnLsRemoteAddr: 1.3.6.1.2.1.34.4.1.1.5.1.1.42
-appnNodeCpName: 1.3.6.1.2.1.34.4.1.1.1.1
-appnNodeNnGateway: 1.3.6.1.2.1.34.4.1.1.2.14
-appnLocalEnTgMltgLinkType: 1.3.6.1.2.1.34.4.1.3.2.1.17
-appnCosNodeRowTable: 1.3.6.1.2.1.34.4.1.5.3
-appnIsInFqCpName: 1.3.6.1.2.1.34.4.1.6.2.1.1
-appnLsCurrentDelay: 1.3.6.1.2.1.34.4.1.1.5.1.1.25
-appnLsMaxDelay: 1.3.6.1.2.1.34.4.1.1.5.1.1.26
-appnNodeNnPeriBorderSup: 1.3.6.1.2.1.34.4.1.1.2.6
-appnDirCurCaches: 1.3.6.1.2.1.34.4.1.4.1.2
-appnDirEntry: 1.3.6.1.2.1.34.4.1.4.2.1
-appnCosName: 1.3.6.1.2.1.34.4.1.5.2.1.1
-appnCosTgRowConnCostMin: 1.3.6.1.2.1.34.4.1.5.4.1.6
-appnCosTgRowDelayMin: 1.3.6.1.2.1.34.4.1.5.4.1.12
-appnIsInGlobeHprBfActSess: 1.3.6.1.2.1.34.4.1.6.1.7
-appnNnTopology: 1.3.6.1.2.1.34.4.1.2.2
-appnVrnInfo: 1.3.6.1.2.1.34.4.1.1.6
-appnPortMaxIframeWindow: 1.3.6.1.2.1.34.4.1.1.4.1.1.11
-appnNodeAdaptiveBindPacing: 1.3.6.1.2.1.34.4.1.1.1.7
-appnNnUniqueInfoAndCaps: 1.3.6.1.2.1.34.4.1.1.2
-appnNnNodeFRCentralDirectory: 1.3.6.1.2.1.34.4.1.2.2.3.1.11
-appnLocalEnTgUsr1: 1.3.6.1.2.1.34.4.1.3.2.1.14
-appnNn: 1.3.6.1.2.1.34.4.1.2
-appnNnNodeFRRouteAddResist: 1.3.6.1.2.1.34.4.1.2.2.3.1.6
-appnLsInXidFrames: 1.3.6.1.2.1.34.4.1.1.5.1.1.18
-appnLocalEnTgUsr2: 1.3.6.1.2.1.34.4.1.3.2.1.15
-appnCosNodeRowIndex: 1.3.6.1.2.1.34.4.1.5.3.1.2
-appnLocalTgIntersubnet: 1.3.6.1.2.1.34.4.1.3.1.1.18
-appnLocalEnTgUsr3: 1.3.6.1.2.1.34.4.1.3.2.1.16
-appnIsInP2SFmdBytes: 1.3.6.1.2.1.34.4.1.6.2.1.16
-appnLocalTgDlcData: 1.3.6.1.2.1.34.4.1.3.1.1.4
-appnNnNodeFRGateway: 1.3.6.1.2.1.34.4.1.2.2.3.1.10
-appnLsRemoteLsName: 1.3.6.1.2.1.34.4.1.1.5.1.1.43
-appnLsMaxSendBtuSize: 1.3.6.1.2.1.34.4.1.1.5.1.1.15
-appnNnTgFRHprSup: 1.3.6.1.2.1.34.4.1.2.2.4.1.22
-appnLsStatusCpName: 1.3.6.1.2.1.34.4.1.1.5.2.1.4
-appnNodeCounterDisconTime: 1.3.6.1.2.1.34.4.1.1.1.16
-appnCosTgRowByteCostMin: 1.3.6.1.2.1.34.4.1.5.4.1.8
-appnIsInTable: 1.3.6.1.2.1.34.4.1.6.2
-appnGeneralInfoAndCaps: 1.3.6.1.2.1.34.4.1.1.1
-appnPortDlcType: 1.3.6.1.2.1.34.4.1.1.4.1.1.4
-appnNnTgFRCpCpSession: 1.3.6.1.2.1.34.4.1.2.2.4.1.11
+appnCosTgRowSecurityMin: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.10
+appnNnTgFRDestHprTrans: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.23
+appnIsInEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1
+appnCosNameEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.5.2.1
+appnLsBfNceId: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.40
+appnNodeBrNn: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.18
+appnNnTopoMaxNodes: 
+  oid: 1.3.6.1.2.1.34.4.1.2.1.1
+appnVrnName: 
+  oid: 1.3.6.1.2.1.34.4.1.1.6.1.1.1
+appnCosTgRowUsr1Min: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.14
+appnTraps: 
+  oid: 1.3.6.1.2.1.34.4.2
+appnIsInSsRecvNxWndwSize: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.37
+appnCosNodeRowName: 
+  oid: 1.3.6.1.2.1.34.4.1.5.3.1.1
+appnNnTgFRDlcData: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.7
+appnNnTopoNodePurges: 
+  oid: 1.3.6.1.2.1.34.4.1.2.1.3
+appnPortDynLsGoodXids: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.14
+appnLsStatusEndSense: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.9
+appnLocalEnTgDelay: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.13
+appnIsInPcid: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.2
+appnNnTopoTotalTduWars: 
+  oid: 1.3.6.1.2.1.34.4.1.2.1.5
+appnCosModeName: 
+  oid: 1.3.6.1.2.1.34.4.1.5.1.1.1
+appnDirOutLocates: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1.7
+appnNodeNnCentralDirectory: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.1
+appnLsTgNum: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.9
+appnMIB: 
+  oid: 1.3.6.1.2.1.34.4
+appnCosModeTable: 
+  oid: 1.3.6.1.2.1.34.4.1.5.1
+appnLocalEnTgSecurity: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.12
+appnNnTgFREntryTimeLeft: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.5
+appnLsLocalAddr: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.41
+appnCosNodeRowEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.5.3.1
+appnLsMinDelay: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.27
+appnCosTgRowUsr2Min: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.16
+appnCosNodeRowMaxCongestAllow: 
+  oid: 1.3.6.1.2.1.34.4.1.5.3.1.7
+appnNodeNnCongested: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.11
+appnLocalTgEffCap: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.9
+appnPortPortType: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.5
+appnPortTable: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1
+appnIsInCtrUpTime: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.11
+appnIsInGlobal: 
+  oid: 1.3.6.1.2.1.34.4.1.6.1
+appnLocalTgOperational: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.7
+appnNodeNnSafeStoreFreq: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.9
+appnCosModeEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.5.1.1
+appnNnTgFRDest: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.3
+appnIsInPsSendNxWndwSize: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.25
+appnNodeParallelTg: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.6
+appnNnTgFRFrsn: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.1
+appnNodeEnLuSearch: 
+  oid: 1.3.6.1.2.1.34.4.1.1.3.3
+appnNode: 
+  oid: 1.3.6.1.2.1.34.4.1.1
+appnLsInXidBytes: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.16
+appnCosTransPriority: 
+  oid: 1.3.6.1.2.1.34.4.1.5.2.1.2
+appnLsCpCpSessionSupport: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.14
+appnNnTgFRTypeIndicator: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.24
+appnNodeId: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.3
+appnPortCounterDisconTime: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.18
+appnLsStatusEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1
+appnIsInSessUpTime: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.10
+appnCosNodeRowResistMin: 
+  oid: 1.3.6.1.2.1.34.4.1.5.3.1.4
+appnDirNotFoundLocates: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1.9
+appnCosTgRowUsr3Min: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.18
+appnLsName: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.1
+appnNnTgFROwner: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.2
+appnCosTgRowEffCapMax: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.5
+appnCosNodeRowMinCongestAllow: 
+  oid: 1.3.6.1.2.1.34.4.1.5.3.1.6
+appnPortDlcLocalAddr: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.17
+appnIsInP2SNonFmdPius: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.14
+appnNodeNnInterchangeSup: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.7
+appnIsInS2PFmdBytes: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.17
+appnDirInBcastLocates: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1.6
+appnLocalEnTgTable: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2
+appnNnTgFRGarbageCollect: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.20
+appnLocalEnTgByteCost: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.11
+appnLocalTgDestVirtual: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.3
+appnLocalTopology: 
+  oid: 1.3.6.1.2.1.34.4.1.3
+appnPortMaxRcvBtuSize: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.10
+appnNnTgTopologyFRTable: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4
+appnLsOutXidBytes: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.20
+appnVrnTable: 
+  oid: 1.3.6.1.2.1.34.4.1.1.6.1
+appnDirMaxCaches: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1.1
+appnIsInSsAdjTgNum: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.30
+appnNodeHprOrgRteSetups: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.12
+appnNnTgFRNum: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.4
+appnLocalEnTgNum: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.3
+appnLsStatusXidByteInError: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.12
+appnLsCommand: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.2
+appnIsInSsSendPacingType: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.32
+appnIsInGlobeCtrOperStatus: 
+  oid: 1.3.6.1.2.1.34.4.1.6.1.2
+appnLsStatusPartnerId: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.5
+appnLocalTgEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1
+appnLocalEnTgDestVirtual: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.5
+appnDirOutBcastLocates: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1.8
+appnCosNodeRowWgt: 
+  oid: 1.3.6.1.2.1.34.4.1.5.3.1.3
+appnNnTgFRUsr1: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.17
+appnLsActiveTime: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.32
+appnLocalTgQuiescing: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.6
+appnIsInGlobeRscvTime: 
+  oid: 1.3.6.1.2.1.34.4.1.6.1.5
+appnCosTgRowIndex: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.2
+appnNnTgFRUsr2: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.18
+appnIsInS2PFmdPius: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.13
+appnLsStatusGeneralSense: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.7
+appnNodeUpTime: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.5
+appnNnTgFRUsr3: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.19
+appnDirInLocates: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1.5
+appnLsActOnDemand: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.11
+appnPortDefLsGoodXids: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.12
+appnNnNodeFREntryTimeLeft: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.3
+appnDirRegEntries: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1.4
+appnObjects: 
+  oid: 1.3.6.1.2.1.34.4.1
+appnNodeNnFrsn: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.5
+appnIsInRtpNceId: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.39
+appnCos: 
+  oid: 1.3.6.1.2.1.34.4.1.5
+appnIsInSessState: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.3
+appnNnTgFRBranchTg: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.27
+appnNodeMibVersion: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.2
+appnPortOperState: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.3
+appnLsStatusXidBitInError: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.13
+appnNodeLsCounterType: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.17
+appnIsInSsRecvPacingType: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.35
+appnLsLimResource: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.10
+appnNnTgFRRsn: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.8
+appnNnTgFRConnCost: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.13
+appnIsInSsSendRpc: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.33
+appnCosModeCosName: 
+  oid: 1.3.6.1.2.1.34.4.1.5.1.1.2
+appnLocalTgHprSup: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.17
+appnLocalTgMltgLinkType: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.19
+appnDirType: 
+  oid: 1.3.6.1.2.1.34.4.1.4.2.1.5
+appnNnNodeFRFrsn: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.1
+appnIsInPsRecvRpc: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.27
+appnNnTgFRMltgLinkType: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.26
+appnLocalTgCpCpSession: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.8
+appnIsInSsRecvRpc: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.36
+appnPortSIMRIM: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.6
+appnIsRtpSessions: 
+  oid: 1.3.6.1.2.1.34.4.1.6.3.1.3
+appnNodeHprIntRteRejects: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.11
+appnIsRtpTable: 
+  oid: 1.3.6.1.2.1.34.4.1.6.3
+appnDirLuLocation: 
+  oid: 1.3.6.1.2.1.34.4.1.4.2.1.4
+appnIsInGlobeCtrStatusTime: 
+  oid: 1.3.6.1.2.1.34.4.1.6.1.3
+appnLsOutMsgFrames: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.23
+appnNnNodeFRIsr: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.12
+appnNnTgFROperational: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.9
+appnLsSpecific: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.31
+appnNnTopoCurNumNodes: 
+  oid: 1.3.6.1.2.1.34.4.1.2.1.2
+appnNnTgTopologyFREntry: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1
+appnVrnEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.1.6.1.1
+appnCosTgRowTable: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4
+appnLsStatusXidRemoteSense: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.11
+appnIsRtpEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.6.3.1
+appnLocalEnTgEffCap: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.9
+appnLsStatusRemoteAddr: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.16
+appnLocalTgDelay: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.13
+appnLsForAnrLabel: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.36
+appnPortNegotLs: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.8
+appnLsOutXidFrames: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.22
+appnPortDynLsBadXids: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.15
+appnLsStatusTable: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2
+appnIsInGlobeRscv: 
+  oid: 1.3.6.1.2.1.34.4.1.6.1.4
+appnNnTopoTgPurges: 
+  oid: 1.3.6.1.2.1.34.4.1.2.1.4
+appnCosTgRowEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1
+appnIsInModeName: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.6
+appnNodeHprOrgRteRejects: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.13
+appnIsInPsSendMaxBtuSize: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.22
+appnLocalTgBranchLinkType: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.20
+appnEnUniqueCaps: 
+  oid: 1.3.6.1.2.1.34.4.1.1.3
+appnVrnPortName: 
+  oid: 1.3.6.1.2.1.34.4.1.1.6.1.1.3
+appnLsEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1
+appnLocalEnTgDlcData: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.6
+appnPortName: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.1
+appnSessIntermediate: 
+  oid: 1.3.6.1.2.1.34.4.1.6
+appnNodeNnIsr: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.4
+appnIsInPsSendRpc: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.24
+appnNodeNnTreeCache: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.2
+appnLsAdjNodeType: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.8
+appnNodeEnNnServer: 
+  oid: 1.3.6.1.2.1.34.4.1.1.3.2
+appnLsStatusIndex: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.1
+appnIsInSecLuName: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.5
+appnLsStatusLsName: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.3
+appnDirLuOwnerName: 
+  oid: 1.3.6.1.2.1.34.4.1.4.2.1.3
+appnCosTgRowEffCapMin: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.4
+appnLsCounterDisconTime: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.44
+appnLsMltgMember: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.45
+appnNodeMaxSessPerRtpConn: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.9
+appnLocalTgNum: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.2
+appnNnNodeFRExteBorderSup: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.17
+appnLocalEnTgOrigin: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.1
+appnDirPerf: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1
+appnVrnTgNum: 
+  oid: 1.3.6.1.2.1.34.4.1.1.6.1.1.2
+appnLsStatusLocalAddr: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.15
+appnNnTgFRSubareaNum: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.21
+appnLsStatusXidLocalSense: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.10
+appnNodeHprIntRteSetups: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.10
+appnPortDefLsBadXids: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.13
+appnNnNodeFRHprSupport: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.14
+appnDirApparentLuOwnerName: 
+  oid: 1.3.6.1.2.1.34.4.1.4.2.1.6
+appnLsGoodXids: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.29
+appnLocalTgConnCost: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.10
+appnIsInCosName: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.7
+appnLsEchoRsps: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.24
+appnNnNodeFRBranchAwareness: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.18
+appnDirNotFoundBcastLocates: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1.10
+appnIsInS2PNonFmdPius: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.15
+appnIsInTransPriority: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.8
+appnNnNodeFRInterchangeSup: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.16
+appnLocalTgTable: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1
+appnDir: 
+  oid: 1.3.6.1.2.1.34.4.1.4
+appnIsInSessType: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.9
+alertIdNumber: 
+  oid: 1.3.6.1.2.1.34.4.2.2
+appnNnTgFRIntersubnet: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.25
+appnCosTgRowConnCostMax: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.7
+appnNnNodeFRPeriBorderSup: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.15
+appnConformance: 
+  oid: 1.3.6.1.2.1.34.4.3
+appnNodeNnRouteAddResist: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.3
+appnLocalTgUsr1: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.14
+appnDirLocateOutstands: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1.11
+appnCosTgRowDelayMax: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.13
+appnIsInPriLuName: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.4
+appnNnNodeFRRsn: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.5
+appnIsInPsAdjTgNum: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.21
+alertTrap: 
+  oid: 1.3.6.1.2.1.34.4.2.1
+appnLocalTgUsr2: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.15
+appnLsStatusTime: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.2
+appnLocalEnTgDest: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.2
+appnLsPartnerNodeId: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.13
+appnLocalTgUsr3: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.16
+appnLocalTgSecurity: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.12
+appnPortLsRole: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.7
+appnPortInformation: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4
+appnLsDynamic: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.6
+appnLsInMsgBytes: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.17
+appnLinkStationInformation: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5
+appnLsCpCpNceId: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.38
+appnDirLuName: 
+  oid: 1.3.6.1.2.1.34.4.1.4.2.1.1
+appnPortDynamicLinkSupport: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.9
+appnCompliances: 
+  oid: 1.3.6.1.2.1.34.4.3.1
+appnIsInSsSendNxWndwSize: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.34
+appnIsInPsAdjCpName: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.20
+appnCosTgRowByteCostMax: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.9
+appnDirNnServerName: 
+  oid: 1.3.6.1.2.1.34.4.1.4.2.1.2
+appnLocalEnTgCpCpSession: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.8
+appnLsRouteNceId: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.39
+appnNodeType: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.4
+appnCosTgRowSecurityMax: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.11
+appnNodeNnRsn: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.10
+appnLsDlcType: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.5
+appnNnNodeFRType: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.4
+appnNodeHprSupport: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.8
+appnLocalTgByteCost: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.11
+appnNodeNnQuiescing: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.13
+appnIsInS2PNonFmdBytes: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.19
+appnCosTgRowUsr1Max: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.15
+appnNodeEnModeCosMap: 
+  oid: 1.3.6.1.2.1.34.4.1.1.3.1
+appnLsOutMsgBytes: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.21
+appnIsRtpNceId: 
+  oid: 1.3.6.1.2.1.34.4.1.6.3.1.1
+appnIsInP2SNonFmdBytes: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.18
+appnIsInP2SFmdPius: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.12
+appnNodeHprEndRteRejects: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.15
+appnNnTgFRQuiescing: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.10
+appnLsMigration: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.12
+appnIsInRouteInfo: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.38
+appnIsInSsAdjCpName: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.29
+appnIsInPsRecvNxWndwSize: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.28
+appnDirCurHomeEntries: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1.3
+appnLocalEnTgConnCost: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.10
+appnNnTgFRSecurity: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.15
+appnNnNodeFRCongested: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.7
+appnLocalTgPortName: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.5
+appnLsRevAnrLabel: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.37
+appnIsInGlobeCtrAdminStatus: 
+  oid: 1.3.6.1.2.1.34.4.1.6.1.1
+appnCosTgRowName: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.1
+appnLocalTgDest: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.1
+appnNnTgFREffCap: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.12
+appnLsStatusRetry: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.8
+appnLocalEnTgEntryTimeLeft: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.4
+appnIsRtpTcid: 
+  oid: 1.3.6.1.2.1.34.4.1.6.3.1.2
+appnIsInPsSendPacingType: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.23
+appnCosTgRowUsr2Max: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.17
+appnLsHprSup: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.34
+appnPortCommand: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.2
+appnLsBadXids: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.30
+appnLsTable: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1
+appnLsStatusTgNum: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.6
+appnNnNodeFRQuiescing: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.9
+appnNnNodeFRGarbageCollect: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.13
+appnIsInGlobeActSess: 
+  oid: 1.3.6.1.2.1.34.4.1.6.1.6
+appnLsErrRecoSup: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.35
+appnLsPortName: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.4
+appnLsAdjCpName: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.7
+appnLsMaxDelayTime: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.28
+appnIsInSsSendMaxBtuSize: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.31
+appnNnNodeFRIsrDepleted: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.8
+appnNnTgFRDestVirtual: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.6
+appnNnTopo: 
+  oid: 1.3.6.1.2.1.34.4.1.2.1
+appnNnTgFRDelay: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.16
+appnLsOperState: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.3
+appnCosTgRowUsr3Max: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.19
+appnCosNodeRowResistMax: 
+  oid: 1.3.6.1.2.1.34.4.1.5.3.1.5
+appnCosNameTable: 
+  oid: 1.3.6.1.2.1.34.4.1.5.2
+appnPortEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1
+appnNnTgFRByteCost: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.14
+appnGroups: 
+  oid: 1.3.6.1.2.1.34.4.3.2
+appnIsInPsRecvPacingType: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.26
+appnNnNodeFRName: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.2
+appnNodeNnIsrDepleted: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.12
+appnLsStatusDlcType: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.14
+appnNodeNnExteBorderSup: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.8
+affectedObject: 
+  oid: 1.3.6.1.2.1.34.4.2.3
+appnCosTgRowWgt: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.3
+appnNnTopologyFRTable: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3
+appnNodeHprEndRteSetups: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.14
+appnIsInRtpTcid: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.40
+appnDirTable: 
+  oid: 1.3.6.1.2.1.34.4.1.4.2
+appnLocalEnTgOperational: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.7
+appnLsCurrentStateTime: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.33
+appnIsInFqCpName: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.1
+appnCosNodeRowTable: 
+  oid: 1.3.6.1.2.1.34.4.1.5.3
+appnLocalEnTgMltgLinkType: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.17
+appnNodeNnGateway: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.14
+appnNodeCpName: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.1
+appnLsRemoteAddr: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.42
+appnNnTopologyFREntry: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1
+appnLsInMsgFrames: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.19
+appnPortSpecific: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.16
+appnLocalEnTgEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1
+appnIsInGlobeHprBfActSess: 
+  oid: 1.3.6.1.2.1.34.4.1.6.1.7
+appnCosTgRowDelayMin: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.12
+appnCosTgRowConnCostMin: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.6
+appnCosName: 
+  oid: 1.3.6.1.2.1.34.4.1.5.2.1.1
+appnDirEntry: 
+  oid: 1.3.6.1.2.1.34.4.1.4.2.1
+appnDirCurCaches: 
+  oid: 1.3.6.1.2.1.34.4.1.4.1.2
+appnNodeNnPeriBorderSup: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2.6
+appnLsMaxDelay: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.26
+appnLsCurrentDelay: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.25
+appnLocalEnTgUsr1: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.14
+appnNnNodeFRCentralDirectory: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.11
+appnNnUniqueInfoAndCaps: 
+  oid: 1.3.6.1.2.1.34.4.1.1.2
+appnNodeAdaptiveBindPacing: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.7
+appnPortMaxIframeWindow: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.11
+appnVrnInfo: 
+  oid: 1.3.6.1.2.1.34.4.1.1.6
+appnNnTopology: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2
+appnCosNodeRowIndex: 
+  oid: 1.3.6.1.2.1.34.4.1.5.3.1.2
+appnLocalEnTgUsr2: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.15
+appnLsInXidFrames: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.18
+appnNnNodeFRRouteAddResist: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.6
+appnNn: 
+  oid: 1.3.6.1.2.1.34.4.1.2
+appnIsInP2SFmdBytes: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2.1.16
+appnLocalEnTgUsr3: 
+  oid: 1.3.6.1.2.1.34.4.1.3.2.1.16
+appnLocalTgIntersubnet: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.18
+appnLsMaxSendBtuSize: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.15
+appnLsRemoteLsName: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.1.1.43
+appnNnNodeFRGateway: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.3.1.10
+appnLocalTgDlcData: 
+  oid: 1.3.6.1.2.1.34.4.1.3.1.1.4
+appnIsInTable: 
+  oid: 1.3.6.1.2.1.34.4.1.6.2
+appnCosTgRowByteCostMin: 
+  oid: 1.3.6.1.2.1.34.4.1.5.4.1.8
+appnNodeCounterDisconTime: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1.16
+appnLsStatusCpName: 
+  oid: 1.3.6.1.2.1.34.4.1.1.5.2.1.4
+appnNnTgFRHprSup: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.22
+appnNnTgFRCpCpSession: 
+  oid: 1.3.6.1.2.1.34.4.1.2.2.4.1.11
+appnPortDlcType: 
+  oid: 1.3.6.1.2.1.34.4.1.1.4.1.1.4
+appnGeneralInfoAndCaps: 
+  oid: 1.3.6.1.2.1.34.4.1.1.1

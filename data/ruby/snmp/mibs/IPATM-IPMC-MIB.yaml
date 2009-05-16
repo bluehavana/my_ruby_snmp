@@ -1,204 +1,407 @@
 --- 
-marsMcsVcPartyAddrType: 1.3.6.1.6.3.17.3.4.1.6
-marsClientVcType: 1.3.6.1.6.3.17.1.4.1.7
-marsClientStatRxLeaveMsgs: 1.3.6.1.6.3.17.1.5.1.6
-marsClientStatRxGrpLstRplyMsgs: 1.3.6.1.6.3.17.1.5.1.10
-marsMcsStatTxReqMsgs: 1.3.6.1.6.3.17.3.5.1.1
-marsStatTxLeaveMsgs: 1.3.6.1.6.3.17.2.8.1.7
-marsClientJoinLeaveRetrLimit: 1.3.6.1.6.3.17.1.1.1.13
-marsServerConformance: 1.3.6.1.6.3.17.4.2
-marsClientVcVci: 1.3.6.1.6.3.17.1.4.1.2
-marsMcsBackupMarsAddr: 1.3.6.1.6.3.17.3.3.1.2
-marsClientStatFailMultiMsgs: 1.3.6.1.6.3.17.1.5.1.11
-marsClientStatTxGrpLstReqMsgs: 1.3.6.1.6.3.17.1.5.1.4
-marsMcsVcType: 1.3.6.1.6.3.17.3.4.1.7
-marsMcsMcGrpRowStatus: 1.3.6.1.6.3.17.3.2.1.3
-marsClientStatTxJoinMsgs: 1.3.6.1.6.3.17.1.5.1.2
-marsClientBackupMarsAddr: 1.3.6.1.6.3.17.1.3.1.2
-marsServerMapEntry: 1.3.6.1.6.3.17.2.4.1
-marsClientIndex: 1.3.6.1.6.3.17.1.1.1.1
-marsClientRdmMulReqAddRetrTimer: 1.3.6.1.6.3.17.1.1.1.10
-marsCsn: 1.3.6.1.6.3.17.2.1.1.9
-marsMcsFailureTimer: 1.3.6.1.6.3.17.3.1.1.8
-marsRegClientAtmAddr: 1.3.6.1.6.3.17.2.6.1.2
-marsHostMapAtmAddr: 1.3.6.1.6.3.17.2.3.1.1
-marsIfIndex: 1.3.6.1.6.3.17.2.1.1.2
-marsClientVcTable: 1.3.6.1.6.3.17.1.4
-marsVcVpi: 1.3.6.1.6.3.17.2.5.1.1
-marsMcGrpRxLayer3GrpResets: 1.3.6.1.6.3.17.2.2.1.5
-marsMcsBackupMarsTable: 1.3.6.1.6.3.17.3.3
-marsMcsAddr: 1.3.6.1.6.3.17.3.1.1.3
-marsClientStatEntry: 1.3.6.1.6.3.17.1.5.1
-marsStatRegMemGroups: 1.3.6.1.6.3.17.2.8.1.19
-marsMcGrpAddrUsage: 1.3.6.1.6.3.17.2.2.1.3
-marsHostMapRowType: 1.3.6.1.6.3.17.2.3.1.2
-marsStatRxJoinMsgs: 1.3.6.1.6.3.17.2.8.1.14
-marsRegMcsTable: 1.3.6.1.6.3.17.2.7
-marsMcsStatFailMultiMsgs: 1.3.6.1.6.3.17.3.5.1.9
-marsMcsStatRxMultiMsgs: 1.3.6.1.6.3.17.3.5.1.4
-marsFaultTrap: 1.3.6.1.6.3.17.0.1
-marsMcsStatRxSjoinMsgs: 1.3.6.1.6.3.17.3.5.1.5
-marsMcsMcGrpTable: 1.3.6.1.6.3.17.3.2
-marsMcsRegWithMarsRdmTimer: 1.3.6.1.6.3.17.3.1.1.14
-marsRegClientCmi: 1.3.6.1.6.3.17.2.6.1.1
-marsMcsRetranDelayTimer: 1.3.6.1.6.3.17.3.1.1.9
-marsVcPartyAddrType: 1.3.6.1.6.3.17.2.5.1.6
-marsStatTxNakMsgs: 1.3.6.1.6.3.17.2.8.1.5
-marsClientMcMaxGrpAddr: 1.3.6.1.6.3.17.1.2.1.2
-marsMcsSsn: 1.3.6.1.6.3.17.3.1.1.6
-marsClientConformance: 1.3.6.1.6.3.17.4.1
-marsClientMcGrpRowStatus: 1.3.6.1.6.3.17.1.2.1.3
-marsStatTxMigrateMsgs: 1.3.6.1.6.3.17.2.8.1.4
-marsMcsVcIdleTimer: 1.3.6.1.6.3.17.3.4.1.9
-marsClientVcMaxGrpAddr: 1.3.6.1.6.3.17.1.4.1.4
-marsClientStatTxLeaveMsgs: 1.3.6.1.6.3.17.1.5.1.3
-marsHostMapTable: 1.3.6.1.6.3.17.2.3
-marsEntry: 1.3.6.1.6.3.17.2.1.1
-marsMcsVcEntry: 1.3.6.1.6.3.17.3.4.1
-marsRegClientTable: 1.3.6.1.6.3.17.2.6
-marsVcIdleTimer: 1.3.6.1.6.3.17.2.5.1.9
-marsClientCompliances: 1.3.6.1.6.3.17.4.1.1
-marsClientTable: 1.3.6.1.6.3.17.1.1
-marsRegMcsAtmAddr: 1.3.6.1.6.3.17.2.7.1.1
-marsObjects: 1.3.6.1.6.3.17.2
-marsMcsEntry: 1.3.6.1.6.3.17.3.1.1
-marsClientAddr: 1.3.6.1.6.3.17.1.1.1.2
-marsClientVcPartyAddrType: 1.3.6.1.6.3.17.1.4.1.6
-marsClientRegWithMarsRdmTimer: 1.3.6.1.6.3.17.1.1.1.14
-marsMcsRegistration: 1.3.6.1.6.3.17.3.1.1.5
-marsStatTxJoinMsgs: 1.3.6.1.6.3.17.2.8.1.6
-marsMcsRowStatus: 1.3.6.1.6.3.17.3.1.1.18
-marsClientFailureTimer: 1.3.6.1.6.3.17.1.1.1.8
-marsIndex: 1.3.6.1.6.3.17.2.1.1.1
-marsMcMinGrpAddr: 1.3.6.1.6.3.17.2.2.1.1
-marsMcsRdmVcRevalidateTimer: 1.3.6.1.6.3.17.3.1.1.11
-marsServerGroups: 1.3.6.1.6.3.17.4.2.2
-marsStatTxGrpLstRplyMsgs: 1.3.6.1.6.3.17.2.8.1.2
-marsClientVcRowStatus: 1.3.6.1.6.3.17.1.4.1.13
-marsMcsStatTable: 1.3.6.1.6.3.17.3.5
-marsClientMcGrpEntry: 1.3.6.1.6.3.17.1.2.1
-marsClientGroups: 1.3.6.1.6.3.17.4.1.2
-marsMcsVcVci: 1.3.6.1.6.3.17.3.4.1.2
-marsStatEntry: 1.3.6.1.6.3.17.2.8.1
-marsClientVcPartyAddr: 1.3.6.1.6.3.17.1.4.1.5
-marsServerMapTable: 1.3.6.1.6.3.17.2.4
-marsServStatus: 1.3.6.1.6.3.17.2.1.1.5
-marsVcEncapsType: 1.3.6.1.6.3.17.2.5.1.11
-marsMcsIfIndex: 1.3.6.1.6.3.17.3.1.1.2
-marsClientRowStatus: 1.3.6.1.6.3.17.1.1.1.18
-marsMcsIndex: 1.3.6.1.6.3.17.3.1.1.1
-marsClientBackupMarsTable: 1.3.6.1.6.3.17.1.3
-marsClientStatRxMultiMsgs: 1.3.6.1.6.3.17.1.5.1.7
-marsStatTxMultiMsgs: 1.3.6.1.6.3.17.2.8.1.1
-marsServPriority: 1.3.6.1.6.3.17.2.1.1.7
-marsMcsMcMinGrpAddr: 1.3.6.1.6.3.17.3.2.1.1
-marsVcType: 1.3.6.1.6.3.17.2.5.1.7
-marsClientStatRxNakMsgs: 1.3.6.1.6.3.17.1.5.1.8
-marsClientDefaultMtu: 1.3.6.1.6.3.17.1.1.1.7
-marsMcsBackupMarsRowStatus: 1.3.6.1.6.3.17.3.3.1.3
-marsVcTable: 1.3.6.1.6.3.17.2.5
-marsMcsGroups: 1.3.6.1.6.3.17.4.3.2
-marsMcsObjects: 1.3.6.1.6.3.17.3
-marsMIB: 1.3.6.1.6.3.17
-marsMcsVcEncapsType: 1.3.6.1.6.3.17.3.4.1.11
-marsClientHsn: 1.3.6.1.6.3.17.1.1.1.4
-marsStatTxSjoinMsgs: 1.3.6.1.6.3.17.2.8.1.8
-marsMcsDefaultMarsAddr: 1.3.6.1.6.3.17.3.1.1.4
-marsClientCmi: 1.3.6.1.6.3.17.1.1.1.6
-marsMcGrpRowStatus: 1.3.6.1.6.3.17.2.2.1.6
-marsMcsVcMinGrpAddr: 1.3.6.1.6.3.17.3.4.1.3
-marsVcVci: 1.3.6.1.6.3.17.2.5.1.2
-marsMcsDefaultMtu: 1.3.6.1.6.3.17.3.1.1.7
-marsAddr: 1.3.6.1.6.3.17.2.1.1.3
-marsClientVcCtrlType: 1.3.6.1.6.3.17.1.4.1.8
-marsStatRegMcsGroups: 1.3.6.1.6.3.17.2.8.1.20
-marsServType: 1.3.6.1.6.3.17.2.1.1.6
-marsRedirMapMsgTimer: 1.3.6.1.6.3.17.2.1.1.8
-marsClientRdmVcRevalidateTimer: 1.3.6.1.6.3.17.1.1.1.11
-marsClientVcEntry: 1.3.6.1.6.3.17.1.4.1
-marsMcGrpEntry: 1.3.6.1.6.3.17.2.2.1
-marsVcCtrlType: 1.3.6.1.6.3.17.2.5.1.8
-marsClientStatTxReqMsgs: 1.3.6.1.6.3.17.1.5.1.1
-marsClientJoinLeaveRetrInterval: 1.3.6.1.6.3.17.1.1.1.12
-marsClientStatRxMigrateMsgs: 1.3.6.1.6.3.17.1.5.1.9
-marsClientVcVpi: 1.3.6.1.6.3.17.1.4.1.1
-marsStatTxRedirectMapMsgs: 1.3.6.1.6.3.17.2.8.1.3
-marsStatRxBlkJoinMsgs: 1.3.6.1.6.3.17.2.8.1.18
-marsMcsBackupMarsEntry: 1.3.6.1.6.3.17.3.3.1
-marsMcsVcRevalidate: 1.3.6.1.6.3.17.3.4.1.10
-marsHostMapRowStatus: 1.3.6.1.6.3.17.2.3.1.3
-marsClientLmtToMissRedirMapTimer: 1.3.6.1.6.3.17.1.1.1.16
-marsRegMcsEntry: 1.3.6.1.6.3.17.2.7.1
-marsClientBackupMarsRowStatus: 1.3.6.1.6.3.17.1.3.1.3
-marsStatRxMservMsgs: 1.3.6.1.6.3.17.2.8.1.16
-marsMcsVcTable: 1.3.6.1.6.3.17.3.4
-marsMcsVcNegotiatedMtu: 1.3.6.1.6.3.17.3.4.1.12
-marsClientStatTable: 1.3.6.1.6.3.17.1.5
-marsClientRegistration: 1.3.6.1.6.3.17.1.1.1.5
-marsMcsMcGrpEntry: 1.3.6.1.6.3.17.3.2.1
-marsMcsStatTxUnservMsgs: 1.3.6.1.6.3.17.3.5.1.3
-marsRowStatus: 1.3.6.1.6.3.17.2.1.1.11
-marsMcsStatTxMservMsgs: 1.3.6.1.6.3.17.3.5.1.2
-marsMcsStatRxMigrateMsgs: 1.3.6.1.6.3.17.3.5.1.8
-marsVcPartyAddr: 1.3.6.1.6.3.17.2.5.1.5
-marsSsn: 1.3.6.1.6.3.17.2.1.1.10
-marsStatTxUnservMsgs: 1.3.6.1.6.3.17.2.8.1.11
-marsMcsForceWaitTimer: 1.3.6.1.6.3.17.3.1.1.15
-marsClientForceWaitTimer: 1.3.6.1.6.3.17.1.1.1.15
-marsClientRetranDelayTimer: 1.3.6.1.6.3.17.1.1.1.9
-marsMcsIdleTimer: 1.3.6.1.6.3.17.3.1.1.17
-marsMcsStatRxNakMsgs: 1.3.6.1.6.3.17.3.5.1.7
-marsClientBackupMarsPriority: 1.3.6.1.6.3.17.1.3.1.1
-marsVcCmi: 1.3.6.1.6.3.17.2.5.1.10
-marsHostMapEntry: 1.3.6.1.6.3.17.2.3.1
-marsStatTable: 1.3.6.1.6.3.17.2.8
-marsTrapInfo: 1.3.6.1.6.3.17.0
-marsMcGrpRxLayer3GrpSets: 1.3.6.1.6.3.17.2.2.1.4
-marsStatTxSleaveMsgs: 1.3.6.1.6.3.17.2.8.1.9
-marsConformance: 1.3.6.1.6.3.17.4
-marsClientMcMinGrpAddr: 1.3.6.1.6.3.17.1.2.1.1
-marsMcMaxGrpAddr: 1.3.6.1.6.3.17.2.2.1.2
-marsTable: 1.3.6.1.6.3.17.2.1
-marsMcsCompliances: 1.3.6.1.6.3.17.4.3.1
-marsClientVcIdleTimer: 1.3.6.1.6.3.17.1.4.1.9
-marsClientStatRxJoinMsgs: 1.3.6.1.6.3.17.1.5.1.5
-marsMcsRegisterRetrInterval: 1.3.6.1.6.3.17.3.1.1.12
-marsMcsLmtToMissRedirMapTimer: 1.3.6.1.6.3.17.3.1.1.16
-marsMcsVcCtrlType: 1.3.6.1.6.3.17.3.4.1.8
-marsMcsStatRxSleaveMsgs: 1.3.6.1.6.3.17.3.5.1.6
-marsClientVcEncapsType: 1.3.6.1.6.3.17.1.4.1.11
-marsLocal: 1.3.6.1.6.3.17.2.1.1.4
-marsStatRxReqMsgs: 1.3.6.1.6.3.17.2.8.1.12
-marsStatRxGrpLstReqMsgs: 1.3.6.1.6.3.17.2.8.1.13
-marsMcsTable: 1.3.6.1.6.3.17.3.1
-marsClientVcMinGrpAddr: 1.3.6.1.6.3.17.1.4.1.3
-marsVcNegotiatedMtu: 1.3.6.1.6.3.17.2.5.1.12
-marsStatRxUnservMsgs: 1.3.6.1.6.3.17.2.8.1.17
-marsMcsStatEntry: 1.3.6.1.6.3.17.3.5.1
-marsClientBackupMarsEntry: 1.3.6.1.6.3.17.1.3.1
-marsClientDefaultMarsAddr: 1.3.6.1.6.3.17.1.1.1.3
-marsServerMapAtmAddr: 1.3.6.1.6.3.17.2.4.1.1
-marsStatRxLeaveMsgs: 1.3.6.1.6.3.17.2.8.1.15
-marsMcsMcMaxGrpAddr: 1.3.6.1.6.3.17.3.2.1.2
-marsMcsVcPartyAddr: 1.3.6.1.6.3.17.3.4.1.5
-marsMcsVcRowStatus: 1.3.6.1.6.3.17.3.4.1.13
-marsMcsConformance: 1.3.6.1.6.3.17.4.3
-marsVcRowStatus: 1.3.6.1.6.3.17.2.5.1.13
-marsRegClientEntry: 1.3.6.1.6.3.17.2.6.1
-marsClientVcRevalidate: 1.3.6.1.6.3.17.1.4.1.10
-marsClientMcGrpTable: 1.3.6.1.6.3.17.1.2
-marsStatTxMservMsgs: 1.3.6.1.6.3.17.2.8.1.10
-marsServerCompliances: 1.3.6.1.6.3.17.4.2.1
-marsClientEntry: 1.3.6.1.6.3.17.1.1.1
-marsMcGrpTable: 1.3.6.1.6.3.17.2.2
-marsServerMapRowStatus: 1.3.6.1.6.3.17.2.4.1.3
-marsVcEntry: 1.3.6.1.6.3.17.2.5.1
-marsClientVcNegotiatedMtu: 1.3.6.1.6.3.17.1.4.1.12
-marsServerMapRowType: 1.3.6.1.6.3.17.2.4.1.2
-marsMcsVcVpi: 1.3.6.1.6.3.17.3.4.1.1
-marsClientObjects: 1.3.6.1.6.3.17.1
-marsClientIdleTimer: 1.3.6.1.6.3.17.1.1.1.17
-marsMcsRdmMulReqAddRetrTimer: 1.3.6.1.6.3.17.3.1.1.10
-marsMcsRegisterRetrLimit: 1.3.6.1.6.3.17.3.1.1.13
-marsMcsBackupMarsPriority: 1.3.6.1.6.3.17.3.3.1.1
-marsMcsVcMaxGrpAddr: 1.3.6.1.6.3.17.3.4.1.4
+marsMcsVcPartyAddrType: 
+  oid: 1.3.6.1.6.3.17.3.4.1.6
+marsClientVcType: 
+  oid: 1.3.6.1.6.3.17.1.4.1.7
+marsClientStatRxLeaveMsgs: 
+  oid: 1.3.6.1.6.3.17.1.5.1.6
+marsClientStatRxGrpLstRplyMsgs: 
+  oid: 1.3.6.1.6.3.17.1.5.1.10
+marsMcsStatTxReqMsgs: 
+  oid: 1.3.6.1.6.3.17.3.5.1.1
+marsStatTxLeaveMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.7
+marsClientJoinLeaveRetrLimit: 
+  oid: 1.3.6.1.6.3.17.1.1.1.13
+marsServerConformance: 
+  oid: 1.3.6.1.6.3.17.4.2
+marsClientVcVci: 
+  oid: 1.3.6.1.6.3.17.1.4.1.2
+marsMcsBackupMarsAddr: 
+  oid: 1.3.6.1.6.3.17.3.3.1.2
+marsClientStatFailMultiMsgs: 
+  oid: 1.3.6.1.6.3.17.1.5.1.11
+marsClientStatTxGrpLstReqMsgs: 
+  oid: 1.3.6.1.6.3.17.1.5.1.4
+marsMcsVcType: 
+  oid: 1.3.6.1.6.3.17.3.4.1.7
+marsMcsMcGrpRowStatus: 
+  oid: 1.3.6.1.6.3.17.3.2.1.3
+marsClientStatTxJoinMsgs: 
+  oid: 1.3.6.1.6.3.17.1.5.1.2
+marsClientBackupMarsAddr: 
+  oid: 1.3.6.1.6.3.17.1.3.1.2
+marsServerMapEntry: 
+  oid: 1.3.6.1.6.3.17.2.4.1
+marsClientIndex: 
+  oid: 1.3.6.1.6.3.17.1.1.1.1
+marsClientRdmMulReqAddRetrTimer: 
+  oid: 1.3.6.1.6.3.17.1.1.1.10
+marsCsn: 
+  oid: 1.3.6.1.6.3.17.2.1.1.9
+marsMcsFailureTimer: 
+  oid: 1.3.6.1.6.3.17.3.1.1.8
+marsRegClientAtmAddr: 
+  oid: 1.3.6.1.6.3.17.2.6.1.2
+marsHostMapAtmAddr: 
+  oid: 1.3.6.1.6.3.17.2.3.1.1
+marsIfIndex: 
+  oid: 1.3.6.1.6.3.17.2.1.1.2
+marsClientVcTable: 
+  oid: 1.3.6.1.6.3.17.1.4
+marsVcVpi: 
+  oid: 1.3.6.1.6.3.17.2.5.1.1
+marsMcGrpRxLayer3GrpResets: 
+  oid: 1.3.6.1.6.3.17.2.2.1.5
+marsMcsBackupMarsTable: 
+  oid: 1.3.6.1.6.3.17.3.3
+marsMcsAddr: 
+  oid: 1.3.6.1.6.3.17.3.1.1.3
+marsStatRegMemGroups: 
+  oid: 1.3.6.1.6.3.17.2.8.1.19
+marsClientStatEntry: 
+  oid: 1.3.6.1.6.3.17.1.5.1
+marsMcGrpAddrUsage: 
+  oid: 1.3.6.1.6.3.17.2.2.1.3
+marsHostMapRowType: 
+  oid: 1.3.6.1.6.3.17.2.3.1.2
+marsStatRxJoinMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.14
+marsRegMcsTable: 
+  oid: 1.3.6.1.6.3.17.2.7
+marsMcsStatFailMultiMsgs: 
+  oid: 1.3.6.1.6.3.17.3.5.1.9
+marsMcsStatRxMultiMsgs: 
+  oid: 1.3.6.1.6.3.17.3.5.1.4
+marsMcsStatRxSjoinMsgs: 
+  oid: 1.3.6.1.6.3.17.3.5.1.5
+marsFaultTrap: 
+  oid: 1.3.6.1.6.3.17.0.1
+marsMcsMcGrpTable: 
+  oid: 1.3.6.1.6.3.17.3.2
+marsMcsRegWithMarsRdmTimer: 
+  oid: 1.3.6.1.6.3.17.3.1.1.14
+marsRegClientCmi: 
+  oid: 1.3.6.1.6.3.17.2.6.1.1
+marsMcsRetranDelayTimer: 
+  oid: 1.3.6.1.6.3.17.3.1.1.9
+marsVcPartyAddrType: 
+  oid: 1.3.6.1.6.3.17.2.5.1.6
+marsStatTxNakMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.5
+marsClientMcMaxGrpAddr: 
+  oid: 1.3.6.1.6.3.17.1.2.1.2
+marsMcsSsn: 
+  oid: 1.3.6.1.6.3.17.3.1.1.6
+marsClientConformance: 
+  oid: 1.3.6.1.6.3.17.4.1
+marsClientMcGrpRowStatus: 
+  oid: 1.3.6.1.6.3.17.1.2.1.3
+marsStatTxMigrateMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.4
+marsMcsVcIdleTimer: 
+  oid: 1.3.6.1.6.3.17.3.4.1.9
+marsClientVcMaxGrpAddr: 
+  oid: 1.3.6.1.6.3.17.1.4.1.4
+marsClientStatTxLeaveMsgs: 
+  oid: 1.3.6.1.6.3.17.1.5.1.3
+marsHostMapTable: 
+  oid: 1.3.6.1.6.3.17.2.3
+marsEntry: 
+  oid: 1.3.6.1.6.3.17.2.1.1
+marsMcsVcEntry: 
+  oid: 1.3.6.1.6.3.17.3.4.1
+marsRegClientTable: 
+  oid: 1.3.6.1.6.3.17.2.6
+marsVcIdleTimer: 
+  oid: 1.3.6.1.6.3.17.2.5.1.9
+marsClientCompliances: 
+  oid: 1.3.6.1.6.3.17.4.1.1
+marsClientTable: 
+  oid: 1.3.6.1.6.3.17.1.1
+marsRegMcsAtmAddr: 
+  oid: 1.3.6.1.6.3.17.2.7.1.1
+marsObjects: 
+  oid: 1.3.6.1.6.3.17.2
+marsMcsEntry: 
+  oid: 1.3.6.1.6.3.17.3.1.1
+marsClientAddr: 
+  oid: 1.3.6.1.6.3.17.1.1.1.2
+marsClientVcPartyAddrType: 
+  oid: 1.3.6.1.6.3.17.1.4.1.6
+marsClientRegWithMarsRdmTimer: 
+  oid: 1.3.6.1.6.3.17.1.1.1.14
+marsMcsRegistration: 
+  oid: 1.3.6.1.6.3.17.3.1.1.5
+marsStatTxJoinMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.6
+marsMcsRowStatus: 
+  oid: 1.3.6.1.6.3.17.3.1.1.18
+marsClientFailureTimer: 
+  oid: 1.3.6.1.6.3.17.1.1.1.8
+marsIndex: 
+  oid: 1.3.6.1.6.3.17.2.1.1.1
+marsMcMinGrpAddr: 
+  oid: 1.3.6.1.6.3.17.2.2.1.1
+marsMcsRdmVcRevalidateTimer: 
+  oid: 1.3.6.1.6.3.17.3.1.1.11
+marsServerGroups: 
+  oid: 1.3.6.1.6.3.17.4.2.2
+marsStatTxGrpLstRplyMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.2
+marsClientVcRowStatus: 
+  oid: 1.3.6.1.6.3.17.1.4.1.13
+marsMcsStatTable: 
+  oid: 1.3.6.1.6.3.17.3.5
+marsClientMcGrpEntry: 
+  oid: 1.3.6.1.6.3.17.1.2.1
+marsClientGroups: 
+  oid: 1.3.6.1.6.3.17.4.1.2
+marsMcsVcVci: 
+  oid: 1.3.6.1.6.3.17.3.4.1.2
+marsStatEntry: 
+  oid: 1.3.6.1.6.3.17.2.8.1
+marsClientVcPartyAddr: 
+  oid: 1.3.6.1.6.3.17.1.4.1.5
+marsServerMapTable: 
+  oid: 1.3.6.1.6.3.17.2.4
+marsServStatus: 
+  oid: 1.3.6.1.6.3.17.2.1.1.5
+marsVcEncapsType: 
+  oid: 1.3.6.1.6.3.17.2.5.1.11
+marsMcsIfIndex: 
+  oid: 1.3.6.1.6.3.17.3.1.1.2
+marsClientRowStatus: 
+  oid: 1.3.6.1.6.3.17.1.1.1.18
+marsMcsIndex: 
+  oid: 1.3.6.1.6.3.17.3.1.1.1
+marsClientBackupMarsTable: 
+  oid: 1.3.6.1.6.3.17.1.3
+marsClientStatRxMultiMsgs: 
+  oid: 1.3.6.1.6.3.17.1.5.1.7
+marsStatTxMultiMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.1
+marsServPriority: 
+  oid: 1.3.6.1.6.3.17.2.1.1.7
+marsMcsMcMinGrpAddr: 
+  oid: 1.3.6.1.6.3.17.3.2.1.1
+marsVcType: 
+  oid: 1.3.6.1.6.3.17.2.5.1.7
+marsClientStatRxNakMsgs: 
+  oid: 1.3.6.1.6.3.17.1.5.1.8
+marsClientDefaultMtu: 
+  oid: 1.3.6.1.6.3.17.1.1.1.7
+marsMcsBackupMarsRowStatus: 
+  oid: 1.3.6.1.6.3.17.3.3.1.3
+marsVcTable: 
+  oid: 1.3.6.1.6.3.17.2.5
+marsMcsGroups: 
+  oid: 1.3.6.1.6.3.17.4.3.2
+marsMcsObjects: 
+  oid: 1.3.6.1.6.3.17.3
+marsMIB: 
+  oid: 1.3.6.1.6.3.17
+marsMcsVcEncapsType: 
+  oid: 1.3.6.1.6.3.17.3.4.1.11
+marsClientHsn: 
+  oid: 1.3.6.1.6.3.17.1.1.1.4
+marsStatTxSjoinMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.8
+marsMcsDefaultMarsAddr: 
+  oid: 1.3.6.1.6.3.17.3.1.1.4
+marsClientCmi: 
+  oid: 1.3.6.1.6.3.17.1.1.1.6
+marsMcGrpRowStatus: 
+  oid: 1.3.6.1.6.3.17.2.2.1.6
+marsMcsVcMinGrpAddr: 
+  oid: 1.3.6.1.6.3.17.3.4.1.3
+marsVcVci: 
+  oid: 1.3.6.1.6.3.17.2.5.1.2
+marsMcsDefaultMtu: 
+  oid: 1.3.6.1.6.3.17.3.1.1.7
+marsAddr: 
+  oid: 1.3.6.1.6.3.17.2.1.1.3
+marsClientRdmVcRevalidateTimer: 
+  oid: 1.3.6.1.6.3.17.1.1.1.11
+marsRedirMapMsgTimer: 
+  oid: 1.3.6.1.6.3.17.2.1.1.8
+marsStatRegMcsGroups: 
+  oid: 1.3.6.1.6.3.17.2.8.1.20
+marsServType: 
+  oid: 1.3.6.1.6.3.17.2.1.1.6
+marsClientVcCtrlType: 
+  oid: 1.3.6.1.6.3.17.1.4.1.8
+marsMcsVcRevalidate: 
+  oid: 1.3.6.1.6.3.17.3.4.1.10
+marsMcsBackupMarsEntry: 
+  oid: 1.3.6.1.6.3.17.3.3.1
+marsStatRxBlkJoinMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.18
+marsStatTxRedirectMapMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.3
+marsClientVcVpi: 
+  oid: 1.3.6.1.6.3.17.1.4.1.1
+marsClientStatRxMigrateMsgs: 
+  oid: 1.3.6.1.6.3.17.1.5.1.9
+marsClientJoinLeaveRetrInterval: 
+  oid: 1.3.6.1.6.3.17.1.1.1.12
+marsClientStatTxReqMsgs: 
+  oid: 1.3.6.1.6.3.17.1.5.1.1
+marsVcCtrlType: 
+  oid: 1.3.6.1.6.3.17.2.5.1.8
+marsMcGrpEntry: 
+  oid: 1.3.6.1.6.3.17.2.2.1
+marsClientVcEntry: 
+  oid: 1.3.6.1.6.3.17.1.4.1
+marsMcsVcNegotiatedMtu: 
+  oid: 1.3.6.1.6.3.17.3.4.1.12
+marsMcsVcTable: 
+  oid: 1.3.6.1.6.3.17.3.4
+marsStatRxMservMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.16
+marsClientBackupMarsRowStatus: 
+  oid: 1.3.6.1.6.3.17.1.3.1.3
+marsRegMcsEntry: 
+  oid: 1.3.6.1.6.3.17.2.7.1
+marsClientLmtToMissRedirMapTimer: 
+  oid: 1.3.6.1.6.3.17.1.1.1.16
+marsHostMapRowStatus: 
+  oid: 1.3.6.1.6.3.17.2.3.1.3
+marsMcsStatTxUnservMsgs: 
+  oid: 1.3.6.1.6.3.17.3.5.1.3
+marsMcsMcGrpEntry: 
+  oid: 1.3.6.1.6.3.17.3.2.1
+marsClientRegistration: 
+  oid: 1.3.6.1.6.3.17.1.1.1.5
+marsClientStatTable: 
+  oid: 1.3.6.1.6.3.17.1.5
+marsMcsStatRxMigrateMsgs: 
+  oid: 1.3.6.1.6.3.17.3.5.1.8
+marsMcsStatTxMservMsgs: 
+  oid: 1.3.6.1.6.3.17.3.5.1.2
+marsRowStatus: 
+  oid: 1.3.6.1.6.3.17.2.1.1.11
+marsMcsForceWaitTimer: 
+  oid: 1.3.6.1.6.3.17.3.1.1.15
+marsStatTxUnservMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.11
+marsSsn: 
+  oid: 1.3.6.1.6.3.17.2.1.1.10
+marsVcPartyAddr: 
+  oid: 1.3.6.1.6.3.17.2.5.1.5
+marsMcsStatRxNakMsgs: 
+  oid: 1.3.6.1.6.3.17.3.5.1.7
+marsMcsIdleTimer: 
+  oid: 1.3.6.1.6.3.17.3.1.1.17
+marsClientRetranDelayTimer: 
+  oid: 1.3.6.1.6.3.17.1.1.1.9
+marsClientForceWaitTimer: 
+  oid: 1.3.6.1.6.3.17.1.1.1.15
+marsConformance: 
+  oid: 1.3.6.1.6.3.17.4
+marsStatTxSleaveMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.9
+marsMcGrpRxLayer3GrpSets: 
+  oid: 1.3.6.1.6.3.17.2.2.1.4
+marsTrapInfo: 
+  oid: 1.3.6.1.6.3.17.0
+marsStatTable: 
+  oid: 1.3.6.1.6.3.17.2.8
+marsHostMapEntry: 
+  oid: 1.3.6.1.6.3.17.2.3.1
+marsVcCmi: 
+  oid: 1.3.6.1.6.3.17.2.5.1.10
+marsClientBackupMarsPriority: 
+  oid: 1.3.6.1.6.3.17.1.3.1.1
+marsMcsCompliances: 
+  oid: 1.3.6.1.6.3.17.4.3.1
+marsTable: 
+  oid: 1.3.6.1.6.3.17.2.1
+marsMcMaxGrpAddr: 
+  oid: 1.3.6.1.6.3.17.2.2.1.2
+marsClientMcMinGrpAddr: 
+  oid: 1.3.6.1.6.3.17.1.2.1.1
+marsMcsStatRxSleaveMsgs: 
+  oid: 1.3.6.1.6.3.17.3.5.1.6
+marsMcsVcCtrlType: 
+  oid: 1.3.6.1.6.3.17.3.4.1.8
+marsMcsLmtToMissRedirMapTimer: 
+  oid: 1.3.6.1.6.3.17.3.1.1.16
+marsMcsRegisterRetrInterval: 
+  oid: 1.3.6.1.6.3.17.3.1.1.12
+marsClientStatRxJoinMsgs: 
+  oid: 1.3.6.1.6.3.17.1.5.1.5
+marsClientVcIdleTimer: 
+  oid: 1.3.6.1.6.3.17.1.4.1.9
+marsMcsTable: 
+  oid: 1.3.6.1.6.3.17.3.1
+marsStatRxGrpLstReqMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.13
+marsStatRxReqMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.12
+marsLocal: 
+  oid: 1.3.6.1.6.3.17.2.1.1.4
+marsClientVcEncapsType: 
+  oid: 1.3.6.1.6.3.17.1.4.1.11
+marsMcsStatEntry: 
+  oid: 1.3.6.1.6.3.17.3.5.1
+marsStatRxUnservMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.17
+marsVcNegotiatedMtu: 
+  oid: 1.3.6.1.6.3.17.2.5.1.12
+marsClientVcMinGrpAddr: 
+  oid: 1.3.6.1.6.3.17.1.4.1.3
+marsMcsConformance: 
+  oid: 1.3.6.1.6.3.17.4.3
+marsMcsVcRowStatus: 
+  oid: 1.3.6.1.6.3.17.3.4.1.13
+marsMcsVcPartyAddr: 
+  oid: 1.3.6.1.6.3.17.3.4.1.5
+marsMcsMcMaxGrpAddr: 
+  oid: 1.3.6.1.6.3.17.3.2.1.2
+marsStatRxLeaveMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.15
+marsServerMapAtmAddr: 
+  oid: 1.3.6.1.6.3.17.2.4.1.1
+marsClientDefaultMarsAddr: 
+  oid: 1.3.6.1.6.3.17.1.1.1.3
+marsClientBackupMarsEntry: 
+  oid: 1.3.6.1.6.3.17.1.3.1
+marsServerCompliances: 
+  oid: 1.3.6.1.6.3.17.4.2.1
+marsStatTxMservMsgs: 
+  oid: 1.3.6.1.6.3.17.2.8.1.10
+marsClientMcGrpTable: 
+  oid: 1.3.6.1.6.3.17.1.2
+marsClientVcRevalidate: 
+  oid: 1.3.6.1.6.3.17.1.4.1.10
+marsRegClientEntry: 
+  oid: 1.3.6.1.6.3.17.2.6.1
+marsVcRowStatus: 
+  oid: 1.3.6.1.6.3.17.2.5.1.13
+marsMcsVcVpi: 
+  oid: 1.3.6.1.6.3.17.3.4.1.1
+marsServerMapRowType: 
+  oid: 1.3.6.1.6.3.17.2.4.1.2
+marsClientVcNegotiatedMtu: 
+  oid: 1.3.6.1.6.3.17.1.4.1.12
+marsVcEntry: 
+  oid: 1.3.6.1.6.3.17.2.5.1
+marsServerMapRowStatus: 
+  oid: 1.3.6.1.6.3.17.2.4.1.3
+marsMcGrpTable: 
+  oid: 1.3.6.1.6.3.17.2.2
+marsClientEntry: 
+  oid: 1.3.6.1.6.3.17.1.1.1
+marsMcsVcMaxGrpAddr: 
+  oid: 1.3.6.1.6.3.17.3.4.1.4
+marsMcsBackupMarsPriority: 
+  oid: 1.3.6.1.6.3.17.3.3.1.1
+marsMcsRegisterRetrLimit: 
+  oid: 1.3.6.1.6.3.17.3.1.1.13
+marsMcsRdmMulReqAddRetrTimer: 
+  oid: 1.3.6.1.6.3.17.3.1.1.10
+marsClientIdleTimer: 
+  oid: 1.3.6.1.6.3.17.1.1.1.17
+marsClientObjects: 
+  oid: 1.3.6.1.6.3.17.1

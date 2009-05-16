@@ -1,47 +1,93 @@
 --- 
-ebnIsRscvCpName: 1.3.6.1.2.1.34.7.1.2.1.1.1
-ebnMaxSearchCache: 1.3.6.1.2.1.34.7.1.3.2
-ebnSubnetRoutingList: 1.3.6.1.2.1.34.7.1.5
-hbnIsInRtpNceId: 1.3.6.1.2.1.34.7.1.6.1.1.3
-ebnIsRscvDestinationCos: 1.3.6.1.2.1.34.7.1.2.1.1.4
-ebnCosMapTable: 1.3.6.1.2.1.34.7.1.4.1
-ebnCosMapEntry: 1.3.6.1.2.1.34.7.1.4.1.1
-ebnSearchSNVC: 1.3.6.1.2.1.34.7.1.5.2.1.4
-ebnCosMapNonNativeCos: 1.3.6.1.2.1.34.7.1.4.1.1.2
-ebnMIB: 1.3.6.1.2.1.34.7
-ebnObjects: 1.3.6.1.2.1.34.7.1
-ebnIsRscvEntry: 1.3.6.1.2.1.34.7.1.2.1.1
-ebnIsRscvDestinationRoute: 1.3.6.1.2.1.34.7.1.2.1.1.3
-ebnSubnetSearchDynamics: 1.3.6.1.2.1.34.7.1.5.1.1.2
-ebnSubnetSearchOrdering: 1.3.6.1.2.1.34.7.1.5.1.1.3
-ebnSearchTable: 1.3.6.1.2.1.34.7.1.5.2
-ebnSearchEntry: 1.3.6.1.2.1.34.7.1.5.2.1
-ebnSearchIndex: 1.3.6.1.2.1.34.7.1.5.2.1.2
-ebnDirEntry: 1.3.6.1.2.1.34.7.1.1.1.1
-ebnSearchCacheTime: 1.3.6.1.2.1.34.7.1.3.1
-ebnCOS: 1.3.6.1.2.1.34.7.1.4
-hbnIsInTable: 1.3.6.1.2.1.34.7.1.6.1
-hbnIsInEntry: 1.3.6.1.2.1.34.7.1.6.1.1
-ebnConformance: 1.3.6.1.2.1.34.7.2
-ebnDirSubnetAffiliation: 1.3.6.1.2.1.34.7.1.1.1.1.2
-ebnDefaultSubnetVisitCount: 1.3.6.1.2.1.34.7.1.3.3
-ebnSubnetSearchTable: 1.3.6.1.2.1.34.7.1.5.1
-ebnSubnetSearchEntry: 1.3.6.1.2.1.34.7.1.5.1.1
-ebnSearchLuName: 1.3.6.1.2.1.34.7.1.5.2.1.1
-ebnSearchCpName: 1.3.6.1.2.1.34.7.1.5.2.1.3
-hbnIsInPcid: 1.3.6.1.2.1.34.7.1.6.1.1.2
-ebnDirTable: 1.3.6.1.2.1.34.7.1.1.1
-ebnIsRscvPcid: 1.3.6.1.2.1.34.7.1.2.1.1.2
-ebnCompliances: 1.3.6.1.2.1.34.7.2.1
-ebnIsRscv: 1.3.6.1.2.1.34.7.1.2
-ebnDirConfig: 1.3.6.1.2.1.34.7.1.3
-ebnCosMapCpName: 1.3.6.1.2.1.34.7.1.4.1.1.1
-ebnDirLuName: 1.3.6.1.2.1.34.7.1.1.1.1.1
-ebnIsRscvTable: 1.3.6.1.2.1.34.7.1.2.1
-hbn: 1.3.6.1.2.1.34.7.1.6
-ebnGroups: 1.3.6.1.2.1.34.7.2.2
-ebnDir: 1.3.6.1.2.1.34.7.1.1
-ebnCosMapNativeCos: 1.3.6.1.2.1.34.7.1.4.1.1.3
-ebnSubnetSearchLuName: 1.3.6.1.2.1.34.7.1.5.1.1.1
-hbnIsInFqCpName: 1.3.6.1.2.1.34.7.1.6.1.1.1
-hbnIsInRtpTcid: 1.3.6.1.2.1.34.7.1.6.1.1.4
+hbnIsInRtpNceId: 
+  oid: 1.3.6.1.2.1.34.7.1.6.1.1.3
+ebnSubnetRoutingList: 
+  oid: 1.3.6.1.2.1.34.7.1.5
+ebnMaxSearchCache: 
+  oid: 1.3.6.1.2.1.34.7.1.3.2
+ebnIsRscvCpName: 
+  oid: 1.3.6.1.2.1.34.7.1.2.1.1.1
+ebnSearchSNVC: 
+  oid: 1.3.6.1.2.1.34.7.1.5.2.1.4
+ebnCosMapEntry: 
+  oid: 1.3.6.1.2.1.34.7.1.4.1.1
+ebnCosMapTable: 
+  oid: 1.3.6.1.2.1.34.7.1.4.1
+ebnIsRscvDestinationCos: 
+  oid: 1.3.6.1.2.1.34.7.1.2.1.1.4
+ebnCosMapNonNativeCos: 
+  oid: 1.3.6.1.2.1.34.7.1.4.1.1.2
+ebnSearchIndex: 
+  oid: 1.3.6.1.2.1.34.7.1.5.2.1.2
+ebnSearchEntry: 
+  oid: 1.3.6.1.2.1.34.7.1.5.2.1
+ebnSearchTable: 
+  oid: 1.3.6.1.2.1.34.7.1.5.2
+ebnSubnetSearchOrdering: 
+  oid: 1.3.6.1.2.1.34.7.1.5.1.1.3
+ebnSubnetSearchDynamics: 
+  oid: 1.3.6.1.2.1.34.7.1.5.1.1.2
+ebnIsRscvDestinationRoute: 
+  oid: 1.3.6.1.2.1.34.7.1.2.1.1.3
+ebnIsRscvEntry: 
+  oid: 1.3.6.1.2.1.34.7.1.2.1.1
+ebnObjects: 
+  oid: 1.3.6.1.2.1.34.7.1
+ebnMIB: 
+  oid: 1.3.6.1.2.1.34.7
+ebnConformance: 
+  oid: 1.3.6.1.2.1.34.7.2
+hbnIsInEntry: 
+  oid: 1.3.6.1.2.1.34.7.1.6.1.1
+hbnIsInTable: 
+  oid: 1.3.6.1.2.1.34.7.1.6.1
+ebnCOS: 
+  oid: 1.3.6.1.2.1.34.7.1.4
+ebnSearchCacheTime: 
+  oid: 1.3.6.1.2.1.34.7.1.3.1
+ebnDirEntry: 
+  oid: 1.3.6.1.2.1.34.7.1.1.1.1
+ebnDirSubnetAffiliation: 
+  oid: 1.3.6.1.2.1.34.7.1.1.1.1.2
+hbnIsInPcid: 
+  oid: 1.3.6.1.2.1.34.7.1.6.1.1.2
+ebnSearchCpName: 
+  oid: 1.3.6.1.2.1.34.7.1.5.2.1.3
+ebnSearchLuName: 
+  oid: 1.3.6.1.2.1.34.7.1.5.2.1.1
+ebnSubnetSearchEntry: 
+  oid: 1.3.6.1.2.1.34.7.1.5.1.1
+ebnSubnetSearchTable: 
+  oid: 1.3.6.1.2.1.34.7.1.5.1
+ebnDefaultSubnetVisitCount: 
+  oid: 1.3.6.1.2.1.34.7.1.3.3
+ebnCompliances: 
+  oid: 1.3.6.1.2.1.34.7.2.1
+ebnIsRscvPcid: 
+  oid: 1.3.6.1.2.1.34.7.1.2.1.1.2
+ebnDirTable: 
+  oid: 1.3.6.1.2.1.34.7.1.1.1
+ebnCosMapCpName: 
+  oid: 1.3.6.1.2.1.34.7.1.4.1.1.1
+ebnDirConfig: 
+  oid: 1.3.6.1.2.1.34.7.1.3
+ebnIsRscv: 
+  oid: 1.3.6.1.2.1.34.7.1.2
+ebnGroups: 
+  oid: 1.3.6.1.2.1.34.7.2.2
+hbn: 
+  oid: 1.3.6.1.2.1.34.7.1.6
+ebnIsRscvTable: 
+  oid: 1.3.6.1.2.1.34.7.1.2.1
+ebnDirLuName: 
+  oid: 1.3.6.1.2.1.34.7.1.1.1.1.1
+hbnIsInRtpTcid: 
+  oid: 1.3.6.1.2.1.34.7.1.6.1.1.4
+hbnIsInFqCpName: 
+  oid: 1.3.6.1.2.1.34.7.1.6.1.1.1
+ebnSubnetSearchLuName: 
+  oid: 1.3.6.1.2.1.34.7.1.5.1.1.1
+ebnCosMapNativeCos: 
+  oid: 1.3.6.1.2.1.34.7.1.4.1.1.3
+ebnDir: 
+  oid: 1.3.6.1.2.1.34.7.1.1

@@ -1,181 +1,361 @@
 --- 
-mnHomeAddress: 1.3.6.1.2.1.44.1.3.1.2
-mnRepliesFAAuthenticationFailure: 1.3.6.1.2.1.44.1.3.3.13
-mipEnable: 1.3.6.1.2.1.44.1.1.2
-mnMoveFromFAToFA: 1.3.6.1.2.1.44.1.3.2.8
-mnSolicitationsSent: 1.3.6.1.2.1.44.1.3.2.3
-mnCOAIsLocal: 1.3.6.1.2.1.44.1.3.3.1.1.10
-haMultiBindingUnsupported: 1.3.6.1.2.1.44.1.6.3.4
-mipSecRecentViolationReason: 1.3.6.1.2.1.44.1.2.3.1.7
-mnRegIsAccepted: 1.3.6.1.2.1.44.1.3.3.1.1.9
-haMNAuthenticationFailure: 1.3.6.1.2.1.44.1.6.3.8
-mnRegistrationTable: 1.3.6.1.2.1.44.1.3.3.1
-mipSecAssocTable: 1.3.6.1.2.1.44.1.2.1
-mnRegAgentAddress: 1.3.6.1.2.1.44.1.3.3.1.1.1
-haCounterTable: 1.3.6.1.2.1.44.1.6.3.2
-haReasonUnspecified: 1.3.6.1.2.1.44.1.6.3.5
-maAdvMaxAdvLifetime: 1.3.6.1.2.1.44.1.4.2.1.1.7
-haUnknownHA: 1.3.6.1.2.1.44.1.6.3.13
-haIDMismatch: 1.3.6.1.2.1.44.1.6.3.10
-mipSecAlgorithmMode: 1.3.6.1.2.1.44.1.2.1.1.4
-haRegistration: 1.3.6.1.2.1.44.1.6.3
-faVisitorHomeAddress: 1.3.6.1.2.1.44.1.5.3.1.1.2
-haMobilityBindingRegIDLow: 1.3.6.1.2.1.44.1.6.3.1.1.5
-mnAdvertisementsReceived: 1.3.6.1.2.1.44.1.3.2.4
-faMNAuthenticationFailure: 1.3.6.1.2.1.44.1.5.3.7
-maAdvConfigTable: 1.3.6.1.2.1.44.1.4.2.1
-mnCOA: 1.3.6.1.2.1.44.1.3.2.1.1.2
-mipHA: 1.3.6.1.2.1.44.1.6
-mnRegTimeSent: 1.3.6.1.2.1.44.1.3.3.1.1.8
-mipCompliances: 1.3.6.1.2.1.44.3.2
-haRecentServiceDeniedCode: 1.3.6.1.2.1.44.1.6.3.2.1.7
-haMobilityBindingRegIDHigh: 1.3.6.1.2.1.44.1.6.3.1.1.6
-mipSecReplayMethod: 1.3.6.1.2.1.44.1.2.1.1.6
-mnRegIDLow: 1.3.6.1.2.1.44.1.3.3.1.1.4
-mnSystem: 1.3.6.1.2.1.44.1.3.1
-faVisitorTimeGranted: 1.3.6.1.2.1.44.1.5.3.1.1.4
-mnRepliesInvalidHomeAddress: 1.3.6.1.2.1.44.1.3.3.6
-faAdvertisement: 1.3.6.1.2.1.44.1.5.2
-maAdvAddress: 1.3.6.1.2.1.44.1.4.2.1.1.4
-faVisitorRegIDLow: 1.3.6.1.2.1.44.1.5.3.1.1.7
-mipSecViolationEntry: 1.3.6.1.2.1.44.1.2.3.1
-mnRepliesUnknownFA: 1.3.6.1.2.1.44.1.3.3.8
-mipMIBConformance: 1.3.6.1.2.1.44.3
-mnGratuitousARPsSend: 1.3.6.1.2.1.44.1.3.2.10
-faCOATable: 1.3.6.1.2.1.44.1.5.1.1
-haTooManyBindings: 1.3.6.1.2.1.44.1.6.3.12
-haOverallServiceTime: 1.3.6.1.2.1.44.1.6.3.2.1.4
-mnRepliesHAAuthenticationFailure: 1.3.6.1.2.1.44.1.3.3.12
-mipMIB: 1.3.6.1.2.1.44
-maSolicitationsReceived: 1.3.6.1.2.1.44.1.4.2.4
-faRegistrationRequired: 1.3.6.1.2.1.44.1.5.2.2
-faVisitorEntry: 1.3.6.1.2.1.44.1.5.3.1.1
-haMobilityBindingCOA: 1.3.6.1.2.1.44.1.6.3.1.1.2
-mipMIBNotificationPrefix: 1.3.6.1.2.1.44.2
-haMobilityBindingSourceAddress: 1.3.6.1.2.1.44.1.6.3.1.1.3
-mipMN: 1.3.6.1.2.1.44.1.3
-mipSecTotalViolations: 1.3.6.1.2.1.44.1.2.2
-mipSystem: 1.3.6.1.2.1.44.1.1
-faSystem: 1.3.6.1.2.1.44.1.5.1
-faEncapsulationUnavailable: 1.3.6.1.2.1.44.1.5.3.10
-maAdvPrefixLengthInclusion: 1.3.6.1.2.1.44.1.4.2.1.1.3
-maAdvStatus: 1.3.6.1.2.1.44.1.4.2.1.1.9
-mipEntities: 1.3.6.1.2.1.44.1.1.1
-haRecentServiceAcceptedTime: 1.3.6.1.2.1.44.1.6.3.2.1.5
-faRegRequestsRelayed: 1.3.6.1.2.1.44.1.5.3.3
-faRegRequestsReceived: 1.3.6.1.2.1.44.1.5.3.2
-mnRegRequestsSent: 1.3.6.1.2.1.44.1.3.3.2
-mipSecViolationCounter: 1.3.6.1.2.1.44.1.2.3.1.2
-mnAdvsDroppedInvalidExtension: 1.3.6.1.2.1.44.1.3.2.5
-mnRegRequestsDeniedByHADueToID: 1.3.6.1.2.1.44.1.3.3.17
-haRegRepliesSent: 1.3.6.1.2.1.44.1.6.3.18
-mnHAStatus: 1.3.6.1.2.1.44.1.3.1.3.1.3
-maAdvsSentForSolicitation: 1.3.6.1.2.1.44.1.4.2.3
-haMobilityBindingTimeGranted: 1.3.6.1.2.1.44.1.6.3.1.1.7
-mnHAAddress: 1.3.6.1.2.1.44.1.3.1.3.1.1
-mnMoveFromHAToFA: 1.3.6.1.2.1.44.1.3.2.7
-mnHATable: 1.3.6.1.2.1.44.1.3.1.3
-mnAgentRebootsDectected: 1.3.6.1.2.1.44.1.3.2.11
-mnDeRegRepliesRecieved: 1.3.6.1.2.1.44.1.3.3.5
-mnDiscovery: 1.3.6.1.2.1.44.1.3.2
-mnFAEntry: 1.3.6.1.2.1.44.1.3.2.1.1
-mipSecRecentViolationIDLow: 1.3.6.1.2.1.44.1.2.3.1.5
-mnRegFlags: 1.3.6.1.2.1.44.1.3.3.1.1.3
-mnRegRequestsDeniedByHA: 1.3.6.1.2.1.44.1.3.3.15
-mnRegCOA: 1.3.6.1.2.1.44.1.3.3.1.1.2
-haMobilityBindingRegFlags: 1.3.6.1.2.1.44.1.6.3.1.1.4
-mnAdvMaxRegLifetime: 1.3.6.1.2.1.44.1.3.2.2.4
-mipFA: 1.3.6.1.2.1.44.1.5
-haMobilityBindingEntry: 1.3.6.1.2.1.44.1.6.3.1.1
-mipSecSPI: 1.3.6.1.2.1.44.1.2.1.1.2
-faRegRepliesRecieved: 1.3.6.1.2.1.44.1.5.3.13
-faVisitorRegFlags: 1.3.6.1.2.1.44.1.5.3.1.1.6
-mipSecRecentViolationSPI: 1.3.6.1.2.1.44.1.2.3.1.3
-haFAAuthenticationFailure: 1.3.6.1.2.1.44.1.6.3.9
-mipMIBObjects: 1.3.6.1.2.1.44.1
-maInterfaceAddress: 1.3.6.1.2.1.44.1.4.2.1.1.1
-faRegRepliesRelayed: 1.3.6.1.2.1.44.1.5.3.14
-mnRepliesInvalidID: 1.3.6.1.2.1.44.1.3.3.9
-haServiceRequestsDenied: 1.3.6.1.2.1.44.1.6.3.2.1.3
-haMobilityBindingMN: 1.3.6.1.2.1.44.1.6.3.1.1.1
-faVisitorRegIDHigh: 1.3.6.1.2.1.44.1.5.3.1.1.8
-haAdmProhibited: 1.3.6.1.2.1.44.1.6.3.6
-mnRegTimeRemaining: 1.3.6.1.2.1.44.1.3.3.1.1.7
-maAdvertisement: 1.3.6.1.2.1.44.1.4.2
-mnRegistrationEntry: 1.3.6.1.2.1.44.1.3.3.1.1
-mipSecAssocEntry: 1.3.6.1.2.1.44.1.2.1.1
-haMobilityBindingTimeRemaining: 1.3.6.1.2.1.44.1.6.3.1.1.8
-faPoorlyFormedRequests: 1.3.6.1.2.1.44.1.5.3.9
-haRegRequestsReceived: 1.3.6.1.2.1.44.1.6.3.16
-faIsBusy: 1.3.6.1.2.1.44.1.5.2.1
-mipSecAlgorithmType: 1.3.6.1.2.1.44.1.2.1.1.3
-mnRepliesDroppedInvalidExtension: 1.3.6.1.2.1.44.1.3.3.10
-mnAdvTimeReceived: 1.3.6.1.2.1.44.1.3.2.2.6
-haDeRegRequestsReceived: 1.3.6.1.2.1.44.1.6.3.17
-maAdvConfigEntry: 1.3.6.1.2.1.44.1.4.2.1.1
-maAdvMaxInterval: 1.3.6.1.2.1.44.1.4.2.1.1.5
-maAdvMinInterval: 1.3.6.1.2.1.44.1.4.2.1.1.6
-faPoorlyFormedReplies: 1.3.6.1.2.1.44.1.5.3.16
-haServiceRequestsAccepted: 1.3.6.1.2.1.44.1.6.3.2.1.2
-haDeRegRepliesSent: 1.3.6.1.2.1.44.1.6.3.19
-mnCurrentHA: 1.3.6.1.2.1.44.1.3.1.3.1.2
-mnRegRequestsAccepted: 1.3.6.1.2.1.44.1.3.3.14
-faVisitorHomeAgentAddress: 1.3.6.1.2.1.44.1.5.3.1.1.3
-haProxyARPsSent: 1.3.6.1.2.1.44.1.6.3.15
-mnFAAddress: 1.3.6.1.2.1.44.1.3.2.1.1.1
-mipSecurity: 1.3.6.1.2.1.44.1.2
-mnRegRequestsDeniedByFA: 1.3.6.1.2.1.44.1.3.3.16
-mipSecPeerAddress: 1.3.6.1.2.1.44.1.2.1.1.1
-mnRegIDHigh: 1.3.6.1.2.1.44.1.3.3.1.1.5
-mnRegTimeRequested: 1.3.6.1.2.1.44.1.3.3.1.1.6
-faCOAEntry: 1.3.6.1.2.1.44.1.5.1.1.1
-faInsufficientResource: 1.3.6.1.2.1.44.1.5.3.6
-mipGroups: 1.3.6.1.2.1.44.3.1
-mipSecViolationTable: 1.3.6.1.2.1.44.1.2.3
-mnRegRepliesRecieved: 1.3.6.1.2.1.44.1.3.3.4
-mnMoveFromFAToHA: 1.3.6.1.2.1.44.1.3.2.9
-mnAdvSourceAddress: 1.3.6.1.2.1.44.1.3.2.2.1
-mnAdvMaxAdvLifetime: 1.3.6.1.2.1.44.1.3.2.2.5
-faHAUnreachable: 1.3.6.1.2.1.44.1.5.3.12
-haCounterEntry: 1.3.6.1.2.1.44.1.6.3.2.1
-mipAuthFailure: 1.3.6.1.2.1.44.2.0.1
-mnRegRequestsWithDirectedBroadcast: 1.3.6.1.2.1.44.1.3.3.18
-mipEncapsulationSupported: 1.3.6.1.2.1.44.1.1.3
-mnRecentAdvReceived: 1.3.6.1.2.1.44.1.3.2.2
-mnAdvsIgnoredUnknownExtension: 1.3.6.1.2.1.44.1.3.2.6
-mnAdvFlags: 1.3.6.1.2.1.44.1.3.2.2.3
-haRecentServiceDeniedTime: 1.3.6.1.2.1.44.1.6.3.2.1.6
-haInsufficientResource: 1.3.6.1.2.1.44.1.6.3.7
-faVisitorTable: 1.3.6.1.2.1.44.1.5.3.1
-faAdmProhibited: 1.3.6.1.2.1.44.1.5.3.5
-faHAAuthenticationFailure: 1.3.6.1.2.1.44.1.5.3.15
-faCOAStatus: 1.3.6.1.2.1.44.1.5.1.1.1.2
-maAdvMaxRegLifetime: 1.3.6.1.2.1.44.1.4.2.1.1.2
-faVisitorIPAddress: 1.3.6.1.2.1.44.1.5.3.1.1.1
-faVisitorRegIsAccepted: 1.3.6.1.2.1.44.1.5.3.1.1.9
-faReasonUnspecified: 1.3.6.1.2.1.44.1.5.3.4
-haMobilityBindingTable: 1.3.6.1.2.1.44.1.6.3.1
-maAdvertisementsSent: 1.3.6.1.2.1.44.1.4.2.2
-mipSecKey: 1.3.6.1.2.1.44.1.2.1.1.5
-haRegistrationAccepted: 1.3.6.1.2.1.44.1.6.3.3
-haGratuitiousARPsSent: 1.3.6.1.2.1.44.1.6.3.14
-mnRegistration: 1.3.6.1.2.1.44.1.3.3
-mnHAEntry: 1.3.6.1.2.1.44.1.3.1.3.1
-faVisitorTimeRemaining: 1.3.6.1.2.1.44.1.5.3.1.1.5
-faVJCompressionUnavailable: 1.3.6.1.2.1.44.1.5.3.11
-mipMA: 1.3.6.1.2.1.44.1.4
-mipSecRecentViolationIDHigh: 1.3.6.1.2.1.44.1.2.3.1.6
-mnFATable: 1.3.6.1.2.1.44.1.3.2.1
-mnState: 1.3.6.1.2.1.44.1.3.1.1
-mipSecRecentViolationTime: 1.3.6.1.2.1.44.1.2.3.1.4
-faSupportedCOA: 1.3.6.1.2.1.44.1.5.1.1.1.1
-mnRepliesUnknownHA: 1.3.6.1.2.1.44.1.3.3.7
-haPoorlyFormedRequest: 1.3.6.1.2.1.44.1.6.3.11
-mipMIBNotifications: 1.3.6.1.2.1.44.2.0
-mnDeRegRequestsSent: 1.3.6.1.2.1.44.1.3.3.3
-maAdvResponseSolicitationOnly: 1.3.6.1.2.1.44.1.4.2.1.1.8
-mipSecViolatorAddress: 1.3.6.1.2.1.44.1.2.3.1.1
-mnRepliesIgnoredUnknownExtension: 1.3.6.1.2.1.44.1.3.3.11
-faRegistration: 1.3.6.1.2.1.44.1.5.3
-mnAdvSequence: 1.3.6.1.2.1.44.1.3.2.2.2
-faRegLifetimeTooLong: 1.3.6.1.2.1.44.1.5.3.8
+mnHomeAddress: 
+  oid: 1.3.6.1.2.1.44.1.3.1.2
+mnRepliesFAAuthenticationFailure: 
+  oid: 1.3.6.1.2.1.44.1.3.3.13
+mipEnable: 
+  oid: 1.3.6.1.2.1.44.1.1.2
+mnMoveFromFAToFA: 
+  oid: 1.3.6.1.2.1.44.1.3.2.8
+mnSolicitationsSent: 
+  oid: 1.3.6.1.2.1.44.1.3.2.3
+mnCOAIsLocal: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1.1.10
+haMultiBindingUnsupported: 
+  oid: 1.3.6.1.2.1.44.1.6.3.4
+mipSecRecentViolationReason: 
+  oid: 1.3.6.1.2.1.44.1.2.3.1.7
+mnRegIsAccepted: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1.1.9
+haMNAuthenticationFailure: 
+  oid: 1.3.6.1.2.1.44.1.6.3.8
+mnRegistrationTable: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1
+mipSecAssocTable: 
+  oid: 1.3.6.1.2.1.44.1.2.1
+mnRegAgentAddress: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1.1.1
+haCounterTable: 
+  oid: 1.3.6.1.2.1.44.1.6.3.2
+haReasonUnspecified: 
+  oid: 1.3.6.1.2.1.44.1.6.3.5
+maAdvMaxAdvLifetime: 
+  oid: 1.3.6.1.2.1.44.1.4.2.1.1.7
+haUnknownHA: 
+  oid: 1.3.6.1.2.1.44.1.6.3.13
+haIDMismatch: 
+  oid: 1.3.6.1.2.1.44.1.6.3.10
+mipSecAlgorithmMode: 
+  oid: 1.3.6.1.2.1.44.1.2.1.1.4
+haRegistration: 
+  oid: 1.3.6.1.2.1.44.1.6.3
+faVisitorHomeAddress: 
+  oid: 1.3.6.1.2.1.44.1.5.3.1.1.2
+haMobilityBindingRegIDLow: 
+  oid: 1.3.6.1.2.1.44.1.6.3.1.1.5
+mnAdvertisementsReceived: 
+  oid: 1.3.6.1.2.1.44.1.3.2.4
+faMNAuthenticationFailure: 
+  oid: 1.3.6.1.2.1.44.1.5.3.7
+maAdvConfigTable: 
+  oid: 1.3.6.1.2.1.44.1.4.2.1
+mnCOA: 
+  oid: 1.3.6.1.2.1.44.1.3.2.1.1.2
+mipHA: 
+  oid: 1.3.6.1.2.1.44.1.6
+mnRegTimeSent: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1.1.8
+mipCompliances: 
+  oid: 1.3.6.1.2.1.44.3.2
+haRecentServiceDeniedCode: 
+  oid: 1.3.6.1.2.1.44.1.6.3.2.1.7
+haMobilityBindingRegIDHigh: 
+  oid: 1.3.6.1.2.1.44.1.6.3.1.1.6
+mipSecReplayMethod: 
+  oid: 1.3.6.1.2.1.44.1.2.1.1.6
+mnRegIDLow: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1.1.4
+mnSystem: 
+  oid: 1.3.6.1.2.1.44.1.3.1
+faVisitorTimeGranted: 
+  oid: 1.3.6.1.2.1.44.1.5.3.1.1.4
+mnRepliesInvalidHomeAddress: 
+  oid: 1.3.6.1.2.1.44.1.3.3.6
+faAdvertisement: 
+  oid: 1.3.6.1.2.1.44.1.5.2
+maAdvAddress: 
+  oid: 1.3.6.1.2.1.44.1.4.2.1.1.4
+faVisitorRegIDLow: 
+  oid: 1.3.6.1.2.1.44.1.5.3.1.1.7
+mipSecViolationEntry: 
+  oid: 1.3.6.1.2.1.44.1.2.3.1
+mnRepliesUnknownFA: 
+  oid: 1.3.6.1.2.1.44.1.3.3.8
+mipMIBConformance: 
+  oid: 1.3.6.1.2.1.44.3
+mnGratuitousARPsSend: 
+  oid: 1.3.6.1.2.1.44.1.3.2.10
+faCOATable: 
+  oid: 1.3.6.1.2.1.44.1.5.1.1
+haTooManyBindings: 
+  oid: 1.3.6.1.2.1.44.1.6.3.12
+haOverallServiceTime: 
+  oid: 1.3.6.1.2.1.44.1.6.3.2.1.4
+mnRepliesHAAuthenticationFailure: 
+  oid: 1.3.6.1.2.1.44.1.3.3.12
+mipMIB: 
+  oid: 1.3.6.1.2.1.44
+maSolicitationsReceived: 
+  oid: 1.3.6.1.2.1.44.1.4.2.4
+faRegistrationRequired: 
+  oid: 1.3.6.1.2.1.44.1.5.2.2
+faVisitorEntry: 
+  oid: 1.3.6.1.2.1.44.1.5.3.1.1
+haMobilityBindingCOA: 
+  oid: 1.3.6.1.2.1.44.1.6.3.1.1.2
+mipMIBNotificationPrefix: 
+  oid: 1.3.6.1.2.1.44.2
+haMobilityBindingSourceAddress: 
+  oid: 1.3.6.1.2.1.44.1.6.3.1.1.3
+mipMN: 
+  oid: 1.3.6.1.2.1.44.1.3
+mipSecTotalViolations: 
+  oid: 1.3.6.1.2.1.44.1.2.2
+mipSystem: 
+  oid: 1.3.6.1.2.1.44.1.1
+faSystem: 
+  oid: 1.3.6.1.2.1.44.1.5.1
+faEncapsulationUnavailable: 
+  oid: 1.3.6.1.2.1.44.1.5.3.10
+maAdvPrefixLengthInclusion: 
+  oid: 1.3.6.1.2.1.44.1.4.2.1.1.3
+maAdvStatus: 
+  oid: 1.3.6.1.2.1.44.1.4.2.1.1.9
+mipEntities: 
+  oid: 1.3.6.1.2.1.44.1.1.1
+haRecentServiceAcceptedTime: 
+  oid: 1.3.6.1.2.1.44.1.6.3.2.1.5
+faRegRequestsRelayed: 
+  oid: 1.3.6.1.2.1.44.1.5.3.3
+faRegRequestsReceived: 
+  oid: 1.3.6.1.2.1.44.1.5.3.2
+mnRegRequestsSent: 
+  oid: 1.3.6.1.2.1.44.1.3.3.2
+mipSecViolationCounter: 
+  oid: 1.3.6.1.2.1.44.1.2.3.1.2
+mnAdvsDroppedInvalidExtension: 
+  oid: 1.3.6.1.2.1.44.1.3.2.5
+mnRegRequestsDeniedByHADueToID: 
+  oid: 1.3.6.1.2.1.44.1.3.3.17
+haRegRepliesSent: 
+  oid: 1.3.6.1.2.1.44.1.6.3.18
+mnHAStatus: 
+  oid: 1.3.6.1.2.1.44.1.3.1.3.1.3
+maAdvsSentForSolicitation: 
+  oid: 1.3.6.1.2.1.44.1.4.2.3
+haMobilityBindingTimeGranted: 
+  oid: 1.3.6.1.2.1.44.1.6.3.1.1.7
+mnHAAddress: 
+  oid: 1.3.6.1.2.1.44.1.3.1.3.1.1
+mnMoveFromHAToFA: 
+  oid: 1.3.6.1.2.1.44.1.3.2.7
+mnHATable: 
+  oid: 1.3.6.1.2.1.44.1.3.1.3
+mnAgentRebootsDectected: 
+  oid: 1.3.6.1.2.1.44.1.3.2.11
+mnDeRegRepliesRecieved: 
+  oid: 1.3.6.1.2.1.44.1.3.3.5
+mnDiscovery: 
+  oid: 1.3.6.1.2.1.44.1.3.2
+mnFAEntry: 
+  oid: 1.3.6.1.2.1.44.1.3.2.1.1
+mipSecRecentViolationIDLow: 
+  oid: 1.3.6.1.2.1.44.1.2.3.1.5
+mnRegFlags: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1.1.3
+mnRegRequestsDeniedByHA: 
+  oid: 1.3.6.1.2.1.44.1.3.3.15
+mnRegCOA: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1.1.2
+haMobilityBindingRegFlags: 
+  oid: 1.3.6.1.2.1.44.1.6.3.1.1.4
+mnAdvMaxRegLifetime: 
+  oid: 1.3.6.1.2.1.44.1.3.2.2.4
+mipFA: 
+  oid: 1.3.6.1.2.1.44.1.5
+haMobilityBindingEntry: 
+  oid: 1.3.6.1.2.1.44.1.6.3.1.1
+mipSecSPI: 
+  oid: 1.3.6.1.2.1.44.1.2.1.1.2
+faRegRepliesRecieved: 
+  oid: 1.3.6.1.2.1.44.1.5.3.13
+faVisitorRegFlags: 
+  oid: 1.3.6.1.2.1.44.1.5.3.1.1.6
+mipSecRecentViolationSPI: 
+  oid: 1.3.6.1.2.1.44.1.2.3.1.3
+haFAAuthenticationFailure: 
+  oid: 1.3.6.1.2.1.44.1.6.3.9
+mipMIBObjects: 
+  oid: 1.3.6.1.2.1.44.1
+maInterfaceAddress: 
+  oid: 1.3.6.1.2.1.44.1.4.2.1.1.1
+faRegRepliesRelayed: 
+  oid: 1.3.6.1.2.1.44.1.5.3.14
+mnRepliesInvalidID: 
+  oid: 1.3.6.1.2.1.44.1.3.3.9
+haServiceRequestsDenied: 
+  oid: 1.3.6.1.2.1.44.1.6.3.2.1.3
+haMobilityBindingMN: 
+  oid: 1.3.6.1.2.1.44.1.6.3.1.1.1
+faVisitorRegIDHigh: 
+  oid: 1.3.6.1.2.1.44.1.5.3.1.1.8
+haAdmProhibited: 
+  oid: 1.3.6.1.2.1.44.1.6.3.6
+mnRegTimeRemaining: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1.1.7
+maAdvertisement: 
+  oid: 1.3.6.1.2.1.44.1.4.2
+mnRegistrationEntry: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1.1
+mipSecAssocEntry: 
+  oid: 1.3.6.1.2.1.44.1.2.1.1
+haMobilityBindingTimeRemaining: 
+  oid: 1.3.6.1.2.1.44.1.6.3.1.1.8
+faPoorlyFormedRequests: 
+  oid: 1.3.6.1.2.1.44.1.5.3.9
+haRegRequestsReceived: 
+  oid: 1.3.6.1.2.1.44.1.6.3.16
+faIsBusy: 
+  oid: 1.3.6.1.2.1.44.1.5.2.1
+mipSecAlgorithmType: 
+  oid: 1.3.6.1.2.1.44.1.2.1.1.3
+mnRepliesDroppedInvalidExtension: 
+  oid: 1.3.6.1.2.1.44.1.3.3.10
+mnAdvTimeReceived: 
+  oid: 1.3.6.1.2.1.44.1.3.2.2.6
+haDeRegRequestsReceived: 
+  oid: 1.3.6.1.2.1.44.1.6.3.17
+maAdvConfigEntry: 
+  oid: 1.3.6.1.2.1.44.1.4.2.1.1
+haDeRegRepliesSent: 
+  oid: 1.3.6.1.2.1.44.1.6.3.19
+haServiceRequestsAccepted: 
+  oid: 1.3.6.1.2.1.44.1.6.3.2.1.2
+faPoorlyFormedReplies: 
+  oid: 1.3.6.1.2.1.44.1.5.3.16
+maAdvMinInterval: 
+  oid: 1.3.6.1.2.1.44.1.4.2.1.1.6
+maAdvMaxInterval: 
+  oid: 1.3.6.1.2.1.44.1.4.2.1.1.5
+haProxyARPsSent: 
+  oid: 1.3.6.1.2.1.44.1.6.3.15
+faVisitorHomeAgentAddress: 
+  oid: 1.3.6.1.2.1.44.1.5.3.1.1.3
+mnRegRequestsAccepted: 
+  oid: 1.3.6.1.2.1.44.1.3.3.14
+mnCurrentHA: 
+  oid: 1.3.6.1.2.1.44.1.3.1.3.1.2
+mipGroups: 
+  oid: 1.3.6.1.2.1.44.3.1
+faInsufficientResource: 
+  oid: 1.3.6.1.2.1.44.1.5.3.6
+faCOAEntry: 
+  oid: 1.3.6.1.2.1.44.1.5.1.1.1
+mnRegTimeRequested: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1.1.6
+mnRegIDHigh: 
+  oid: 1.3.6.1.2.1.44.1.3.3.1.1.5
+mipSecPeerAddress: 
+  oid: 1.3.6.1.2.1.44.1.2.1.1.1
+mnRegRequestsDeniedByFA: 
+  oid: 1.3.6.1.2.1.44.1.3.3.16
+mipSecurity: 
+  oid: 1.3.6.1.2.1.44.1.2
+mnFAAddress: 
+  oid: 1.3.6.1.2.1.44.1.3.2.1.1.1
+haCounterEntry: 
+  oid: 1.3.6.1.2.1.44.1.6.3.2.1
+faHAUnreachable: 
+  oid: 1.3.6.1.2.1.44.1.5.3.12
+mnAdvMaxAdvLifetime: 
+  oid: 1.3.6.1.2.1.44.1.3.2.2.5
+mnAdvSourceAddress: 
+  oid: 1.3.6.1.2.1.44.1.3.2.2.1
+mnMoveFromFAToHA: 
+  oid: 1.3.6.1.2.1.44.1.3.2.9
+mnRegRepliesRecieved: 
+  oid: 1.3.6.1.2.1.44.1.3.3.4
+mipSecViolationTable: 
+  oid: 1.3.6.1.2.1.44.1.2.3
+haInsufficientResource: 
+  oid: 1.3.6.1.2.1.44.1.6.3.7
+haRecentServiceDeniedTime: 
+  oid: 1.3.6.1.2.1.44.1.6.3.2.1.6
+mnAdvFlags: 
+  oid: 1.3.6.1.2.1.44.1.3.2.2.3
+mnAdvsIgnoredUnknownExtension: 
+  oid: 1.3.6.1.2.1.44.1.3.2.6
+mnRecentAdvReceived: 
+  oid: 1.3.6.1.2.1.44.1.3.2.2
+mipEncapsulationSupported: 
+  oid: 1.3.6.1.2.1.44.1.1.3
+mnRegRequestsWithDirectedBroadcast: 
+  oid: 1.3.6.1.2.1.44.1.3.3.18
+mipAuthFailure: 
+  oid: 1.3.6.1.2.1.44.2.0.1
+faHAAuthenticationFailure: 
+  oid: 1.3.6.1.2.1.44.1.5.3.15
+faAdmProhibited: 
+  oid: 1.3.6.1.2.1.44.1.5.3.5
+faVisitorTable: 
+  oid: 1.3.6.1.2.1.44.1.5.3.1
+haMobilityBindingTable: 
+  oid: 1.3.6.1.2.1.44.1.6.3.1
+faReasonUnspecified: 
+  oid: 1.3.6.1.2.1.44.1.5.3.4
+faVisitorRegIsAccepted: 
+  oid: 1.3.6.1.2.1.44.1.5.3.1.1.9
+faVisitorIPAddress: 
+  oid: 1.3.6.1.2.1.44.1.5.3.1.1.1
+maAdvMaxRegLifetime: 
+  oid: 1.3.6.1.2.1.44.1.4.2.1.1.2
+faCOAStatus: 
+  oid: 1.3.6.1.2.1.44.1.5.1.1.1.2
+haGratuitiousARPsSent: 
+  oid: 1.3.6.1.2.1.44.1.6.3.14
+haRegistrationAccepted: 
+  oid: 1.3.6.1.2.1.44.1.6.3.3
+mipSecKey: 
+  oid: 1.3.6.1.2.1.44.1.2.1.1.5
+maAdvertisementsSent: 
+  oid: 1.3.6.1.2.1.44.1.4.2.2
+faVJCompressionUnavailable: 
+  oid: 1.3.6.1.2.1.44.1.5.3.11
+faVisitorTimeRemaining: 
+  oid: 1.3.6.1.2.1.44.1.5.3.1.1.5
+mnHAEntry: 
+  oid: 1.3.6.1.2.1.44.1.3.1.3.1
+mnRegistration: 
+  oid: 1.3.6.1.2.1.44.1.3.3
+mipSecRecentViolationIDHigh: 
+  oid: 1.3.6.1.2.1.44.1.2.3.1.6
+mipMA: 
+  oid: 1.3.6.1.2.1.44.1.4
+mipMIBNotifications: 
+  oid: 1.3.6.1.2.1.44.2.0
+haPoorlyFormedRequest: 
+  oid: 1.3.6.1.2.1.44.1.6.3.11
+mnRepliesUnknownHA: 
+  oid: 1.3.6.1.2.1.44.1.3.3.7
+faSupportedCOA: 
+  oid: 1.3.6.1.2.1.44.1.5.1.1.1.1
+mipSecRecentViolationTime: 
+  oid: 1.3.6.1.2.1.44.1.2.3.1.4
+mnState: 
+  oid: 1.3.6.1.2.1.44.1.3.1.1
+mnFATable: 
+  oid: 1.3.6.1.2.1.44.1.3.2.1
+maAdvResponseSolicitationOnly: 
+  oid: 1.3.6.1.2.1.44.1.4.2.1.1.8
+mnDeRegRequestsSent: 
+  oid: 1.3.6.1.2.1.44.1.3.3.3
+faRegLifetimeTooLong: 
+  oid: 1.3.6.1.2.1.44.1.5.3.8
+mnAdvSequence: 
+  oid: 1.3.6.1.2.1.44.1.3.2.2.2
+faRegistration: 
+  oid: 1.3.6.1.2.1.44.1.5.3
+mnRepliesIgnoredUnknownExtension: 
+  oid: 1.3.6.1.2.1.44.1.3.3.11
+mipSecViolatorAddress: 
+  oid: 1.3.6.1.2.1.44.1.2.3.1.1

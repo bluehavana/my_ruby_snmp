@@ -1,11 +1,21 @@
 --- 
-udp: 1.3.6.1.2.1.7
-ipv6UdpCompliances: 1.3.6.1.3.87.2.1
-ipv6UdpIfIndex: 1.3.6.1.2.1.7.6.1.3
-ipv6UdpMIB: 1.3.6.1.3.87
-ipv6UdpConformance: 1.3.6.1.3.87.2
-ipv6UdpEntry: 1.3.6.1.2.1.7.6.1
-ipv6UdpLocalAddress: 1.3.6.1.2.1.7.6.1.1
-ipv6UdpLocalPort: 1.3.6.1.2.1.7.6.1.2
-ipv6UdpGroups: 1.3.6.1.3.87.2.2
-ipv6UdpTable: 1.3.6.1.2.1.7.6
+ipv6UdpCompliances: 
+  oid: 1.3.6.1.3.87.2.1
+udp: 
+  oid: 1.3.6.1.2.1.7
+ipv6UdpConformance: 
+  oid: 1.3.6.1.3.87.2
+ipv6UdpMIB: 
+  oid: 1.3.6.1.3.87
+ipv6UdpIfIndex: 
+  oid: 1.3.6.1.2.1.7.6.1.3
+ipv6UdpEntry: 
+  oid: 1.3.6.1.2.1.7.6.1
+ipv6UdpGroups: 
+  oid: 1.3.6.1.3.87.2.2
+ipv6UdpLocalPort: 
+  oid: 1.3.6.1.2.1.7.6.1.2
+ipv6UdpLocalAddress: 
+  oid: 1.3.6.1.2.1.7.6.1.1
+ipv6UdpTable: 
+  oid: 1.3.6.1.2.1.7.6

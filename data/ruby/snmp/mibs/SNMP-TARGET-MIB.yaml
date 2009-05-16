@@ -1,29 +1,57 @@
 --- 
-snmpTargetAddrName: 1.3.6.1.6.3.12.1.2.1.1
-snmpTargetParamsEntry: 1.3.6.1.6.3.12.1.3.1
-snmpTargetParamsName: 1.3.6.1.6.3.12.1.3.1.1
-snmpTargetParamsStorageType: 1.3.6.1.6.3.12.1.3.1.6
-snmpTargetMIB: 1.3.6.1.6.3.12
-snmpTargetAddrTimeout: 1.3.6.1.6.3.12.1.2.1.4
-snmpTargetParamsRowStatus: 1.3.6.1.6.3.12.1.3.1.7
-snmpTargetAddrTagList: 1.3.6.1.6.3.12.1.2.1.6
-snmpTargetAddrStorageType: 1.3.6.1.6.3.12.1.2.1.8
-snmpTargetParamsTable: 1.3.6.1.6.3.12.1.3
-snmpTargetAddrTAddress: 1.3.6.1.6.3.12.1.2.1.3
-snmpTargetParamsSecurityName: 1.3.6.1.6.3.12.1.3.1.4
-snmpTargetParamsSecurityLevel: 1.3.6.1.6.3.12.1.3.1.5
-snmpUnavailableContexts: 1.3.6.1.6.3.12.1.4
-snmpTargetObjects: 1.3.6.1.6.3.12.1
-snmpTargetAddrRowStatus: 1.3.6.1.6.3.12.1.2.1.9
-snmpTargetAddrTDomain: 1.3.6.1.6.3.12.1.2.1.2
-snmpTargetAddrParams: 1.3.6.1.6.3.12.1.2.1.7
-snmpTargetAddrTable: 1.3.6.1.6.3.12.1.2
-snmpTargetAddrEntry: 1.3.6.1.6.3.12.1.2.1
-snmpTargetAddrRetryCount: 1.3.6.1.6.3.12.1.2.1.5
-snmpTargetGroups: 1.3.6.1.6.3.12.3.2
-snmpTargetParamsSecurityModel: 1.3.6.1.6.3.12.1.3.1.3
-snmpUnknownContexts: 1.3.6.1.6.3.12.1.5
-snmpTargetCompliances: 1.3.6.1.6.3.12.3.1
-snmpTargetSpinLock: 1.3.6.1.6.3.12.1.1
-snmpTargetParamsMPModel: 1.3.6.1.6.3.12.1.3.1.2
-snmpTargetConformance: 1.3.6.1.6.3.12.3
+snmpTargetParamsStorageType: 
+  oid: 1.3.6.1.6.3.12.1.3.1.6
+snmpTargetParamsName: 
+  oid: 1.3.6.1.6.3.12.1.3.1.1
+snmpTargetParamsEntry: 
+  oid: 1.3.6.1.6.3.12.1.3.1
+snmpTargetAddrName: 
+  oid: 1.3.6.1.6.3.12.1.2.1.1
+snmpTargetParamsRowStatus: 
+  oid: 1.3.6.1.6.3.12.1.3.1.7
+snmpTargetAddrTimeout: 
+  oid: 1.3.6.1.6.3.12.1.2.1.4
+snmpTargetMIB: 
+  oid: 1.3.6.1.6.3.12
+snmpTargetAddrTagList: 
+  oid: 1.3.6.1.6.3.12.1.2.1.6
+snmpTargetParamsTable: 
+  oid: 1.3.6.1.6.3.12.1.3
+snmpTargetAddrStorageType: 
+  oid: 1.3.6.1.6.3.12.1.2.1.8
+snmpUnavailableContexts: 
+  oid: 1.3.6.1.6.3.12.1.4
+snmpTargetParamsSecurityLevel: 
+  oid: 1.3.6.1.6.3.12.1.3.1.5
+snmpTargetParamsSecurityName: 
+  oid: 1.3.6.1.6.3.12.1.3.1.4
+snmpTargetAddrTAddress: 
+  oid: 1.3.6.1.6.3.12.1.2.1.3
+snmpTargetAddrRowStatus: 
+  oid: 1.3.6.1.6.3.12.1.2.1.9
+snmpTargetObjects: 
+  oid: 1.3.6.1.6.3.12.1
+snmpTargetAddrParams: 
+  oid: 1.3.6.1.6.3.12.1.2.1.7
+snmpTargetAddrTDomain: 
+  oid: 1.3.6.1.6.3.12.1.2.1.2
+snmpTargetGroups: 
+  oid: 1.3.6.1.6.3.12.3.2
+snmpTargetAddrRetryCount: 
+  oid: 1.3.6.1.6.3.12.1.2.1.5
+snmpTargetAddrEntry: 
+  oid: 1.3.6.1.6.3.12.1.2.1
+snmpTargetAddrTable: 
+  oid: 1.3.6.1.6.3.12.1.2
+snmpTargetCompliances: 
+  oid: 1.3.6.1.6.3.12.3.1
+snmpUnknownContexts: 
+  oid: 1.3.6.1.6.3.12.1.5
+snmpTargetParamsSecurityModel: 
+  oid: 1.3.6.1.6.3.12.1.3.1.3
+snmpTargetConformance: 
+  oid: 1.3.6.1.6.3.12.3
+snmpTargetParamsMPModel: 
+  oid: 1.3.6.1.6.3.12.1.3.1.2
+snmpTargetSpinLock: 
+  oid: 1.3.6.1.6.3.12.1.1

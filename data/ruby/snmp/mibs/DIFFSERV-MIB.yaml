@@ -1,171 +1,341 @@
 --- 
-diffServQNextFree: 1.3.6.1.2.1.97.1.7.1
-diffServActionStatus: 1.3.6.1.2.1.97.1.5.2.1.6
-diffServMIBConformance: 1.3.6.1.2.1.97.2
-diffServAlgDrop: 1.3.6.1.2.1.97.1.6
-diffServClfrElementPrecedence: 1.3.6.1.2.1.97.1.2.4.1.2
-diffServCountActStatus: 1.3.6.1.2.1.97.1.5.5.1.5
-diffServSchedulerPriority: 1.3.6.1.2.1.97.3.2.1
-diffServClfrElementTable: 1.3.6.1.2.1.97.1.2.4
-diffServQStatus: 1.3.6.1.2.1.97.1.7.2.1.6
-diffServAlgDropStatus: 1.3.6.1.2.1.97.1.6.2.1.12
-diffServMinRatePriority: 1.3.6.1.2.1.97.1.8.4.1.2
-diffServMaxRateTable: 1.3.6.1.2.1.97.1.8.6
-diffServMultiFieldClfrStorage: 1.3.6.1.2.1.97.1.2.6.1.14
-diffServMaxRateThreshold: 1.3.6.1.2.1.97.1.8.6.1.5
-diffServQNext: 1.3.6.1.2.1.97.1.7.2.1.2
-diffServAlgDropSpecific: 1.3.6.1.2.1.97.1.6.2.1.6
-diffServMultiFieldClfrDstL4PortMax: 1.3.6.1.2.1.97.1.2.6.1.11
-diffServAlgDropPkts: 1.3.6.1.2.1.97.1.6.2.1.8
-diffServSchedulerId: 1.3.6.1.2.1.97.1.8.2.1.1
-diffServTBParamSrTCMBlind: 1.3.6.1.2.1.97.3.1.3
-diffServSchedulerEntry: 1.3.6.1.2.1.97.1.8.2.1
-diffServDataPathEntry: 1.3.6.1.2.1.97.1.1.1.1
-diffServMultiFieldClfrSrcAddr: 1.3.6.1.2.1.97.1.2.6.1.5
-diffServDataPath: 1.3.6.1.2.1.97.1.1
-diffServSchedulerMaxRate: 1.3.6.1.2.1.97.1.8.2.1.5
-diffServTBParam: 1.3.6.1.2.1.97.1.4
-diffServRandomDropNextFree: 1.3.6.1.2.1.97.1.6.3
-diffServQMinRate: 1.3.6.1.2.1.97.1.7.2.1.3
-diffServTBParamTrTCMBlind: 1.3.6.1.2.1.97.3.1.5
-diffServTBParamInterval: 1.3.6.1.2.1.97.1.4.2.1.5
-diffServRandomDropMinThreshBytes: 1.3.6.1.2.1.97.1.6.4.1.2
-diffServTBParamId: 1.3.6.1.2.1.97.1.4.2.1.1
-diffServTBParamTable: 1.3.6.1.2.1.97.1.4.2
-diffServMultiFieldClfrStatus: 1.3.6.1.2.1.97.1.2.6.1.15
-diffServSchedulerMethod: 1.3.6.1.2.1.97.1.8.2.1.3
-diffServAlgDropNextFree: 1.3.6.1.2.1.97.1.6.1
-diffServCountActNextFree: 1.3.6.1.2.1.97.1.5.4
-diffServMIBGroups: 1.3.6.1.2.1.97.2.2
-diffServQStorage: 1.3.6.1.2.1.97.1.7.2.1.5
-diffServMaxRateStorage: 1.3.6.1.2.1.97.1.8.6.1.6
-diffServMultiFieldClfrTable: 1.3.6.1.2.1.97.1.2.6
-diffServActionStorage: 1.3.6.1.2.1.97.1.5.2.1.5
-diffServQueue: 1.3.6.1.2.1.97.1.7
-diffServMultiFieldClfrDstAddr: 1.3.6.1.2.1.97.1.2.6.1.3
-diffServDscpMarkActTable: 1.3.6.1.2.1.97.1.5.3
-diffServRandomDropSamplingRate: 1.3.6.1.2.1.97.1.6.4.1.8
-diffServClfrElementSpecific: 1.3.6.1.2.1.97.1.2.4.1.4
-diffServRandomDropStorage: 1.3.6.1.2.1.97.1.6.4.1.9
-diffServTBParamType: 1.3.6.1.2.1.97.1.4.2.1.2
-diffServClfrStatus: 1.3.6.1.2.1.97.1.2.2.1.3
-diffServMeterEntry: 1.3.6.1.2.1.97.1.3.2.1
-diffServDataPathStorage: 1.3.6.1.2.1.97.1.1.1.1.3
-diffServMultiFieldClfrFlowId: 1.3.6.1.2.1.97.1.2.6.1.8
-diffServClassifier: 1.3.6.1.2.1.97.1.2
-diffServMultiFieldClfrSrcL4PortMin: 1.3.6.1.2.1.97.1.2.6.1.12
-diffServMinRateStorage: 1.3.6.1.2.1.97.1.8.4.1.5
-diffServRandomDropWeight: 1.3.6.1.2.1.97.1.6.4.1.7
-diffServClfrElementNextFree: 1.3.6.1.2.1.97.1.2.3
-diffServSchedulerMinRate: 1.3.6.1.2.1.97.1.8.2.1.4
-diffServMultiFieldClfrAddrType: 1.3.6.1.2.1.97.1.2.6.1.2
-diffServAlgDropStorage: 1.3.6.1.2.1.97.1.6.2.1.11
-diffServAlgDropNext: 1.3.6.1.2.1.97.1.6.2.1.3
-diffServClfrElementId: 1.3.6.1.2.1.97.1.2.4.1.1
-diffServMaxRateAbsolute: 1.3.6.1.2.1.97.1.8.6.1.3
-diffServActionEntry: 1.3.6.1.2.1.97.1.5.2.1
-diffServSchedulerStorage: 1.3.6.1.2.1.97.1.8.2.1.6
-diffServTBParamSimpleTokenBucket: 1.3.6.1.2.1.97.3.1.1
-diffServRandomDropEntry: 1.3.6.1.2.1.97.1.6.4.1
-diffServActionNext: 1.3.6.1.2.1.97.1.5.2.1.3
-diffServRandomDropId: 1.3.6.1.2.1.97.1.6.4.1.1
-diffServTBParamStatus: 1.3.6.1.2.1.97.1.4.2.1.7
-diffServAlgDropEntry: 1.3.6.1.2.1.97.1.6.2.1
-diffServAction: 1.3.6.1.2.1.97.1.5
-diffServMeterStatus: 1.3.6.1.2.1.97.1.3.2.1.6
-diffServTBParamSrTCMAware: 1.3.6.1.2.1.97.3.1.4
-diffServDataPathStatus: 1.3.6.1.2.1.97.1.1.1.1.4
-diffServQEntry: 1.3.6.1.2.1.97.1.7.2.1
-diffServCountActOctets: 1.3.6.1.2.1.97.1.5.5.1.2
-diffServSchedulerTable: 1.3.6.1.2.1.97.1.8.2
-diffServMeterSpecific: 1.3.6.1.2.1.97.1.3.2.1.4
-diffServClfrTable: 1.3.6.1.2.1.97.1.2.2
-diffServMeterSucceedNext: 1.3.6.1.2.1.97.1.3.2.1.2
-diffServAlgDropOctets: 1.3.6.1.2.1.97.1.6.2.1.7
-diffServTBMeters: 1.3.6.1.2.1.97.3.1
-diffServCountActTable: 1.3.6.1.2.1.97.1.5.5
-diffServAlgDropId: 1.3.6.1.2.1.97.1.6.2.1.1
-diffServSchedulerStatus: 1.3.6.1.2.1.97.1.8.2.1.7
-diffServMaxRateStatus: 1.3.6.1.2.1.97.1.8.6.1.7
-diffServClfrElementEntry: 1.3.6.1.2.1.97.1.2.4.1
-diffServMultiFieldClfrDstPrefixLength: 1.3.6.1.2.1.97.1.2.6.1.4
-diffServMultiFieldClfrNextFree: 1.3.6.1.2.1.97.1.2.5
-diffServMinRateTable: 1.3.6.1.2.1.97.1.8.4
-diffServRandomDropProbMax: 1.3.6.1.2.1.97.1.6.4.1.6
-diffServTBParamTswTCM: 1.3.6.1.2.1.97.3.1.7
-diffServAlgDropQMeasure: 1.3.6.1.2.1.97.1.6.2.1.4
-diffServMaxRateEntry: 1.3.6.1.2.1.97.1.8.6.1
-diffServMaxRateNextFree: 1.3.6.1.2.1.97.1.8.5
-diffServMeterNextFree: 1.3.6.1.2.1.97.1.3.1
-diffServDscpMarkActDscp: 1.3.6.1.2.1.97.1.5.3.1.1
-diffServMeterStorage: 1.3.6.1.2.1.97.1.3.2.1.5
-diffServMultiFieldClfrDstL4PortMin: 1.3.6.1.2.1.97.1.2.6.1.10
-diffServClfrElementNext: 1.3.6.1.2.1.97.1.2.4.1.3
-diffServCountActStorage: 1.3.6.1.2.1.97.1.5.5.1.4
-diffServCountActPkts: 1.3.6.1.2.1.97.1.5.5.1.3
-diffServMaxRateRelative: 1.3.6.1.2.1.97.1.8.6.1.4
-diffServScheduler: 1.3.6.1.2.1.97.1.8
-diffServClfrId: 1.3.6.1.2.1.97.1.2.2.1.1
-diffServActionId: 1.3.6.1.2.1.97.1.5.2.1.1
-diffServAlgRandomDropPkts: 1.3.6.1.2.1.97.1.6.2.1.10
-diffServRandomDropMaxThreshPkts: 1.3.6.1.2.1.97.1.6.4.1.5
-diffServTBParamEntry: 1.3.6.1.2.1.97.1.4.2.1
-diffServTBParamTrTCMAware: 1.3.6.1.2.1.97.3.1.6
-diffServActionInterface: 1.3.6.1.2.1.97.1.5.2.1.2
-diffServDataPathTable: 1.3.6.1.2.1.97.1.1.1
-diffServSchedulerWFQ: 1.3.6.1.2.1.97.3.2.3
-diffServClfrElementStorage: 1.3.6.1.2.1.97.1.2.4.1.5
-diffServClfrElementStatus: 1.3.6.1.2.1.97.1.2.4.1.6
-diffServDscpMarkActEntry: 1.3.6.1.2.1.97.1.5.3.1
-diffServMinRateAbsolute: 1.3.6.1.2.1.97.1.8.4.1.3
-diffServMultiFieldClfrSrcPrefixLength: 1.3.6.1.2.1.97.1.2.6.1.6
-diffServMultiFieldClfrEntry: 1.3.6.1.2.1.97.1.2.6.1
-diffServDataPathStart: 1.3.6.1.2.1.97.1.1.1.1.2
-diffServTBParamRate: 1.3.6.1.2.1.97.1.4.2.1.3
-diffServMinRateId: 1.3.6.1.2.1.97.1.8.4.1.1
-diffServRandomDropStatus: 1.3.6.1.2.1.97.1.6.4.1.10
-diffServClfrNextFree: 1.3.6.1.2.1.97.1.2.1
-diffServMultiFieldClfrSrcL4PortMax: 1.3.6.1.2.1.97.1.2.6.1.13
-diffServMeterFailNext: 1.3.6.1.2.1.97.1.3.2.1.3
-diffServMinRateRelative: 1.3.6.1.2.1.97.1.8.4.1.4
-diffServMinRateStatus: 1.3.6.1.2.1.97.1.8.4.1.6
-diffServMaxRateId: 1.3.6.1.2.1.97.1.8.6.1.1
-diffServTBParamStorage: 1.3.6.1.2.1.97.1.4.2.1.6
-diffServActionSpecific: 1.3.6.1.2.1.97.1.5.2.1.4
-diffServMeterId: 1.3.6.1.2.1.97.1.3.2.1.1
-diffServMeterTable: 1.3.6.1.2.1.97.1.3.2
-diffServMIBAdmin: 1.3.6.1.2.1.97.3
-diffServSchedulerNextFree: 1.3.6.1.2.1.97.1.8.1
-diffServAlgRandomDropOctets: 1.3.6.1.2.1.97.1.6.2.1.9
-diffServActionTable: 1.3.6.1.2.1.97.1.5.2
-diffServActionNextFree: 1.3.6.1.2.1.97.1.5.1
-diffServMinRateNextFree: 1.3.6.1.2.1.97.1.8.3
-diffServSchedulerNext: 1.3.6.1.2.1.97.1.8.2.1.2
-diffServTBParamAvgRate: 1.3.6.1.2.1.97.3.1.2
-diffServSchedulerWRR: 1.3.6.1.2.1.97.3.2.2
-diffServMib: 1.3.6.1.2.1.97
-diffServRandomDropMaxThreshBytes: 1.3.6.1.2.1.97.1.6.4.1.4
-diffServAlgDropTable: 1.3.6.1.2.1.97.1.6.2
-diffServQId: 1.3.6.1.2.1.97.1.7.2.1.1
-diffServTBParamBurstSize: 1.3.6.1.2.1.97.1.4.2.1.4
-diffServRandomDropMinThreshPkts: 1.3.6.1.2.1.97.1.6.4.1.3
-diffServMultiFieldClfrProtocol: 1.3.6.1.2.1.97.1.2.6.1.9
-diffServTBParamNextFree: 1.3.6.1.2.1.97.1.4.1
-diffServDataPathIfDirection: 1.3.6.1.2.1.97.1.1.1.1.1
-diffServAlgDropType: 1.3.6.1.2.1.97.1.6.2.1.2
-diffServMultiFieldClfrDscp: 1.3.6.1.2.1.97.1.2.6.1.7
-diffServMIBCompliances: 1.3.6.1.2.1.97.2.1
-diffServMIBObjects: 1.3.6.1.2.1.97.1
-diffServRandomDropTable: 1.3.6.1.2.1.97.1.6.4
-diffServMeter: 1.3.6.1.2.1.97.1.3
-diffServQMaxRate: 1.3.6.1.2.1.97.1.7.2.1.4
-diffServMaxRateLevel: 1.3.6.1.2.1.97.1.8.6.1.2
-diffServMultiFieldClfrId: 1.3.6.1.2.1.97.1.2.6.1.1
-diffServAlgDropQThreshold: 1.3.6.1.2.1.97.1.6.2.1.5
-diffServClfrEntry: 1.3.6.1.2.1.97.1.2.2.1
-diffServCountActEntry: 1.3.6.1.2.1.97.1.5.5.1
-diffServCountActId: 1.3.6.1.2.1.97.1.5.5.1.1
-diffServClfrStorage: 1.3.6.1.2.1.97.1.2.2.1.2
-diffServQTable: 1.3.6.1.2.1.97.1.7.2
-diffServMinRateEntry: 1.3.6.1.2.1.97.1.8.4.1
-diffServSchedulers: 1.3.6.1.2.1.97.3.2
+diffServQNextFree: 
+  oid: 1.3.6.1.2.1.97.1.7.1
+diffServActionStatus: 
+  oid: 1.3.6.1.2.1.97.1.5.2.1.6
+diffServMIBConformance: 
+  oid: 1.3.6.1.2.1.97.2
+diffServAlgDrop: 
+  oid: 1.3.6.1.2.1.97.1.6
+diffServClfrElementPrecedence: 
+  oid: 1.3.6.1.2.1.97.1.2.4.1.2
+diffServCountActStatus: 
+  oid: 1.3.6.1.2.1.97.1.5.5.1.5
+diffServSchedulerPriority: 
+  oid: 1.3.6.1.2.1.97.3.2.1
+diffServClfrElementTable: 
+  oid: 1.3.6.1.2.1.97.1.2.4
+diffServQStatus: 
+  oid: 1.3.6.1.2.1.97.1.7.2.1.6
+diffServAlgDropStatus: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.12
+diffServMinRatePriority: 
+  oid: 1.3.6.1.2.1.97.1.8.4.1.2
+diffServMaxRateTable: 
+  oid: 1.3.6.1.2.1.97.1.8.6
+diffServMultiFieldClfrStorage: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.14
+diffServMaxRateThreshold: 
+  oid: 1.3.6.1.2.1.97.1.8.6.1.5
+diffServQNext: 
+  oid: 1.3.6.1.2.1.97.1.7.2.1.2
+diffServAlgDropSpecific: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.6
+diffServMultiFieldClfrDstL4PortMax: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.11
+diffServAlgDropPkts: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.8
+diffServSchedulerId: 
+  oid: 1.3.6.1.2.1.97.1.8.2.1.1
+diffServTBParamSrTCMBlind: 
+  oid: 1.3.6.1.2.1.97.3.1.3
+diffServSchedulerEntry: 
+  oid: 1.3.6.1.2.1.97.1.8.2.1
+diffServDataPathEntry: 
+  oid: 1.3.6.1.2.1.97.1.1.1.1
+diffServMultiFieldClfrSrcAddr: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.5
+diffServDataPath: 
+  oid: 1.3.6.1.2.1.97.1.1
+diffServSchedulerMaxRate: 
+  oid: 1.3.6.1.2.1.97.1.8.2.1.5
+diffServTBParam: 
+  oid: 1.3.6.1.2.1.97.1.4
+diffServRandomDropNextFree: 
+  oid: 1.3.6.1.2.1.97.1.6.3
+diffServQMinRate: 
+  oid: 1.3.6.1.2.1.97.1.7.2.1.3
+diffServTBParamTrTCMBlind: 
+  oid: 1.3.6.1.2.1.97.3.1.5
+diffServTBParamInterval: 
+  oid: 1.3.6.1.2.1.97.1.4.2.1.5
+diffServRandomDropMinThreshBytes: 
+  oid: 1.3.6.1.2.1.97.1.6.4.1.2
+diffServTBParamId: 
+  oid: 1.3.6.1.2.1.97.1.4.2.1.1
+diffServTBParamTable: 
+  oid: 1.3.6.1.2.1.97.1.4.2
+diffServMultiFieldClfrStatus: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.15
+diffServSchedulerMethod: 
+  oid: 1.3.6.1.2.1.97.1.8.2.1.3
+diffServAlgDropNextFree: 
+  oid: 1.3.6.1.2.1.97.1.6.1
+diffServCountActNextFree: 
+  oid: 1.3.6.1.2.1.97.1.5.4
+diffServMIBGroups: 
+  oid: 1.3.6.1.2.1.97.2.2
+diffServQStorage: 
+  oid: 1.3.6.1.2.1.97.1.7.2.1.5
+diffServMaxRateStorage: 
+  oid: 1.3.6.1.2.1.97.1.8.6.1.6
+diffServMultiFieldClfrTable: 
+  oid: 1.3.6.1.2.1.97.1.2.6
+diffServActionStorage: 
+  oid: 1.3.6.1.2.1.97.1.5.2.1.5
+diffServQueue: 
+  oid: 1.3.6.1.2.1.97.1.7
+diffServMultiFieldClfrDstAddr: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.3
+diffServDscpMarkActTable: 
+  oid: 1.3.6.1.2.1.97.1.5.3
+diffServRandomDropSamplingRate: 
+  oid: 1.3.6.1.2.1.97.1.6.4.1.8
+diffServClfrElementSpecific: 
+  oid: 1.3.6.1.2.1.97.1.2.4.1.4
+diffServRandomDropStorage: 
+  oid: 1.3.6.1.2.1.97.1.6.4.1.9
+diffServTBParamType: 
+  oid: 1.3.6.1.2.1.97.1.4.2.1.2
+diffServClfrStatus: 
+  oid: 1.3.6.1.2.1.97.1.2.2.1.3
+diffServMeterEntry: 
+  oid: 1.3.6.1.2.1.97.1.3.2.1
+diffServDataPathStorage: 
+  oid: 1.3.6.1.2.1.97.1.1.1.1.3
+diffServMultiFieldClfrFlowId: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.8
+diffServClassifier: 
+  oid: 1.3.6.1.2.1.97.1.2
+diffServMultiFieldClfrSrcL4PortMin: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.12
+diffServMinRateStorage: 
+  oid: 1.3.6.1.2.1.97.1.8.4.1.5
+diffServRandomDropWeight: 
+  oid: 1.3.6.1.2.1.97.1.6.4.1.7
+diffServClfrElementNextFree: 
+  oid: 1.3.6.1.2.1.97.1.2.3
+diffServSchedulerMinRate: 
+  oid: 1.3.6.1.2.1.97.1.8.2.1.4
+diffServMultiFieldClfrAddrType: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.2
+diffServAlgDropStorage: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.11
+diffServAlgDropNext: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.3
+diffServClfrElementId: 
+  oid: 1.3.6.1.2.1.97.1.2.4.1.1
+diffServMaxRateAbsolute: 
+  oid: 1.3.6.1.2.1.97.1.8.6.1.3
+diffServActionEntry: 
+  oid: 1.3.6.1.2.1.97.1.5.2.1
+diffServSchedulerStorage: 
+  oid: 1.3.6.1.2.1.97.1.8.2.1.6
+diffServTBParamSimpleTokenBucket: 
+  oid: 1.3.6.1.2.1.97.3.1.1
+diffServRandomDropEntry: 
+  oid: 1.3.6.1.2.1.97.1.6.4.1
+diffServActionNext: 
+  oid: 1.3.6.1.2.1.97.1.5.2.1.3
+diffServRandomDropId: 
+  oid: 1.3.6.1.2.1.97.1.6.4.1.1
+diffServTBParamStatus: 
+  oid: 1.3.6.1.2.1.97.1.4.2.1.7
+diffServAlgDropEntry: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1
+diffServAction: 
+  oid: 1.3.6.1.2.1.97.1.5
+diffServMeterStatus: 
+  oid: 1.3.6.1.2.1.97.1.3.2.1.6
+diffServTBParamSrTCMAware: 
+  oid: 1.3.6.1.2.1.97.3.1.4
+diffServDataPathStatus: 
+  oid: 1.3.6.1.2.1.97.1.1.1.1.4
+diffServQEntry: 
+  oid: 1.3.6.1.2.1.97.1.7.2.1
+diffServCountActOctets: 
+  oid: 1.3.6.1.2.1.97.1.5.5.1.2
+diffServSchedulerTable: 
+  oid: 1.3.6.1.2.1.97.1.8.2
+diffServMeterSpecific: 
+  oid: 1.3.6.1.2.1.97.1.3.2.1.4
+diffServClfrTable: 
+  oid: 1.3.6.1.2.1.97.1.2.2
+diffServMeterSucceedNext: 
+  oid: 1.3.6.1.2.1.97.1.3.2.1.2
+diffServAlgDropOctets: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.7
+diffServTBMeters: 
+  oid: 1.3.6.1.2.1.97.3.1
+diffServCountActTable: 
+  oid: 1.3.6.1.2.1.97.1.5.5
+diffServAlgDropId: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.1
+diffServSchedulerStatus: 
+  oid: 1.3.6.1.2.1.97.1.8.2.1.7
+diffServMaxRateStatus: 
+  oid: 1.3.6.1.2.1.97.1.8.6.1.7
+diffServClfrElementEntry: 
+  oid: 1.3.6.1.2.1.97.1.2.4.1
+diffServMultiFieldClfrDstPrefixLength: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.4
+diffServMultiFieldClfrNextFree: 
+  oid: 1.3.6.1.2.1.97.1.2.5
+diffServMinRateTable: 
+  oid: 1.3.6.1.2.1.97.1.8.4
+diffServRandomDropProbMax: 
+  oid: 1.3.6.1.2.1.97.1.6.4.1.6
+diffServTBParamTswTCM: 
+  oid: 1.3.6.1.2.1.97.3.1.7
+diffServAlgDropQMeasure: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.4
+diffServMaxRateEntry: 
+  oid: 1.3.6.1.2.1.97.1.8.6.1
+diffServMaxRateNextFree: 
+  oid: 1.3.6.1.2.1.97.1.8.5
+diffServMeterNextFree: 
+  oid: 1.3.6.1.2.1.97.1.3.1
+diffServDscpMarkActDscp: 
+  oid: 1.3.6.1.2.1.97.1.5.3.1.1
+diffServMeterStorage: 
+  oid: 1.3.6.1.2.1.97.1.3.2.1.5
+diffServMultiFieldClfrDstL4PortMin: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.10
+diffServClfrElementNext: 
+  oid: 1.3.6.1.2.1.97.1.2.4.1.3
+diffServCountActStorage: 
+  oid: 1.3.6.1.2.1.97.1.5.5.1.4
+diffServCountActPkts: 
+  oid: 1.3.6.1.2.1.97.1.5.5.1.3
+diffServMaxRateRelative: 
+  oid: 1.3.6.1.2.1.97.1.8.6.1.4
+diffServScheduler: 
+  oid: 1.3.6.1.2.1.97.1.8
+diffServClfrId: 
+  oid: 1.3.6.1.2.1.97.1.2.2.1.1
+diffServActionId: 
+  oid: 1.3.6.1.2.1.97.1.5.2.1.1
+diffServAlgRandomDropPkts: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.10
+diffServSchedulerWFQ: 
+  oid: 1.3.6.1.2.1.97.3.2.3
+diffServTBParamEntry: 
+  oid: 1.3.6.1.2.1.97.1.4.2.1
+diffServTBParamTrTCMAware: 
+  oid: 1.3.6.1.2.1.97.3.1.6
+diffServActionInterface: 
+  oid: 1.3.6.1.2.1.97.1.5.2.1.2
+diffServDataPathTable: 
+  oid: 1.3.6.1.2.1.97.1.1.1
+diffServRandomDropMaxThreshPkts: 
+  oid: 1.3.6.1.2.1.97.1.6.4.1.5
+diffServMinRateAbsolute: 
+  oid: 1.3.6.1.2.1.97.1.8.4.1.3
+diffServDscpMarkActEntry: 
+  oid: 1.3.6.1.2.1.97.1.5.3.1
+diffServClfrElementStatus: 
+  oid: 1.3.6.1.2.1.97.1.2.4.1.6
+diffServClfrElementStorage: 
+  oid: 1.3.6.1.2.1.97.1.2.4.1.5
+diffServMinRateId: 
+  oid: 1.3.6.1.2.1.97.1.8.4.1.1
+diffServTBParamRate: 
+  oid: 1.3.6.1.2.1.97.1.4.2.1.3
+diffServDataPathStart: 
+  oid: 1.3.6.1.2.1.97.1.1.1.1.2
+diffServMultiFieldClfrEntry: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1
+diffServMultiFieldClfrSrcPrefixLength: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.6
+diffServClfrNextFree: 
+  oid: 1.3.6.1.2.1.97.1.2.1
+diffServRandomDropStatus: 
+  oid: 1.3.6.1.2.1.97.1.6.4.1.10
+diffServMaxRateId: 
+  oid: 1.3.6.1.2.1.97.1.8.6.1.1
+diffServMinRateStatus: 
+  oid: 1.3.6.1.2.1.97.1.8.4.1.6
+diffServMinRateRelative: 
+  oid: 1.3.6.1.2.1.97.1.8.4.1.4
+diffServMeterFailNext: 
+  oid: 1.3.6.1.2.1.97.1.3.2.1.3
+diffServMultiFieldClfrSrcL4PortMax: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.13
+diffServMIBAdmin: 
+  oid: 1.3.6.1.2.1.97.3
+diffServMeterTable: 
+  oid: 1.3.6.1.2.1.97.1.3.2
+diffServMeterId: 
+  oid: 1.3.6.1.2.1.97.1.3.2.1.1
+diffServActionSpecific: 
+  oid: 1.3.6.1.2.1.97.1.5.2.1.4
+diffServTBParamStorage: 
+  oid: 1.3.6.1.2.1.97.1.4.2.1.6
+diffServSchedulerNextFree: 
+  oid: 1.3.6.1.2.1.97.1.8.1
+diffServMinRateNextFree: 
+  oid: 1.3.6.1.2.1.97.1.8.3
+diffServActionNextFree: 
+  oid: 1.3.6.1.2.1.97.1.5.1
+diffServActionTable: 
+  oid: 1.3.6.1.2.1.97.1.5.2
+diffServAlgRandomDropOctets: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.9
+diffServSchedulerWRR: 
+  oid: 1.3.6.1.2.1.97.3.2.2
+diffServTBParamAvgRate: 
+  oid: 1.3.6.1.2.1.97.3.1.2
+diffServSchedulerNext: 
+  oid: 1.3.6.1.2.1.97.1.8.2.1.2
+diffServQId: 
+  oid: 1.3.6.1.2.1.97.1.7.2.1.1
+diffServAlgDropTable: 
+  oid: 1.3.6.1.2.1.97.1.6.2
+diffServRandomDropMaxThreshBytes: 
+  oid: 1.3.6.1.2.1.97.1.6.4.1.4
+diffServMib: 
+  oid: 1.3.6.1.2.1.97
+diffServMIBCompliances: 
+  oid: 1.3.6.1.2.1.97.2.1
+diffServMultiFieldClfrDscp: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.7
+diffServAlgDropType: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.2
+diffServDataPathIfDirection: 
+  oid: 1.3.6.1.2.1.97.1.1.1.1.1
+diffServTBParamNextFree: 
+  oid: 1.3.6.1.2.1.97.1.4.1
+diffServMultiFieldClfrProtocol: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.9
+diffServRandomDropMinThreshPkts: 
+  oid: 1.3.6.1.2.1.97.1.6.4.1.3
+diffServTBParamBurstSize: 
+  oid: 1.3.6.1.2.1.97.1.4.2.1.4
+diffServMaxRateLevel: 
+  oid: 1.3.6.1.2.1.97.1.8.6.1.2
+diffServQMaxRate: 
+  oid: 1.3.6.1.2.1.97.1.7.2.1.4
+diffServMeter: 
+  oid: 1.3.6.1.2.1.97.1.3
+diffServRandomDropTable: 
+  oid: 1.3.6.1.2.1.97.1.6.4
+diffServMIBObjects: 
+  oid: 1.3.6.1.2.1.97.1
+diffServCountActEntry: 
+  oid: 1.3.6.1.2.1.97.1.5.5.1
+diffServClfrEntry: 
+  oid: 1.3.6.1.2.1.97.1.2.2.1
+diffServAlgDropQThreshold: 
+  oid: 1.3.6.1.2.1.97.1.6.2.1.5
+diffServMultiFieldClfrId: 
+  oid: 1.3.6.1.2.1.97.1.2.6.1.1
+diffServSchedulers: 
+  oid: 1.3.6.1.2.1.97.3.2
+diffServMinRateEntry: 
+  oid: 1.3.6.1.2.1.97.1.8.4.1
+diffServQTable: 
+  oid: 1.3.6.1.2.1.97.1.7.2
+diffServClfrStorage: 
+  oid: 1.3.6.1.2.1.97.1.2.2.1.2
+diffServCountActId: 
+  oid: 1.3.6.1.2.1.97.1.5.5.1.1

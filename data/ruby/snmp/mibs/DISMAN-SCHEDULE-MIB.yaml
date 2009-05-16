@@ -1,33 +1,65 @@
 --- 
-schedActionFailure: 1.3.6.1.2.1.63.2.0.1
-schedObjects: 1.3.6.1.2.1.63.1
-schedMinute: 1.3.6.1.2.1.63.1.2.1.9
-schedFailures: 1.3.6.1.2.1.63.1.2.1.16
-schedGroups: 1.3.6.1.2.1.63.3.2
-schedLocalTime: 1.3.6.1.2.1.63.1.1
-schedVariable: 1.3.6.1.2.1.63.1.2.1.11
-schedMonth: 1.3.6.1.2.1.63.1.2.1.6
-schedLastFailed: 1.3.6.1.2.1.63.1.2.1.18
-schedMIB: 1.3.6.1.2.1.63
-schedValue: 1.3.6.1.2.1.63.1.2.1.12
-schedTable: 1.3.6.1.2.1.63.1.2
-schedEntry: 1.3.6.1.2.1.63.1.2.1
-schedDay: 1.3.6.1.2.1.63.1.2.1.7
-schedHour: 1.3.6.1.2.1.63.1.2.1.8
-schedOperStatus: 1.3.6.1.2.1.63.1.2.1.15
-schedCompliances: 1.3.6.1.2.1.63.3.1
-schedName: 1.3.6.1.2.1.63.1.2.1.2
-schedInterval: 1.3.6.1.2.1.63.1.2.1.4
-schedContextName: 1.3.6.1.2.1.63.1.2.1.10
-schedLastFailure: 1.3.6.1.2.1.63.1.2.1.17
-schedTriggers: 1.3.6.1.2.1.63.1.2.1.21
-schedStorageType: 1.3.6.1.2.1.63.1.2.1.19
-schedTraps: 1.3.6.1.2.1.63.2.0
-schedConformance: 1.3.6.1.2.1.63.3
-schedOwner: 1.3.6.1.2.1.63.1.2.1.1
-schedDescr: 1.3.6.1.2.1.63.1.2.1.3
-schedWeekDay: 1.3.6.1.2.1.63.1.2.1.5
-schedType: 1.3.6.1.2.1.63.1.2.1.13
-schedAdminStatus: 1.3.6.1.2.1.63.1.2.1.14
-schedRowStatus: 1.3.6.1.2.1.63.1.2.1.20
-schedNotifications: 1.3.6.1.2.1.63.2
+schedGroups: 
+  oid: 1.3.6.1.2.1.63.3.2
+schedFailures: 
+  oid: 1.3.6.1.2.1.63.1.2.1.16
+schedMinute: 
+  oid: 1.3.6.1.2.1.63.1.2.1.9
+schedObjects: 
+  oid: 1.3.6.1.2.1.63.1
+schedActionFailure: 
+  oid: 1.3.6.1.2.1.63.2.0.1
+schedVariable: 
+  oid: 1.3.6.1.2.1.63.1.2.1.11
+schedLocalTime: 
+  oid: 1.3.6.1.2.1.63.1.1
+schedMonth: 
+  oid: 1.3.6.1.2.1.63.1.2.1.6
+schedLastFailed: 
+  oid: 1.3.6.1.2.1.63.1.2.1.18
+schedValue: 
+  oid: 1.3.6.1.2.1.63.1.2.1.12
+schedMIB: 
+  oid: 1.3.6.1.2.1.63
+schedCompliances: 
+  oid: 1.3.6.1.2.1.63.3.1
+schedOperStatus: 
+  oid: 1.3.6.1.2.1.63.1.2.1.15
+schedHour: 
+  oid: 1.3.6.1.2.1.63.1.2.1.8
+schedDay: 
+  oid: 1.3.6.1.2.1.63.1.2.1.7
+schedEntry: 
+  oid: 1.3.6.1.2.1.63.1.2.1
+schedTable: 
+  oid: 1.3.6.1.2.1.63.1.2
+schedInterval: 
+  oid: 1.3.6.1.2.1.63.1.2.1.4
+schedName: 
+  oid: 1.3.6.1.2.1.63.1.2.1.2
+schedTriggers: 
+  oid: 1.3.6.1.2.1.63.1.2.1.21
+schedLastFailure: 
+  oid: 1.3.6.1.2.1.63.1.2.1.17
+schedContextName: 
+  oid: 1.3.6.1.2.1.63.1.2.1.10
+schedConformance: 
+  oid: 1.3.6.1.2.1.63.3
+schedTraps: 
+  oid: 1.3.6.1.2.1.63.2.0
+schedStorageType: 
+  oid: 1.3.6.1.2.1.63.1.2.1.19
+schedNotifications: 
+  oid: 1.3.6.1.2.1.63.2
+schedRowStatus: 
+  oid: 1.3.6.1.2.1.63.1.2.1.20
+schedAdminStatus: 
+  oid: 1.3.6.1.2.1.63.1.2.1.14
+schedType: 
+  oid: 1.3.6.1.2.1.63.1.2.1.13
+schedWeekDay: 
+  oid: 1.3.6.1.2.1.63.1.2.1.5
+schedDescr: 
+  oid: 1.3.6.1.2.1.63.1.2.1.3
+schedOwner: 
+  oid: 1.3.6.1.2.1.63.1.2.1.1

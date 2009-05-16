@@ -1,183 +1,365 @@
 --- 
-ringStationConfigMacAddress: 1.3.6.1.2.1.16.10.5.1.2
-tokenRingPStatsDataPktsGreaterThan18000Octets: 1.3.6.1.2.1.16.1.3.1.17
-ringStationConfigUpdateTime: 1.3.6.1.2.1.16.10.5.1.3
-ringStationControlEntry: 1.3.6.1.2.1.16.10.1.1
-ringStationControlActiveStations: 1.3.6.1.2.1.16.10.1.1.3
-ringStationEntry: 1.3.6.1.2.1.16.10.2.1
-sourceRoutingStats6HopsFrames: 1.3.6.1.2.1.16.10.6.1.19
-sourceRoutingStatsAllRoutesBroadcastFrames: 1.3.6.1.2.1.16.10.6.1.6
-tokenRingPHistoryDataPkts8192to18000Octets: 1.3.6.1.2.1.16.2.4.1.17
-tokenRingMLHistorySoftErrorReports: 1.3.6.1.2.1.16.2.3.1.25
-sourceRoutingStatsTable: 1.3.6.1.2.1.16.10.6
-tokenRingMLStatsEntry: 1.3.6.1.2.1.16.1.2.1
-tokenRingMLStatsDataSource: 1.3.6.1.2.1.16.1.2.1.2
-tokenRingMLStatsCongestionErrors: 1.3.6.1.2.1.16.1.2.1.20
-tokenRingMLStatsDropEvents: 1.3.6.1.2.1.16.1.2.1.3
-tokenRingMLHistoryIndex: 1.3.6.1.2.1.16.2.3.1.1
-ringStationInBurstErrors: 1.3.6.1.2.1.16.10.2.1.11
-tokenRingPHistoryDataOctets: 1.3.6.1.2.1.16.2.4.1.5
-tokenRingPStatsOwner: 1.3.6.1.2.1.16.1.3.1.18
-tokenRingPStatsDataPkts64to127Octets: 1.3.6.1.2.1.16.1.3.1.9
-tokenRingPHistoryDataPkts128to255Octets: 1.3.6.1.2.1.16.2.4.1.11
-sourceRoutingStatsInFrames: 1.3.6.1.2.1.16.10.6.1.3
-ringStationLastNAUN: 1.3.6.1.2.1.16.10.2.1.3
-ringStationConfigGroupAddress: 1.3.6.1.2.1.16.10.5.1.6
-sourceRoutingStats8HopsFrames: 1.3.6.1.2.1.16.10.6.1.21
-ringStationOrderTable: 1.3.6.1.2.1.16.10.3
-sourceRoutingStatsOwner: 1.3.6.1.2.1.16.10.6.1.23
-ringStationInternalErrors: 1.3.6.1.2.1.16.10.2.1.10
-ringStationConfigControlRemove: 1.3.6.1.2.1.16.10.4.1.3
-tokenRingMLHistoryIntervalStart: 1.3.6.1.2.1.16.2.3.1.3
-tokenRingPStatsDataPkts18to63Octets: 1.3.6.1.2.1.16.1.3.1.8
-sourceRoutingStats3HopsFrames: 1.3.6.1.2.1.16.10.6.1.16
-tokenRingMLStatsRingPollEvents: 1.3.6.1.2.1.16.1.2.1.25
-tokenRingMLStatsFrequencyErrors: 1.3.6.1.2.1.16.1.2.1.22
-tokenRingMLHistoryAbortErrors: 1.3.6.1.2.1.16.2.3.1.19
-tokenRingMLStatsFrameCopiedErrors: 1.3.6.1.2.1.16.1.2.1.21
-ringStationAbortErrors: 1.3.6.1.2.1.16.10.2.1.14
-tokenRingMLHistoryMacPkts: 1.3.6.1.2.1.16.2.3.1.6
-tokenRingPStatsDataPkts8192to18000Octets: 1.3.6.1.2.1.16.1.3.1.16
-ringStationConfigControlTable: 1.3.6.1.2.1.16.10.4
-sourceRoutingStatsStatus: 1.3.6.1.2.1.16.10.6.1.24
-ringStationControlBeaconSender: 1.3.6.1.2.1.16.10.1.1.5
-tokenRingMLStatsLineErrors: 1.3.6.1.2.1.16.1.2.1.14
-sourceRoutingStatsLocalLLCFrames: 1.3.6.1.2.1.16.10.6.1.13
-tokenRingMLStatsClaimTokenEvents: 1.3.6.1.2.1.16.1.2.1.11
-tokenRingMLStatsRingPurgeEvents: 1.3.6.1.2.1.16.1.2.1.6
-tokenRingPHistoryDataPkts: 1.3.6.1.2.1.16.2.4.1.6
-tokenRingPStatsDataPkts512to1023Octets: 1.3.6.1.2.1.16.1.3.1.12
-tokenRingMLStatsBeaconTime: 1.3.6.1.2.1.16.1.2.1.9
-sourceRoutingStats5HopsFrames: 1.3.6.1.2.1.16.10.6.1.18
-tokenRingPStatsDataPkts256to511Octets: 1.3.6.1.2.1.16.1.3.1.11
-ringStationFrameCopiedErrors: 1.3.6.1.2.1.16.10.2.1.17
-tokenRingPHistoryDataMulticastPkts: 1.3.6.1.2.1.16.2.4.1.8
-tokenRingMLHistoryBurstErrors: 1.3.6.1.2.1.16.2.3.1.17
-ringStationConfigEntry: 1.3.6.1.2.1.16.10.5.1
-ringStationLostFrameErrors: 1.3.6.1.2.1.16.10.2.1.15
-sourceRoutingStatsOutOctets: 1.3.6.1.2.1.16.10.6.1.9
-tokenRingPStatsDataSource: 1.3.6.1.2.1.16.1.3.1.2
-tokenRingPHistoryEntry: 1.3.6.1.2.1.16.2.4.1
-tokenRingMLHistoryRingPurgePkts: 1.3.6.1.2.1.16.2.3.1.8
-tokenRingMLStatsBeaconPkts: 1.3.6.1.2.1.16.1.2.1.10
-tokenRingPStatsDropEvents: 1.3.6.1.2.1.16.1.3.1.3
-tokenRingMLStatsBeaconEvents: 1.3.6.1.2.1.16.1.2.1.8
-tokenRingMLStatsClaimTokenPkts: 1.3.6.1.2.1.16.1.2.1.12
-ringStationOrderIfIndex: 1.3.6.1.2.1.16.10.3.1.1
-tokenRingMLHistoryInternalErrors: 1.3.6.1.2.1.16.2.3.1.16
-tokenRingPHistoryIntervalStart: 1.3.6.1.2.1.16.2.4.1.3
-sourceRoutingStatsThroughOctets: 1.3.6.1.2.1.16.10.6.1.10
-sourceRoutingStatsMoreThan8HopsFrames: 1.3.6.1.2.1.16.10.6.1.22
-tokenRingMLHistoryFrequencyErrors: 1.3.6.1.2.1.16.2.3.1.23
-tokenRingMLHistorySampleIndex: 1.3.6.1.2.1.16.2.3.1.2
-tokenRingMLHistoryACErrors: 1.3.6.1.2.1.16.2.3.1.18
-tokenRingMLHistoryCongestionErrors: 1.3.6.1.2.1.16.2.3.1.21
-ringStationDuplicateAddresses: 1.3.6.1.2.1.16.10.2.1.7
-tokenRingMLStatsStatus: 1.3.6.1.2.1.16.1.2.1.27
-ringStationControlRingState: 1.3.6.1.2.1.16.10.1.1.4
-ringStationOrderOrderIndex: 1.3.6.1.2.1.16.10.3.1.2
-ringStationOutBeaconErrors: 1.3.6.1.2.1.16.10.2.1.21
-tokenRingMLStatsTable: 1.3.6.1.2.1.16.1.2
-ringStationControlIfIndex: 1.3.6.1.2.1.16.10.1.1.1
-tokenRingPStatsEntry: 1.3.6.1.2.1.16.1.3.1
-ringStationConfigLocation: 1.3.6.1.2.1.16.10.5.1.4
-tokenRingPHistoryIndex: 1.3.6.1.2.1.16.2.4.1.1
-tokenRingPHistoryDataPkts1024to2047Octets: 1.3.6.1.2.1.16.2.4.1.14
-ringStationInBeaconErrors: 1.3.6.1.2.1.16.10.2.1.20
-tokenRingPHistoryDataPkts512to1023Octets: 1.3.6.1.2.1.16.2.4.1.13
-tokenRingMLHistoryMacOctets: 1.3.6.1.2.1.16.2.3.1.5
-tokenRingMLHistoryClaimTokenEvents: 1.3.6.1.2.1.16.2.3.1.12
-ringStationIfIndex: 1.3.6.1.2.1.16.10.2.1.1
-tokenRingMLHistoryBeaconEvents: 1.3.6.1.2.1.16.2.3.1.9
-tokenRingMLStatsACErrors: 1.3.6.1.2.1.16.1.2.1.17
-tokenRingPStatsDataBroadcastPkts: 1.3.6.1.2.1.16.1.3.1.6
-tokenRingMLHistoryRingPurgeEvents: 1.3.6.1.2.1.16.2.3.1.7
-ringStationLastExitTime: 1.3.6.1.2.1.16.10.2.1.6
-tokenRingPHistoryDataPkts18to63Octets: 1.3.6.1.2.1.16.2.4.1.9
-ringStationOrderMacAddress: 1.3.6.1.2.1.16.10.3.1.3
-tokenRingPHistoryDataBroadcastPkts: 1.3.6.1.2.1.16.2.4.1.7
-tokenRingPStatsDataMulticastPkts: 1.3.6.1.2.1.16.1.3.1.7
-sourceRoutingStatsOutFrames: 1.3.6.1.2.1.16.10.6.1.4
-ringStationControlStatus: 1.3.6.1.2.1.16.10.1.1.10
-tokenRingPStatsIndex: 1.3.6.1.2.1.16.1.3.1.1
-sourceRoutingStatsEntry: 1.3.6.1.2.1.16.10.6.1
-ringStationControlTable: 1.3.6.1.2.1.16.10.1
-tokenRingMLHistoryTable: 1.3.6.1.2.1.16.2.3
-tokenRingPHistoryDataPktsGreaterThan18000Octets: 1.3.6.1.2.1.16.2.4.1.18
-tokenRingPStatsDataPkts: 1.3.6.1.2.1.16.1.3.1.5
-ringStationConfigControlUpdateStats: 1.3.6.1.2.1.16.10.4.1.4
-tokenRingMLHistoryTokenErrors: 1.3.6.1.2.1.16.2.3.1.24
-ringStationConfigControlMacAddress: 1.3.6.1.2.1.16.10.4.1.2
-tokenRingMLHistoryFrameCopiedErrors: 1.3.6.1.2.1.16.2.3.1.22
-ringStationTable: 1.3.6.1.2.1.16.10.2
-tokenRingMLStatsLostFrameErrors: 1.3.6.1.2.1.16.1.2.1.19
-tokenRingPHistoryDataPkts2048to4095Octets: 1.3.6.1.2.1.16.2.4.1.15
-tokenRingPStatsDataPkts1024to2047Octets: 1.3.6.1.2.1.16.1.3.1.13
-tokenRingMLStatsAbortErrors: 1.3.6.1.2.1.16.1.2.1.18
-tokenRingPStatsDataPkts128to255Octets: 1.3.6.1.2.1.16.1.3.1.10
-ringStationTokenErrors: 1.3.6.1.2.1.16.10.2.1.19
-sourceRoutingStatsIfIndex: 1.3.6.1.2.1.16.10.6.1.1
-sourceRoutingStats7HopsFrames: 1.3.6.1.2.1.16.10.6.1.20
-tokenRingMLHistoryNAUNChanges: 1.3.6.1.2.1.16.2.3.1.14
-tokenRingPHistoryDataPkts64to127Octets: 1.3.6.1.2.1.16.2.4.1.10
-ringStationOrderEntry: 1.3.6.1.2.1.16.10.3.1
-sourceRoutingStats1HopFrames: 1.3.6.1.2.1.16.10.6.1.14
-tokenRingPHistoryDataPkts256to511Octets: 1.3.6.1.2.1.16.2.4.1.12
-ringStationControlOwner: 1.3.6.1.2.1.16.10.1.1.9
-tokenRingMLStatsMacOctets: 1.3.6.1.2.1.16.1.2.1.4
-tokenRingPHistoryDataPkts4096to8191Octets: 1.3.6.1.2.1.16.2.4.1.16
-ringStationCongestionErrors: 1.3.6.1.2.1.16.10.2.1.16
-ringStationConfigMicrocode: 1.3.6.1.2.1.16.10.5.1.5
-sourceRoutingStats2HopsFrames: 1.3.6.1.2.1.16.10.6.1.15
-tokenRingPHistoryDropEvents: 1.3.6.1.2.1.16.2.4.1.4
-tokenRingMLHistoryDropEvents: 1.3.6.1.2.1.16.2.3.1.4
-tokenRingPHistoryTable: 1.3.6.1.2.1.16.2.4
-ringStationConfigControlIfIndex: 1.3.6.1.2.1.16.10.4.1.1
-sourceRoutingStatsAllRoutesBroadcastOctets: 1.3.6.1.2.1.16.10.6.1.11
-sourceRoutingStatsSingleRoutesBroadcastOctets: 1.3.6.1.2.1.16.10.6.1.12
-tokenRingPStatsDataPkts2048to4095Octets: 1.3.6.1.2.1.16.1.3.1.14
-tokenRingMLStatsOwner: 1.3.6.1.2.1.16.1.2.1.26
-tokenRingMLStatsMacPkts: 1.3.6.1.2.1.16.1.2.1.5
-ringStationOutLineErrors: 1.3.6.1.2.1.16.10.2.1.9
-sourceRoutingStatsRingNumber: 1.3.6.1.2.1.16.10.6.1.2
-ringStationACErrors: 1.3.6.1.2.1.16.10.2.1.13
-ringStationConfigControlEntry: 1.3.6.1.2.1.16.10.4.1
-sourceRoutingStatsThroughFrames: 1.3.6.1.2.1.16.10.6.1.5
-tokenRingMLHistoryLostFrameErrors: 1.3.6.1.2.1.16.2.3.1.20
-tokenRingMLHistoryRingPollEvents: 1.3.6.1.2.1.16.2.3.1.26
-tokenRingPStatsDataOctets: 1.3.6.1.2.1.16.1.3.1.4
-ringStationOutBurstErrors: 1.3.6.1.2.1.16.10.2.1.12
-sourceRoutingStats4HopsFrames: 1.3.6.1.2.1.16.10.6.1.17
-tokenRing: 1.3.6.1.2.1.16.10
-ringStationControlOrderChanges: 1.3.6.1.2.1.16.10.1.1.8
-ringStationLastEnterTime: 1.3.6.1.2.1.16.10.2.1.5
-tokenRingMLStatsInternalErrors: 1.3.6.1.2.1.16.1.2.1.15
-tokenRingMLHistoryBeaconPkts: 1.3.6.1.2.1.16.2.3.1.11
-tokenRingPStatsDataPkts4096to8191Octets: 1.3.6.1.2.1.16.1.3.1.15
-tokenRingPStatsStatus: 1.3.6.1.2.1.16.1.3.1.19
-tokenRingMLStatsRingPurgePkts: 1.3.6.1.2.1.16.1.2.1.7
-ringStationControlBeaconNAUN: 1.3.6.1.2.1.16.10.1.1.6
-ringStationConfigIfIndex: 1.3.6.1.2.1.16.10.5.1.1
-tokenRingMLStatsSoftErrorReports: 1.3.6.1.2.1.16.1.2.1.24
-ringStationMacAddress: 1.3.6.1.2.1.16.10.2.1.2
-ringStationInLineErrors: 1.3.6.1.2.1.16.10.2.1.8
-ringStationInsertions: 1.3.6.1.2.1.16.10.2.1.22
-ringStationConfigTable: 1.3.6.1.2.1.16.10.5
-tokenRingMLStatsBurstErrors: 1.3.6.1.2.1.16.1.2.1.16
-ringStationControlActiveMonitor: 1.3.6.1.2.1.16.10.1.1.7
-tokenRingMLHistoryBeaconTime: 1.3.6.1.2.1.16.2.3.1.10
-tokenRingMLStatsTokenErrors: 1.3.6.1.2.1.16.1.2.1.23
-ringStationControlTableSize: 1.3.6.1.2.1.16.10.1.1.2
-tokenRingMLHistoryClaimTokenPkts: 1.3.6.1.2.1.16.2.3.1.13
-tokenRingMLHistoryLineErrors: 1.3.6.1.2.1.16.2.3.1.15
-tokenRingMLHistoryActiveStations: 1.3.6.1.2.1.16.2.3.1.27
-ringStationStationStatus: 1.3.6.1.2.1.16.10.2.1.4
-sourceRoutingStatsSingleRouteBroadcastFrames: 1.3.6.1.2.1.16.10.6.1.7
-tokenRingPStatsTable: 1.3.6.1.2.1.16.1.3
-sourceRoutingStatsInOctets: 1.3.6.1.2.1.16.10.6.1.8
-tokenRingMLStatsIndex: 1.3.6.1.2.1.16.1.2.1.1
-tokenRingMLHistoryEntry: 1.3.6.1.2.1.16.2.3.1
-tokenRingMLStatsNAUNChanges: 1.3.6.1.2.1.16.1.2.1.13
-tokenRingPHistorySampleIndex: 1.3.6.1.2.1.16.2.4.1.2
-ringStationFrequencyErrors: 1.3.6.1.2.1.16.10.2.1.18
-ringStationConfigFunctionalAddress: 1.3.6.1.2.1.16.10.5.1.7
+ringStationConfigMacAddress: 
+  oid: 1.3.6.1.2.1.16.10.5.1.2
+tokenRingPStatsDataPktsGreaterThan18000Octets: 
+  oid: 1.3.6.1.2.1.16.1.3.1.17
+ringStationConfigUpdateTime: 
+  oid: 1.3.6.1.2.1.16.10.5.1.3
+ringStationControlEntry: 
+  oid: 1.3.6.1.2.1.16.10.1.1
+ringStationControlActiveStations: 
+  oid: 1.3.6.1.2.1.16.10.1.1.3
+ringStationEntry: 
+  oid: 1.3.6.1.2.1.16.10.2.1
+sourceRoutingStats6HopsFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.19
+sourceRoutingStatsAllRoutesBroadcastFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.6
+tokenRingPHistoryDataPkts8192to18000Octets: 
+  oid: 1.3.6.1.2.1.16.2.4.1.17
+tokenRingMLHistorySoftErrorReports: 
+  oid: 1.3.6.1.2.1.16.2.3.1.25
+sourceRoutingStatsTable: 
+  oid: 1.3.6.1.2.1.16.10.6
+tokenRingMLStatsEntry: 
+  oid: 1.3.6.1.2.1.16.1.2.1
+tokenRingMLStatsDataSource: 
+  oid: 1.3.6.1.2.1.16.1.2.1.2
+tokenRingMLStatsCongestionErrors: 
+  oid: 1.3.6.1.2.1.16.1.2.1.20
+tokenRingMLStatsDropEvents: 
+  oid: 1.3.6.1.2.1.16.1.2.1.3
+tokenRingMLHistoryIndex: 
+  oid: 1.3.6.1.2.1.16.2.3.1.1
+ringStationInBurstErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.11
+tokenRingPHistoryDataOctets: 
+  oid: 1.3.6.1.2.1.16.2.4.1.5
+tokenRingPStatsOwner: 
+  oid: 1.3.6.1.2.1.16.1.3.1.18
+tokenRingPStatsDataPkts64to127Octets: 
+  oid: 1.3.6.1.2.1.16.1.3.1.9
+tokenRingPHistoryDataPkts128to255Octets: 
+  oid: 1.3.6.1.2.1.16.2.4.1.11
+sourceRoutingStatsInFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.3
+ringStationLastNAUN: 
+  oid: 1.3.6.1.2.1.16.10.2.1.3
+ringStationConfigGroupAddress: 
+  oid: 1.3.6.1.2.1.16.10.5.1.6
+sourceRoutingStats8HopsFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.21
+ringStationOrderTable: 
+  oid: 1.3.6.1.2.1.16.10.3
+sourceRoutingStatsOwner: 
+  oid: 1.3.6.1.2.1.16.10.6.1.23
+ringStationInternalErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.10
+ringStationConfigControlRemove: 
+  oid: 1.3.6.1.2.1.16.10.4.1.3
+tokenRingMLHistoryIntervalStart: 
+  oid: 1.3.6.1.2.1.16.2.3.1.3
+tokenRingPStatsDataPkts18to63Octets: 
+  oid: 1.3.6.1.2.1.16.1.3.1.8
+sourceRoutingStats3HopsFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.16
+tokenRingMLStatsRingPollEvents: 
+  oid: 1.3.6.1.2.1.16.1.2.1.25
+tokenRingMLStatsFrequencyErrors: 
+  oid: 1.3.6.1.2.1.16.1.2.1.22
+tokenRingMLHistoryAbortErrors: 
+  oid: 1.3.6.1.2.1.16.2.3.1.19
+tokenRingMLStatsFrameCopiedErrors: 
+  oid: 1.3.6.1.2.1.16.1.2.1.21
+ringStationAbortErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.14
+tokenRingMLHistoryMacPkts: 
+  oid: 1.3.6.1.2.1.16.2.3.1.6
+tokenRingPStatsDataPkts8192to18000Octets: 
+  oid: 1.3.6.1.2.1.16.1.3.1.16
+ringStationConfigControlTable: 
+  oid: 1.3.6.1.2.1.16.10.4
+sourceRoutingStatsStatus: 
+  oid: 1.3.6.1.2.1.16.10.6.1.24
+ringStationControlBeaconSender: 
+  oid: 1.3.6.1.2.1.16.10.1.1.5
+tokenRingMLStatsLineErrors: 
+  oid: 1.3.6.1.2.1.16.1.2.1.14
+sourceRoutingStatsLocalLLCFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.13
+tokenRingMLStatsClaimTokenEvents: 
+  oid: 1.3.6.1.2.1.16.1.2.1.11
+tokenRingMLStatsRingPurgeEvents: 
+  oid: 1.3.6.1.2.1.16.1.2.1.6
+tokenRingPHistoryDataPkts: 
+  oid: 1.3.6.1.2.1.16.2.4.1.6
+tokenRingPStatsDataPkts512to1023Octets: 
+  oid: 1.3.6.1.2.1.16.1.3.1.12
+tokenRingMLStatsBeaconTime: 
+  oid: 1.3.6.1.2.1.16.1.2.1.9
+sourceRoutingStats5HopsFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.18
+tokenRingPStatsDataPkts256to511Octets: 
+  oid: 1.3.6.1.2.1.16.1.3.1.11
+ringStationFrameCopiedErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.17
+tokenRingPHistoryDataMulticastPkts: 
+  oid: 1.3.6.1.2.1.16.2.4.1.8
+tokenRingMLHistoryBurstErrors: 
+  oid: 1.3.6.1.2.1.16.2.3.1.17
+ringStationConfigEntry: 
+  oid: 1.3.6.1.2.1.16.10.5.1
+ringStationLostFrameErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.15
+sourceRoutingStatsOutOctets: 
+  oid: 1.3.6.1.2.1.16.10.6.1.9
+tokenRingPStatsDataSource: 
+  oid: 1.3.6.1.2.1.16.1.3.1.2
+tokenRingPHistoryEntry: 
+  oid: 1.3.6.1.2.1.16.2.4.1
+tokenRingMLHistoryRingPurgePkts: 
+  oid: 1.3.6.1.2.1.16.2.3.1.8
+tokenRingMLStatsBeaconPkts: 
+  oid: 1.3.6.1.2.1.16.1.2.1.10
+tokenRingPStatsDropEvents: 
+  oid: 1.3.6.1.2.1.16.1.3.1.3
+tokenRingMLStatsBeaconEvents: 
+  oid: 1.3.6.1.2.1.16.1.2.1.8
+tokenRingMLStatsClaimTokenPkts: 
+  oid: 1.3.6.1.2.1.16.1.2.1.12
+ringStationOrderIfIndex: 
+  oid: 1.3.6.1.2.1.16.10.3.1.1
+tokenRingMLHistoryInternalErrors: 
+  oid: 1.3.6.1.2.1.16.2.3.1.16
+tokenRingPHistoryIntervalStart: 
+  oid: 1.3.6.1.2.1.16.2.4.1.3
+sourceRoutingStatsThroughOctets: 
+  oid: 1.3.6.1.2.1.16.10.6.1.10
+sourceRoutingStatsMoreThan8HopsFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.22
+tokenRingMLHistoryFrequencyErrors: 
+  oid: 1.3.6.1.2.1.16.2.3.1.23
+tokenRingMLHistorySampleIndex: 
+  oid: 1.3.6.1.2.1.16.2.3.1.2
+tokenRingMLHistoryACErrors: 
+  oid: 1.3.6.1.2.1.16.2.3.1.18
+tokenRingMLHistoryCongestionErrors: 
+  oid: 1.3.6.1.2.1.16.2.3.1.21
+ringStationDuplicateAddresses: 
+  oid: 1.3.6.1.2.1.16.10.2.1.7
+tokenRingMLStatsStatus: 
+  oid: 1.3.6.1.2.1.16.1.2.1.27
+ringStationControlRingState: 
+  oid: 1.3.6.1.2.1.16.10.1.1.4
+ringStationOrderOrderIndex: 
+  oid: 1.3.6.1.2.1.16.10.3.1.2
+ringStationOutBeaconErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.21
+tokenRingMLStatsTable: 
+  oid: 1.3.6.1.2.1.16.1.2
+ringStationControlIfIndex: 
+  oid: 1.3.6.1.2.1.16.10.1.1.1
+tokenRingPStatsEntry: 
+  oid: 1.3.6.1.2.1.16.1.3.1
+ringStationConfigLocation: 
+  oid: 1.3.6.1.2.1.16.10.5.1.4
+tokenRingPHistoryIndex: 
+  oid: 1.3.6.1.2.1.16.2.4.1.1
+tokenRingPHistoryDataPkts1024to2047Octets: 
+  oid: 1.3.6.1.2.1.16.2.4.1.14
+ringStationInBeaconErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.20
+tokenRingPHistoryDataPkts512to1023Octets: 
+  oid: 1.3.6.1.2.1.16.2.4.1.13
+tokenRingMLHistoryMacOctets: 
+  oid: 1.3.6.1.2.1.16.2.3.1.5
+tokenRingMLHistoryClaimTokenEvents: 
+  oid: 1.3.6.1.2.1.16.2.3.1.12
+ringStationIfIndex: 
+  oid: 1.3.6.1.2.1.16.10.2.1.1
+tokenRingMLHistoryBeaconEvents: 
+  oid: 1.3.6.1.2.1.16.2.3.1.9
+tokenRingMLStatsACErrors: 
+  oid: 1.3.6.1.2.1.16.1.2.1.17
+tokenRingPStatsDataBroadcastPkts: 
+  oid: 1.3.6.1.2.1.16.1.3.1.6
+tokenRingMLHistoryRingPurgeEvents: 
+  oid: 1.3.6.1.2.1.16.2.3.1.7
+ringStationLastExitTime: 
+  oid: 1.3.6.1.2.1.16.10.2.1.6
+tokenRingPHistoryDataPkts18to63Octets: 
+  oid: 1.3.6.1.2.1.16.2.4.1.9
+ringStationOrderMacAddress: 
+  oid: 1.3.6.1.2.1.16.10.3.1.3
+tokenRingPHistoryDataBroadcastPkts: 
+  oid: 1.3.6.1.2.1.16.2.4.1.7
+tokenRingPStatsDataMulticastPkts: 
+  oid: 1.3.6.1.2.1.16.1.3.1.7
+sourceRoutingStatsOutFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.4
+ringStationControlStatus: 
+  oid: 1.3.6.1.2.1.16.10.1.1.10
+tokenRingPStatsIndex: 
+  oid: 1.3.6.1.2.1.16.1.3.1.1
+sourceRoutingStatsEntry: 
+  oid: 1.3.6.1.2.1.16.10.6.1
+ringStationControlTable: 
+  oid: 1.3.6.1.2.1.16.10.1
+tokenRingMLHistoryTable: 
+  oid: 1.3.6.1.2.1.16.2.3
+tokenRingPHistoryDataPktsGreaterThan18000Octets: 
+  oid: 1.3.6.1.2.1.16.2.4.1.18
+tokenRingPStatsDataPkts: 
+  oid: 1.3.6.1.2.1.16.1.3.1.5
+ringStationConfigControlUpdateStats: 
+  oid: 1.3.6.1.2.1.16.10.4.1.4
+tokenRingMLHistoryTokenErrors: 
+  oid: 1.3.6.1.2.1.16.2.3.1.24
+ringStationConfigControlMacAddress: 
+  oid: 1.3.6.1.2.1.16.10.4.1.2
+tokenRingMLHistoryFrameCopiedErrors: 
+  oid: 1.3.6.1.2.1.16.2.3.1.22
+ringStationTable: 
+  oid: 1.3.6.1.2.1.16.10.2
+tokenRingMLStatsLostFrameErrors: 
+  oid: 1.3.6.1.2.1.16.1.2.1.19
+tokenRingPHistoryDataPkts2048to4095Octets: 
+  oid: 1.3.6.1.2.1.16.2.4.1.15
+tokenRingPStatsDataPkts1024to2047Octets: 
+  oid: 1.3.6.1.2.1.16.1.3.1.13
+sourceRoutingStats7HopsFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.20
+sourceRoutingStatsIfIndex: 
+  oid: 1.3.6.1.2.1.16.10.6.1.1
+ringStationTokenErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.19
+tokenRingPStatsDataPkts128to255Octets: 
+  oid: 1.3.6.1.2.1.16.1.3.1.10
+tokenRingMLStatsAbortErrors: 
+  oid: 1.3.6.1.2.1.16.1.2.1.18
+sourceRoutingStats1HopFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.14
+ringStationOrderEntry: 
+  oid: 1.3.6.1.2.1.16.10.3.1
+tokenRingPHistoryDataPkts64to127Octets: 
+  oid: 1.3.6.1.2.1.16.2.4.1.10
+tokenRingMLHistoryNAUNChanges: 
+  oid: 1.3.6.1.2.1.16.2.3.1.14
+sourceRoutingStats2HopsFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.15
+ringStationConfigMicrocode: 
+  oid: 1.3.6.1.2.1.16.10.5.1.5
+ringStationCongestionErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.16
+tokenRingPHistoryDataPkts4096to8191Octets: 
+  oid: 1.3.6.1.2.1.16.2.4.1.16
+tokenRingMLStatsMacOctets: 
+  oid: 1.3.6.1.2.1.16.1.2.1.4
+ringStationControlOwner: 
+  oid: 1.3.6.1.2.1.16.10.1.1.9
+tokenRingPHistoryDataPkts256to511Octets: 
+  oid: 1.3.6.1.2.1.16.2.4.1.12
+sourceRoutingStatsSingleRoutesBroadcastOctets: 
+  oid: 1.3.6.1.2.1.16.10.6.1.12
+sourceRoutingStatsAllRoutesBroadcastOctets: 
+  oid: 1.3.6.1.2.1.16.10.6.1.11
+ringStationConfigControlIfIndex: 
+  oid: 1.3.6.1.2.1.16.10.4.1.1
+tokenRingPHistoryTable: 
+  oid: 1.3.6.1.2.1.16.2.4
+tokenRingMLHistoryDropEvents: 
+  oid: 1.3.6.1.2.1.16.2.3.1.4
+tokenRingPHistoryDropEvents: 
+  oid: 1.3.6.1.2.1.16.2.4.1.4
+sourceRoutingStatsRingNumber: 
+  oid: 1.3.6.1.2.1.16.10.6.1.2
+ringStationOutLineErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.9
+tokenRingMLStatsMacPkts: 
+  oid: 1.3.6.1.2.1.16.1.2.1.5
+tokenRingMLStatsOwner: 
+  oid: 1.3.6.1.2.1.16.1.2.1.26
+tokenRingPStatsDataPkts2048to4095Octets: 
+  oid: 1.3.6.1.2.1.16.1.3.1.14
+sourceRoutingStatsThroughFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.5
+ringStationConfigControlEntry: 
+  oid: 1.3.6.1.2.1.16.10.4.1
+ringStationACErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.13
+sourceRoutingStats4HopsFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.17
+ringStationOutBurstErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.12
+tokenRingPStatsDataOctets: 
+  oid: 1.3.6.1.2.1.16.1.3.1.4
+tokenRingMLHistoryRingPollEvents: 
+  oid: 1.3.6.1.2.1.16.2.3.1.26
+tokenRingMLHistoryLostFrameErrors: 
+  oid: 1.3.6.1.2.1.16.2.3.1.20
+ringStationLastEnterTime: 
+  oid: 1.3.6.1.2.1.16.10.2.1.5
+ringStationControlOrderChanges: 
+  oid: 1.3.6.1.2.1.16.10.1.1.8
+tokenRing: 
+  oid: 1.3.6.1.2.1.16.10
+ringStationConfigIfIndex: 
+  oid: 1.3.6.1.2.1.16.10.5.1.1
+ringStationControlBeaconNAUN: 
+  oid: 1.3.6.1.2.1.16.10.1.1.6
+tokenRingMLStatsRingPurgePkts: 
+  oid: 1.3.6.1.2.1.16.1.2.1.7
+tokenRingPStatsStatus: 
+  oid: 1.3.6.1.2.1.16.1.3.1.19
+tokenRingPStatsDataPkts4096to8191Octets: 
+  oid: 1.3.6.1.2.1.16.1.3.1.15
+tokenRingMLHistoryBeaconPkts: 
+  oid: 1.3.6.1.2.1.16.2.3.1.11
+tokenRingMLStatsInternalErrors: 
+  oid: 1.3.6.1.2.1.16.1.2.1.15
+ringStationConfigTable: 
+  oid: 1.3.6.1.2.1.16.10.5
+ringStationInsertions: 
+  oid: 1.3.6.1.2.1.16.10.2.1.22
+ringStationInLineErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.8
+ringStationMacAddress: 
+  oid: 1.3.6.1.2.1.16.10.2.1.2
+tokenRingMLStatsSoftErrorReports: 
+  oid: 1.3.6.1.2.1.16.1.2.1.24
+ringStationControlActiveMonitor: 
+  oid: 1.3.6.1.2.1.16.10.1.1.7
+tokenRingMLStatsBurstErrors: 
+  oid: 1.3.6.1.2.1.16.1.2.1.16
+tokenRingMLHistoryLineErrors: 
+  oid: 1.3.6.1.2.1.16.2.3.1.15
+tokenRingMLHistoryClaimTokenPkts: 
+  oid: 1.3.6.1.2.1.16.2.3.1.13
+ringStationControlTableSize: 
+  oid: 1.3.6.1.2.1.16.10.1.1.2
+tokenRingMLStatsTokenErrors: 
+  oid: 1.3.6.1.2.1.16.1.2.1.23
+tokenRingMLHistoryBeaconTime: 
+  oid: 1.3.6.1.2.1.16.2.3.1.10
+sourceRoutingStatsSingleRouteBroadcastFrames: 
+  oid: 1.3.6.1.2.1.16.10.6.1.7
+ringStationStationStatus: 
+  oid: 1.3.6.1.2.1.16.10.2.1.4
+tokenRingMLHistoryActiveStations: 
+  oid: 1.3.6.1.2.1.16.2.3.1.27
+sourceRoutingStatsInOctets: 
+  oid: 1.3.6.1.2.1.16.10.6.1.8
+tokenRingPStatsTable: 
+  oid: 1.3.6.1.2.1.16.1.3
+ringStationConfigFunctionalAddress: 
+  oid: 1.3.6.1.2.1.16.10.5.1.7
+ringStationFrequencyErrors: 
+  oid: 1.3.6.1.2.1.16.10.2.1.18
+tokenRingPHistorySampleIndex: 
+  oid: 1.3.6.1.2.1.16.2.4.1.2
+tokenRingMLStatsNAUNChanges: 
+  oid: 1.3.6.1.2.1.16.1.2.1.13
+tokenRingMLHistoryEntry: 
+  oid: 1.3.6.1.2.1.16.2.3.1
+tokenRingMLStatsIndex: 
+  oid: 1.3.6.1.2.1.16.1.2.1.1

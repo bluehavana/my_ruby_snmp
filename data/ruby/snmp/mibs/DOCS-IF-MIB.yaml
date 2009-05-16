@@ -1,143 +1,285 @@
 --- 
-docsIfCmtsCmStatusEqualizationData: 1.3.6.1.2.1.10.127.1.3.3.1.8
-docsIfUpChannelRangingBackoffEnd: 1.3.6.1.2.1.10.127.1.1.2.1.8
-docsIfSigQUnerroreds: 1.3.6.1.2.1.10.127.1.1.4.1.2
-docsIfCmtsModMaxBurstSize: 1.3.6.1.2.1.10.127.1.3.5.1.10
-docsIfCmtsObjects: 1.3.6.1.2.1.10.127.1.3
-docsIfCmtsCmStatusUncorrectables: 1.3.6.1.2.1.10.127.1.3.3.1.12
-docsIfCmtsModScrambler: 1.3.6.1.2.1.10.127.1.3.5.1.13
-docsIfCmServiceEntry: 1.3.6.1.2.1.10.127.1.2.3.1
-docsIfQosProfMaxTxBurst: 1.3.6.1.2.1.10.127.1.1.3.1.6
-docsIfCmServiceId: 1.3.6.1.2.1.10.127.1.2.3.1.1
-docsIfQosProfileEntry: 1.3.6.1.2.1.10.127.1.1.3.1
-docsIfCmtsModControl: 1.3.6.1.2.1.10.127.1.3.5.1.3
-docsIfDownstreamChannelEntry: 1.3.6.1.2.1.10.127.1.1.1.1
-docsIfCmtsCmStatusTable: 1.3.6.1.2.1.10.127.1.3.3
-docsIfCmtsStatusInvalidRegReqs: 1.3.6.1.2.1.10.127.1.3.2.1.3
-docsIfUpChannelSlotSize: 1.3.6.1.2.1.10.127.1.1.2.1.5
-docsIfUpstreamChannelEntry: 1.3.6.1.2.1.10.127.1.1.2.1
-docsIfQosProfGuarUpBandwidth: 1.3.6.1.2.1.10.127.1.1.3.1.4
-docsIfConformance: 1.3.6.1.2.1.10.127.3
-docsIfCmServiceQosProfile: 1.3.6.1.2.1.10.127.1.2.3.1.2
-docsIfCmtsCmPtr: 1.3.6.1.2.1.10.127.1.3.7.1.2
-docsIfQosProfStatus: 1.3.6.1.2.1.10.127.1.1.3.1.8
-docsIfQosProfBaselinePrivacy: 1.3.6.1.2.1.10.127.1.1.3.1.7
-docsIfCmtsInsertInterval: 1.3.6.1.2.1.10.127.1.3.1.1.7
-docsIfCmtsServiceEntry: 1.3.6.1.2.1.10.127.1.3.4.1
-docsIfCmtsModIntervalUsageCode: 1.3.6.1.2.1.10.127.1.3.5.1.2
-docsIfQosProfPriority: 1.3.6.1.2.1.10.127.1.1.3.1.2
-docsIfSignalQualityTable: 1.3.6.1.2.1.10.127.1.1.4
-docsIfCompliances: 1.3.6.1.2.1.10.127.3.1
-docsIfCmtsModFECErrorCorrection: 1.3.6.1.2.1.10.127.1.3.5.1.7
-docsIfCmtsModScramblerSeed: 1.3.6.1.2.1.10.127.1.3.5.1.9
-docsIfCmStatusEntry: 1.3.6.1.2.1.10.127.1.2.2.1
-docsIfCmtsModulationEntry: 1.3.6.1.2.1.10.127.1.3.5.1
-docsIfCmtsCmStatusSignalNoise: 1.3.6.1.2.1.10.127.1.3.3.1.13
-docsIfCmtsCmStatusUpChannelIfIndex: 1.3.6.1.2.1.10.127.1.3.3.1.5
-docsIfCmStatusResets: 1.3.6.1.2.1.10.127.1.2.2.1.4
-docsIfUpChannelTxTimingOffset: 1.3.6.1.2.1.10.127.1.1.2.1.6
-docsIfDownChannelFrequency: 1.3.6.1.2.1.10.127.1.1.1.1.2
-docsIfCmRangingTimeout: 1.3.6.1.2.1.10.127.1.2.1.1.4
-docsIfSigQUncorrectables: 1.3.6.1.2.1.10.127.1.1.4.1.4
-docsIfDownChannelWidth: 1.3.6.1.2.1.10.127.1.1.1.1.3
-docsIfCmtsServiceInPackets: 1.3.6.1.2.1.10.127.1.3.4.1.7
-docsIfMib: 1.3.6.1.2.1.10.127
-docsIfCmtsInsertionInterval: 1.3.6.1.2.1.10.127.1.3.1.1.5
-docsIfCmtsCmStatusUnerroreds: 1.3.6.1.2.1.10.127.1.3.3.1.10
-docsIfCmServiceRqRetries: 1.3.6.1.2.1.10.127.1.2.3.1.7
-docsIfCmtsServiceInOctets: 1.3.6.1.2.1.10.127.1.3.4.1.6
-docsIfUpChannelTxBackoffStart: 1.3.6.1.2.1.10.127.1.1.2.1.9
-docsIfCmtsModType: 1.3.6.1.2.1.10.127.1.3.5.1.4
-docsIfCmtsModDifferentialEncoding: 1.3.6.1.2.1.10.127.1.3.5.1.6
-docsIfCmObjects: 1.3.6.1.2.1.10.127.1.2
-docsIfDownChannelPower: 1.3.6.1.2.1.10.127.1.1.1.1.6
-docsIfCmStatusT4Timeouts: 1.3.6.1.2.1.10.127.1.2.2.1.13
-docsIfCmCapabilities: 1.3.6.1.2.1.10.127.1.2.1.1.2
-docsIfQosProfMaxDownBandwidth: 1.3.6.1.2.1.10.127.1.1.3.1.5
-docsIfCmtsCmStatusMacAddress: 1.3.6.1.2.1.10.127.1.3.3.1.2
-docsIfCmServiceRqExceededs: 1.3.6.1.2.1.10.127.1.2.3.1.8
-docsIfUpChannelId: 1.3.6.1.2.1.10.127.1.1.2.1.1
-docsIfCmStatusInvalidUcds: 1.3.6.1.2.1.10.127.1.2.2.1.7
-docsIfCmServiceTxExceededs: 1.3.6.1.2.1.10.127.1.2.3.1.6
-docsIfCmtsStatusFailedRegReqs: 1.3.6.1.2.1.10.127.1.3.2.1.4
-docsIfCmtsMacToCmEntry: 1.3.6.1.2.1.10.127.1.3.7.1
-docsIfCmtsMacTable: 1.3.6.1.2.1.10.127.1.3.1
-docsIfUpChannelRangingBackoffStart: 1.3.6.1.2.1.10.127.1.1.2.1.7
-docsIfCmStatusTxPower: 1.3.6.1.2.1.10.127.1.2.2.1.3
-docsIfDownChannelId: 1.3.6.1.2.1.10.127.1.1.1.1.1
-docsIfQosProfileTable: 1.3.6.1.2.1.10.127.1.1.3
-docsIfCmtsStatusRangingAborteds: 1.3.6.1.2.1.10.127.1.3.2.1.2
-docsIfSigQIncludesContention: 1.3.6.1.2.1.10.127.1.1.4.1.1
-docsIfCmtsCmMac: 1.3.6.1.2.1.10.127.1.3.7.1.1
-docsIfCmStatusLostSyncs: 1.3.6.1.2.1.10.127.1.2.2.1.5
-docsIfCmMacEntry: 1.3.6.1.2.1.10.127.1.2.1.1
-docsIfUpstreamChannelTable: 1.3.6.1.2.1.10.127.1.1.2
-docsIfCmtsQosProfilePermissions: 1.3.6.1.2.1.10.127.1.3.6
-docsIfSigQMicroreflections: 1.3.6.1.2.1.10.127.1.1.4.1.6
-docsIfCmtsStatusTable: 1.3.6.1.2.1.10.127.1.3.2
-docsIfCmRangingRespTimeout: 1.3.6.1.2.1.10.127.1.2.1.1.3
-docsIfCmtsModGuardTimeSize: 1.3.6.1.2.1.10.127.1.3.5.1.11
-docsIfCmStatusValue: 1.3.6.1.2.1.10.127.1.2.2.1.1
-docsIfCmStatusT3Timeouts: 1.3.6.1.2.1.10.127.1.2.2.1.12
-docsIfMibObjects: 1.3.6.1.2.1.10.127.1
-docsIfCmtsModPreambleLen: 1.3.6.1.2.1.10.127.1.3.5.1.5
-docsIfCmtsCapabilities: 1.3.6.1.2.1.10.127.1.3.1.1.1
-docsIfCmServiceTable: 1.3.6.1.2.1.10.127.1.2.3
-docsIfCmtsCmStatusEntry: 1.3.6.1.2.1.10.127.1.3.3.1
-docsIfUpChannelFrequency: 1.3.6.1.2.1.10.127.1.1.2.1.2
-docsIfDownChannelModulation: 1.3.6.1.2.1.10.127.1.1.1.1.4
-docsIfCmServiceTxSlotsDed: 1.3.6.1.2.1.10.127.1.2.3.1.4
-docsIfCmtsModLastCodewordShortened: 1.3.6.1.2.1.10.127.1.3.5.1.12
-docsIfCmtsCmStatusIpAddress: 1.3.6.1.2.1.10.127.1.3.3.1.3
-docsIfCmStatusInvalidMaps: 1.3.6.1.2.1.10.127.1.2.2.1.6
-docsIfCmtsStatusT5Timeouts: 1.3.6.1.2.1.10.127.1.3.2.1.6
-docsIfCmtsInvitedRangingAttempts: 1.3.6.1.2.1.10.127.1.3.1.1.6
-docsIfCmCmtsAddress: 1.3.6.1.2.1.10.127.1.2.1.1.1
-docsIfDownstreamChannelTable: 1.3.6.1.2.1.10.127.1.1.1
-docsIfSigQCorrecteds: 1.3.6.1.2.1.10.127.1.1.4.1.3
-docsIfSigQSignalNoise: 1.3.6.1.2.1.10.127.1.1.4.1.5
-docsIfCmStatusT1Timeouts: 1.3.6.1.2.1.10.127.1.2.2.1.10
-docsIfCmtsServiceId: 1.3.6.1.2.1.10.127.1.3.4.1.1
-docsIfCmtsCmStatusCorrecteds: 1.3.6.1.2.1.10.127.1.3.3.1.11
-docsIfCmStatusInvalidRegistrationResponses: 1.3.6.1.2.1.10.127.1.2.2.1.9
-docsIfCmStatusT2Timeouts: 1.3.6.1.2.1.10.127.1.2.2.1.11
-docsIfCmtsCmStatusIndex: 1.3.6.1.2.1.10.127.1.3.3.1.1
-docsIfCmtsServiceAdminStatus: 1.3.6.1.2.1.10.127.1.3.4.1.3
-docsIfCmtsServiceCmStatusIndex: 1.3.6.1.2.1.10.127.1.3.4.1.2
-docsIfUpChannelTxBackoffEnd: 1.3.6.1.2.1.10.127.1.1.2.1.10
-docsIfSignalQualityEntry: 1.3.6.1.2.1.10.127.1.1.4.1
-docsIfDownChannelInterleave: 1.3.6.1.2.1.10.127.1.1.1.1.5
-docsIfCmtsStatusInvalidDataReqs: 1.3.6.1.2.1.10.127.1.3.2.1.5
-docsIfCmtsModulationTable: 1.3.6.1.2.1.10.127.1.3.5
-docsIfCmStatusTable: 1.3.6.1.2.1.10.127.1.2.2
-docsIfCmtsServiceTable: 1.3.6.1.2.1.10.127.1.3.4
-docsIfCmtsServiceCreateTime: 1.3.6.1.2.1.10.127.1.3.4.1.5
-docsIfCmServiceTxRetries: 1.3.6.1.2.1.10.127.1.2.3.1.5
-docsIfCmStatusRangingAborteds: 1.3.6.1.2.1.10.127.1.2.2.1.14
-docsIfCmtsCmStatusRxPower: 1.3.6.1.2.1.10.127.1.3.3.1.6
-docsIfCmtsCmStatusMicroreflections: 1.3.6.1.2.1.10.127.1.3.3.1.14
-docsIfCmtsServiceQosProfile: 1.3.6.1.2.1.10.127.1.3.4.1.4
-docsIfCmtsModIndex: 1.3.6.1.2.1.10.127.1.3.5.1.1
-docsIfCmtsCmStatusTimingOffset: 1.3.6.1.2.1.10.127.1.3.3.1.7
-docsIfSigQEqualizationData: 1.3.6.1.2.1.10.127.1.1.4.1.7
-docsIfUpChannelModulationProfile: 1.3.6.1.2.1.10.127.1.1.2.1.4
-docsIfBaseObjects: 1.3.6.1.2.1.10.127.1.1
-docsIfCmStatusInvalidRangingResponses: 1.3.6.1.2.1.10.127.1.2.2.1.8
-docsIfCmtsCmStatusValue: 1.3.6.1.2.1.10.127.1.3.3.1.9
-docsIfCmtsUcdInterval: 1.3.6.1.2.1.10.127.1.3.1.1.3
-docsIfQosProfMaxUpBandwidth: 1.3.6.1.2.1.10.127.1.1.3.1.3
-docsIfCmStatusCode: 1.3.6.1.2.1.10.127.1.2.2.1.2
-docsIfCmtsMacEntry: 1.3.6.1.2.1.10.127.1.3.1.1
-docsIfCmtsMaxServiceIds: 1.3.6.1.2.1.10.127.1.3.1.1.4
-docsIfCmtsCmStatusDownChannelIfIndex: 1.3.6.1.2.1.10.127.1.3.3.1.4
-docsIfCmtsMacToCmTable: 1.3.6.1.2.1.10.127.1.3.7
-docsIfNotification: 1.3.6.1.2.1.10.127.2
-docsIfCmtsSyncInterval: 1.3.6.1.2.1.10.127.1.3.1.1.2
-docsIfCmtsModFECCodewordLength: 1.3.6.1.2.1.10.127.1.3.5.1.8
-docsIfGroups: 1.3.6.1.2.1.10.127.3.2
-docsIfQosProfIndex: 1.3.6.1.2.1.10.127.1.1.3.1.1
-docsIfCmtsStatusEntry: 1.3.6.1.2.1.10.127.1.3.2.1
-docsIfCmMacTable: 1.3.6.1.2.1.10.127.1.2.1
-docsIfCmtsStatusInvalidRangeReqs: 1.3.6.1.2.1.10.127.1.3.2.1.1
-docsIfUpChannelWidth: 1.3.6.1.2.1.10.127.1.1.2.1.3
-docsIfCmServiceTxSlotsImmed: 1.3.6.1.2.1.10.127.1.2.3.1.3
+docsIfCmtsCmStatusEqualizationData: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.8
+docsIfUpChannelRangingBackoffEnd: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2.1.8
+docsIfSigQUnerroreds: 
+  oid: 1.3.6.1.2.1.10.127.1.1.4.1.2
+docsIfCmtsModMaxBurstSize: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.10
+docsIfCmtsObjects: 
+  oid: 1.3.6.1.2.1.10.127.1.3
+docsIfCmtsCmStatusUncorrectables: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.12
+docsIfCmtsModScrambler: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.13
+docsIfCmServiceEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.2.3.1
+docsIfQosProfMaxTxBurst: 
+  oid: 1.3.6.1.2.1.10.127.1.1.3.1.6
+docsIfCmServiceId: 
+  oid: 1.3.6.1.2.1.10.127.1.2.3.1.1
+docsIfQosProfileEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.1.3.1
+docsIfCmtsModControl: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.3
+docsIfDownstreamChannelEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.1.1.1
+docsIfCmtsCmStatusTable: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3
+docsIfCmtsStatusInvalidRegReqs: 
+  oid: 1.3.6.1.2.1.10.127.1.3.2.1.3
+docsIfUpChannelSlotSize: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2.1.5
+docsIfUpstreamChannelEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2.1
+docsIfQosProfGuarUpBandwidth: 
+  oid: 1.3.6.1.2.1.10.127.1.1.3.1.4
+docsIfConformance: 
+  oid: 1.3.6.1.2.1.10.127.3
+docsIfCmServiceQosProfile: 
+  oid: 1.3.6.1.2.1.10.127.1.2.3.1.2
+docsIfCmtsCmPtr: 
+  oid: 1.3.6.1.2.1.10.127.1.3.7.1.2
+docsIfQosProfStatus: 
+  oid: 1.3.6.1.2.1.10.127.1.1.3.1.8
+docsIfQosProfBaselinePrivacy: 
+  oid: 1.3.6.1.2.1.10.127.1.1.3.1.7
+docsIfCmtsInsertInterval: 
+  oid: 1.3.6.1.2.1.10.127.1.3.1.1.7
+docsIfCmtsServiceEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.3.4.1
+docsIfCmtsModIntervalUsageCode: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.2
+docsIfQosProfPriority: 
+  oid: 1.3.6.1.2.1.10.127.1.1.3.1.2
+docsIfCompliances: 
+  oid: 1.3.6.1.2.1.10.127.3.1
+docsIfSignalQualityTable: 
+  oid: 1.3.6.1.2.1.10.127.1.1.4
+docsIfCmtsModFECErrorCorrection: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.7
+docsIfCmtsModScramblerSeed: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.9
+docsIfCmStatusEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1
+docsIfCmtsModulationEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1
+docsIfCmtsCmStatusSignalNoise: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.13
+docsIfCmtsCmStatusUpChannelIfIndex: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.5
+docsIfCmStatusResets: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.4
+docsIfUpChannelTxTimingOffset: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2.1.6
+docsIfDownChannelFrequency: 
+  oid: 1.3.6.1.2.1.10.127.1.1.1.1.2
+docsIfCmRangingTimeout: 
+  oid: 1.3.6.1.2.1.10.127.1.2.1.1.4
+docsIfSigQUncorrectables: 
+  oid: 1.3.6.1.2.1.10.127.1.1.4.1.4
+docsIfDownChannelWidth: 
+  oid: 1.3.6.1.2.1.10.127.1.1.1.1.3
+docsIfCmtsServiceInPackets: 
+  oid: 1.3.6.1.2.1.10.127.1.3.4.1.7
+docsIfMib: 
+  oid: 1.3.6.1.2.1.10.127
+docsIfCmtsInsertionInterval: 
+  oid: 1.3.6.1.2.1.10.127.1.3.1.1.5
+docsIfCmtsCmStatusUnerroreds: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.10
+docsIfCmServiceRqRetries: 
+  oid: 1.3.6.1.2.1.10.127.1.2.3.1.7
+docsIfCmtsServiceInOctets: 
+  oid: 1.3.6.1.2.1.10.127.1.3.4.1.6
+docsIfUpChannelTxBackoffStart: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2.1.9
+docsIfCmtsModType: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.4
+docsIfCmtsModDifferentialEncoding: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.6
+docsIfCmObjects: 
+  oid: 1.3.6.1.2.1.10.127.1.2
+docsIfDownChannelPower: 
+  oid: 1.3.6.1.2.1.10.127.1.1.1.1.6
+docsIfCmStatusT4Timeouts: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.13
+docsIfCmCapabilities: 
+  oid: 1.3.6.1.2.1.10.127.1.2.1.1.2
+docsIfQosProfMaxDownBandwidth: 
+  oid: 1.3.6.1.2.1.10.127.1.1.3.1.5
+docsIfCmtsCmStatusMacAddress: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.2
+docsIfCmServiceRqExceededs: 
+  oid: 1.3.6.1.2.1.10.127.1.2.3.1.8
+docsIfUpChannelId: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2.1.1
+docsIfCmStatusInvalidUcds: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.7
+docsIfCmServiceTxExceededs: 
+  oid: 1.3.6.1.2.1.10.127.1.2.3.1.6
+docsIfCmtsStatusFailedRegReqs: 
+  oid: 1.3.6.1.2.1.10.127.1.3.2.1.4
+docsIfCmtsMacToCmEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.3.7.1
+docsIfCmtsMacTable: 
+  oid: 1.3.6.1.2.1.10.127.1.3.1
+docsIfUpChannelRangingBackoffStart: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2.1.7
+docsIfCmStatusTxPower: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.3
+docsIfDownChannelId: 
+  oid: 1.3.6.1.2.1.10.127.1.1.1.1.1
+docsIfQosProfileTable: 
+  oid: 1.3.6.1.2.1.10.127.1.1.3
+docsIfCmtsStatusRangingAborteds: 
+  oid: 1.3.6.1.2.1.10.127.1.3.2.1.2
+docsIfSigQIncludesContention: 
+  oid: 1.3.6.1.2.1.10.127.1.1.4.1.1
+docsIfCmtsCmMac: 
+  oid: 1.3.6.1.2.1.10.127.1.3.7.1.1
+docsIfCmStatusLostSyncs: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.5
+docsIfCmMacEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.2.1.1
+docsIfUpstreamChannelTable: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2
+docsIfCmtsQosProfilePermissions: 
+  oid: 1.3.6.1.2.1.10.127.1.3.6
+docsIfSigQMicroreflections: 
+  oid: 1.3.6.1.2.1.10.127.1.1.4.1.6
+docsIfCmtsStatusTable: 
+  oid: 1.3.6.1.2.1.10.127.1.3.2
+docsIfCmRangingRespTimeout: 
+  oid: 1.3.6.1.2.1.10.127.1.2.1.1.3
+docsIfCmtsModGuardTimeSize: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.11
+docsIfCmStatusValue: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.1
+docsIfCmStatusT3Timeouts: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.12
+docsIfMibObjects: 
+  oid: 1.3.6.1.2.1.10.127.1
+docsIfCmtsModPreambleLen: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.5
+docsIfCmtsCapabilities: 
+  oid: 1.3.6.1.2.1.10.127.1.3.1.1.1
+docsIfCmServiceTable: 
+  oid: 1.3.6.1.2.1.10.127.1.2.3
+docsIfCmtsCmStatusEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1
+docsIfUpChannelFrequency: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2.1.2
+docsIfDownChannelModulation: 
+  oid: 1.3.6.1.2.1.10.127.1.1.1.1.4
+docsIfCmServiceTxSlotsDed: 
+  oid: 1.3.6.1.2.1.10.127.1.2.3.1.4
+docsIfCmtsModLastCodewordShortened: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.12
+docsIfCmtsCmStatusIpAddress: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.3
+docsIfCmStatusInvalidMaps: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.6
+docsIfCmtsStatusT5Timeouts: 
+  oid: 1.3.6.1.2.1.10.127.1.3.2.1.6
+docsIfCmtsInvitedRangingAttempts: 
+  oid: 1.3.6.1.2.1.10.127.1.3.1.1.6
+docsIfCmCmtsAddress: 
+  oid: 1.3.6.1.2.1.10.127.1.2.1.1.1
+docsIfDownstreamChannelTable: 
+  oid: 1.3.6.1.2.1.10.127.1.1.1
+docsIfSigQCorrecteds: 
+  oid: 1.3.6.1.2.1.10.127.1.1.4.1.3
+docsIfSigQSignalNoise: 
+  oid: 1.3.6.1.2.1.10.127.1.1.4.1.5
+docsIfCmStatusT1Timeouts: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.10
+docsIfCmtsServiceId: 
+  oid: 1.3.6.1.2.1.10.127.1.3.4.1.1
+docsIfCmtsCmStatusCorrecteds: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.11
+docsIfCmStatusInvalidRegistrationResponses: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.9
+docsIfCmStatusT2Timeouts: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.11
+docsIfCmtsCmStatusIndex: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.1
+docsIfCmtsServiceAdminStatus: 
+  oid: 1.3.6.1.2.1.10.127.1.3.4.1.3
+docsIfCmtsServiceCmStatusIndex: 
+  oid: 1.3.6.1.2.1.10.127.1.3.4.1.2
+docsIfUpChannelTxBackoffEnd: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2.1.10
+docsIfSignalQualityEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.1.4.1
+docsIfDownChannelInterleave: 
+  oid: 1.3.6.1.2.1.10.127.1.1.1.1.5
+docsIfCmtsStatusInvalidDataReqs: 
+  oid: 1.3.6.1.2.1.10.127.1.3.2.1.5
+docsIfCmtsModulationTable: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5
+docsIfCmStatusTable: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2
+docsIfCmtsServiceTable: 
+  oid: 1.3.6.1.2.1.10.127.1.3.4
+docsIfCmtsServiceCreateTime: 
+  oid: 1.3.6.1.2.1.10.127.1.3.4.1.5
+docsIfCmServiceTxRetries: 
+  oid: 1.3.6.1.2.1.10.127.1.2.3.1.5
+docsIfCmtsModIndex: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.1
+docsIfCmtsServiceQosProfile: 
+  oid: 1.3.6.1.2.1.10.127.1.3.4.1.4
+docsIfCmtsCmStatusMicroreflections: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.14
+docsIfCmtsCmStatusRxPower: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.6
+docsIfCmStatusRangingAborteds: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.14
+docsIfUpChannelModulationProfile: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2.1.4
+docsIfSigQEqualizationData: 
+  oid: 1.3.6.1.2.1.10.127.1.1.4.1.7
+docsIfCmtsCmStatusTimingOffset: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.7
+docsIfBaseObjects: 
+  oid: 1.3.6.1.2.1.10.127.1.1
+docsIfCmtsCmStatusValue: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.9
+docsIfCmStatusInvalidRangingResponses: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.8
+docsIfQosProfMaxUpBandwidth: 
+  oid: 1.3.6.1.2.1.10.127.1.1.3.1.3
+docsIfCmtsUcdInterval: 
+  oid: 1.3.6.1.2.1.10.127.1.3.1.1.3
+docsIfCmtsMacEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.3.1.1
+docsIfCmStatusCode: 
+  oid: 1.3.6.1.2.1.10.127.1.2.2.1.2
+docsIfNotification: 
+  oid: 1.3.6.1.2.1.10.127.2
+docsIfCmtsMacToCmTable: 
+  oid: 1.3.6.1.2.1.10.127.1.3.7
+docsIfCmtsCmStatusDownChannelIfIndex: 
+  oid: 1.3.6.1.2.1.10.127.1.3.3.1.4
+docsIfCmtsMaxServiceIds: 
+  oid: 1.3.6.1.2.1.10.127.1.3.1.1.4
+docsIfGroups: 
+  oid: 1.3.6.1.2.1.10.127.3.2
+docsIfCmtsModFECCodewordLength: 
+  oid: 1.3.6.1.2.1.10.127.1.3.5.1.8
+docsIfCmtsSyncInterval: 
+  oid: 1.3.6.1.2.1.10.127.1.3.1.1.2
+docsIfUpChannelWidth: 
+  oid: 1.3.6.1.2.1.10.127.1.1.2.1.3
+docsIfCmtsStatusInvalidRangeReqs: 
+  oid: 1.3.6.1.2.1.10.127.1.3.2.1.1
+docsIfCmMacTable: 
+  oid: 1.3.6.1.2.1.10.127.1.2.1
+docsIfCmtsStatusEntry: 
+  oid: 1.3.6.1.2.1.10.127.1.3.2.1
+docsIfQosProfIndex: 
+  oid: 1.3.6.1.2.1.10.127.1.1.3.1.1
+docsIfCmServiceTxSlotsImmed: 
+  oid: 1.3.6.1.2.1.10.127.1.2.3.1.3

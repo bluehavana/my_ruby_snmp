@@ -1,14 +1,27 @@
 --- 
-udp: 1.3.6.1.2.1.7
-udpLocalPort: 1.3.6.1.2.1.7.5.1.2
-udpInDatagrams: 1.3.6.1.2.1.7.1
-udpNoPorts: 1.3.6.1.2.1.7.2
-udpMIB: 1.3.6.1.2.1.50
-udpInErrors: 1.3.6.1.2.1.7.3
-udpTable: 1.3.6.1.2.1.7.5
-udpEntry: 1.3.6.1.2.1.7.5.1
-udpMIBGroups: 1.3.6.1.2.1.50.2.2
-udpMIBCompliances: 1.3.6.1.2.1.50.2.1
-udpOutDatagrams: 1.3.6.1.2.1.7.4
-udpMIBConformance: 1.3.6.1.2.1.50.2
-udpLocalAddress: 1.3.6.1.2.1.7.5.1.1
+udp: 
+  oid: 1.3.6.1.2.1.7
+udpLocalPort: 
+  oid: 1.3.6.1.2.1.7.5.1.2
+udpMIB: 
+  oid: 1.3.6.1.2.1.50
+udpNoPorts: 
+  oid: 1.3.6.1.2.1.7.2
+udpInDatagrams: 
+  oid: 1.3.6.1.2.1.7.1
+udpEntry: 
+  oid: 1.3.6.1.2.1.7.5.1
+udpTable: 
+  oid: 1.3.6.1.2.1.7.5
+udpInErrors: 
+  oid: 1.3.6.1.2.1.7.3
+udpMIBGroups: 
+  oid: 1.3.6.1.2.1.50.2.2
+udpMIBCompliances: 
+  oid: 1.3.6.1.2.1.50.2.1
+udpMIBConformance: 
+  oid: 1.3.6.1.2.1.50.2
+udpOutDatagrams: 
+  oid: 1.3.6.1.2.1.7.4
+udpLocalAddress: 
+  oid: 1.3.6.1.2.1.7.5.1.1

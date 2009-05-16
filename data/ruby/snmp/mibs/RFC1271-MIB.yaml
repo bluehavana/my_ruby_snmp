@@ -1,214 +1,427 @@
 --- 
-alarmEntry: 1.3.6.1.2.1.16.3.1.1
-hostTopNControlTable: 1.3.6.1.2.1.16.5.1
-channelEntry: 1.3.6.1.2.1.16.7.2.1
-channelTurnOffEventIndex: 1.3.6.1.2.1.16.7.2.1.6
-historyControlDataSource: 1.3.6.1.2.1.16.2.1.1.2
-hostTimeTable: 1.3.6.1.2.1.16.4.3
-filterPktData: 1.3.6.1.2.1.16.7.1.1.4
-hostTopNTable: 1.3.6.1.2.1.16.5.2
-etherHistoryPkts: 1.3.6.1.2.1.16.2.2.1.6
-channelTurnOnEventIndex: 1.3.6.1.2.1.16.7.2.1.5
-hostTable: 1.3.6.1.2.1.16.4.2
-bufferControlFullAction: 1.3.6.1.2.1.16.8.1.1.4
-filterPktDataNotMask: 1.3.6.1.2.1.16.7.1.1.6
-captureBufferPacketID: 1.3.6.1.2.1.16.8.2.1.3
-hostTimeOutOctets: 1.3.6.1.2.1.16.4.3.1.7
-etherStatsIndex: 1.3.6.1.2.1.16.1.1.1.1
-hostTopNGrantedSize: 1.3.6.1.2.1.16.5.1.1.7
-logEntry: 1.3.6.1.2.1.16.9.2.1
-historyControlBucketsRequested: 1.3.6.1.2.1.16.2.1.1.3
-bufferControlMaxOctetsGranted: 1.3.6.1.2.1.16.8.1.1.9
-etherStatsCRCAlignErrors: 1.3.6.1.2.1.16.1.1.1.8
-etherStatsPkts1024to1518Octets: 1.3.6.1.2.1.16.1.1.1.19
-hostOutPkts: 1.3.6.1.2.1.16.4.2.1.5
-channelIndex: 1.3.6.1.2.1.16.7.2.1.1
-alarmValue: 1.3.6.1.2.1.16.3.1.1.5
-channelDescription: 1.3.6.1.2.1.16.7.2.1.10
-hostControlOwner: 1.3.6.1.2.1.16.4.1.1.5
-eventType: 1.3.6.1.2.1.16.9.1.1.3
-alarmIndex: 1.3.6.1.2.1.16.3.1.1.1
-etherHistoryFragments: 1.3.6.1.2.1.16.2.2.1.12
-historyControlInterval: 1.3.6.1.2.1.16.2.1.1.5
-hostTimeOutErrors: 1.3.6.1.2.1.16.4.3.1.8
-filterPktStatusMask: 1.3.6.1.2.1.16.7.1.1.8
-hostTopNHostIndex: 1.3.6.1.2.1.16.5.1.1.2
-hostControlDataSource: 1.3.6.1.2.1.16.4.1.1.2
-hostInOctets: 1.3.6.1.2.1.16.4.2.1.6
-etherStatsPkts256to511Octets: 1.3.6.1.2.1.16.1.1.1.17
-filter: 1.3.6.1.2.1.16.7
-filterTable: 1.3.6.1.2.1.16.7.1
-matrixSDPkts: 1.3.6.1.2.1.16.6.2.1.4
-event: 1.3.6.1.2.1.16.9
-capture: 1.3.6.1.2.1.16.8
-eventStatus: 1.3.6.1.2.1.16.9.1.1.7
-logIndex: 1.3.6.1.2.1.16.9.2.1.2
-matrixControlEntry: 1.3.6.1.2.1.16.6.1.1
-captureBufferPacketLength: 1.3.6.1.2.1.16.8.2.1.5
-hostControlTableSize: 1.3.6.1.2.1.16.4.1.1.3
-matrixSDTable: 1.3.6.1.2.1.16.6.2
-logDescription: 1.3.6.1.2.1.16.9.2.1.4
-hostOutBroadcastPkts: 1.3.6.1.2.1.16.4.2.1.9
-alarmStartupAlarm: 1.3.6.1.2.1.16.3.1.1.6
-hostTimeInPkts: 1.3.6.1.2.1.16.4.3.1.4
-eventOwner: 1.3.6.1.2.1.16.9.1.1.6
-hostAddress: 1.3.6.1.2.1.16.4.2.1.1
-hostOutMulticastPkts: 1.3.6.1.2.1.16.4.2.1.10
-hostTopNReport: 1.3.6.1.2.1.16.5.2.1.1
-filterPktDataOffset: 1.3.6.1.2.1.16.7.1.1.3
-historyControlEntry: 1.3.6.1.2.1.16.2.1.1
-bufferControlOwner: 1.3.6.1.2.1.16.8.1.1.12
-etherHistoryIntervalStart: 1.3.6.1.2.1.16.2.2.1.3
-etherStatsStatus: 1.3.6.1.2.1.16.1.1.1.21
-hostTimeOutMulticastPkts: 1.3.6.1.2.1.16.4.3.1.10
-hostTimeOutBroadcastPkts: 1.3.6.1.2.1.16.4.3.1.9
-alarmRisingEventIndex: 1.3.6.1.2.1.16.3.1.1.9
-captureBufferTable: 1.3.6.1.2.1.16.8.2
-etherStatsJabbers: 1.3.6.1.2.1.16.1.1.1.12
-etherHistoryBroadcastPkts: 1.3.6.1.2.1.16.2.2.1.7
-hostTimeOutPkts: 1.3.6.1.2.1.16.4.3.1.5
-matrixDSDestAddress: 1.3.6.1.2.1.16.6.3.1.2
-matrixControlIndex: 1.3.6.1.2.1.16.6.1.1.1
-statistics: 1.3.6.1.2.1.16.1
-etherHistoryMulticastPkts: 1.3.6.1.2.1.16.2.2.1.8
-hostCreationOrder: 1.3.6.1.2.1.16.4.2.1.2
-matrixDSEntry: 1.3.6.1.2.1.16.6.3.1
-alarmFallingThreshold: 1.3.6.1.2.1.16.3.1.1.8
-alarmRisingThreshold: 1.3.6.1.2.1.16.3.1.1.7
-matrix: 1.3.6.1.2.1.16.6
-hostTopNOwner: 1.3.6.1.2.1.16.5.1.1.9
-filterPktStatusNotMask: 1.3.6.1.2.1.16.7.1.1.9
-matrixSDOctets: 1.3.6.1.2.1.16.6.2.1.5
-etherStatsFragments: 1.3.6.1.2.1.16.1.1.1.11
-historyControlIndex: 1.3.6.1.2.1.16.2.1.1.1
-channelIfIndex: 1.3.6.1.2.1.16.7.2.1.2
-matrixSDErrors: 1.3.6.1.2.1.16.6.2.1.6
-matrixDSOctets: 1.3.6.1.2.1.16.6.3.1.5
-hostTimeAddress: 1.3.6.1.2.1.16.4.3.1.1
-hostTopNAddress: 1.3.6.1.2.1.16.5.2.1.3
-hostTopNTimeRemaining: 1.3.6.1.2.1.16.5.1.1.4
-eventEntry: 1.3.6.1.2.1.16.9.1.1
-alarmStatus: 1.3.6.1.2.1.16.3.1.1.12
-matrixDSErrors: 1.3.6.1.2.1.16.6.3.1.6
-matrixDSIndex: 1.3.6.1.2.1.16.6.3.1.3
-alarmInterval: 1.3.6.1.2.1.16.3.1.1.2
-etherHistoryEntry: 1.3.6.1.2.1.16.2.2.1
-bufferControlEntry: 1.3.6.1.2.1.16.8.1.1
-alarmFallingEventIndex: 1.3.6.1.2.1.16.3.1.1.10
-hostInPkts: 1.3.6.1.2.1.16.4.2.1.4
-etherHistorySampleIndex: 1.3.6.1.2.1.16.2.2.1.2
-hostControlEntry: 1.3.6.1.2.1.16.4.1.1
-hostTopNControlEntry: 1.3.6.1.2.1.16.5.1.1
-matrixSDDestAddress: 1.3.6.1.2.1.16.6.2.1.2
-etherHistoryJabbers: 1.3.6.1.2.1.16.2.2.1.13
-bufferControlDownloadSliceSize: 1.3.6.1.2.1.16.8.1.1.6
-etherStatsTable: 1.3.6.1.2.1.16.1.1
-eventIndex: 1.3.6.1.2.1.16.9.1.1.1
-hostTopNRate: 1.3.6.1.2.1.16.5.2.1.4
-hostTopNEntry: 1.3.6.1.2.1.16.5.2.1
-hostEntry: 1.3.6.1.2.1.16.4.2.1
-hostTimeEntry: 1.3.6.1.2.1.16.4.3.1
-etherHistoryUndersizePkts: 1.3.6.1.2.1.16.2.2.1.10
-etherStatsOversizePkts: 1.3.6.1.2.1.16.1.1.1.10
-alarmTable: 1.3.6.1.2.1.16.3.1
-etherHistoryIndex: 1.3.6.1.2.1.16.2.2.1.1
-eventDescription: 1.3.6.1.2.1.16.9.1.1.2
-bufferControlIndex: 1.3.6.1.2.1.16.8.1.1.1
-bufferControlCapturedPackets: 1.3.6.1.2.1.16.8.1.1.10
-bufferControlChannelIndex: 1.3.6.1.2.1.16.8.1.1.2
-filterOwner: 1.3.6.1.2.1.16.7.1.1.10
-hostControlStatus: 1.3.6.1.2.1.16.4.1.1.6
-channelTable: 1.3.6.1.2.1.16.7.2
-eventLastTimeSent: 1.3.6.1.2.1.16.9.1.1.5
-hostTopNControlIndex: 1.3.6.1.2.1.16.5.1.1.1
-hostTopNDuration: 1.3.6.1.2.1.16.5.1.1.5
-hostControlIndex: 1.3.6.1.2.1.16.4.1.1.1
-etherHistoryOversizePkts: 1.3.6.1.2.1.16.2.2.1.11
-hostOutErrors: 1.3.6.1.2.1.16.4.2.1.8
-channelEventIndex: 1.3.6.1.2.1.16.7.2.1.7
-etherStatsMulticastPkts: 1.3.6.1.2.1.16.1.1.1.7
-hostTopNStatus: 1.3.6.1.2.1.16.5.1.1.10
-hostIndex: 1.3.6.1.2.1.16.4.2.1.3
-etherStatsBroadcastPkts: 1.3.6.1.2.1.16.1.1.1.6
-hostTopNIndex: 1.3.6.1.2.1.16.5.2.1.2
-filterPktDataMask: 1.3.6.1.2.1.16.7.1.1.5
-etherHistoryUtilization: 1.3.6.1.2.1.16.2.2.1.15
-etherHistoryDropEvents: 1.3.6.1.2.1.16.2.2.1.4
-hostTimeIndex: 1.3.6.1.2.1.16.4.3.1.3
-etherStatsPkts128to255Octets: 1.3.6.1.2.1.16.1.1.1.16
-etherStatsPkts64Octets: 1.3.6.1.2.1.16.1.1.1.14
-filterPktStatus: 1.3.6.1.2.1.16.7.1.1.7
-bufferControlDownloadOffset: 1.3.6.1.2.1.16.8.1.1.7
-logTable: 1.3.6.1.2.1.16.9.2
-etherHistoryCollisions: 1.3.6.1.2.1.16.2.2.1.14
-alarmOwner: 1.3.6.1.2.1.16.3.1.1.11
-matrixControlLastDeleteTime: 1.3.6.1.2.1.16.6.1.1.4
-channelDataControl: 1.3.6.1.2.1.16.7.2.1.4
-channelStatus: 1.3.6.1.2.1.16.7.2.1.12
-etherStatsPkts512to1023Octets: 1.3.6.1.2.1.16.1.1.1.18
-etherStatsOctets: 1.3.6.1.2.1.16.1.1.1.4
-hosts: 1.3.6.1.2.1.16.4
-hostOutOctets: 1.3.6.1.2.1.16.4.2.1.7
-matrixControlTable: 1.3.6.1.2.1.16.6.1
-matrixControlDataSource: 1.3.6.1.2.1.16.6.1.1.2
-matrixSDEntry: 1.3.6.1.2.1.16.6.2.1
-hostTimeInOctets: 1.3.6.1.2.1.16.4.3.1.6
-matrixDSPkts: 1.3.6.1.2.1.16.6.3.1.4
-filterStatus: 1.3.6.1.2.1.16.7.1.1.11
-bufferControlStatus: 1.3.6.1.2.1.16.8.1.1.13
-historyControlBucketsGranted: 1.3.6.1.2.1.16.2.1.1.4
-hostTopNRateBase: 1.3.6.1.2.1.16.5.1.1.3
-channelAcceptType: 1.3.6.1.2.1.16.7.2.1.3
-channelMatches: 1.3.6.1.2.1.16.7.2.1.9
-captureBufferEntry: 1.3.6.1.2.1.16.8.2.1
-captureBufferPacketTime: 1.3.6.1.2.1.16.8.2.1.6
-historyControlStatus: 1.3.6.1.2.1.16.2.1.1.7
-historyControlTable: 1.3.6.1.2.1.16.2.1
-etherStatsPkts: 1.3.6.1.2.1.16.1.1.1.5
-alarmSampleType: 1.3.6.1.2.1.16.3.1.1.4
-etherStatsOwner: 1.3.6.1.2.1.16.1.1.1.20
-hostTimeCreationOrder: 1.3.6.1.2.1.16.4.3.1.2
-etherStatsUndersizePkts: 1.3.6.1.2.1.16.1.1.1.9
-etherHistoryOctets: 1.3.6.1.2.1.16.2.2.1.5
-hostTopN: 1.3.6.1.2.1.16.5
-etherStatsCollisions: 1.3.6.1.2.1.16.1.1.1.13
-etherStatsDropEvents: 1.3.6.1.2.1.16.1.1.1.3
-matrixControlStatus: 1.3.6.1.2.1.16.6.1.1.6
-matrixSDIndex: 1.3.6.1.2.1.16.6.2.1.3
-matrixDSTable: 1.3.6.1.2.1.16.6.3
-rmon: 1.3.6.1.2.1.16
-matrixControlOwner: 1.3.6.1.2.1.16.6.1.1.5
-filterEntry: 1.3.6.1.2.1.16.7.1.1
-channelOwner: 1.3.6.1.2.1.16.7.2.1.11
-eventCommunity: 1.3.6.1.2.1.16.9.1.1.4
-history: 1.3.6.1.2.1.16.2
-bufferControlMaxOctetsRequested: 1.3.6.1.2.1.16.8.1.1.8
-captureBufferControlIndex: 1.3.6.1.2.1.16.8.2.1.1
-captureBufferIndex: 1.3.6.1.2.1.16.8.2.1.2
-alarm: 1.3.6.1.2.1.16.3
-hostTopNStartTime: 1.3.6.1.2.1.16.5.1.1.8
-channelEventStatus: 1.3.6.1.2.1.16.7.2.1.8
-bufferControlTurnOnTime: 1.3.6.1.2.1.16.8.1.1.11
-logEventIndex: 1.3.6.1.2.1.16.9.2.1.1
-etherHistoryTable: 1.3.6.1.2.1.16.2.2
-hostTopNRequestedSize: 1.3.6.1.2.1.16.5.1.1.6
-historyControlOwner: 1.3.6.1.2.1.16.2.1.1.6
-matrixSDSourceAddress: 1.3.6.1.2.1.16.6.2.1.1
-bufferControlFullStatus: 1.3.6.1.2.1.16.8.1.1.3
-eventTable: 1.3.6.1.2.1.16.9.1
-alarmVariable: 1.3.6.1.2.1.16.3.1.1.3
-etherStatsEntry: 1.3.6.1.2.1.16.1.1.1
-matrixDSSourceAddress: 1.3.6.1.2.1.16.6.3.1.1
-filterIndex: 1.3.6.1.2.1.16.7.1.1.1
-bufferControlTable: 1.3.6.1.2.1.16.8.1
-bufferControlCaptureSliceSize: 1.3.6.1.2.1.16.8.1.1.5
-captureBufferPacketStatus: 1.3.6.1.2.1.16.8.2.1.7
-logTime: 1.3.6.1.2.1.16.9.2.1.3
-hostControlTable: 1.3.6.1.2.1.16.4.1
-hostControlLastDeleteTime: 1.3.6.1.2.1.16.4.1.1.4
-etherHistoryCRCAlignErrors: 1.3.6.1.2.1.16.2.2.1.9
-etherStatsPkts65to127Octets: 1.3.6.1.2.1.16.1.1.1.15
-etherStatsDataSource: 1.3.6.1.2.1.16.1.1.1.2
-matrixControlTableSize: 1.3.6.1.2.1.16.6.1.1.3
-filterChannelIndex: 1.3.6.1.2.1.16.7.1.1.2
-captureBufferPacketData: 1.3.6.1.2.1.16.8.2.1.4
+alarmEntry: 
+  oid: 1.3.6.1.2.1.16.3.1.1
+hostTopNControlTable: 
+  oid: 1.3.6.1.2.1.16.5.1
+channelEntry: 
+  oid: 1.3.6.1.2.1.16.7.2.1
+channelTurnOffEventIndex: 
+  oid: 1.3.6.1.2.1.16.7.2.1.6
+historyControlDataSource: 
+  oid: 1.3.6.1.2.1.16.2.1.1.2
+hostTimeTable: 
+  oid: 1.3.6.1.2.1.16.4.3
+filterPktData: 
+  oid: 1.3.6.1.2.1.16.7.1.1.4
+hostTopNTable: 
+  oid: 1.3.6.1.2.1.16.5.2
+etherHistoryPkts: 
+  oid: 1.3.6.1.2.1.16.2.2.1.6
+channelTurnOnEventIndex: 
+  oid: 1.3.6.1.2.1.16.7.2.1.5
+hostTable: 
+  oid: 1.3.6.1.2.1.16.4.2
+bufferControlFullAction: 
+  oid: 1.3.6.1.2.1.16.8.1.1.4
+filterPktDataNotMask: 
+  oid: 1.3.6.1.2.1.16.7.1.1.6
+captureBufferPacketID: 
+  oid: 1.3.6.1.2.1.16.8.2.1.3
+hostTimeOutOctets: 
+  oid: 1.3.6.1.2.1.16.4.3.1.7
+etherStatsIndex: 
+  oid: 1.3.6.1.2.1.16.1.1.1.1
+hostTopNGrantedSize: 
+  oid: 1.3.6.1.2.1.16.5.1.1.7
+logEntry: 
+  oid: 1.3.6.1.2.1.16.9.2.1
+historyControlBucketsRequested: 
+  oid: 1.3.6.1.2.1.16.2.1.1.3
+bufferControlMaxOctetsGranted: 
+  oid: 1.3.6.1.2.1.16.8.1.1.9
+etherStatsCRCAlignErrors: 
+  oid: 1.3.6.1.2.1.16.1.1.1.8
+etherStatsPkts1024to1518Octets: 
+  oid: 1.3.6.1.2.1.16.1.1.1.19
+hostOutPkts: 
+  oid: 1.3.6.1.2.1.16.4.2.1.5
+channelIndex: 
+  oid: 1.3.6.1.2.1.16.7.2.1.1
+alarmValue: 
+  oid: 1.3.6.1.2.1.16.3.1.1.5
+channelDescription: 
+  oid: 1.3.6.1.2.1.16.7.2.1.10
+hostControlOwner: 
+  oid: 1.3.6.1.2.1.16.4.1.1.5
+eventType: 
+  oid: 1.3.6.1.2.1.16.9.1.1.3
+alarmIndex: 
+  oid: 1.3.6.1.2.1.16.3.1.1.1
+etherHistoryFragments: 
+  oid: 1.3.6.1.2.1.16.2.2.1.12
+historyControlInterval: 
+  oid: 1.3.6.1.2.1.16.2.1.1.5
+hostTimeOutErrors: 
+  oid: 1.3.6.1.2.1.16.4.3.1.8
+filterPktStatusMask: 
+  oid: 1.3.6.1.2.1.16.7.1.1.8
+hostTopNHostIndex: 
+  oid: 1.3.6.1.2.1.16.5.1.1.2
+hostControlDataSource: 
+  oid: 1.3.6.1.2.1.16.4.1.1.2
+hostInOctets: 
+  oid: 1.3.6.1.2.1.16.4.2.1.6
+etherStatsPkts256to511Octets: 
+  oid: 1.3.6.1.2.1.16.1.1.1.17
+filter: 
+  oid: 1.3.6.1.2.1.16.7
+filterTable: 
+  oid: 1.3.6.1.2.1.16.7.1
+matrixSDPkts: 
+  oid: 1.3.6.1.2.1.16.6.2.1.4
+event: 
+  oid: 1.3.6.1.2.1.16.9
+capture: 
+  oid: 1.3.6.1.2.1.16.8
+eventStatus: 
+  oid: 1.3.6.1.2.1.16.9.1.1.7
+logIndex: 
+  oid: 1.3.6.1.2.1.16.9.2.1.2
+matrixControlEntry: 
+  oid: 1.3.6.1.2.1.16.6.1.1
+captureBufferPacketLength: 
+  oid: 1.3.6.1.2.1.16.8.2.1.5
+hostControlTableSize: 
+  oid: 1.3.6.1.2.1.16.4.1.1.3
+matrixSDTable: 
+  oid: 1.3.6.1.2.1.16.6.2
+logDescription: 
+  oid: 1.3.6.1.2.1.16.9.2.1.4
+hostOutBroadcastPkts: 
+  oid: 1.3.6.1.2.1.16.4.2.1.9
+alarmStartupAlarm: 
+  oid: 1.3.6.1.2.1.16.3.1.1.6
+hostTimeInPkts: 
+  oid: 1.3.6.1.2.1.16.4.3.1.4
+eventOwner: 
+  oid: 1.3.6.1.2.1.16.9.1.1.6
+hostAddress: 
+  oid: 1.3.6.1.2.1.16.4.2.1.1
+hostOutMulticastPkts: 
+  oid: 1.3.6.1.2.1.16.4.2.1.10
+hostTopNReport: 
+  oid: 1.3.6.1.2.1.16.5.2.1.1
+filterPktDataOffset: 
+  oid: 1.3.6.1.2.1.16.7.1.1.3
+historyControlEntry: 
+  oid: 1.3.6.1.2.1.16.2.1.1
+bufferControlOwner: 
+  oid: 1.3.6.1.2.1.16.8.1.1.12
+etherHistoryIntervalStart: 
+  oid: 1.3.6.1.2.1.16.2.2.1.3
+etherStatsStatus: 
+  oid: 1.3.6.1.2.1.16.1.1.1.21
+hostTimeOutMulticastPkts: 
+  oid: 1.3.6.1.2.1.16.4.3.1.10
+hostTimeOutBroadcastPkts: 
+  oid: 1.3.6.1.2.1.16.4.3.1.9
+alarmRisingEventIndex: 
+  oid: 1.3.6.1.2.1.16.3.1.1.9
+captureBufferTable: 
+  oid: 1.3.6.1.2.1.16.8.2
+etherStatsJabbers: 
+  oid: 1.3.6.1.2.1.16.1.1.1.12
+etherHistoryBroadcastPkts: 
+  oid: 1.3.6.1.2.1.16.2.2.1.7
+hostTimeOutPkts: 
+  oid: 1.3.6.1.2.1.16.4.3.1.5
+matrixDSDestAddress: 
+  oid: 1.3.6.1.2.1.16.6.3.1.2
+matrixControlIndex: 
+  oid: 1.3.6.1.2.1.16.6.1.1.1
+statistics: 
+  oid: 1.3.6.1.2.1.16.1
+etherHistoryMulticastPkts: 
+  oid: 1.3.6.1.2.1.16.2.2.1.8
+hostCreationOrder: 
+  oid: 1.3.6.1.2.1.16.4.2.1.2
+matrixDSEntry: 
+  oid: 1.3.6.1.2.1.16.6.3.1
+alarmFallingThreshold: 
+  oid: 1.3.6.1.2.1.16.3.1.1.8
+alarmRisingThreshold: 
+  oid: 1.3.6.1.2.1.16.3.1.1.7
+matrix: 
+  oid: 1.3.6.1.2.1.16.6
+hostTopNOwner: 
+  oid: 1.3.6.1.2.1.16.5.1.1.9
+filterPktStatusNotMask: 
+  oid: 1.3.6.1.2.1.16.7.1.1.9
+matrixSDOctets: 
+  oid: 1.3.6.1.2.1.16.6.2.1.5
+etherStatsFragments: 
+  oid: 1.3.6.1.2.1.16.1.1.1.11
+historyControlIndex: 
+  oid: 1.3.6.1.2.1.16.2.1.1.1
+channelIfIndex: 
+  oid: 1.3.6.1.2.1.16.7.2.1.2
+matrixSDErrors: 
+  oid: 1.3.6.1.2.1.16.6.2.1.6
+matrixDSOctets: 
+  oid: 1.3.6.1.2.1.16.6.3.1.5
+hostTimeAddress: 
+  oid: 1.3.6.1.2.1.16.4.3.1.1
+hostTopNAddress: 
+  oid: 1.3.6.1.2.1.16.5.2.1.3
+hostTopNTimeRemaining: 
+  oid: 1.3.6.1.2.1.16.5.1.1.4
+eventEntry: 
+  oid: 1.3.6.1.2.1.16.9.1.1
+alarmStatus: 
+  oid: 1.3.6.1.2.1.16.3.1.1.12
+matrixDSErrors: 
+  oid: 1.3.6.1.2.1.16.6.3.1.6
+matrixDSIndex: 
+  oid: 1.3.6.1.2.1.16.6.3.1.3
+alarmInterval: 
+  oid: 1.3.6.1.2.1.16.3.1.1.2
+etherHistoryEntry: 
+  oid: 1.3.6.1.2.1.16.2.2.1
+bufferControlEntry: 
+  oid: 1.3.6.1.2.1.16.8.1.1
+alarmFallingEventIndex: 
+  oid: 1.3.6.1.2.1.16.3.1.1.10
+hostInPkts: 
+  oid: 1.3.6.1.2.1.16.4.2.1.4
+etherHistorySampleIndex: 
+  oid: 1.3.6.1.2.1.16.2.2.1.2
+hostControlEntry: 
+  oid: 1.3.6.1.2.1.16.4.1.1
+hostTopNControlEntry: 
+  oid: 1.3.6.1.2.1.16.5.1.1
+matrixSDDestAddress: 
+  oid: 1.3.6.1.2.1.16.6.2.1.2
+etherHistoryJabbers: 
+  oid: 1.3.6.1.2.1.16.2.2.1.13
+bufferControlDownloadSliceSize: 
+  oid: 1.3.6.1.2.1.16.8.1.1.6
+etherStatsTable: 
+  oid: 1.3.6.1.2.1.16.1.1
+eventIndex: 
+  oid: 1.3.6.1.2.1.16.9.1.1.1
+hostTopNRate: 
+  oid: 1.3.6.1.2.1.16.5.2.1.4
+hostTopNEntry: 
+  oid: 1.3.6.1.2.1.16.5.2.1
+hostEntry: 
+  oid: 1.3.6.1.2.1.16.4.2.1
+filterOwner: 
+  oid: 1.3.6.1.2.1.16.7.1.1.10
+bufferControlChannelIndex: 
+  oid: 1.3.6.1.2.1.16.8.1.1.2
+bufferControlCapturedPackets: 
+  oid: 1.3.6.1.2.1.16.8.1.1.10
+bufferControlIndex: 
+  oid: 1.3.6.1.2.1.16.8.1.1.1
+etherHistoryIndex: 
+  oid: 1.3.6.1.2.1.16.2.2.1.1
+eventDescription: 
+  oid: 1.3.6.1.2.1.16.9.1.1.2
+etherStatsOversizePkts: 
+  oid: 1.3.6.1.2.1.16.1.1.1.10
+alarmTable: 
+  oid: 1.3.6.1.2.1.16.3.1
+etherHistoryUndersizePkts: 
+  oid: 1.3.6.1.2.1.16.2.2.1.10
+hostTimeEntry: 
+  oid: 1.3.6.1.2.1.16.4.3.1
+eventLastTimeSent: 
+  oid: 1.3.6.1.2.1.16.9.1.1.5
+channelTable: 
+  oid: 1.3.6.1.2.1.16.7.2
+hostControlStatus: 
+  oid: 1.3.6.1.2.1.16.4.1.1.6
+channelEventIndex: 
+  oid: 1.3.6.1.2.1.16.7.2.1.7
+hostOutErrors: 
+  oid: 1.3.6.1.2.1.16.4.2.1.8
+etherHistoryOversizePkts: 
+  oid: 1.3.6.1.2.1.16.2.2.1.11
+hostControlIndex: 
+  oid: 1.3.6.1.2.1.16.4.1.1.1
+hostTopNDuration: 
+  oid: 1.3.6.1.2.1.16.5.1.1.5
+hostTopNControlIndex: 
+  oid: 1.3.6.1.2.1.16.5.1.1.1
+filterPktDataMask: 
+  oid: 1.3.6.1.2.1.16.7.1.1.5
+hostTopNIndex: 
+  oid: 1.3.6.1.2.1.16.5.2.1.2
+etherStatsBroadcastPkts: 
+  oid: 1.3.6.1.2.1.16.1.1.1.6
+hostIndex: 
+  oid: 1.3.6.1.2.1.16.4.2.1.3
+hostTopNStatus: 
+  oid: 1.3.6.1.2.1.16.5.1.1.10
+etherStatsMulticastPkts: 
+  oid: 1.3.6.1.2.1.16.1.1.1.7
+logTable: 
+  oid: 1.3.6.1.2.1.16.9.2
+bufferControlDownloadOffset: 
+  oid: 1.3.6.1.2.1.16.8.1.1.7
+filterPktStatus: 
+  oid: 1.3.6.1.2.1.16.7.1.1.7
+etherStatsPkts64Octets: 
+  oid: 1.3.6.1.2.1.16.1.1.1.14
+etherStatsPkts128to255Octets: 
+  oid: 1.3.6.1.2.1.16.1.1.1.16
+hostTimeIndex: 
+  oid: 1.3.6.1.2.1.16.4.3.1.3
+etherHistoryDropEvents: 
+  oid: 1.3.6.1.2.1.16.2.2.1.4
+etherHistoryUtilization: 
+  oid: 1.3.6.1.2.1.16.2.2.1.15
+etherHistoryCollisions: 
+  oid: 1.3.6.1.2.1.16.2.2.1.14
+channelStatus: 
+  oid: 1.3.6.1.2.1.16.7.2.1.12
+channelDataControl: 
+  oid: 1.3.6.1.2.1.16.7.2.1.4
+matrixControlLastDeleteTime: 
+  oid: 1.3.6.1.2.1.16.6.1.1.4
+alarmOwner: 
+  oid: 1.3.6.1.2.1.16.3.1.1.11
+matrixSDEntry: 
+  oid: 1.3.6.1.2.1.16.6.2.1
+matrixControlDataSource: 
+  oid: 1.3.6.1.2.1.16.6.1.1.2
+matrixControlTable: 
+  oid: 1.3.6.1.2.1.16.6.1
+hostOutOctets: 
+  oid: 1.3.6.1.2.1.16.4.2.1.7
+hosts: 
+  oid: 1.3.6.1.2.1.16.4
+etherStatsOctets: 
+  oid: 1.3.6.1.2.1.16.1.1.1.4
+etherStatsPkts512to1023Octets: 
+  oid: 1.3.6.1.2.1.16.1.1.1.18
+bufferControlStatus: 
+  oid: 1.3.6.1.2.1.16.8.1.1.13
+filterStatus: 
+  oid: 1.3.6.1.2.1.16.7.1.1.11
+matrixDSPkts: 
+  oid: 1.3.6.1.2.1.16.6.3.1.4
+hostTimeInOctets: 
+  oid: 1.3.6.1.2.1.16.4.3.1.6
+captureBufferPacketTime: 
+  oid: 1.3.6.1.2.1.16.8.2.1.6
+captureBufferEntry: 
+  oid: 1.3.6.1.2.1.16.8.2.1
+channelMatches: 
+  oid: 1.3.6.1.2.1.16.7.2.1.9
+channelAcceptType: 
+  oid: 1.3.6.1.2.1.16.7.2.1.3
+hostTopNRateBase: 
+  oid: 1.3.6.1.2.1.16.5.1.1.3
+historyControlBucketsGranted: 
+  oid: 1.3.6.1.2.1.16.2.1.1.4
+etherStatsOwner: 
+  oid: 1.3.6.1.2.1.16.1.1.1.20
+alarmSampleType: 
+  oid: 1.3.6.1.2.1.16.3.1.1.4
+etherStatsPkts: 
+  oid: 1.3.6.1.2.1.16.1.1.1.5
+historyControlTable: 
+  oid: 1.3.6.1.2.1.16.2.1
+historyControlStatus: 
+  oid: 1.3.6.1.2.1.16.2.1.1.7
+matrixDSTable: 
+  oid: 1.3.6.1.2.1.16.6.3
+matrixSDIndex: 
+  oid: 1.3.6.1.2.1.16.6.2.1.3
+matrixControlStatus: 
+  oid: 1.3.6.1.2.1.16.6.1.1.6
+etherStatsDropEvents: 
+  oid: 1.3.6.1.2.1.16.1.1.1.3
+etherStatsCollisions: 
+  oid: 1.3.6.1.2.1.16.1.1.1.13
+hostTopN: 
+  oid: 1.3.6.1.2.1.16.5
+etherHistoryOctets: 
+  oid: 1.3.6.1.2.1.16.2.2.1.5
+etherStatsUndersizePkts: 
+  oid: 1.3.6.1.2.1.16.1.1.1.9
+hostTimeCreationOrder: 
+  oid: 1.3.6.1.2.1.16.4.3.1.2
+eventCommunity: 
+  oid: 1.3.6.1.2.1.16.9.1.1.4
+channelOwner: 
+  oid: 1.3.6.1.2.1.16.7.2.1.11
+filterEntry: 
+  oid: 1.3.6.1.2.1.16.7.1.1
+matrixControlOwner: 
+  oid: 1.3.6.1.2.1.16.6.1.1.5
+rmon: 
+  oid: 1.3.6.1.2.1.16
+captureBufferIndex: 
+  oid: 1.3.6.1.2.1.16.8.2.1.2
+captureBufferControlIndex: 
+  oid: 1.3.6.1.2.1.16.8.2.1.1
+bufferControlMaxOctetsRequested: 
+  oid: 1.3.6.1.2.1.16.8.1.1.8
+history: 
+  oid: 1.3.6.1.2.1.16.2
+logEventIndex: 
+  oid: 1.3.6.1.2.1.16.9.2.1.1
+bufferControlTurnOnTime: 
+  oid: 1.3.6.1.2.1.16.8.1.1.11
+channelEventStatus: 
+  oid: 1.3.6.1.2.1.16.7.2.1.8
+hostTopNStartTime: 
+  oid: 1.3.6.1.2.1.16.5.1.1.8
+alarm: 
+  oid: 1.3.6.1.2.1.16.3
+eventTable: 
+  oid: 1.3.6.1.2.1.16.9.1
+bufferControlFullStatus: 
+  oid: 1.3.6.1.2.1.16.8.1.1.3
+matrixSDSourceAddress: 
+  oid: 1.3.6.1.2.1.16.6.2.1.1
+historyControlOwner: 
+  oid: 1.3.6.1.2.1.16.2.1.1.6
+hostTopNRequestedSize: 
+  oid: 1.3.6.1.2.1.16.5.1.1.6
+etherHistoryTable: 
+  oid: 1.3.6.1.2.1.16.2.2
+logTime: 
+  oid: 1.3.6.1.2.1.16.9.2.1.3
+captureBufferPacketStatus: 
+  oid: 1.3.6.1.2.1.16.8.2.1.7
+bufferControlCaptureSliceSize: 
+  oid: 1.3.6.1.2.1.16.8.1.1.5
+bufferControlTable: 
+  oid: 1.3.6.1.2.1.16.8.1
+filterIndex: 
+  oid: 1.3.6.1.2.1.16.7.1.1.1
+matrixDSSourceAddress: 
+  oid: 1.3.6.1.2.1.16.6.3.1.1
+etherStatsEntry: 
+  oid: 1.3.6.1.2.1.16.1.1.1
+alarmVariable: 
+  oid: 1.3.6.1.2.1.16.3.1.1.3
+captureBufferPacketData: 
+  oid: 1.3.6.1.2.1.16.8.2.1.4
+filterChannelIndex: 
+  oid: 1.3.6.1.2.1.16.7.1.1.2
+matrixControlTableSize: 
+  oid: 1.3.6.1.2.1.16.6.1.1.3
+etherStatsDataSource: 
+  oid: 1.3.6.1.2.1.16.1.1.1.2
+etherStatsPkts65to127Octets: 
+  oid: 1.3.6.1.2.1.16.1.1.1.15
+etherHistoryCRCAlignErrors: 
+  oid: 1.3.6.1.2.1.16.2.2.1.9
+hostControlLastDeleteTime: 
+  oid: 1.3.6.1.2.1.16.4.1.1.4
+hostControlTable: 
+  oid: 1.3.6.1.2.1.16.4.1

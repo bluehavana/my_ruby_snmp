@@ -1,199 +1,397 @@
 --- 
-dlswTConnConfigSetupType: 1.3.6.1.2.1.46.1.2.2.1.8
-dlswTrapCntlCircuit: 1.3.6.1.2.1.46.1.1.10.4
-dlswCircuitS2TAddress: 1.3.6.1.2.1.46.1.5.2.1.12
-"null": "0.0"
-dlswSdlcLsLocalMac: 1.3.6.1.2.1.46.1.6.2.1.1
-dlswDirNBLocation: 1.3.6.1.2.1.46.1.4.2.2.1.6
-dlswIfTable: 1.3.6.1.2.1.46.1.3.1
-dlswTrapTConnProtViolation: 1.3.6.1.2.1.46.1.0.2
-dlswNodeVersionString: 1.3.6.1.2.1.46.1.1.3
-dlswSdlcLsRemoteMac: 1.3.6.1.2.1.46.1.6.2.1.5
-dlswTConnOperRemoteTAddr: 1.3.6.1.2.1.46.1.2.3.1.3
-dlswCircuitFCLargestSendGranted: 1.3.6.1.2.1.46.1.5.2.1.24
-dlswTConnOperConnectTime: 1.3.6.1.2.1.46.1.2.3.1.5
-dlswTConnSpecific: 1.3.6.1.2.1.46.1.2.4
-dlswDirNBEntries: 1.3.6.1.2.1.46.1.4.1.5
-dlswTConnOperPartnerInitPacingWndw: 1.3.6.1.2.1.46.1.2.3.1.12
-dlswCircuitOrigin: 1.3.6.1.2.1.46.1.5.2.1.14
-dlswTConnTcpOperKeepAliveInt: 1.3.6.1.2.1.46.1.2.4.1.2.1.1
-dlswTConnOperCirCreates: 1.3.6.1.2.1.46.1.2.3.1.35
-dlsw: 1.3.6.1.2.1.46
-dlswCircuitStat: 1.3.6.1.2.1.46.1.5.1
-dlswTrapTConnDown: 1.3.6.1.2.1.46.1.0.4
-dlswNodeStatus: 1.3.6.1.2.1.46.1.1.5
-dlswDirNBEntry: 1.3.6.1.2.1.46.1.4.2.2.1
-dlswDirLocateNBLocation: 1.3.6.1.2.1.46.1.4.3.2.1.3
-dlswDirMacLocation: 1.3.6.1.2.1.46.1.4.2.1.1.6
-dlswTConnOperNQexRcvds: 1.3.6.1.2.1.46.1.2.3.1.33
-dlswSdlcLsEntries: 1.3.6.1.2.1.46.1.6.1
-dlswTrapTConnUp: 1.3.6.1.2.1.46.1.0.3
-dlswTConnTcpOperTcpConnections: 1.3.6.1.2.1.46.1.2.4.1.2.1.3
-dlswDirNBStatus: 1.3.6.1.2.1.46.1.4.2.2.1.7
-dlswTConnStatCloseBusys: 1.3.6.1.2.1.46.1.2.1.3
-dlswSdlcLsLocalIdBlock: 1.3.6.1.2.1.46.1.6.2.1.3
-dlswDirLocateMacTable: 1.3.6.1.2.1.46.1.4.3.1
-dlswNodeResourceMacExclusivity: 1.3.6.1.2.1.46.1.1.9
-dlswTConnStatActiveConnections: 1.3.6.1.2.1.46.1.2.1.1
-dlswTrapCircuitUp: 1.3.6.1.2.1.46.1.0.5
-dlswTConnOperLocalTAddr: 1.3.6.1.2.1.46.1.2.3.1.2
-dlswCircuitFCSendCurrentWndw: 1.3.6.1.2.1.46.1.5.2.1.20
-dlswCircuitFCRecvGrantedUnits: 1.3.6.1.2.1.46.1.5.2.1.21
-dlswCircuit: 1.3.6.1.2.1.46.1.5
-dlswCircuitState: 1.3.6.1.2.1.46.1.5.2.1.17
-dlswDirMacMask: 1.3.6.1.2.1.46.1.4.2.1.1.3
-dlswSdlc: 1.3.6.1.2.1.46.1.6
-dlswCircuitFCLargestRecvGranted: 1.3.6.1.2.1.46.1.5.2.1.23
-dlswDirNBIndex: 1.3.6.1.2.1.46.1.4.2.2.1.1
-dlswTConnConfigGroupDefinition: 1.3.6.1.2.1.46.1.2.2.1.7
-dlswTConnOperNRexSents: 1.3.6.1.2.1.46.1.2.3.1.34
-dlswTConnOperFlowCntlMode: 1.3.6.1.2.1.46.1.2.3.1.8
-dlswTConnOperState: 1.3.6.1.2.1.46.1.2.3.1.6
-dlswTrapCntlTConnPartnerReject: 1.3.6.1.2.1.46.1.1.10.1
-dlswTConnTcpConfigKeepAliveInt: 1.3.6.1.2.1.46.1.2.4.1.1.1.1
-dlswTConnOperDiscTime: 1.3.6.1.2.1.46.1.2.3.1.18
-dlswTConnOperDiscActiveCir: 1.3.6.1.2.1.46.1.2.3.1.20
-dlswTConnTcpConfigTable: 1.3.6.1.2.1.46.1.2.4.1.1
-dlswTConnOperCURexSents: 1.3.6.1.2.1.46.1.2.3.1.27
-dlswTrapTConnPartnerReject: 1.3.6.1.2.1.46.1.0.1
-dlswTConnConfigAdvertiseMacNB: 1.3.6.1.2.1.46.1.2.2.1.10
-dlswCircuitS1Mac: 1.3.6.1.2.1.46.1.5.2.1.1
-dlswTConnTcpOperEntry: 1.3.6.1.2.1.46.1.2.4.1.2.1
-dlswCircuitS1Dlc: 1.3.6.1.2.1.46.1.5.2.1.7
-dlswCircuitFCSendGrantedUnits: 1.3.6.1.2.1.46.1.5.2.1.19
-dlswCircuitEntryTime: 1.3.6.1.2.1.46.1.5.2.1.15
-dlswCircuitEntry: 1.3.6.1.2.1.46.1.5.2.1
-dlswTConnOperPartnerNBExcl: 1.3.6.1.2.1.46.1.2.3.1.14
-dlswDirNBRowStatus: 1.3.6.1.2.1.46.1.4.2.2.1.9
-dlswDirMacEntry: 1.3.6.1.2.1.46.1.4.2.1.1
-dlswTConnOperPartnerSapList: 1.3.6.1.2.1.46.1.2.3.1.13
-dlswDirMacStatus: 1.3.6.1.2.1.46.1.4.2.1.1.7
-dlswNodeUpTime: 1.3.6.1.2.1.46.1.1.6
-dlswTConnOperNRexRcvds: 1.3.6.1.2.1.46.1.2.3.1.32
-dlswTConnOperInDataPkts: 1.3.6.1.2.1.46.1.2.3.1.21
-dlswTConnOperEntry: 1.3.6.1.2.1.46.1.2.3.1
-dlswTrapCntlTConn: 1.3.6.1.2.1.46.1.1.10.3
-dlswDirMacCacheNextIndex: 1.3.6.1.2.1.46.1.4.1.4
-dlswCircuitS2Mac: 1.3.6.1.2.1.46.1.5.2.1.8
-dlswTConnOperEntryTime: 1.3.6.1.2.1.46.1.2.3.1.4
-dlswTConnTcpConfigMaxSegmentSize: 1.3.6.1.2.1.46.1.2.4.1.1.1.3
-dlswSdlcLsRowStatus: 1.3.6.1.2.1.46.1.6.2.1.7
-dlswSdlcLsEntry: 1.3.6.1.2.1.46.1.6.2.1
-dlswTConnOperCURexRcvds: 1.3.6.1.2.1.46.1.2.3.1.29
-dlswTConnOperTDomain: 1.3.6.1.2.1.46.1.2.3.1.1
-dlswDirCache: 1.3.6.1.2.1.46.1.4.2
-dlswDirMacIndex: 1.3.6.1.2.1.46.1.4.2.1.1.1
-dlswDirNBCacheHits: 1.3.6.1.2.1.46.1.4.1.6
-dlswTConnConfigEntry: 1.3.6.1.2.1.46.1.2.2.1
-dlswSdlcLsLocalIdNum: 1.3.6.1.2.1.46.1.6.2.1.4
-dlswTConnOperInCntlPkts: 1.3.6.1.2.1.46.1.2.3.1.25
-dlswDirNBCacheMisses: 1.3.6.1.2.1.46.1.4.1.7
-dlswDirectory: 1.3.6.1.2.1.46.1.4
-dlswTrapCircuitDown: 1.3.6.1.2.1.46.1.0.6
-dlswDirNBLocationType: 1.3.6.1.2.1.46.1.4.2.2.1.5
-dlswCircuitS1RouteInfo: 1.3.6.1.2.1.46.1.5.2.1.5
-dlswCircuitFCResetOpSents: 1.3.6.1.2.1.46.1.5.2.1.26
-dlswTConnTcpConfigTcpConnections: 1.3.6.1.2.1.46.1.2.4.1.1.1.2
-dlswDirLocateNBMatch: 1.3.6.1.2.1.46.1.4.3.2.1.2
-dlswTConnOperInDataOctets: 1.3.6.1.2.1.46.1.2.3.1.23
-dlswTConnStatCloseIdles: 1.3.6.1.2.1.46.1.2.1.2
-dlswTConnOperOutDataOctets: 1.3.6.1.2.1.46.1.2.3.1.24
-dlswNode: 1.3.6.1.2.1.46.1.1
-dlswDirMacEntryType: 1.3.6.1.2.1.46.1.4.2.1.1.4
-dlswDirLocate: 1.3.6.1.2.1.46.1.4.3
-dlswTConnConfigTDomain: 1.3.6.1.2.1.46.1.2.2.1.2
-dlswTConnConfigRemoteTAddr: 1.3.6.1.2.1.46.1.2.2.1.4
-dlswDirNBName: 1.3.6.1.2.1.46.1.4.2.2.1.2
-dlswTConnConfigIndex: 1.3.6.1.2.1.46.1.2.2.1.1
-dlswTConnOperCircuits: 1.3.6.1.2.1.46.1.2.3.1.36
-dlswTConnConfigSapList: 1.3.6.1.2.1.46.1.2.2.1.9
-dlswDirLocateNBEntry: 1.3.6.1.2.1.46.1.4.3.2.1
-dlswTConnOperPartnerMacInfo: 1.3.6.1.2.1.46.1.2.3.1.17
-dlswDirMacMac: 1.3.6.1.2.1.46.1.4.2.1.1.2
-dlswTConnTcp: 1.3.6.1.2.1.46.1.2.4.1
-dlswTConnConfigOpens: 1.3.6.1.2.1.46.1.2.2.1.12
-dlswTConnOperConfigIndex: 1.3.6.1.2.1.46.1.2.3.1.7
-dlswCircuitS1CircuitId: 1.3.6.1.2.1.46.1.5.2.1.6
-dlswDirLocateMacMac: 1.3.6.1.2.1.46.1.4.3.1.1.1
-dlswDirLocateNBName: 1.3.6.1.2.1.46.1.4.3.2.1.1
-dlswCircuitFCResetOpRcvds: 1.3.6.1.2.1.46.1.5.2.1.28
-dlswTConnConfigEntryType: 1.3.6.1.2.1.46.1.2.2.1.6
-dlswDirNBLFSize: 1.3.6.1.2.1.46.1.4.2.2.1.8
-dlswDirLocateMacEntry: 1.3.6.1.2.1.46.1.4.3.1.1
-dlswCircuitDiscReasonLocal: 1.3.6.1.2.1.46.1.5.2.1.29
-dlswTConnOperPartnerVersion: 1.3.6.1.2.1.46.1.2.3.1.9
-dlswDirMacCacheMisses: 1.3.6.1.2.1.46.1.4.1.3
-dlswTConnConfigInitCirRecvWndw: 1.3.6.1.2.1.46.1.2.2.1.11
-dlswTConnTcpOperTable: 1.3.6.1.2.1.46.1.2.4.1.2
-dlswNodeStdPacingSupport: 1.3.6.1.2.1.46.1.1.4
-dlswDirMacEntries: 1.3.6.1.2.1.46.1.4.1.1
-dlswTConnOperOutDataPkts: 1.3.6.1.2.1.46.1.2.3.1.22
-dlswDirMacLFSize: 1.3.6.1.2.1.46.1.4.2.1.1.8
-dlswDirNBTable: 1.3.6.1.2.1.46.1.4.2.2
-dlswDirLocateMacLocation: 1.3.6.1.2.1.46.1.4.3.1.1.3
-dlswCircuitTable: 1.3.6.1.2.1.46.1.5.2
-dlswCircuitStateTime: 1.3.6.1.2.1.46.1.5.2.1.16
-dlswCircuitFCHalveWndwSents: 1.3.6.1.2.1.46.1.5.2.1.25
-dlswSdlcLsLocalSap: 1.3.6.1.2.1.46.1.6.2.1.2
-dlswDirStat: 1.3.6.1.2.1.46.1.4.1
-dlswIfEntry: 1.3.6.1.2.1.46.1.3.1.1
-dlswIfRowStatus: 1.3.6.1.2.1.46.1.3.1.1.1
-dlswTConnOperPartnerVendorID: 1.3.6.1.2.1.46.1.2.3.1.10
-dlswTraps: 1.3.6.1.2.1.46.1.0
-dlswTConnConfigLocalTAddr: 1.3.6.1.2.1.46.1.2.2.1.3
-dlswCircuitStatCreates: 1.3.6.1.2.1.46.1.5.1.2
-dlswCircuitS1IfIndex: 1.3.6.1.2.1.46.1.5.2.1.3
-dlswSdlcLsRemoteSap: 1.3.6.1.2.1.46.1.6.2.1.6
-dlswCompliances: 1.3.6.1.2.1.46.3.1
-dlswTConnOperTable: 1.3.6.1.2.1.46.1.2.3
-dlswDirNBNameType: 1.3.6.1.2.1.46.1.4.2.2.1.3
-dlswCircuitStatActives: 1.3.6.1.2.1.46.1.5.1.1
-dlswNodeVirtualSegmentLFSize: 1.3.6.1.2.1.46.1.1.7
-dlswTConnConfigLastModifyTime: 1.3.6.1.2.1.46.1.2.2.1.5
-dlswTConnTcpConfigEntry: 1.3.6.1.2.1.46.1.2.4.1.1.1
-dlswNodeResourceNBExclusivity: 1.3.6.1.2.1.46.1.1.8
-dlswCircuitPriority: 1.3.6.1.2.1.46.1.5.2.1.18
-dlswCircuitFCHalveWndwRcvds: 1.3.6.1.2.1.46.1.5.2.1.27
-dlswCircuitDiscReasonRemoteData: 1.3.6.1.2.1.46.1.5.2.1.31
-dlswTConnOperICRexSents: 1.3.6.1.2.1.46.1.2.3.1.30
-dlswIfVirtualSegment: 1.3.6.1.2.1.46.1.3.1.1.2
-dlswDirNBCacheNextIndex: 1.3.6.1.2.1.46.1.4.1.8
-dlswTConnConfigTable: 1.3.6.1.2.1.46.1.2.2
-dlswTConnConfigRowStatus: 1.3.6.1.2.1.46.1.2.2.1.13
-dlswTConnOperOutCntlPkts: 1.3.6.1.2.1.46.1.2.3.1.26
-dlswDirLocateMacMatch: 1.3.6.1.2.1.46.1.4.3.1.1.2
-dlswCircuitS2CircuitId: 1.3.6.1.2.1.46.1.5.2.1.13
-dlswTConnOperPartnerMacExcl: 1.3.6.1.2.1.46.1.2.3.1.15
-dlswTConnTcpOperPrefTcpConnections: 1.3.6.1.2.1.46.1.2.4.1.2.1.2
-dlswCircuitS1DlcType: 1.3.6.1.2.1.46.1.5.2.1.4
-dlswDomains: 1.3.6.1.2.1.46.2
-dlswConformance: 1.3.6.1.2.1.46.3
-dlswDirMacTable: 1.3.6.1.2.1.46.1.4.2.1
-dlswTrapCntlTConnProtViolation: 1.3.6.1.2.1.46.1.1.10.2
-dlswTConnOperPartnerVersionStr: 1.3.6.1.2.1.46.1.2.3.1.11
-dlswTConnOperNQexSents: 1.3.6.1.2.1.46.1.2.3.1.31
-dlswDirMacRowStatus: 1.3.6.1.2.1.46.1.4.2.1.1.9
-dlswCircuitS2Location: 1.3.6.1.2.1.46.1.5.2.1.10
-dlswCircuitS2TDomain: 1.3.6.1.2.1.46.1.5.2.1.11
-dlswInterface: 1.3.6.1.2.1.46.1.3
-dlswTConnOperDiscReason: 1.3.6.1.2.1.46.1.2.3.1.19
-dlswTConnStat: 1.3.6.1.2.1.46.1.2.1
-dlswTConnOperPartnerNBInfo: 1.3.6.1.2.1.46.1.2.3.1.16
-dlswTConn: 1.3.6.1.2.1.46.1.2
-dlswNodeVendorID: 1.3.6.1.2.1.46.1.1.2
-dlswTrapControl: 1.3.6.1.2.1.46.1.1.10
-dlswDirLocateNBTable: 1.3.6.1.2.1.46.1.4.3.2
-dlswCircuitDiscReasonRemote: 1.3.6.1.2.1.46.1.5.2.1.30
-dlswSdlcLsTable: 1.3.6.1.2.1.46.1.6.2
-dlswIfSapList: 1.3.6.1.2.1.46.1.3.1.1.3
-dlswTConnOperICRexRcvds: 1.3.6.1.2.1.46.1.2.3.1.28
-dlswMIB: 1.3.6.1.2.1.46.1
-dlswCircuitS1Sap: 1.3.6.1.2.1.46.1.5.2.1.2
-dlswCircuitFCRecvCurrentWndw: 1.3.6.1.2.1.46.1.5.2.1.22
-dlswDirMacCacheHits: 1.3.6.1.2.1.46.1.4.1.2
-dlswDirMacLocationType: 1.3.6.1.2.1.46.1.4.2.1.1.5
-dlswGroups: 1.3.6.1.2.1.46.3.2
-dlswNodeVersion: 1.3.6.1.2.1.46.1.1.1
-dlswDirNBEntryType: 1.3.6.1.2.1.46.1.4.2.2.1.4
-dlswCircuitS2Sap: 1.3.6.1.2.1.46.1.5.2.1.9
-dlswTCPDomain: 1.3.6.1.2.1.46.2.1
+dlswTConnConfigSetupType: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.8
+dlswTrapCntlCircuit: 
+  oid: 1.3.6.1.2.1.46.1.1.10.4
+dlswCircuitS2TAddress: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.12
+"null": 
+  oid: "0.0"
+dlswSdlcLsLocalMac: 
+  oid: 1.3.6.1.2.1.46.1.6.2.1.1
+dlswDirNBLocation: 
+  oid: 1.3.6.1.2.1.46.1.4.2.2.1.6
+dlswIfTable: 
+  oid: 1.3.6.1.2.1.46.1.3.1
+dlswNodeVersionString: 
+  oid: 1.3.6.1.2.1.46.1.1.3
+dlswTrapTConnProtViolation: 
+  oid: 1.3.6.1.2.1.46.1.0.2
+dlswSdlcLsRemoteMac: 
+  oid: 1.3.6.1.2.1.46.1.6.2.1.5
+dlswTConnOperRemoteTAddr: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.3
+dlswCircuitFCLargestSendGranted: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.24
+dlswTConnOperConnectTime: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.5
+dlswTConnSpecific: 
+  oid: 1.3.6.1.2.1.46.1.2.4
+dlswDirNBEntries: 
+  oid: 1.3.6.1.2.1.46.1.4.1.5
+dlswTConnOperPartnerInitPacingWndw: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.12
+dlswCircuitOrigin: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.14
+dlswTConnTcpOperKeepAliveInt: 
+  oid: 1.3.6.1.2.1.46.1.2.4.1.2.1.1
+dlswTConnOperCirCreates: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.35
+dlsw: 
+  oid: 1.3.6.1.2.1.46
+dlswCircuitStat: 
+  oid: 1.3.6.1.2.1.46.1.5.1
+dlswNodeStatus: 
+  oid: 1.3.6.1.2.1.46.1.1.5
+dlswDirNBEntry: 
+  oid: 1.3.6.1.2.1.46.1.4.2.2.1
+dlswDirLocateNBLocation: 
+  oid: 1.3.6.1.2.1.46.1.4.3.2.1.3
+dlswDirMacLocation: 
+  oid: 1.3.6.1.2.1.46.1.4.2.1.1.6
+dlswTConnOperNQexRcvds: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.33
+dlswSdlcLsEntries: 
+  oid: 1.3.6.1.2.1.46.1.6.1
+dlswTrapTConnDown: 
+  oid: 1.3.6.1.2.1.46.1.0.4
+dlswTConnTcpOperTcpConnections: 
+  oid: 1.3.6.1.2.1.46.1.2.4.1.2.1.3
+dlswDirNBStatus: 
+  oid: 1.3.6.1.2.1.46.1.4.2.2.1.7
+dlswTConnStatCloseBusys: 
+  oid: 1.3.6.1.2.1.46.1.2.1.3
+dlswSdlcLsLocalIdBlock: 
+  oid: 1.3.6.1.2.1.46.1.6.2.1.3
+dlswTrapTConnUp: 
+  oid: 1.3.6.1.2.1.46.1.0.3
+dlswDirLocateMacTable: 
+  oid: 1.3.6.1.2.1.46.1.4.3.1
+dlswNodeResourceMacExclusivity: 
+  oid: 1.3.6.1.2.1.46.1.1.9
+dlswTConnStatActiveConnections: 
+  oid: 1.3.6.1.2.1.46.1.2.1.1
+dlswTConnOperLocalTAddr: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.2
+dlswTrapCircuitUp: 
+  oid: 1.3.6.1.2.1.46.1.0.5
+dlswCircuitFCSendCurrentWndw: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.20
+dlswCircuitFCRecvGrantedUnits: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.21
+dlswCircuit: 
+  oid: 1.3.6.1.2.1.46.1.5
+dlswCircuitState: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.17
+dlswDirMacMask: 
+  oid: 1.3.6.1.2.1.46.1.4.2.1.1.3
+dlswSdlc: 
+  oid: 1.3.6.1.2.1.46.1.6
+dlswCircuitFCLargestRecvGranted: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.23
+dlswDirNBIndex: 
+  oid: 1.3.6.1.2.1.46.1.4.2.2.1.1
+dlswTConnConfigGroupDefinition: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.7
+dlswTConnOperNRexSents: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.34
+dlswTConnOperFlowCntlMode: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.8
+dlswTConnOperState: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.6
+dlswTrapCntlTConnPartnerReject: 
+  oid: 1.3.6.1.2.1.46.1.1.10.1
+dlswTConnTcpConfigKeepAliveInt: 
+  oid: 1.3.6.1.2.1.46.1.2.4.1.1.1.1
+dlswTConnOperDiscTime: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.18
+dlswTConnOperDiscActiveCir: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.20
+dlswTConnTcpConfigTable: 
+  oid: 1.3.6.1.2.1.46.1.2.4.1.1
+dlswTConnOperCURexSents: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.27
+dlswTConnConfigAdvertiseMacNB: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.10
+dlswCircuitS1Mac: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.1
+dlswTConnTcpOperEntry: 
+  oid: 1.3.6.1.2.1.46.1.2.4.1.2.1
+dlswCircuitFCSendGrantedUnits: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.19
+dlswCircuitS1Dlc: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.7
+dlswCircuitEntryTime: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.15
+dlswTrapTConnPartnerReject: 
+  oid: 1.3.6.1.2.1.46.1.0.1
+dlswCircuitEntry: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1
+dlswTConnOperPartnerNBExcl: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.14
+dlswDirNBRowStatus: 
+  oid: 1.3.6.1.2.1.46.1.4.2.2.1.9
+dlswDirMacEntry: 
+  oid: 1.3.6.1.2.1.46.1.4.2.1.1
+dlswTConnOperPartnerSapList: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.13
+dlswDirMacStatus: 
+  oid: 1.3.6.1.2.1.46.1.4.2.1.1.7
+dlswNodeUpTime: 
+  oid: 1.3.6.1.2.1.46.1.1.6
+dlswTConnOperNRexRcvds: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.32
+dlswTConnOperInDataPkts: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.21
+dlswTConnOperEntry: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1
+dlswTrapCntlTConn: 
+  oid: 1.3.6.1.2.1.46.1.1.10.3
+dlswDirMacCacheNextIndex: 
+  oid: 1.3.6.1.2.1.46.1.4.1.4
+dlswCircuitS2Mac: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.8
+dlswTConnOperEntryTime: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.4
+dlswTConnTcpConfigMaxSegmentSize: 
+  oid: 1.3.6.1.2.1.46.1.2.4.1.1.1.3
+dlswSdlcLsRowStatus: 
+  oid: 1.3.6.1.2.1.46.1.6.2.1.7
+dlswSdlcLsEntry: 
+  oid: 1.3.6.1.2.1.46.1.6.2.1
+dlswTConnOperCURexRcvds: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.29
+dlswTConnOperTDomain: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.1
+dlswDirCache: 
+  oid: 1.3.6.1.2.1.46.1.4.2
+dlswDirMacIndex: 
+  oid: 1.3.6.1.2.1.46.1.4.2.1.1.1
+dlswDirNBCacheHits: 
+  oid: 1.3.6.1.2.1.46.1.4.1.6
+dlswTConnConfigEntry: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1
+dlswSdlcLsLocalIdNum: 
+  oid: 1.3.6.1.2.1.46.1.6.2.1.4
+dlswTConnOperInCntlPkts: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.25
+dlswDirNBCacheMisses: 
+  oid: 1.3.6.1.2.1.46.1.4.1.7
+dlswDirectory: 
+  oid: 1.3.6.1.2.1.46.1.4
+dlswDirNBLocationType: 
+  oid: 1.3.6.1.2.1.46.1.4.2.2.1.5
+dlswTrapCircuitDown: 
+  oid: 1.3.6.1.2.1.46.1.0.6
+dlswCircuitS1RouteInfo: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.5
+dlswCircuitFCResetOpSents: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.26
+dlswTConnTcpConfigTcpConnections: 
+  oid: 1.3.6.1.2.1.46.1.2.4.1.1.1.2
+dlswDirLocateNBMatch: 
+  oid: 1.3.6.1.2.1.46.1.4.3.2.1.2
+dlswTConnOperInDataOctets: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.23
+dlswTConnStatCloseIdles: 
+  oid: 1.3.6.1.2.1.46.1.2.1.2
+dlswTConnOperOutDataOctets: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.24
+dlswNode: 
+  oid: 1.3.6.1.2.1.46.1.1
+dlswDirMacEntryType: 
+  oid: 1.3.6.1.2.1.46.1.4.2.1.1.4
+dlswDirLocate: 
+  oid: 1.3.6.1.2.1.46.1.4.3
+dlswTConnConfigTDomain: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.2
+dlswTConnConfigRemoteTAddr: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.4
+dlswDirNBName: 
+  oid: 1.3.6.1.2.1.46.1.4.2.2.1.2
+dlswTConnConfigIndex: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.1
+dlswTConnOperCircuits: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.36
+dlswTConnConfigSapList: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.9
+dlswDirLocateNBEntry: 
+  oid: 1.3.6.1.2.1.46.1.4.3.2.1
+dlswTConnOperPartnerMacInfo: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.17
+dlswDirMacMac: 
+  oid: 1.3.6.1.2.1.46.1.4.2.1.1.2
+dlswTConnTcp: 
+  oid: 1.3.6.1.2.1.46.1.2.4.1
+dlswTConnConfigOpens: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.12
+dlswTConnOperConfigIndex: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.7
+dlswCircuitFCResetOpRcvds: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.28
+dlswDirLocateNBName: 
+  oid: 1.3.6.1.2.1.46.1.4.3.2.1.1
+dlswDirLocateMacMac: 
+  oid: 1.3.6.1.2.1.46.1.4.3.1.1.1
+dlswCircuitS1CircuitId: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.6
+dlswCircuitDiscReasonLocal: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.29
+dlswDirLocateMacEntry: 
+  oid: 1.3.6.1.2.1.46.1.4.3.1.1
+dlswDirNBLFSize: 
+  oid: 1.3.6.1.2.1.46.1.4.2.2.1.8
+dlswTConnConfigEntryType: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.6
+dlswSdlcLsLocalSap: 
+  oid: 1.3.6.1.2.1.46.1.6.2.1.2
+dlswCircuitFCHalveWndwSents: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.25
+dlswCircuitStateTime: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.16
+dlswCircuitTable: 
+  oid: 1.3.6.1.2.1.46.1.5.2
+dlswDirLocateMacLocation: 
+  oid: 1.3.6.1.2.1.46.1.4.3.1.1.3
+dlswDirNBTable: 
+  oid: 1.3.6.1.2.1.46.1.4.2.2
+dlswDirMacLFSize: 
+  oid: 1.3.6.1.2.1.46.1.4.2.1.1.8
+dlswTConnOperOutDataPkts: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.22
+dlswDirMacEntries: 
+  oid: 1.3.6.1.2.1.46.1.4.1.1
+dlswNodeStdPacingSupport: 
+  oid: 1.3.6.1.2.1.46.1.1.4
+dlswTConnTcpOperTable: 
+  oid: 1.3.6.1.2.1.46.1.2.4.1.2
+dlswTConnConfigInitCirRecvWndw: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.11
+dlswDirMacCacheMisses: 
+  oid: 1.3.6.1.2.1.46.1.4.1.3
+dlswTConnOperPartnerVersion: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.9
+dlswCompliances: 
+  oid: 1.3.6.1.2.1.46.3.1
+dlswSdlcLsRemoteSap: 
+  oid: 1.3.6.1.2.1.46.1.6.2.1.6
+dlswCircuitS1IfIndex: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.3
+dlswCircuitStatCreates: 
+  oid: 1.3.6.1.2.1.46.1.5.1.2
+dlswTConnConfigLocalTAddr: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.3
+dlswTraps: 
+  oid: 1.3.6.1.2.1.46.1.0
+dlswTConnOperPartnerVendorID: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.10
+dlswIfRowStatus: 
+  oid: 1.3.6.1.2.1.46.1.3.1.1.1
+dlswIfEntry: 
+  oid: 1.3.6.1.2.1.46.1.3.1.1
+dlswDirStat: 
+  oid: 1.3.6.1.2.1.46.1.4.1
+dlswCircuitStatActives: 
+  oid: 1.3.6.1.2.1.46.1.5.1.1
+dlswDirNBNameType: 
+  oid: 1.3.6.1.2.1.46.1.4.2.2.1.3
+dlswTConnOperTable: 
+  oid: 1.3.6.1.2.1.46.1.2.3
+dlswTConnConfigLastModifyTime: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.5
+dlswNodeVirtualSegmentLFSize: 
+  oid: 1.3.6.1.2.1.46.1.1.7
+dlswCircuitDiscReasonRemoteData: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.31
+dlswCircuitFCHalveWndwRcvds: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.27
+dlswCircuitPriority: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.18
+dlswNodeResourceNBExclusivity: 
+  oid: 1.3.6.1.2.1.46.1.1.8
+dlswTConnTcpConfigEntry: 
+  oid: 1.3.6.1.2.1.46.1.2.4.1.1.1
+dlswCircuitS2CircuitId: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.13
+dlswDirLocateMacMatch: 
+  oid: 1.3.6.1.2.1.46.1.4.3.1.1.2
+dlswTConnOperOutCntlPkts: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.26
+dlswTConnConfigRowStatus: 
+  oid: 1.3.6.1.2.1.46.1.2.2.1.13
+dlswTConnConfigTable: 
+  oid: 1.3.6.1.2.1.46.1.2.2
+dlswDirNBCacheNextIndex: 
+  oid: 1.3.6.1.2.1.46.1.4.1.8
+dlswIfVirtualSegment: 
+  oid: 1.3.6.1.2.1.46.1.3.1.1.2
+dlswTConnOperICRexSents: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.30
+dlswConformance: 
+  oid: 1.3.6.1.2.1.46.3
+dlswDomains: 
+  oid: 1.3.6.1.2.1.46.2
+dlswCircuitS1DlcType: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.4
+dlswTConnTcpOperPrefTcpConnections: 
+  oid: 1.3.6.1.2.1.46.1.2.4.1.2.1.2
+dlswTConnOperPartnerMacExcl: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.15
+dlswCircuitS2TDomain: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.11
+dlswCircuitS2Location: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.10
+dlswDirMacRowStatus: 
+  oid: 1.3.6.1.2.1.46.1.4.2.1.1.9
+dlswTConnOperNQexSents: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.31
+dlswTConnOperPartnerVersionStr: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.11
+dlswTrapCntlTConnProtViolation: 
+  oid: 1.3.6.1.2.1.46.1.1.10.2
+dlswDirMacTable: 
+  oid: 1.3.6.1.2.1.46.1.4.2.1
+dlswTConnOperDiscReason: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.19
+dlswInterface: 
+  oid: 1.3.6.1.2.1.46.1.3
+dlswSdlcLsTable: 
+  oid: 1.3.6.1.2.1.46.1.6.2
+dlswCircuitDiscReasonRemote: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.30
+dlswDirLocateNBTable: 
+  oid: 1.3.6.1.2.1.46.1.4.3.2
+dlswTrapControl: 
+  oid: 1.3.6.1.2.1.46.1.1.10
+dlswNodeVendorID: 
+  oid: 1.3.6.1.2.1.46.1.1.2
+dlswTConn: 
+  oid: 1.3.6.1.2.1.46.1.2
+dlswTConnOperPartnerNBInfo: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.16
+dlswTConnStat: 
+  oid: 1.3.6.1.2.1.46.1.2.1
+dlswCircuitFCRecvCurrentWndw: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.22
+dlswCircuitS1Sap: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.2
+dlswMIB: 
+  oid: 1.3.6.1.2.1.46.1
+dlswTConnOperICRexRcvds: 
+  oid: 1.3.6.1.2.1.46.1.2.3.1.28
+dlswIfSapList: 
+  oid: 1.3.6.1.2.1.46.1.3.1.1.3
+dlswGroups: 
+  oid: 1.3.6.1.2.1.46.3.2
+dlswDirMacLocationType: 
+  oid: 1.3.6.1.2.1.46.1.4.2.1.1.5
+dlswDirMacCacheHits: 
+  oid: 1.3.6.1.2.1.46.1.4.1.2
+dlswTCPDomain: 
+  oid: 1.3.6.1.2.1.46.2.1
+dlswCircuitS2Sap: 
+  oid: 1.3.6.1.2.1.46.1.5.2.1.9
+dlswDirNBEntryType: 
+  oid: 1.3.6.1.2.1.46.1.4.2.2.1.4
+dlswNodeVersion: 
+  oid: 1.3.6.1.2.1.46.1.1.1

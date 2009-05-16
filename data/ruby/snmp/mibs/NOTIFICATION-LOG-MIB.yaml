@@ -1,51 +1,101 @@
 --- 
-nlmLogEntry: 1.3.6.1.2.1.92.1.3.1.1
-nlmLogIndex: 1.3.6.1.2.1.92.1.3.1.1.1
-nlmLogVariableTable: 1.3.6.1.2.1.92.1.3.2
-nlmLogVariableOctetStringVal: 1.3.6.1.2.1.92.1.3.2.1.8
-nlmStatsGlobalNotificationsLogged: 1.3.6.1.2.1.92.1.2.1
-nlmStatsLogEntry: 1.3.6.1.2.1.92.1.2.3.1
-nlmLogDateAndTime: 1.3.6.1.2.1.92.1.3.1.1.3
-nlmLogEngineTAddress: 1.3.6.1.2.1.92.1.3.1.1.5
-nlmLogEngineTDomain: 1.3.6.1.2.1.92.1.3.1.1.6
-nlmLogContextEngineID: 1.3.6.1.2.1.92.1.3.1.1.7
-nlmLogVariableIndex: 1.3.6.1.2.1.92.1.3.2.1.1
-notificationLogMIB: 1.3.6.1.2.1.92
-nlmConfigLogEntry: 1.3.6.1.2.1.92.1.1.3.1
-nlmStatsLogNotificationsBumped: 1.3.6.1.2.1.92.1.2.3.1.2
-nlmConfigGlobalAgeOut: 1.3.6.1.2.1.92.1.1.2
-nlmConfigLogAdminStatus: 1.3.6.1.2.1.92.1.1.3.1.4
-nlmLogTable: 1.3.6.1.2.1.92.1.3.1
-nlmLogName: 1.3.6.1.2.1.92.1.1.3.1.1
-nlmConfigLogFilterName: 1.3.6.1.2.1.92.1.1.3.1.2
-nlmStatsLogTable: 1.3.6.1.2.1.92.1.2.3
-nlmStatsLogNotificationsLogged: 1.3.6.1.2.1.92.1.2.3.1.1
-nlmLogVariableValueType: 1.3.6.1.2.1.92.1.3.2.1.3
-notificationLogMIBCompliances: 1.3.6.1.2.1.92.3.1
-nlmConfigLogTable: 1.3.6.1.2.1.92.1.1.3
-nlmStats: 1.3.6.1.2.1.92.1.2
-nlmLogNotificationID: 1.3.6.1.2.1.92.1.3.1.1.9
-nlmLogVariableEntry: 1.3.6.1.2.1.92.1.3.2.1
-nlmLogVariableID: 1.3.6.1.2.1.92.1.3.2.1.2
-nlmLogVariableCounter32Val: 1.3.6.1.2.1.92.1.3.2.1.4
-nlmLogVariableIpAddressVal: 1.3.6.1.2.1.92.1.3.2.1.9
-notificationLogMIBGroups: 1.3.6.1.2.1.92.3.2
-nlmConfig: 1.3.6.1.2.1.92.1.1
-nlmConfigLogEntryLimit: 1.3.6.1.2.1.92.1.1.3.1.3
-nlmConfigLogStorageType: 1.3.6.1.2.1.92.1.1.3.1.6
-nlmLogTime: 1.3.6.1.2.1.92.1.3.1.1.2
-nlmLogVariableUnsigned32Val: 1.3.6.1.2.1.92.1.3.2.1.5
-nlmLogVariableCounter64Val: 1.3.6.1.2.1.92.1.3.2.1.11
-notificationLogMIBObjects: 1.3.6.1.2.1.92.1
-nlmConfigGlobalEntryLimit: 1.3.6.1.2.1.92.1.1.1
-nlmLogEngineID: 1.3.6.1.2.1.92.1.3.1.1.4
-nlmConfigLogOperStatus: 1.3.6.1.2.1.92.1.1.3.1.5
-nlmLogVariableOidVal: 1.3.6.1.2.1.92.1.3.2.1.10
-nlmLogVariableOpaqueVal: 1.3.6.1.2.1.92.1.3.2.1.12
-notificationLogMIBConformance: 1.3.6.1.2.1.92.3
-nlmLogContextName: 1.3.6.1.2.1.92.1.3.1.1.8
-nlmLogVariableTimeTicksVal: 1.3.6.1.2.1.92.1.3.2.1.6
-nlmConfigLogEntryStatus: 1.3.6.1.2.1.92.1.1.3.1.7
-nlmStatsGlobalNotificationsBumped: 1.3.6.1.2.1.92.1.2.2
-nlmLog: 1.3.6.1.2.1.92.1.3
-nlmLogVariableInteger32Val: 1.3.6.1.2.1.92.1.3.2.1.7
+nlmLogVariableOctetStringVal: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.8
+nlmLogVariableTable: 
+  oid: 1.3.6.1.2.1.92.1.3.2
+nlmLogIndex: 
+  oid: 1.3.6.1.2.1.92.1.3.1.1.1
+nlmLogEntry: 
+  oid: 1.3.6.1.2.1.92.1.3.1.1
+nlmLogVariableIndex: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.1
+nlmLogContextEngineID: 
+  oid: 1.3.6.1.2.1.92.1.3.1.1.7
+nlmLogEngineTDomain: 
+  oid: 1.3.6.1.2.1.92.1.3.1.1.6
+nlmLogEngineTAddress: 
+  oid: 1.3.6.1.2.1.92.1.3.1.1.5
+nlmLogDateAndTime: 
+  oid: 1.3.6.1.2.1.92.1.3.1.1.3
+nlmStatsLogEntry: 
+  oid: 1.3.6.1.2.1.92.1.2.3.1
+nlmStatsGlobalNotificationsLogged: 
+  oid: 1.3.6.1.2.1.92.1.2.1
+nlmStatsLogNotificationsBumped: 
+  oid: 1.3.6.1.2.1.92.1.2.3.1.2
+nlmConfigLogEntry: 
+  oid: 1.3.6.1.2.1.92.1.1.3.1
+notificationLogMIB: 
+  oid: 1.3.6.1.2.1.92
+nlmLogTable: 
+  oid: 1.3.6.1.2.1.92.1.3.1
+nlmConfigLogAdminStatus: 
+  oid: 1.3.6.1.2.1.92.1.1.3.1.4
+nlmConfigGlobalAgeOut: 
+  oid: 1.3.6.1.2.1.92.1.1.2
+notificationLogMIBCompliances: 
+  oid: 1.3.6.1.2.1.92.3.1
+nlmLogVariableValueType: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.3
+nlmStatsLogNotificationsLogged: 
+  oid: 1.3.6.1.2.1.92.1.2.3.1.1
+nlmStatsLogTable: 
+  oid: 1.3.6.1.2.1.92.1.2.3
+nlmConfigLogFilterName: 
+  oid: 1.3.6.1.2.1.92.1.1.3.1.2
+nlmLogName: 
+  oid: 1.3.6.1.2.1.92.1.1.3.1.1
+notificationLogMIBGroups: 
+  oid: 1.3.6.1.2.1.92.3.2
+nlmLogVariableIpAddressVal: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.9
+nlmLogVariableCounter32Val: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.4
+nlmLogVariableID: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.2
+nlmLogVariableEntry: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1
+nlmLogNotificationID: 
+  oid: 1.3.6.1.2.1.92.1.3.1.1.9
+nlmStats: 
+  oid: 1.3.6.1.2.1.92.1.2
+nlmConfigLogTable: 
+  oid: 1.3.6.1.2.1.92.1.1.3
+nlmLogVariableCounter64Val: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.11
+nlmLogVariableUnsigned32Val: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.5
+nlmLogTime: 
+  oid: 1.3.6.1.2.1.92.1.3.1.1.2
+nlmConfigLogStorageType: 
+  oid: 1.3.6.1.2.1.92.1.1.3.1.6
+nlmConfigLogEntryLimit: 
+  oid: 1.3.6.1.2.1.92.1.1.3.1.3
+nlmConfig: 
+  oid: 1.3.6.1.2.1.92.1.1
+nlmLogEngineID: 
+  oid: 1.3.6.1.2.1.92.1.3.1.1.4
+nlmConfigGlobalEntryLimit: 
+  oid: 1.3.6.1.2.1.92.1.1.1
+notificationLogMIBObjects: 
+  oid: 1.3.6.1.2.1.92.1
+notificationLogMIBConformance: 
+  oid: 1.3.6.1.2.1.92.3
+nlmLogVariableOpaqueVal: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.12
+nlmLogVariableOidVal: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.10
+nlmConfigLogOperStatus: 
+  oid: 1.3.6.1.2.1.92.1.1.3.1.5
+nlmLogVariableTimeTicksVal: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.6
+nlmLogContextName: 
+  oid: 1.3.6.1.2.1.92.1.3.1.1.8
+nlmLogVariableInteger32Val: 
+  oid: 1.3.6.1.2.1.92.1.3.2.1.7
+nlmLog: 
+  oid: 1.3.6.1.2.1.92.1.3
+nlmStatsGlobalNotificationsBumped: 
+  oid: 1.3.6.1.2.1.92.1.2.2
+nlmConfigLogEntryStatus: 
+  oid: 1.3.6.1.2.1.92.1.1.3.1.7

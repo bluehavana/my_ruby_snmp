@@ -1,15 +1,29 @@
 --- 
-diffServConfigOwner: 1.3.6.1.2.1.108.1.2.1.3
-diffServConfigMIBConformance: 1.3.6.1.2.1.108.2
-diffServConfigLastChange: 1.3.6.1.2.1.108.1.2.1.4
-diffServConfigMIBObjects: 1.3.6.1.2.1.108.1
-diffServConfigDescr: 1.3.6.1.2.1.108.1.2.1.2
-diffServConfigStatus: 1.3.6.1.2.1.108.1.2.1.7
-diffServConfigId: 1.3.6.1.2.1.108.1.2.1.1
-diffServConfigMIBGroups: 1.3.6.1.2.1.108.2.2
-diffServConfigStorage: 1.3.6.1.2.1.108.1.2.1.6
-diffServConfigMIBCompliances: 1.3.6.1.2.1.108.2.1
-diffServConfigMib: 1.3.6.1.2.1.108
-diffServConfigStart: 1.3.6.1.2.1.108.1.2.1.5
-diffServConfigTable: 1.3.6.1.2.1.108.1.2
-diffServConfigEntry: 1.3.6.1.2.1.108.1.2.1
+diffServConfigOwner: 
+  oid: 1.3.6.1.2.1.108.1.2.1.3
+diffServConfigMIBConformance: 
+  oid: 1.3.6.1.2.1.108.2
+diffServConfigLastChange: 
+  oid: 1.3.6.1.2.1.108.1.2.1.4
+diffServConfigStatus: 
+  oid: 1.3.6.1.2.1.108.1.2.1.7
+diffServConfigDescr: 
+  oid: 1.3.6.1.2.1.108.1.2.1.2
+diffServConfigMIBObjects: 
+  oid: 1.3.6.1.2.1.108.1
+diffServConfigId: 
+  oid: 1.3.6.1.2.1.108.1.2.1.1
+diffServConfigMIBGroups: 
+  oid: 1.3.6.1.2.1.108.2.2
+diffServConfigMIBCompliances: 
+  oid: 1.3.6.1.2.1.108.2.1
+diffServConfigStorage: 
+  oid: 1.3.6.1.2.1.108.1.2.1.6
+diffServConfigStart: 
+  oid: 1.3.6.1.2.1.108.1.2.1.5
+diffServConfigMib: 
+  oid: 1.3.6.1.2.1.108
+diffServConfigEntry: 
+  oid: 1.3.6.1.2.1.108.1.2.1
+diffServConfigTable: 
+  oid: 1.3.6.1.2.1.108.1.2

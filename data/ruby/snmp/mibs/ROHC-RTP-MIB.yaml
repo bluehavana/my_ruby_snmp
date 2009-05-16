@@ -1,29 +1,57 @@
 --- 
-rohcRtpContextNHPs: 1.3.6.1.2.1.114.1.1.1.13
-rohcRtpObjects: 1.3.6.1.2.1.114.1
-rohcRtpContextLargePktsAllowed: 1.3.6.1.2.1.114.1.1.1.6
-rohcRtpContextVerifyPeriod: 1.3.6.1.2.1.114.1.1.1.7
-rohcRtpContextCSPs: 1.3.6.1.2.1.114.1.1.1.14
-rohcRtpPacketSizeEntry: 1.3.6.1.2.1.114.1.2.1
-rohcRtpPacketSize: 1.3.6.1.2.1.114.1.2.1.3
-rohcRtpPacketSizeRestrictedType: 1.3.6.1.2.1.114.1.2.1.6
-rohcRtpConformance: 1.3.6.1.2.1.114.2
-rohcRtpCompliances: 1.3.6.1.2.1.114.2.1
-rohcRtpContextTable: 1.3.6.1.2.1.114.1.1
-rohcRtpContextPktsLostPhysical: 1.3.6.1.2.1.114.1.1.1.16
-rohcRtpContextAlwaysPad: 1.3.6.1.2.1.114.1.1.1.5
-rohcRtpContextSizesUsed: 1.3.6.1.2.1.114.1.1.1.9
-rohcRtpPacketSizeTable: 1.3.6.1.2.1.114.1.2
-rohcRtpContextState: 1.3.6.1.2.1.114.1.1.1.3
-rohcRtpContextMode: 1.3.6.1.2.1.114.1.1.1.4
-rohcRtpContextCCPs: 1.3.6.1.2.1.114.1.1.1.15
-rohcRtpContextPktsLostPreLink: 1.3.6.1.2.1.114.1.1.1.17
-rohcRtpPacketSizePreferred: 1.3.6.1.2.1.114.1.2.1.4
-rohcRtpPacketSizeUsed: 1.3.6.1.2.1.114.1.2.1.5
-rohcRtpContextEntry: 1.3.6.1.2.1.114.1.1.1
-rohcRtpContextACKs: 1.3.6.1.2.1.114.1.1.1.10
-rohcRtpContextSizesAllowed: 1.3.6.1.2.1.114.1.1.1.8
-rohcRtpContextSNACKs: 1.3.6.1.2.1.114.1.1.1.12
-rohcRtpMIB: 1.3.6.1.2.1.114
-rohcRtpContextNACKs: 1.3.6.1.2.1.114.1.1.1.11
-rohcRtpGroups: 1.3.6.1.2.1.114.2.2
+rohcRtpContextNHPs: 
+  oid: 1.3.6.1.2.1.114.1.1.1.13
+rohcRtpPacketSizeEntry: 
+  oid: 1.3.6.1.2.1.114.1.2.1
+rohcRtpContextCSPs: 
+  oid: 1.3.6.1.2.1.114.1.1.1.14
+rohcRtpContextVerifyPeriod: 
+  oid: 1.3.6.1.2.1.114.1.1.1.7
+rohcRtpContextLargePktsAllowed: 
+  oid: 1.3.6.1.2.1.114.1.1.1.6
+rohcRtpObjects: 
+  oid: 1.3.6.1.2.1.114.1
+rohcRtpCompliances: 
+  oid: 1.3.6.1.2.1.114.2.1
+rohcRtpConformance: 
+  oid: 1.3.6.1.2.1.114.2
+rohcRtpPacketSizeRestrictedType: 
+  oid: 1.3.6.1.2.1.114.1.2.1.6
+rohcRtpPacketSize: 
+  oid: 1.3.6.1.2.1.114.1.2.1.3
+rohcRtpContextPktsLostPhysical: 
+  oid: 1.3.6.1.2.1.114.1.1.1.16
+rohcRtpContextTable: 
+  oid: 1.3.6.1.2.1.114.1.1
+rohcRtpPacketSizeTable: 
+  oid: 1.3.6.1.2.1.114.1.2
+rohcRtpContextSizesUsed: 
+  oid: 1.3.6.1.2.1.114.1.1.1.9
+rohcRtpContextAlwaysPad: 
+  oid: 1.3.6.1.2.1.114.1.1.1.5
+rohcRtpPacketSizeUsed: 
+  oid: 1.3.6.1.2.1.114.1.2.1.5
+rohcRtpPacketSizePreferred: 
+  oid: 1.3.6.1.2.1.114.1.2.1.4
+rohcRtpContextPktsLostPreLink: 
+  oid: 1.3.6.1.2.1.114.1.1.1.17
+rohcRtpContextCCPs: 
+  oid: 1.3.6.1.2.1.114.1.1.1.15
+rohcRtpContextMode: 
+  oid: 1.3.6.1.2.1.114.1.1.1.4
+rohcRtpContextState: 
+  oid: 1.3.6.1.2.1.114.1.1.1.3
+rohcRtpContextACKs: 
+  oid: 1.3.6.1.2.1.114.1.1.1.10
+rohcRtpContextEntry: 
+  oid: 1.3.6.1.2.1.114.1.1.1
+rohcRtpContextSNACKs: 
+  oid: 1.3.6.1.2.1.114.1.1.1.12
+rohcRtpContextSizesAllowed: 
+  oid: 1.3.6.1.2.1.114.1.1.1.8
+rohcRtpContextNACKs: 
+  oid: 1.3.6.1.2.1.114.1.1.1.11
+rohcRtpMIB: 
+  oid: 1.3.6.1.2.1.114
+rohcRtpGroups: 
+  oid: 1.3.6.1.2.1.114.2.2

@@ -1,112 +1,223 @@
 --- 
-atmTrafficDescrParam4: 1.3.6.1.2.1.37.1.5.1.6
-atmInterfaceSubscrAddress: 1.3.6.1.2.1.37.1.2.1.15
-atmVccAal5CpcsTransmitSduSize: 1.3.6.1.2.1.37.1.7.1.9
-atmVclTransmitTrafficDescrIndex: 1.3.6.1.2.1.37.1.7.1.7
-atmInterfaceConfVccs: 1.3.6.1.2.1.37.1.2.1.4
-atmServiceCategory: 1.3.6.1.2.1.37.1.5.1.10
-aal5VccSarTimeOuts: 1.3.6.1.2.1.37.1.12.1.4
-atmVcCrossConnectHighVpi: 1.3.6.1.2.1.37.1.11.1.6
-atmTrafficDescrParam5: 1.3.6.1.2.1.37.1.5.1.7
-atmVcCrossConnectAdminStatus: 1.3.6.1.2.1.37.1.11.1.8
-atmInterfaceMyNeighborIfName: 1.3.6.1.2.1.37.1.2.1.12
-atmVcCrossConnectIndex: 1.3.6.1.2.1.37.1.11.1.1
-atmMIBObjects: 1.3.6.1.2.1.37.1
-atmVplAdminStatus: 1.3.6.1.2.1.37.1.6.1.2
-atmInterfaceDs3PlcpEntry: 1.3.6.1.2.1.37.1.3.1
-atmInterfaceAddressType: 1.3.6.1.2.1.37.1.2.1.9
-atmVpCrossConnectLowVpi: 1.3.6.1.2.1.37.1.9.1.3
-atmVccAal5CpcsReceiveSduSize: 1.3.6.1.2.1.37.1.7.1.10
-atmVplReceiveTrafficDescrIndex: 1.3.6.1.2.1.37.1.6.1.5
-atmVclReceiveTrafficDescrIndex: 1.3.6.1.2.1.37.1.7.1.6
-atmInterfaceDs3PlcpAlarmState: 1.3.6.1.2.1.37.1.3.1.2
-atmVpCrossConnectIndex: 1.3.6.1.2.1.37.1.9.1.1
-atmVplCastType: 1.3.6.1.2.1.37.1.6.1.9
-atmInterfaceMyNeighborIpAddress: 1.3.6.1.2.1.37.1.2.1.11
-atmTrafficDescrRowStatus: 1.3.6.1.2.1.37.1.5.1.9
-atmVclCrossConnectIdentifier: 1.3.6.1.2.1.37.1.7.1.12
-atmTrafficDescrType: 1.3.6.1.2.1.37.1.5.1.2
-atmVpCrossConnectL2HOperStatus: 1.3.6.1.2.1.37.1.9.1.7
-atmVpCrossConnectIndexNext: 1.3.6.1.2.1.37.1.8
-atmVcCrossConnectL2HOperStatus: 1.3.6.1.2.1.37.1.11.1.9
-atmVcCrossConnectL2HLastChange: 1.3.6.1.2.1.37.1.11.1.11
-atmVpCrossConnectTable: 1.3.6.1.2.1.37.1.9
-atmTrafficDescrParamIndexNext: 1.3.6.1.2.1.37.1.13
-atmVpCrossConnectH2LOperStatus: 1.3.6.1.2.1.37.1.9.1.8
-atmVpCrossConnectH2LLastChange: 1.3.6.1.2.1.37.1.9.1.10
-atmVcCrossConnectH2LLastChange: 1.3.6.1.2.1.37.1.11.1.12
-atmMIB: 1.3.6.1.2.1.37
-atmInterfaceConfTable: 1.3.6.1.2.1.37.1.2
-atmVplTable: 1.3.6.1.2.1.37.1.6
-atmTrafficQoSClass: 1.3.6.1.2.1.37.1.5.1.8
-atmVclTable: 1.3.6.1.2.1.37.1.7
-atmVcCrossConnectRowStatus: 1.3.6.1.2.1.37.1.11.1.13
-atmInterfaceDs3PlcpUASs: 1.3.6.1.2.1.37.1.3.1.3
-atmVccAal5EncapsType: 1.3.6.1.2.1.37.1.7.1.11
-atmVclLastChange: 1.3.6.1.2.1.37.1.7.1.5
-atmVccAalType: 1.3.6.1.2.1.37.1.7.1.8
-atmVclRowStatus: 1.3.6.1.2.1.37.1.7.1.13
-atmVpCrossConnectHighVpi: 1.3.6.1.2.1.37.1.9.1.5
-atmTrafficDescrParamTable: 1.3.6.1.2.1.37.1.5
-atmVclConnKind: 1.3.6.1.2.1.37.1.7.1.15
-atmMIBGroups: 1.3.6.1.2.1.37.2.1
-atmTrafficDescrParamEntry: 1.3.6.1.2.1.37.1.5.1
-aal5VccOverSizedSDUs: 1.3.6.1.2.1.37.1.12.1.5
-atmInterfaceOCDEvents: 1.3.6.1.2.1.37.1.4.1.1
-aal5VccCrcErrors: 1.3.6.1.2.1.37.1.12.1.3
-atmTrafficFrameDiscard: 1.3.6.1.2.1.37.1.5.1.11
-atmVcCrossConnectTable: 1.3.6.1.2.1.37.1.11
-aal5VccVci: 1.3.6.1.2.1.37.1.12.1.2
-atmInterfaceAdminAddress: 1.3.6.1.2.1.37.1.2.1.10
-atmMIBConformance: 1.3.6.1.2.1.37.2
-atmVplVpi: 1.3.6.1.2.1.37.1.6.1.1
-atmVcCrossConnectH2LOperStatus: 1.3.6.1.2.1.37.1.11.1.10
-atmVcCrossConnectHighIfIndex: 1.3.6.1.2.1.37.1.11.1.5
-atmInterfaceTCTable: 1.3.6.1.2.1.37.1.4
-atmInterfaceTCEntry: 1.3.6.1.2.1.37.1.4.1
-atmVplEntry: 1.3.6.1.2.1.37.1.6.1
-atmMIBCompliances: 1.3.6.1.2.1.37.2.2
-atmInterfaceMaxVpcs: 1.3.6.1.2.1.37.1.2.1.1
-atmInterfaceConfEntry: 1.3.6.1.2.1.37.1.2.1
-atmVplRowStatus: 1.3.6.1.2.1.37.1.6.1.8
-atmVpCrossConnectEntry: 1.3.6.1.2.1.37.1.9.1
-atmVclEntry: 1.3.6.1.2.1.37.1.7.1
-atmInterfaceConfVpcs: 1.3.6.1.2.1.37.1.2.1.3
-atmVclOperStatus: 1.3.6.1.2.1.37.1.7.1.4
-atmVcCrossConnectLowIfIndex: 1.3.6.1.2.1.37.1.11.1.2
-aal5VccVpi: 1.3.6.1.2.1.37.1.12.1.1
-atmInterfaceDs3PlcpTable: 1.3.6.1.2.1.37.1.3
-atmVclAdminStatus: 1.3.6.1.2.1.37.1.7.1.3
-atmVpCrossConnectAdminStatus: 1.3.6.1.2.1.37.1.9.1.6
-atmVcCrossConnectIndexNext: 1.3.6.1.2.1.37.1.10
-atmVcCrossConnectLowVci: 1.3.6.1.2.1.37.1.11.1.4
-atmInterfaceTCAlarmState: 1.3.6.1.2.1.37.1.4.1.2
-atmVclVci: 1.3.6.1.2.1.37.1.7.1.2
-atmVplConnKind: 1.3.6.1.2.1.37.1.6.1.10
-atmInterfaceIlmiVci: 1.3.6.1.2.1.37.1.2.1.8
-atmInterfaceDs3PlcpSEFSs: 1.3.6.1.2.1.37.1.3.1.1
-atmVclCastType: 1.3.6.1.2.1.37.1.7.1.14
-aal5VccTable: 1.3.6.1.2.1.37.1.12
-aal5VccEntry: 1.3.6.1.2.1.37.1.12.1
-atmVplLastChange: 1.3.6.1.2.1.37.1.6.1.4
-atmVplOperStatus: 1.3.6.1.2.1.37.1.6.1.3
-atmInterfaceCurrentMaxVciBits: 1.3.6.1.2.1.37.1.2.1.14
-atmTrafficDescrParam1: 1.3.6.1.2.1.37.1.5.1.3
-atmVpCrossConnectRowStatus: 1.3.6.1.2.1.37.1.9.1.11
-atmVcCrossConnectEntry: 1.3.6.1.2.1.37.1.11.1
-atmVplCrossConnectIdentifier: 1.3.6.1.2.1.37.1.6.1.7
-atmInterfaceCurrentMaxVpiBits: 1.3.6.1.2.1.37.1.2.1.13
-atmInterfaceMaxActiveVciBits: 1.3.6.1.2.1.37.1.2.1.6
-atmTrafficDescrParam2: 1.3.6.1.2.1.37.1.5.1.4
-atmVpCrossConnectLowIfIndex: 1.3.6.1.2.1.37.1.9.1.2
-atmVpCrossConnectHighIfIndex: 1.3.6.1.2.1.37.1.9.1.4
-atmVpCrossConnectL2HLastChange: 1.3.6.1.2.1.37.1.9.1.9
-atmVcCrossConnectLowVpi: 1.3.6.1.2.1.37.1.11.1.3
-atmVclVpi: 1.3.6.1.2.1.37.1.7.1.1
-atmTrafficDescrParamIndex: 1.3.6.1.2.1.37.1.5.1.1
-atmVplTransmitTrafficDescrIndex: 1.3.6.1.2.1.37.1.6.1.6
-atmInterfaceIlmiVpi: 1.3.6.1.2.1.37.1.2.1.7
-atmInterfaceMaxVccs: 1.3.6.1.2.1.37.1.2.1.2
-atmTrafficDescrParam3: 1.3.6.1.2.1.37.1.5.1.5
-atmInterfaceMaxActiveVpiBits: 1.3.6.1.2.1.37.1.2.1.5
-atmVcCrossConnectHighVci: 1.3.6.1.2.1.37.1.11.1.7
+atmTrafficDescrParam4: 
+  oid: 1.3.6.1.2.1.37.1.5.1.6
+atmInterfaceSubscrAddress: 
+  oid: 1.3.6.1.2.1.37.1.2.1.15
+atmVccAal5CpcsTransmitSduSize: 
+  oid: 1.3.6.1.2.1.37.1.7.1.9
+atmVclTransmitTrafficDescrIndex: 
+  oid: 1.3.6.1.2.1.37.1.7.1.7
+atmInterfaceConfVccs: 
+  oid: 1.3.6.1.2.1.37.1.2.1.4
+atmServiceCategory: 
+  oid: 1.3.6.1.2.1.37.1.5.1.10
+aal5VccSarTimeOuts: 
+  oid: 1.3.6.1.2.1.37.1.12.1.4
+atmVcCrossConnectHighVpi: 
+  oid: 1.3.6.1.2.1.37.1.11.1.6
+atmTrafficDescrParam5: 
+  oid: 1.3.6.1.2.1.37.1.5.1.7
+atmVcCrossConnectAdminStatus: 
+  oid: 1.3.6.1.2.1.37.1.11.1.8
+atmInterfaceMyNeighborIfName: 
+  oid: 1.3.6.1.2.1.37.1.2.1.12
+atmVcCrossConnectIndex: 
+  oid: 1.3.6.1.2.1.37.1.11.1.1
+atmMIBObjects: 
+  oid: 1.3.6.1.2.1.37.1
+atmVplAdminStatus: 
+  oid: 1.3.6.1.2.1.37.1.6.1.2
+atmInterfaceDs3PlcpEntry: 
+  oid: 1.3.6.1.2.1.37.1.3.1
+atmInterfaceAddressType: 
+  oid: 1.3.6.1.2.1.37.1.2.1.9
+atmVpCrossConnectLowVpi: 
+  oid: 1.3.6.1.2.1.37.1.9.1.3
+atmVccAal5CpcsReceiveSduSize: 
+  oid: 1.3.6.1.2.1.37.1.7.1.10
+atmVplReceiveTrafficDescrIndex: 
+  oid: 1.3.6.1.2.1.37.1.6.1.5
+atmVclReceiveTrafficDescrIndex: 
+  oid: 1.3.6.1.2.1.37.1.7.1.6
+atmInterfaceDs3PlcpAlarmState: 
+  oid: 1.3.6.1.2.1.37.1.3.1.2
+atmVpCrossConnectIndex: 
+  oid: 1.3.6.1.2.1.37.1.9.1.1
+atmVplCastType: 
+  oid: 1.3.6.1.2.1.37.1.6.1.9
+atmInterfaceMyNeighborIpAddress: 
+  oid: 1.3.6.1.2.1.37.1.2.1.11
+atmTrafficDescrRowStatus: 
+  oid: 1.3.6.1.2.1.37.1.5.1.9
+atmVclCrossConnectIdentifier: 
+  oid: 1.3.6.1.2.1.37.1.7.1.12
+atmTrafficDescrType: 
+  oid: 1.3.6.1.2.1.37.1.5.1.2
+atmVpCrossConnectL2HOperStatus: 
+  oid: 1.3.6.1.2.1.37.1.9.1.7
+atmVpCrossConnectIndexNext: 
+  oid: 1.3.6.1.2.1.37.1.8
+atmVcCrossConnectL2HOperStatus: 
+  oid: 1.3.6.1.2.1.37.1.11.1.9
+atmVcCrossConnectL2HLastChange: 
+  oid: 1.3.6.1.2.1.37.1.11.1.11
+atmVpCrossConnectTable: 
+  oid: 1.3.6.1.2.1.37.1.9
+atmTrafficDescrParamIndexNext: 
+  oid: 1.3.6.1.2.1.37.1.13
+atmVpCrossConnectH2LOperStatus: 
+  oid: 1.3.6.1.2.1.37.1.9.1.8
+atmVpCrossConnectH2LLastChange: 
+  oid: 1.3.6.1.2.1.37.1.9.1.10
+atmVcCrossConnectH2LLastChange: 
+  oid: 1.3.6.1.2.1.37.1.11.1.12
+atmMIB: 
+  oid: 1.3.6.1.2.1.37
+atmInterfaceConfTable: 
+  oid: 1.3.6.1.2.1.37.1.2
+atmVplTable: 
+  oid: 1.3.6.1.2.1.37.1.6
+atmTrafficQoSClass: 
+  oid: 1.3.6.1.2.1.37.1.5.1.8
+atmVclTable: 
+  oid: 1.3.6.1.2.1.37.1.7
+atmVcCrossConnectRowStatus: 
+  oid: 1.3.6.1.2.1.37.1.11.1.13
+atmInterfaceDs3PlcpUASs: 
+  oid: 1.3.6.1.2.1.37.1.3.1.3
+atmVccAal5EncapsType: 
+  oid: 1.3.6.1.2.1.37.1.7.1.11
+atmVclLastChange: 
+  oid: 1.3.6.1.2.1.37.1.7.1.5
+atmVccAalType: 
+  oid: 1.3.6.1.2.1.37.1.7.1.8
+atmVclRowStatus: 
+  oid: 1.3.6.1.2.1.37.1.7.1.13
+atmVpCrossConnectHighVpi: 
+  oid: 1.3.6.1.2.1.37.1.9.1.5
+atmTrafficDescrParamTable: 
+  oid: 1.3.6.1.2.1.37.1.5
+atmVclConnKind: 
+  oid: 1.3.6.1.2.1.37.1.7.1.15
+atmMIBGroups: 
+  oid: 1.3.6.1.2.1.37.2.1
+atmTrafficDescrParamEntry: 
+  oid: 1.3.6.1.2.1.37.1.5.1
+aal5VccOverSizedSDUs: 
+  oid: 1.3.6.1.2.1.37.1.12.1.5
+atmInterfaceOCDEvents: 
+  oid: 1.3.6.1.2.1.37.1.4.1.1
+aal5VccCrcErrors: 
+  oid: 1.3.6.1.2.1.37.1.12.1.3
+atmTrafficFrameDiscard: 
+  oid: 1.3.6.1.2.1.37.1.5.1.11
+atmVcCrossConnectTable: 
+  oid: 1.3.6.1.2.1.37.1.11
+aal5VccVci: 
+  oid: 1.3.6.1.2.1.37.1.12.1.2
+atmInterfaceAdminAddress: 
+  oid: 1.3.6.1.2.1.37.1.2.1.10
+atmMIBConformance: 
+  oid: 1.3.6.1.2.1.37.2
+atmMIBCompliances: 
+  oid: 1.3.6.1.2.1.37.2.2
+atmVcCrossConnectH2LOperStatus: 
+  oid: 1.3.6.1.2.1.37.1.11.1.10
+atmVcCrossConnectHighIfIndex: 
+  oid: 1.3.6.1.2.1.37.1.11.1.5
+atmInterfaceTCTable: 
+  oid: 1.3.6.1.2.1.37.1.4
+atmInterfaceTCEntry: 
+  oid: 1.3.6.1.2.1.37.1.4.1
+atmVplEntry: 
+  oid: 1.3.6.1.2.1.37.1.6.1
+atmVplVpi: 
+  oid: 1.3.6.1.2.1.37.1.6.1.1
+atmVpCrossConnectEntry: 
+  oid: 1.3.6.1.2.1.37.1.9.1
+atmVplRowStatus: 
+  oid: 1.3.6.1.2.1.37.1.6.1.8
+atmInterfaceConfEntry: 
+  oid: 1.3.6.1.2.1.37.1.2.1
+atmInterfaceMaxVpcs: 
+  oid: 1.3.6.1.2.1.37.1.2.1.1
+aal5VccVpi: 
+  oid: 1.3.6.1.2.1.37.1.12.1.1
+atmVcCrossConnectLowIfIndex: 
+  oid: 1.3.6.1.2.1.37.1.11.1.2
+atmVclOperStatus: 
+  oid: 1.3.6.1.2.1.37.1.7.1.4
+atmInterfaceConfVpcs: 
+  oid: 1.3.6.1.2.1.37.1.2.1.3
+atmVclEntry: 
+  oid: 1.3.6.1.2.1.37.1.7.1
+atmVcCrossConnectLowVci: 
+  oid: 1.3.6.1.2.1.37.1.11.1.4
+atmVcCrossConnectIndexNext: 
+  oid: 1.3.6.1.2.1.37.1.10
+atmVpCrossConnectAdminStatus: 
+  oid: 1.3.6.1.2.1.37.1.9.1.6
+atmVclAdminStatus: 
+  oid: 1.3.6.1.2.1.37.1.7.1.3
+atmInterfaceDs3PlcpTable: 
+  oid: 1.3.6.1.2.1.37.1.3
+aal5VccEntry: 
+  oid: 1.3.6.1.2.1.37.1.12.1
+aal5VccTable: 
+  oid: 1.3.6.1.2.1.37.1.12
+atmVclCastType: 
+  oid: 1.3.6.1.2.1.37.1.7.1.14
+atmInterfaceDs3PlcpSEFSs: 
+  oid: 1.3.6.1.2.1.37.1.3.1.1
+atmInterfaceIlmiVci: 
+  oid: 1.3.6.1.2.1.37.1.2.1.8
+atmVplConnKind: 
+  oid: 1.3.6.1.2.1.37.1.6.1.10
+atmVclVci: 
+  oid: 1.3.6.1.2.1.37.1.7.1.2
+atmInterfaceTCAlarmState: 
+  oid: 1.3.6.1.2.1.37.1.4.1.2
+atmVcCrossConnectEntry: 
+  oid: 1.3.6.1.2.1.37.1.11.1
+atmVpCrossConnectRowStatus: 
+  oid: 1.3.6.1.2.1.37.1.9.1.11
+atmTrafficDescrParam1: 
+  oid: 1.3.6.1.2.1.37.1.5.1.3
+atmInterfaceCurrentMaxVciBits: 
+  oid: 1.3.6.1.2.1.37.1.2.1.14
+atmVplOperStatus: 
+  oid: 1.3.6.1.2.1.37.1.6.1.3
+atmVplLastChange: 
+  oid: 1.3.6.1.2.1.37.1.6.1.4
+atmVcCrossConnectLowVpi: 
+  oid: 1.3.6.1.2.1.37.1.11.1.3
+atmVpCrossConnectL2HLastChange: 
+  oid: 1.3.6.1.2.1.37.1.9.1.9
+atmVpCrossConnectHighIfIndex: 
+  oid: 1.3.6.1.2.1.37.1.9.1.4
+atmVpCrossConnectLowIfIndex: 
+  oid: 1.3.6.1.2.1.37.1.9.1.2
+atmTrafficDescrParam2: 
+  oid: 1.3.6.1.2.1.37.1.5.1.4
+atmInterfaceMaxActiveVciBits: 
+  oid: 1.3.6.1.2.1.37.1.2.1.6
+atmInterfaceCurrentMaxVpiBits: 
+  oid: 1.3.6.1.2.1.37.1.2.1.13
+atmVplCrossConnectIdentifier: 
+  oid: 1.3.6.1.2.1.37.1.6.1.7
+atmVcCrossConnectHighVci: 
+  oid: 1.3.6.1.2.1.37.1.11.1.7
+atmInterfaceMaxActiveVpiBits: 
+  oid: 1.3.6.1.2.1.37.1.2.1.5
+atmTrafficDescrParam3: 
+  oid: 1.3.6.1.2.1.37.1.5.1.5
+atmInterfaceMaxVccs: 
+  oid: 1.3.6.1.2.1.37.1.2.1.2
+atmInterfaceIlmiVpi: 
+  oid: 1.3.6.1.2.1.37.1.2.1.7
+atmVplTransmitTrafficDescrIndex: 
+  oid: 1.3.6.1.2.1.37.1.6.1.6
+atmTrafficDescrParamIndex: 
+  oid: 1.3.6.1.2.1.37.1.5.1.1
+atmVclVpi: 
+  oid: 1.3.6.1.2.1.37.1.7.1.1

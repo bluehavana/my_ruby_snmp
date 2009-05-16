@@ -1,171 +1,341 @@
 --- 
-x25CallParmPriority: 1.3.6.1.2.1.10.5.9.1.25
-x25StatClearTimeouts: 1.3.6.1.2.1.10.5.3.1.21
-x25StatIncomingCircuits: 1.3.6.1.2.1.10.5.3.1.16
-x25CircuitOutOctets: 1.3.6.1.2.1.10.5.5.1.11
-x25CircuitOriginallyCalledAddress: 1.3.6.1.2.1.10.5.5.1.20
-x25OperClearTimer: 1.3.6.1.2.1.10.5.2.1.8
-x25StatDataRxmtTimeouts: 1.3.6.1.2.1.10.5.3.1.22
-x25CircuitCalledDteAddress: 1.3.6.1.2.1.10.5.5.1.18
-x25OperDataRxmtCount: 1.3.6.1.2.1.10.5.2.1.18
-x25StatOutDataPackets: 1.3.6.1.2.1.10.5.3.1.14
-x25protocolIso8208V1989: 1.3.6.1.2.1.10.5.10.6
-x25StatClearCountExceededs: 1.3.6.1.2.1.10.5.3.1.25
-x25OperRegistrationRequestTimer: 1.3.6.1.2.1.10.5.2.1.13
-x25CircuitInOctets: 1.3.6.1.2.1.10.5.5.1.6
-x25CircuitDirection: 1.3.6.1.2.1.10.5.5.1.5
-x25ChannelHTC: 1.3.6.1.2.1.10.5.4.1.5
-x25StatInProviderInitiatedResets: 1.3.6.1.2.1.10.5.3.1.6
-x25protocolCcittV1980: 1.3.6.1.2.1.10.5.10.2
-x25OperLocalAddress: 1.3.6.1.2.1.10.5.2.1.23
-x25CallParmProtection: 1.3.6.1.2.1.10.5.9.1.26
-x25OperTable: 1.3.6.1.2.1.10.5.2
-x25StatTwowayCircuits: 1.3.6.1.2.1.10.5.3.1.17
-x25AdmnProtocolVersionSupported: 1.3.6.1.2.1.10.5.1.1.24
-x25StatOutCallAttempts: 1.3.6.1.2.1.10.5.3.1.11
-x25AdmnRestartTimer: 1.3.6.1.2.1.10.5.1.1.5
-x25CircuitOutPdus: 1.3.6.1.2.1.10.5.5.1.12
-x25OperWindowTimer: 1.3.6.1.2.1.10.5.2.1.9
-x25CircuitOutInterrupts: 1.3.6.1.2.1.10.5.5.1.13
-x25CircuitChannel: 1.3.6.1.2.1.10.5.5.1.2
-x25StatInProviderInitiatedClears: 1.3.6.1.2.1.10.5.3.1.4
-x25StatOutCallFailures: 1.3.6.1.2.1.10.5.3.1.12
-x25ClearedCircuitInPdus: 1.3.6.1.2.1.10.5.8.1.8
-x25CircuitInRemotelyInitiatedResets: 1.3.6.1.2.1.10.5.5.1.8
-x25CircuitCallingDteAddress: 1.3.6.1.2.1.10.5.5.1.19
-x25CallParmStatus: 1.3.6.1.2.1.10.5.9.1.2
-x25AdmnResetTimer: 1.3.6.1.2.1.10.5.1.1.7
-x25protocolCcittV1984: 1.3.6.1.2.1.10.5.10.3
-x25AdmnCallTimer: 1.3.6.1.2.1.10.5.1.1.6
-x25CallParmChargingInfo: 1.3.6.1.2.1.10.5.9.1.17
-x25CallParmInPacketSize: 1.3.6.1.2.1.10.5.9.1.4
-x25AdmnEntry: 1.3.6.1.2.1.10.5.1.1
-x25OperRestartCount: 1.3.6.1.2.1.10.5.2.1.15
-x25OperResetTimer: 1.3.6.1.2.1.10.5.2.1.7
-x25OperDataLinkId: 1.3.6.1.2.1.10.5.2.1.24
-x25CallParmRpoa: 1.3.6.1.2.1.10.5.9.1.18
-x25CircuitTable: 1.3.6.1.2.1.10.5.5
-x25ChannelHIC: 1.3.6.1.2.1.10.5.4.1.3
-x25AdmnMaxActiveCircuits: 1.3.6.1.2.1.10.5.1.1.3
-x25Restart: 1.3.6.1.2.1.10.5.0.1
-x25Reset: 1.3.6.1.2.1.10.5.0.2
-x25ClearedCircuitEntriesGranted: 1.3.6.1.2.1.10.5.7
-x25ChannelLTC: 1.3.6.1.2.1.10.5.4.1.4
-x25CircuitDataRetransmissionTimeouts: 1.3.6.1.2.1.10.5.5.1.14
-x25CircuitDescr: 1.3.6.1.2.1.10.5.5.1.21
-x25ChannelEntry: 1.3.6.1.2.1.10.5.4.1
-x25StatInDataPackets: 1.3.6.1.2.1.10.5.3.1.8
-x25OperMinimumRecallTimer: 1.3.6.1.2.1.10.5.2.1.14
-x25OperInterfaceMode: 1.3.6.1.2.1.10.5.2.1.2
-x25CallParmCalledExt: 1.3.6.1.2.1.10.5.9.1.21
-x25ClearedCircuitTable: 1.3.6.1.2.1.10.5.8
-x25AdmnDefCallParamId: 1.3.6.1.2.1.10.5.1.1.22
-x25ClearedCircuitTimeCleared: 1.3.6.1.2.1.10.5.8.1.4
-x25protocolCcittV1988: 1.3.6.1.2.1.10.5.10.4
-x25ClearedCircuitClearFacilities: 1.3.6.1.2.1.10.5.8.1.12
-x25CallParmOutMinThuPutCls: 1.3.6.1.2.1.10.5.9.1.23
-x25AdmnRejectTimer: 1.3.6.1.2.1.10.5.1.1.12
-x25AdmnInterfaceMode: 1.3.6.1.2.1.10.5.1.1.2
-x25CallParmAcceptReverseCharging: 1.3.6.1.2.1.10.5.9.1.8
-x25AdmnIndex: 1.3.6.1.2.1.10.5.1.1.1
-x25CallParmEntry: 1.3.6.1.2.1.10.5.9.1
-x25ChannelHOC: 1.3.6.1.2.1.10.5.4.1.7
-x25AdmnDataRxmtTimer: 1.3.6.1.2.1.10.5.1.1.10
-x25ChannelIndex: 1.3.6.1.2.1.10.5.4.1.1
-x25OperRejectCount: 1.3.6.1.2.1.10.5.2.1.19
-x25ChannelLIC: 1.3.6.1.2.1.10.5.4.1.2
-x25CircuitInProviderInitiatedResets: 1.3.6.1.2.1.10.5.5.1.9
-x25CallParmOutWindowSize: 1.3.6.1.2.1.10.5.9.1.7
-x25StatEntry: 1.3.6.1.2.1.10.5.3.1
-x25CallParmCugoa: 1.3.6.1.2.1.10.5.9.1.14
-x25CallParmCallingNetworkFacilities: 1.3.6.1.2.1.10.5.9.1.29
-x25CallParmIndex: 1.3.6.1.2.1.10.5.9.1.1
-x25StatOutInterrupts: 1.3.6.1.2.1.10.5.3.1.13
-x25OperProtocolVersionSupported: 1.3.6.1.2.1.10.5.2.1.25
-x25CallParmInMinThuPutCls: 1.3.6.1.2.1.10.5.9.1.22
-x25StatInRestarts: 1.3.6.1.2.1.10.5.3.1.7
-x25ProtocolVersion: 1.3.6.1.2.1.10.5.10
-x25OperDataRxmtTimer: 1.3.6.1.2.1.10.5.2.1.10
-x25OperMaxActiveCircuits: 1.3.6.1.2.1.10.5.2.1.3
-x25CallParmInThruPutClasSize: 1.3.6.1.2.1.10.5.9.1.11
-x25OperDefCallParamId: 1.3.6.1.2.1.10.5.2.1.22
-x25CallParmFastSelect: 1.3.6.1.2.1.10.5.9.1.10
-x25StatInInterrupts: 1.3.6.1.2.1.10.5.3.1.10
-x25ClearedCircuitOutPdus: 1.3.6.1.2.1.10.5.8.1.9
-x25CircuitStatus: 1.3.6.1.2.1.10.5.5.1.3
-x25CallParmProposeReverseCharging: 1.3.6.1.2.1.10.5.9.1.9
-x25ClearedCircuitChannel: 1.3.6.1.2.1.10.5.8.1.5
-x25ChannelLOC: 1.3.6.1.2.1.10.5.4.1.6
-x25StatIndex: 1.3.6.1.2.1.10.5.3.1.1
-x25AdmnRegistrationRequestCount: 1.3.6.1.2.1.10.5.1.1.20
-x25ClearedCircuitTimeEstablished: 1.3.6.1.2.1.10.5.8.1.3
-x25AdmnClearCount: 1.3.6.1.2.1.10.5.1.1.17
-x25StatInCalls: 1.3.6.1.2.1.10.5.3.1.2
-x25OperPacketSequencing: 1.3.6.1.2.1.10.5.2.1.4
-x25OperClearCount: 1.3.6.1.2.1.10.5.2.1.17
-x25StatOutgoingCircuits: 1.3.6.1.2.1.10.5.3.1.15
-x25AdmnTable: 1.3.6.1.2.1.10.5.1
-x25OperEntry: 1.3.6.1.2.1.10.5.2.1
-x25StatInAccusedOfProtocolErrors: 1.3.6.1.2.1.10.5.3.1.9
-x25OperRestartTimer: 1.3.6.1.2.1.10.5.2.1.5
-x25CallParmOutThruPutClasSize: 1.3.6.1.2.1.10.5.9.1.12
-x25CallParmCallingExt: 1.3.6.1.2.1.10.5.9.1.20
-x25CallParmBcug: 1.3.6.1.2.1.10.5.9.1.15
-x25CallParmUserData: 1.3.6.1.2.1.10.5.9.1.28
-x25CallParmInWindowSize: 1.3.6.1.2.1.10.5.9.1.6
-x25OperIndex: 1.3.6.1.2.1.10.5.2.1.1
-x25OperRegistrationRequestCount: 1.3.6.1.2.1.10.5.2.1.20
-x25StatInterruptTimeouts: 1.3.6.1.2.1.10.5.3.1.23
-x25AdmnWindowTimer: 1.3.6.1.2.1.10.5.1.1.9
-x25CircuitResetTimeouts: 1.3.6.1.2.1.10.5.5.1.15
-x25ClearedCircuitDiagnosticCode: 1.3.6.1.2.1.10.5.8.1.7
-x25CallParmCug: 1.3.6.1.2.1.10.5.9.1.13
-x25CallParmNui: 1.3.6.1.2.1.10.5.9.1.16
-x25OperCallTimer: 1.3.6.1.2.1.10.5.2.1.6
-x25AdmnMinimumRecallTimer: 1.3.6.1.2.1.10.5.1.1.14
-x25AdmnRestartCount: 1.3.6.1.2.1.10.5.1.1.15
-x25CircuitEntry: 1.3.6.1.2.1.10.5.5.1
-x25ClearedCircuitEntriesRequested: 1.3.6.1.2.1.10.5.6
-x25AdmnInterruptTimer: 1.3.6.1.2.1.10.5.1.1.11
-x25StatCallTimeouts: 1.3.6.1.2.1.10.5.3.1.19
-x25CallParmTrnstDly: 1.3.6.1.2.1.10.5.9.1.19
-x25CallParmExptData: 1.3.6.1.2.1.10.5.9.1.27
-x25StatTable: 1.3.6.1.2.1.10.5.3
-x25AdmnPacketSequencing: 1.3.6.1.2.1.10.5.1.1.4
-x25AdmnResetCount: 1.3.6.1.2.1.10.5.1.1.16
-x25OperRejectTimer: 1.3.6.1.2.1.10.5.2.1.12
-x25StatRetryCountExceededs: 1.3.6.1.2.1.10.5.3.1.24
-x25ClearedCircuitEntry: 1.3.6.1.2.1.10.5.8.1
-x25CallParmOutPacketSize: 1.3.6.1.2.1.10.5.9.1.5
-x25CircuitInInterrupts: 1.3.6.1.2.1.10.5.5.1.10
-x25AdmnLocalAddress: 1.3.6.1.2.1.10.5.1.1.23
-x25ChannelTable: 1.3.6.1.2.1.10.5.4
-x25CircuitInterruptTimeouts: 1.3.6.1.2.1.10.5.5.1.16
-x25CircuitIndex: 1.3.6.1.2.1.10.5.5.1.1
-x25OperResetCount: 1.3.6.1.2.1.10.5.2.1.16
-x25CircuitCallParamId: 1.3.6.1.2.1.10.5.5.1.17
-x25StatInCallRefusals: 1.3.6.1.2.1.10.5.3.1.3
-x25ClearedCircuitCallingAddress: 1.3.6.1.2.1.10.5.8.1.11
-x25CallParmEndTrnsDly: 1.3.6.1.2.1.10.5.9.1.24
-x25CircuitEstablishTime: 1.3.6.1.2.1.10.5.5.1.4
-x25CallParmTable: 1.3.6.1.2.1.10.5.9
-x25StatInRemotelyInitiatedResets: 1.3.6.1.2.1.10.5.3.1.5
-x25ClearedCircuitIndex: 1.3.6.1.2.1.10.5.8.1.1
-x25ClearedCircuitPleIndex: 1.3.6.1.2.1.10.5.8.1.2
-x25OperInterruptTimer: 1.3.6.1.2.1.10.5.2.1.11
-x25CallParmRefCount: 1.3.6.1.2.1.10.5.9.1.3
-x25protocolCcittV1976: 1.3.6.1.2.1.10.5.10.1
-x25AdmnRejectCount: 1.3.6.1.2.1.10.5.1.1.19
-x25AdmnNumberPVCs: 1.3.6.1.2.1.10.5.1.1.21
-x25StatResetTimeouts: 1.3.6.1.2.1.10.5.3.1.20
-x25StatRestartTimeouts: 1.3.6.1.2.1.10.5.3.1.18
-x25AdmnDataRxmtCount: 1.3.6.1.2.1.10.5.1.1.18
-x25CallParmCalledNetworkFacilities: 1.3.6.1.2.1.10.5.9.1.30
-x25AdmnClearTimer: 1.3.6.1.2.1.10.5.1.1.8
-x25AdmnRegistrationRequestTimer: 1.3.6.1.2.1.10.5.1.1.13
-x25: 1.3.6.1.2.1.10.5
-x25OperNumberPVCs: 1.3.6.1.2.1.10.5.2.1.21
-x25CircuitInPdus: 1.3.6.1.2.1.10.5.5.1.7
-x25ClearedCircuitClearingCause: 1.3.6.1.2.1.10.5.8.1.6
-x25ClearedCircuitCalledAddress: 1.3.6.1.2.1.10.5.8.1.10
-x25protocolIso8208V1987: 1.3.6.1.2.1.10.5.10.5
+x25CallParmPriority: 
+  oid: 1.3.6.1.2.1.10.5.9.1.25
+x25StatClearTimeouts: 
+  oid: 1.3.6.1.2.1.10.5.3.1.21
+x25StatIncomingCircuits: 
+  oid: 1.3.6.1.2.1.10.5.3.1.16
+x25CircuitOutOctets: 
+  oid: 1.3.6.1.2.1.10.5.5.1.11
+x25CircuitOriginallyCalledAddress: 
+  oid: 1.3.6.1.2.1.10.5.5.1.20
+x25OperClearTimer: 
+  oid: 1.3.6.1.2.1.10.5.2.1.8
+x25StatDataRxmtTimeouts: 
+  oid: 1.3.6.1.2.1.10.5.3.1.22
+x25CircuitCalledDteAddress: 
+  oid: 1.3.6.1.2.1.10.5.5.1.18
+x25OperDataRxmtCount: 
+  oid: 1.3.6.1.2.1.10.5.2.1.18
+x25StatOutDataPackets: 
+  oid: 1.3.6.1.2.1.10.5.3.1.14
+x25protocolIso8208V1989: 
+  oid: 1.3.6.1.2.1.10.5.10.6
+x25StatClearCountExceededs: 
+  oid: 1.3.6.1.2.1.10.5.3.1.25
+x25OperRegistrationRequestTimer: 
+  oid: 1.3.6.1.2.1.10.5.2.1.13
+x25CircuitInOctets: 
+  oid: 1.3.6.1.2.1.10.5.5.1.6
+x25CircuitDirection: 
+  oid: 1.3.6.1.2.1.10.5.5.1.5
+x25ChannelHTC: 
+  oid: 1.3.6.1.2.1.10.5.4.1.5
+x25StatInProviderInitiatedResets: 
+  oid: 1.3.6.1.2.1.10.5.3.1.6
+x25protocolCcittV1980: 
+  oid: 1.3.6.1.2.1.10.5.10.2
+x25OperLocalAddress: 
+  oid: 1.3.6.1.2.1.10.5.2.1.23
+x25CallParmProtection: 
+  oid: 1.3.6.1.2.1.10.5.9.1.26
+x25OperTable: 
+  oid: 1.3.6.1.2.1.10.5.2
+x25StatTwowayCircuits: 
+  oid: 1.3.6.1.2.1.10.5.3.1.17
+x25AdmnProtocolVersionSupported: 
+  oid: 1.3.6.1.2.1.10.5.1.1.24
+x25StatOutCallAttempts: 
+  oid: 1.3.6.1.2.1.10.5.3.1.11
+x25AdmnRestartTimer: 
+  oid: 1.3.6.1.2.1.10.5.1.1.5
+x25CircuitOutPdus: 
+  oid: 1.3.6.1.2.1.10.5.5.1.12
+x25OperWindowTimer: 
+  oid: 1.3.6.1.2.1.10.5.2.1.9
+x25CircuitOutInterrupts: 
+  oid: 1.3.6.1.2.1.10.5.5.1.13
+x25CircuitChannel: 
+  oid: 1.3.6.1.2.1.10.5.5.1.2
+x25StatInProviderInitiatedClears: 
+  oid: 1.3.6.1.2.1.10.5.3.1.4
+x25StatOutCallFailures: 
+  oid: 1.3.6.1.2.1.10.5.3.1.12
+x25ClearedCircuitInPdus: 
+  oid: 1.3.6.1.2.1.10.5.8.1.8
+x25CircuitInRemotelyInitiatedResets: 
+  oid: 1.3.6.1.2.1.10.5.5.1.8
+x25CircuitCallingDteAddress: 
+  oid: 1.3.6.1.2.1.10.5.5.1.19
+x25CallParmStatus: 
+  oid: 1.3.6.1.2.1.10.5.9.1.2
+x25AdmnResetTimer: 
+  oid: 1.3.6.1.2.1.10.5.1.1.7
+x25protocolCcittV1984: 
+  oid: 1.3.6.1.2.1.10.5.10.3
+x25CallParmChargingInfo: 
+  oid: 1.3.6.1.2.1.10.5.9.1.17
+x25AdmnCallTimer: 
+  oid: 1.3.6.1.2.1.10.5.1.1.6
+x25CallParmInPacketSize: 
+  oid: 1.3.6.1.2.1.10.5.9.1.4
+x25AdmnEntry: 
+  oid: 1.3.6.1.2.1.10.5.1.1
+x25OperRestartCount: 
+  oid: 1.3.6.1.2.1.10.5.2.1.15
+x25OperResetTimer: 
+  oid: 1.3.6.1.2.1.10.5.2.1.7
+x25OperDataLinkId: 
+  oid: 1.3.6.1.2.1.10.5.2.1.24
+x25CallParmRpoa: 
+  oid: 1.3.6.1.2.1.10.5.9.1.18
+x25CircuitTable: 
+  oid: 1.3.6.1.2.1.10.5.5
+x25ChannelHIC: 
+  oid: 1.3.6.1.2.1.10.5.4.1.3
+x25AdmnMaxActiveCircuits: 
+  oid: 1.3.6.1.2.1.10.5.1.1.3
+x25ClearedCircuitEntriesGranted: 
+  oid: 1.3.6.1.2.1.10.5.7
+x25Restart: 
+  oid: 1.3.6.1.2.1.10.5.0.1
+x25Reset: 
+  oid: 1.3.6.1.2.1.10.5.0.2
+x25ChannelLTC: 
+  oid: 1.3.6.1.2.1.10.5.4.1.4
+x25CircuitDataRetransmissionTimeouts: 
+  oid: 1.3.6.1.2.1.10.5.5.1.14
+x25CircuitDescr: 
+  oid: 1.3.6.1.2.1.10.5.5.1.21
+x25ChannelEntry: 
+  oid: 1.3.6.1.2.1.10.5.4.1
+x25StatInDataPackets: 
+  oid: 1.3.6.1.2.1.10.5.3.1.8
+x25OperMinimumRecallTimer: 
+  oid: 1.3.6.1.2.1.10.5.2.1.14
+x25OperInterfaceMode: 
+  oid: 1.3.6.1.2.1.10.5.2.1.2
+x25CallParmCalledExt: 
+  oid: 1.3.6.1.2.1.10.5.9.1.21
+x25ClearedCircuitTable: 
+  oid: 1.3.6.1.2.1.10.5.8
+x25AdmnDefCallParamId: 
+  oid: 1.3.6.1.2.1.10.5.1.1.22
+x25ClearedCircuitTimeCleared: 
+  oid: 1.3.6.1.2.1.10.5.8.1.4
+x25protocolCcittV1988: 
+  oid: 1.3.6.1.2.1.10.5.10.4
+x25ClearedCircuitClearFacilities: 
+  oid: 1.3.6.1.2.1.10.5.8.1.12
+x25CallParmOutMinThuPutCls: 
+  oid: 1.3.6.1.2.1.10.5.9.1.23
+x25AdmnRejectTimer: 
+  oid: 1.3.6.1.2.1.10.5.1.1.12
+x25AdmnInterfaceMode: 
+  oid: 1.3.6.1.2.1.10.5.1.1.2
+x25CallParmAcceptReverseCharging: 
+  oid: 1.3.6.1.2.1.10.5.9.1.8
+x25AdmnIndex: 
+  oid: 1.3.6.1.2.1.10.5.1.1.1
+x25CallParmEntry: 
+  oid: 1.3.6.1.2.1.10.5.9.1
+x25ChannelHOC: 
+  oid: 1.3.6.1.2.1.10.5.4.1.7
+x25AdmnDataRxmtTimer: 
+  oid: 1.3.6.1.2.1.10.5.1.1.10
+x25ChannelIndex: 
+  oid: 1.3.6.1.2.1.10.5.4.1.1
+x25OperRejectCount: 
+  oid: 1.3.6.1.2.1.10.5.2.1.19
+x25ChannelLIC: 
+  oid: 1.3.6.1.2.1.10.5.4.1.2
+x25CircuitInProviderInitiatedResets: 
+  oid: 1.3.6.1.2.1.10.5.5.1.9
+x25CallParmOutWindowSize: 
+  oid: 1.3.6.1.2.1.10.5.9.1.7
+x25StatEntry: 
+  oid: 1.3.6.1.2.1.10.5.3.1
+x25CallParmCugoa: 
+  oid: 1.3.6.1.2.1.10.5.9.1.14
+x25CallParmCallingNetworkFacilities: 
+  oid: 1.3.6.1.2.1.10.5.9.1.29
+x25CallParmIndex: 
+  oid: 1.3.6.1.2.1.10.5.9.1.1
+x25StatOutInterrupts: 
+  oid: 1.3.6.1.2.1.10.5.3.1.13
+x25OperProtocolVersionSupported: 
+  oid: 1.3.6.1.2.1.10.5.2.1.25
+x25CallParmInMinThuPutCls: 
+  oid: 1.3.6.1.2.1.10.5.9.1.22
+x25StatInRestarts: 
+  oid: 1.3.6.1.2.1.10.5.3.1.7
+x25ProtocolVersion: 
+  oid: 1.3.6.1.2.1.10.5.10
+x25OperDataRxmtTimer: 
+  oid: 1.3.6.1.2.1.10.5.2.1.10
+x25OperMaxActiveCircuits: 
+  oid: 1.3.6.1.2.1.10.5.2.1.3
+x25CallParmInThruPutClasSize: 
+  oid: 1.3.6.1.2.1.10.5.9.1.11
+x25OperDefCallParamId: 
+  oid: 1.3.6.1.2.1.10.5.2.1.22
+x25CallParmFastSelect: 
+  oid: 1.3.6.1.2.1.10.5.9.1.10
+x25StatInInterrupts: 
+  oid: 1.3.6.1.2.1.10.5.3.1.10
+x25ClearedCircuitOutPdus: 
+  oid: 1.3.6.1.2.1.10.5.8.1.9
+x25CircuitStatus: 
+  oid: 1.3.6.1.2.1.10.5.5.1.3
+x25CallParmProposeReverseCharging: 
+  oid: 1.3.6.1.2.1.10.5.9.1.9
+x25ClearedCircuitChannel: 
+  oid: 1.3.6.1.2.1.10.5.8.1.5
+x25ChannelLOC: 
+  oid: 1.3.6.1.2.1.10.5.4.1.6
+x25StatIndex: 
+  oid: 1.3.6.1.2.1.10.5.3.1.1
+x25AdmnRegistrationRequestCount: 
+  oid: 1.3.6.1.2.1.10.5.1.1.20
+x25ClearedCircuitTimeEstablished: 
+  oid: 1.3.6.1.2.1.10.5.8.1.3
+x25AdmnClearCount: 
+  oid: 1.3.6.1.2.1.10.5.1.1.17
+x25StatInCalls: 
+  oid: 1.3.6.1.2.1.10.5.3.1.2
+x25OperPacketSequencing: 
+  oid: 1.3.6.1.2.1.10.5.2.1.4
+x25OperClearCount: 
+  oid: 1.3.6.1.2.1.10.5.2.1.17
+x25StatOutgoingCircuits: 
+  oid: 1.3.6.1.2.1.10.5.3.1.15
+x25AdmnTable: 
+  oid: 1.3.6.1.2.1.10.5.1
+x25OperEntry: 
+  oid: 1.3.6.1.2.1.10.5.2.1
+x25StatInAccusedOfProtocolErrors: 
+  oid: 1.3.6.1.2.1.10.5.3.1.9
+x25OperRestartTimer: 
+  oid: 1.3.6.1.2.1.10.5.2.1.5
+x25CallParmOutThruPutClasSize: 
+  oid: 1.3.6.1.2.1.10.5.9.1.12
+x25CallParmCallingExt: 
+  oid: 1.3.6.1.2.1.10.5.9.1.20
+x25CallParmBcug: 
+  oid: 1.3.6.1.2.1.10.5.9.1.15
+x25CallParmUserData: 
+  oid: 1.3.6.1.2.1.10.5.9.1.28
+x25CallParmInWindowSize: 
+  oid: 1.3.6.1.2.1.10.5.9.1.6
+x25CallParmNui: 
+  oid: 1.3.6.1.2.1.10.5.9.1.16
+x25CallParmCug: 
+  oid: 1.3.6.1.2.1.10.5.9.1.13
+x25ClearedCircuitDiagnosticCode: 
+  oid: 1.3.6.1.2.1.10.5.8.1.7
+x25CircuitResetTimeouts: 
+  oid: 1.3.6.1.2.1.10.5.5.1.15
+x25AdmnWindowTimer: 
+  oid: 1.3.6.1.2.1.10.5.1.1.9
+x25StatInterruptTimeouts: 
+  oid: 1.3.6.1.2.1.10.5.3.1.23
+x25OperRegistrationRequestCount: 
+  oid: 1.3.6.1.2.1.10.5.2.1.20
+x25OperIndex: 
+  oid: 1.3.6.1.2.1.10.5.2.1.1
+x25CallParmExptData: 
+  oid: 1.3.6.1.2.1.10.5.9.1.27
+x25CallParmTrnstDly: 
+  oid: 1.3.6.1.2.1.10.5.9.1.19
+x25StatCallTimeouts: 
+  oid: 1.3.6.1.2.1.10.5.3.1.19
+x25AdmnInterruptTimer: 
+  oid: 1.3.6.1.2.1.10.5.1.1.11
+x25ClearedCircuitEntriesRequested: 
+  oid: 1.3.6.1.2.1.10.5.6
+x25CircuitEntry: 
+  oid: 1.3.6.1.2.1.10.5.5.1
+x25AdmnRestartCount: 
+  oid: 1.3.6.1.2.1.10.5.1.1.15
+x25AdmnMinimumRecallTimer: 
+  oid: 1.3.6.1.2.1.10.5.1.1.14
+x25OperCallTimer: 
+  oid: 1.3.6.1.2.1.10.5.2.1.6
+x25AdmnPacketSequencing: 
+  oid: 1.3.6.1.2.1.10.5.1.1.4
+x25StatTable: 
+  oid: 1.3.6.1.2.1.10.5.3
+x25CallParmOutPacketSize: 
+  oid: 1.3.6.1.2.1.10.5.9.1.5
+x25ClearedCircuitEntry: 
+  oid: 1.3.6.1.2.1.10.5.8.1
+x25StatRetryCountExceededs: 
+  oid: 1.3.6.1.2.1.10.5.3.1.24
+x25OperRejectTimer: 
+  oid: 1.3.6.1.2.1.10.5.2.1.12
+x25AdmnResetCount: 
+  oid: 1.3.6.1.2.1.10.5.1.1.16
+x25CircuitInterruptTimeouts: 
+  oid: 1.3.6.1.2.1.10.5.5.1.16
+x25ChannelTable: 
+  oid: 1.3.6.1.2.1.10.5.4
+x25AdmnLocalAddress: 
+  oid: 1.3.6.1.2.1.10.5.1.1.23
+x25CircuitInInterrupts: 
+  oid: 1.3.6.1.2.1.10.5.5.1.10
+x25CallParmEndTrnsDly: 
+  oid: 1.3.6.1.2.1.10.5.9.1.24
+x25ClearedCircuitCallingAddress: 
+  oid: 1.3.6.1.2.1.10.5.8.1.11
+x25StatInCallRefusals: 
+  oid: 1.3.6.1.2.1.10.5.3.1.3
+x25CircuitCallParamId: 
+  oid: 1.3.6.1.2.1.10.5.5.1.17
+x25OperResetCount: 
+  oid: 1.3.6.1.2.1.10.5.2.1.16
+x25CircuitIndex: 
+  oid: 1.3.6.1.2.1.10.5.5.1.1
+x25CallParmTable: 
+  oid: 1.3.6.1.2.1.10.5.9
+x25CircuitEstablishTime: 
+  oid: 1.3.6.1.2.1.10.5.5.1.4
+x25ClearedCircuitPleIndex: 
+  oid: 1.3.6.1.2.1.10.5.8.1.2
+x25ClearedCircuitIndex: 
+  oid: 1.3.6.1.2.1.10.5.8.1.1
+x25StatInRemotelyInitiatedResets: 
+  oid: 1.3.6.1.2.1.10.5.3.1.5
+x25protocolCcittV1976: 
+  oid: 1.3.6.1.2.1.10.5.10.1
+x25CallParmRefCount: 
+  oid: 1.3.6.1.2.1.10.5.9.1.3
+x25OperInterruptTimer: 
+  oid: 1.3.6.1.2.1.10.5.2.1.11
+x25CallParmCalledNetworkFacilities: 
+  oid: 1.3.6.1.2.1.10.5.9.1.30
+x25AdmnDataRxmtCount: 
+  oid: 1.3.6.1.2.1.10.5.1.1.18
+x25StatRestartTimeouts: 
+  oid: 1.3.6.1.2.1.10.5.3.1.18
+x25StatResetTimeouts: 
+  oid: 1.3.6.1.2.1.10.5.3.1.20
+x25AdmnNumberPVCs: 
+  oid: 1.3.6.1.2.1.10.5.1.1.21
+x25AdmnRejectCount: 
+  oid: 1.3.6.1.2.1.10.5.1.1.19
+x25: 
+  oid: 1.3.6.1.2.1.10.5
+x25AdmnRegistrationRequestTimer: 
+  oid: 1.3.6.1.2.1.10.5.1.1.13
+x25AdmnClearTimer: 
+  oid: 1.3.6.1.2.1.10.5.1.1.8
+x25protocolIso8208V1987: 
+  oid: 1.3.6.1.2.1.10.5.10.5
+x25ClearedCircuitCalledAddress: 
+  oid: 1.3.6.1.2.1.10.5.8.1.10
+x25ClearedCircuitClearingCause: 
+  oid: 1.3.6.1.2.1.10.5.8.1.6
+x25CircuitInPdus: 
+  oid: 1.3.6.1.2.1.10.5.5.1.7
+x25OperNumberPVCs: 
+  oid: 1.3.6.1.2.1.10.5.2.1.21

@@ -1,52 +1,103 @@
 --- 
-dsCacheEntries: 1.3.6.1.2.1.66.1.1.5
-dsApplIfModifyRDNOps: 1.3.6.1.2.1.66.2.1.13
-dsApplIfListOps: 1.3.6.1.2.1.66.2.1.14
-dsIntEntFailuresSinceLastSuccess: 1.3.6.1.2.1.66.3.1.6
-dsCacheHits: 1.3.6.1.2.1.66.1.1.6
-dsApplIfOpsTable: 1.3.6.1.2.1.66.2
-dsApplIfOpsEntry: 1.3.6.1.2.1.66.2.1
-dsApplIfUnauthBinds: 1.3.6.1.2.1.66.2.1.3
-dsIntEntTimeOfLastAttempt: 1.3.6.1.2.1.66.3.1.4
-dsTable: 1.3.6.1.2.1.66.1
-dsMasterEntries: 1.3.6.1.2.1.66.1.1.3
-dsApplIfBindSecurityErrors: 1.3.6.1.2.1.66.2.1.6
-dsApplIfSecurityErrors: 1.3.6.1.2.1.66.2.1.20
-dsApplIfErrors: 1.3.6.1.2.1.66.2.1.21
-dsApplIfOutBytes: 1.3.6.1.2.1.66.2.1.25
-dsIntEntDirectoryName: 1.3.6.1.2.1.66.3.1.2
-dsIntEntFailures: 1.3.6.1.2.1.66.3.1.7
-dsApplIfOneLevelSearchOps: 1.3.6.1.2.1.66.2.1.16
-dsApplIfReplicationUpdatesOut: 1.3.6.1.2.1.66.2.1.23
-dsIntEntTimeOfCreation: 1.3.6.1.2.1.66.3.1.3
-dsApplIfStrongAuthBinds: 1.3.6.1.2.1.66.2.1.5
-dsApplIfInOps: 1.3.6.1.2.1.66.2.1.7
-dsApplIfCompareOps: 1.3.6.1.2.1.66.2.1.9
-dsIntEntURL: 1.3.6.1.2.1.66.3.1.9
-dsMIB: 1.3.6.1.2.1.66
-dsServerType: 1.3.6.1.2.1.66.1.1.1
-dsCopyEntries: 1.3.6.1.2.1.66.1.1.4
-dsApplIfRemoveEntryOps: 1.3.6.1.2.1.66.2.1.11
-dsApplIfWholeSubtreeSearchOps: 1.3.6.1.2.1.66.2.1.17
-dsApplIfChainings: 1.3.6.1.2.1.66.2.1.19
-dsApplIfProtocolIndex: 1.3.6.1.2.1.66.2.1.1
-dsIntTable: 1.3.6.1.2.1.66.3
-dsIntEntry: 1.3.6.1.2.1.66.3.1
-dsIntEntIndex: 1.3.6.1.2.1.66.3.1.1
-dsGroups: 1.3.6.1.2.1.66.4.1
-dsTableEntry: 1.3.6.1.2.1.66.1.1
-dsSlaveHits: 1.3.6.1.2.1.66.1.1.7
-dsApplIfProtocol: 1.3.6.1.2.1.66.2.1.2
-dsApplIfSearchOps: 1.3.6.1.2.1.66.2.1.15
-dsApplIfReplicationUpdatesIn: 1.3.6.1.2.1.66.2.1.22
-dsApplIfInBytes: 1.3.6.1.2.1.66.2.1.24
-dsIntEntTimeOfLastSuccess: 1.3.6.1.2.1.66.3.1.5
-dsApplIfSimpleAuthBinds: 1.3.6.1.2.1.66.2.1.4
-dsApplIfReadOps: 1.3.6.1.2.1.66.2.1.8
-dsApplIfReferrals: 1.3.6.1.2.1.66.2.1.18
-dsCompliances: 1.3.6.1.2.1.66.4.2
-dsServerDescription: 1.3.6.1.2.1.66.1.1.2
-dsApplIfAddEntryOps: 1.3.6.1.2.1.66.2.1.10
-dsApplIfModifyEntryOps: 1.3.6.1.2.1.66.2.1.12
-dsIntEntSuccesses: 1.3.6.1.2.1.66.3.1.8
-dsConformance: 1.3.6.1.2.1.66.4
+dsIntEntFailuresSinceLastSuccess: 
+  oid: 1.3.6.1.2.1.66.3.1.6
+dsApplIfListOps: 
+  oid: 1.3.6.1.2.1.66.2.1.14
+dsApplIfModifyRDNOps: 
+  oid: 1.3.6.1.2.1.66.2.1.13
+dsCacheEntries: 
+  oid: 1.3.6.1.2.1.66.1.1.5
+dsIntEntTimeOfLastAttempt: 
+  oid: 1.3.6.1.2.1.66.3.1.4
+dsApplIfUnauthBinds: 
+  oid: 1.3.6.1.2.1.66.2.1.3
+dsApplIfOpsEntry: 
+  oid: 1.3.6.1.2.1.66.2.1
+dsApplIfOpsTable: 
+  oid: 1.3.6.1.2.1.66.2
+dsCacheHits: 
+  oid: 1.3.6.1.2.1.66.1.1.6
+dsIntEntFailures: 
+  oid: 1.3.6.1.2.1.66.3.1.7
+dsIntEntDirectoryName: 
+  oid: 1.3.6.1.2.1.66.3.1.2
+dsApplIfOutBytes: 
+  oid: 1.3.6.1.2.1.66.2.1.25
+dsApplIfErrors: 
+  oid: 1.3.6.1.2.1.66.2.1.21
+dsApplIfSecurityErrors: 
+  oid: 1.3.6.1.2.1.66.2.1.20
+dsApplIfBindSecurityErrors: 
+  oid: 1.3.6.1.2.1.66.2.1.6
+dsMasterEntries: 
+  oid: 1.3.6.1.2.1.66.1.1.3
+dsTable: 
+  oid: 1.3.6.1.2.1.66.1
+dsIntEntTimeOfCreation: 
+  oid: 1.3.6.1.2.1.66.3.1.3
+dsApplIfReplicationUpdatesOut: 
+  oid: 1.3.6.1.2.1.66.2.1.23
+dsApplIfOneLevelSearchOps: 
+  oid: 1.3.6.1.2.1.66.2.1.16
+dsIntEntURL: 
+  oid: 1.3.6.1.2.1.66.3.1.9
+dsApplIfCompareOps: 
+  oid: 1.3.6.1.2.1.66.2.1.9
+dsApplIfInOps: 
+  oid: 1.3.6.1.2.1.66.2.1.7
+dsApplIfStrongAuthBinds: 
+  oid: 1.3.6.1.2.1.66.2.1.5
+dsApplIfChainings: 
+  oid: 1.3.6.1.2.1.66.2.1.19
+dsApplIfWholeSubtreeSearchOps: 
+  oid: 1.3.6.1.2.1.66.2.1.17
+dsApplIfRemoveEntryOps: 
+  oid: 1.3.6.1.2.1.66.2.1.11
+dsCopyEntries: 
+  oid: 1.3.6.1.2.1.66.1.1.4
+dsServerType: 
+  oid: 1.3.6.1.2.1.66.1.1.1
+dsMIB: 
+  oid: 1.3.6.1.2.1.66
+dsGroups: 
+  oid: 1.3.6.1.2.1.66.4.1
+dsIntEntIndex: 
+  oid: 1.3.6.1.2.1.66.3.1.1
+dsIntEntry: 
+  oid: 1.3.6.1.2.1.66.3.1
+dsIntTable: 
+  oid: 1.3.6.1.2.1.66.3
+dsApplIfProtocolIndex: 
+  oid: 1.3.6.1.2.1.66.2.1.1
+dsIntEntTimeOfLastSuccess: 
+  oid: 1.3.6.1.2.1.66.3.1.5
+dsApplIfInBytes: 
+  oid: 1.3.6.1.2.1.66.2.1.24
+dsApplIfReplicationUpdatesIn: 
+  oid: 1.3.6.1.2.1.66.2.1.22
+dsApplIfSearchOps: 
+  oid: 1.3.6.1.2.1.66.2.1.15
+dsApplIfProtocol: 
+  oid: 1.3.6.1.2.1.66.2.1.2
+dsSlaveHits: 
+  oid: 1.3.6.1.2.1.66.1.1.7
+dsTableEntry: 
+  oid: 1.3.6.1.2.1.66.1.1
+dsCompliances: 
+  oid: 1.3.6.1.2.1.66.4.2
+dsApplIfReferrals: 
+  oid: 1.3.6.1.2.1.66.2.1.18
+dsApplIfReadOps: 
+  oid: 1.3.6.1.2.1.66.2.1.8
+dsApplIfSimpleAuthBinds: 
+  oid: 1.3.6.1.2.1.66.2.1.4
+dsConformance: 
+  oid: 1.3.6.1.2.1.66.4
+dsIntEntSuccesses: 
+  oid: 1.3.6.1.2.1.66.3.1.8
+dsApplIfModifyEntryOps: 
+  oid: 1.3.6.1.2.1.66.2.1.12
+dsApplIfAddEntryOps: 
+  oid: 1.3.6.1.2.1.66.2.1.10
+dsServerDescription: 
+  oid: 1.3.6.1.2.1.66.1.1.2

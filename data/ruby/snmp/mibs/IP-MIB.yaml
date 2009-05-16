@@ -1,66 +1,131 @@
 --- 
-ipDefaultTTL: 1.3.6.1.2.1.4.2
-ipForwDatagrams: 1.3.6.1.2.1.4.6
-ipOutRequests: 1.3.6.1.2.1.4.10
-ipOutNoRoutes: 1.3.6.1.2.1.4.12
-ipReasmTimeout: 1.3.6.1.2.1.4.13
-icmpInDestUnreachs: 1.3.6.1.2.1.5.3
-icmpOutEchos: 1.3.6.1.2.1.5.21
-ipInAddrErrors: 1.3.6.1.2.1.4.5
-ipReasmReqds: 1.3.6.1.2.1.4.14
-ipFragOKs: 1.3.6.1.2.1.4.17
-ipFragCreates: 1.3.6.1.2.1.4.19
-icmpOutTimeExcds: 1.3.6.1.2.1.5.17
-ipMIBGroups: 1.3.6.1.2.1.48.2.2
-ipAdEntIfIndex: 1.3.6.1.2.1.4.20.1.2
-ipNetToMediaEntry: 1.3.6.1.2.1.4.22.1
-ipNetToMediaIfIndex: 1.3.6.1.2.1.4.22.1.1
-ipNetToMediaType: 1.3.6.1.2.1.4.22.1.4
-ipRoutingDiscards: 1.3.6.1.2.1.4.23
-icmpInSrcQuenchs: 1.3.6.1.2.1.5.6
-icmpInTimestamps: 1.3.6.1.2.1.5.10
-icmpInAddrMasks: 1.3.6.1.2.1.5.12
-ipInHdrErrors: 1.3.6.1.2.1.4.4
-ipNetToMediaNetAddress: 1.3.6.1.2.1.4.22.1.3
-icmpInAddrMaskReps: 1.3.6.1.2.1.5.13
-icmpOutMsgs: 1.3.6.1.2.1.5.14
-ipForwarding: 1.3.6.1.2.1.4.1
-ipInDelivers: 1.3.6.1.2.1.4.9
-ipReasmOKs: 1.3.6.1.2.1.4.15
-ipAddrTable: 1.3.6.1.2.1.4.20
-ipAddrEntry: 1.3.6.1.2.1.4.20.1
-icmpOutAddrMaskReps: 1.3.6.1.2.1.5.26
-ipMIBConformance: 1.3.6.1.2.1.48.2
-ipInDiscards: 1.3.6.1.2.1.4.8
-ipNetToMediaTable: 1.3.6.1.2.1.4.22
-icmpInTimeExcds: 1.3.6.1.2.1.5.4
-icmpInParmProbs: 1.3.6.1.2.1.5.5
-icmpInEchos: 1.3.6.1.2.1.5.8
-icmpOutDestUnreachs: 1.3.6.1.2.1.5.16
-icmpOutParmProbs: 1.3.6.1.2.1.5.18
-icmpOutEchoReps: 1.3.6.1.2.1.5.22
-ipOutDiscards: 1.3.6.1.2.1.4.11
-ipFragFails: 1.3.6.1.2.1.4.18
-icmpInErrors: 1.3.6.1.2.1.5.2
-icmpOutErrors: 1.3.6.1.2.1.5.15
-icmpOutRedirects: 1.3.6.1.2.1.5.20
-ip: 1.3.6.1.2.1.4
-ipAdEntAddr: 1.3.6.1.2.1.4.20.1.1
-icmp: 1.3.6.1.2.1.5
-icmpInEchoReps: 1.3.6.1.2.1.5.9
-icmpOutSrcQuenchs: 1.3.6.1.2.1.5.19
-icmpOutTimestamps: 1.3.6.1.2.1.5.23
-ipMIBCompliances: 1.3.6.1.2.1.48.2.1
-ipAdEntNetMask: 1.3.6.1.2.1.4.20.1.3
-ipAdEntReasmMaxSize: 1.3.6.1.2.1.4.20.1.5
-ipNetToMediaPhysAddress: 1.3.6.1.2.1.4.22.1.2
-ipInUnknownProtos: 1.3.6.1.2.1.4.7
-ipReasmFails: 1.3.6.1.2.1.4.16
-icmpInMsgs: 1.3.6.1.2.1.5.1
-icmpOutTimestampReps: 1.3.6.1.2.1.5.24
-icmpOutAddrMasks: 1.3.6.1.2.1.5.25
-ipMIB: 1.3.6.1.2.1.48
-ipInReceives: 1.3.6.1.2.1.4.3
-ipAdEntBcastAddr: 1.3.6.1.2.1.4.20.1.4
-icmpInRedirects: 1.3.6.1.2.1.5.7
-icmpInTimestampReps: 1.3.6.1.2.1.5.11
+icmpOutEchos: 
+  oid: 1.3.6.1.2.1.5.21
+icmpInDestUnreachs: 
+  oid: 1.3.6.1.2.1.5.3
+ipReasmTimeout: 
+  oid: 1.3.6.1.2.1.4.13
+ipOutNoRoutes: 
+  oid: 1.3.6.1.2.1.4.12
+ipOutRequests: 
+  oid: 1.3.6.1.2.1.4.10
+ipForwDatagrams: 
+  oid: 1.3.6.1.2.1.4.6
+ipDefaultTTL: 
+  oid: 1.3.6.1.2.1.4.2
+ipMIBGroups: 
+  oid: 1.3.6.1.2.1.48.2.2
+icmpOutTimeExcds: 
+  oid: 1.3.6.1.2.1.5.17
+ipFragCreates: 
+  oid: 1.3.6.1.2.1.4.19
+ipFragOKs: 
+  oid: 1.3.6.1.2.1.4.17
+ipReasmReqds: 
+  oid: 1.3.6.1.2.1.4.14
+ipInAddrErrors: 
+  oid: 1.3.6.1.2.1.4.5
+icmpInAddrMasks: 
+  oid: 1.3.6.1.2.1.5.12
+icmpInTimestamps: 
+  oid: 1.3.6.1.2.1.5.10
+icmpInSrcQuenchs: 
+  oid: 1.3.6.1.2.1.5.6
+ipRoutingDiscards: 
+  oid: 1.3.6.1.2.1.4.23
+ipNetToMediaType: 
+  oid: 1.3.6.1.2.1.4.22.1.4
+ipNetToMediaIfIndex: 
+  oid: 1.3.6.1.2.1.4.22.1.1
+ipNetToMediaEntry: 
+  oid: 1.3.6.1.2.1.4.22.1
+ipAdEntIfIndex: 
+  oid: 1.3.6.1.2.1.4.20.1.2
+icmpOutMsgs: 
+  oid: 1.3.6.1.2.1.5.14
+icmpInAddrMaskReps: 
+  oid: 1.3.6.1.2.1.5.13
+ipNetToMediaNetAddress: 
+  oid: 1.3.6.1.2.1.4.22.1.3
+ipInHdrErrors: 
+  oid: 1.3.6.1.2.1.4.4
+ipMIBConformance: 
+  oid: 1.3.6.1.2.1.48.2
+icmpOutAddrMaskReps: 
+  oid: 1.3.6.1.2.1.5.26
+ipAddrEntry: 
+  oid: 1.3.6.1.2.1.4.20.1
+ipAddrTable: 
+  oid: 1.3.6.1.2.1.4.20
+ipReasmOKs: 
+  oid: 1.3.6.1.2.1.4.15
+ipInDelivers: 
+  oid: 1.3.6.1.2.1.4.9
+ipForwarding: 
+  oid: 1.3.6.1.2.1.4.1
+icmpOutEchoReps: 
+  oid: 1.3.6.1.2.1.5.22
+icmpOutParmProbs: 
+  oid: 1.3.6.1.2.1.5.18
+icmpOutDestUnreachs: 
+  oid: 1.3.6.1.2.1.5.16
+icmpInEchos: 
+  oid: 1.3.6.1.2.1.5.8
+icmpInParmProbs: 
+  oid: 1.3.6.1.2.1.5.5
+icmpInTimeExcds: 
+  oid: 1.3.6.1.2.1.5.4
+ipNetToMediaTable: 
+  oid: 1.3.6.1.2.1.4.22
+ipInDiscards: 
+  oid: 1.3.6.1.2.1.4.8
+icmpOutRedirects: 
+  oid: 1.3.6.1.2.1.5.20
+icmpOutErrors: 
+  oid: 1.3.6.1.2.1.5.15
+icmpInErrors: 
+  oid: 1.3.6.1.2.1.5.2
+ipFragFails: 
+  oid: 1.3.6.1.2.1.4.18
+ipOutDiscards: 
+  oid: 1.3.6.1.2.1.4.11
+ipMIBCompliances: 
+  oid: 1.3.6.1.2.1.48.2.1
+icmpOutTimestamps: 
+  oid: 1.3.6.1.2.1.5.23
+icmpOutSrcQuenchs: 
+  oid: 1.3.6.1.2.1.5.19
+icmpInEchoReps: 
+  oid: 1.3.6.1.2.1.5.9
+icmp: 
+  oid: 1.3.6.1.2.1.5
+ipAdEntAddr: 
+  oid: 1.3.6.1.2.1.4.20.1.1
+ip: 
+  oid: 1.3.6.1.2.1.4
+ipNetToMediaPhysAddress: 
+  oid: 1.3.6.1.2.1.4.22.1.2
+ipAdEntReasmMaxSize: 
+  oid: 1.3.6.1.2.1.4.20.1.5
+ipAdEntNetMask: 
+  oid: 1.3.6.1.2.1.4.20.1.3
+ipMIB: 
+  oid: 1.3.6.1.2.1.48
+icmpOutAddrMasks: 
+  oid: 1.3.6.1.2.1.5.25
+icmpOutTimestampReps: 
+  oid: 1.3.6.1.2.1.5.24
+icmpInMsgs: 
+  oid: 1.3.6.1.2.1.5.1
+ipReasmFails: 
+  oid: 1.3.6.1.2.1.4.16
+ipInUnknownProtos: 
+  oid: 1.3.6.1.2.1.4.7
+icmpInTimestampReps: 
+  oid: 1.3.6.1.2.1.5.11
+icmpInRedirects: 
+  oid: 1.3.6.1.2.1.5.7
+ipAdEntBcastAddr: 
+  oid: 1.3.6.1.2.1.4.20.1.4
+ipInReceives: 
+  oid: 1.3.6.1.2.1.4.3

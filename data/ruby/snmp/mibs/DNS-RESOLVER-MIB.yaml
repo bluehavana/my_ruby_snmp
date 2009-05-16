@@ -1,87 +1,173 @@
 --- 
-dnsResConfigImplementIdent: 1.3.6.1.2.1.32.2.1.1.1
-dnsResConfigSbeltSubTree: 1.3.6.1.2.1.32.2.1.1.4.1.5
-dnsResLameDelegationSource: 1.3.6.1.2.1.32.2.1.3.2.1.1
-dnsResLameDelegationName: 1.3.6.1.2.1.32.2.1.3.2.1.2
-dnsResNCacheErrTTL: 1.3.6.1.2.1.32.2.1.5.5.1.4
-dnsResNCacheErrEntry: 1.3.6.1.2.1.32.2.1.5.5.1
-dnsResCacheRRType: 1.3.6.1.2.1.32.2.1.4.5.1.3
-dnsResConfigReset: 1.3.6.1.2.1.32.2.1.1.7
-dnsResCounterByOpcodeEntry: 1.3.6.1.2.1.32.2.1.2.3.1
-dnsResCounterByOpcodeQueries: 1.3.6.1.2.1.32.2.1.2.3.1.2
-dnsResNCacheErrStatus: 1.3.6.1.2.1.32.2.1.5.5.1.8
-dnsResCounterByRcodeTable: 1.3.6.1.2.1.32.2.1.2.4
-dnsResCacheRRData: 1.3.6.1.2.1.32.2.1.4.5.1.7
-dnsResNCacheErrQClass: 1.3.6.1.2.1.32.2.1.5.5.1.2
-dnsResNCache: 1.3.6.1.2.1.32.2.1.5
-dnsResOptCounterRootRetrans: 1.3.6.1.2.1.32.2.1.6.4
-dnsResCounterFallbacks: 1.3.6.1.2.1.32.2.1.2.10
-dnsResCacheRRClass: 1.3.6.1.2.1.32.2.1.4.5.1.2
-dnsResLameDelegation: 1.3.6.1.2.1.32.2.1.3
-dnsResOptCounterInternalTimeOuts: 1.3.6.1.2.1.32.2.1.6.6
-dnsResConfigSbeltAddr: 1.3.6.1.2.1.32.2.1.1.4.1.1
-dnsResCounterRecdResponses: 1.3.6.1.2.1.32.2.1.2.8
-dnsResCounterUnparseResps: 1.3.6.1.2.1.32.2.1.2.9
-dnsResCacheStatus: 1.3.6.1.2.1.32.2.1.4.1
-dnsResCacheRRElapsedTTL: 1.3.6.1.2.1.32.2.1.4.5.1.5
-dnsResConfigSbeltEntry: 1.3.6.1.2.1.32.2.1.1.4.1
-dnsResNCacheErrElapsedTTL: 1.3.6.1.2.1.32.2.1.5.5.1.5
-dnsResCacheRRSource: 1.3.6.1.2.1.32.2.1.4.5.1.6
-dnsResConfigService: 1.3.6.1.2.1.32.2.1.1.2
-dnsResOptCounterReferals: 1.3.6.1.2.1.32.2.1.6.1
-dnsResNCacheStatus: 1.3.6.1.2.1.32.2.1.5.1
-dnsResNCacheErrSource: 1.3.6.1.2.1.32.2.1.5.5.1.6
-dnsResCounterByRcodeEntry: 1.3.6.1.2.1.32.2.1.2.4.1
-dnsResLameDelegationTable: 1.3.6.1.2.1.32.2.1.3.2
-dnsResLameDelegationEntry: 1.3.6.1.2.1.32.2.1.3.2.1
-dnsResConfig: 1.3.6.1.2.1.32.2.1.1
-dnsResCacheRRIndex: 1.3.6.1.2.1.32.2.1.4.5.1.9
-dnsResOptCounterRetrans: 1.3.6.1.2.1.32.2.1.6.2
-dnsResMIB: 1.3.6.1.2.1.32.2
-dnsResMIBGroups: 1.3.6.1.2.1.32.2.2
-dnsResConfigSbeltStatus: 1.3.6.1.2.1.32.2.1.1.4.1.7
-dnsResOptCounterInternals: 1.3.6.1.2.1.32.2.1.6.5
-dnsResNCacheErrPrettyName: 1.3.6.1.2.1.32.2.1.5.5.1.10
-dnsResCacheMaxTTL: 1.3.6.1.2.1.32.2.1.4.2
-dnsResNCacheErrIndex: 1.3.6.1.2.1.32.2.1.5.5.1.9
-dnsResCacheRRTable: 1.3.6.1.2.1.32.2.1.4.5
-dnsResNCacheErrQName: 1.3.6.1.2.1.32.2.1.5.5.1.1
-dnsResConfigUpTime: 1.3.6.1.2.1.32.2.1.1.5
-dnsResCacheRRPrettyName: 1.3.6.1.2.1.32.2.1.4.5.1.10
-dnsResNCacheBadNCaches: 1.3.6.1.2.1.32.2.1.5.4
-dnsResLameDelegationStatus: 1.3.6.1.2.1.32.2.1.3.2.1.5
-dnsResLameDelegationOverflows: 1.3.6.1.2.1.32.2.1.3.1
-dnsResConfigSbeltClass: 1.3.6.1.2.1.32.2.1.1.4.1.6
-dnsResCounterByOpcodeCode: 1.3.6.1.2.1.32.2.1.2.3.1.1
-dnsResCacheRRTTL: 1.3.6.1.2.1.32.2.1.4.5.1.4
-dnsResConfigSbeltRecursion: 1.3.6.1.2.1.32.2.1.1.4.1.3
-dnsResConfigMaxCnames: 1.3.6.1.2.1.32.2.1.1.3
-dnsResCounterNonAuthDataResps: 1.3.6.1.2.1.32.2.1.2.5
-dnsResNCacheErrTable: 1.3.6.1.2.1.32.2.1.5.5
-dnsResNCacheMaxTTL: 1.3.6.1.2.1.32.2.1.5.2
-dnsResLameDelegationCounts: 1.3.6.1.2.1.32.2.1.3.2.1.4
-dnsResNCacheGoodNCaches: 1.3.6.1.2.1.32.2.1.5.3
-dnsResCacheRRName: 1.3.6.1.2.1.32.2.1.4.5.1.1
-dnsResMIBCompliances: 1.3.6.1.2.1.32.2.3
-dnsResOptCounterNoResponses: 1.3.6.1.2.1.32.2.1.6.3
-dnsResCacheBadCaches: 1.3.6.1.2.1.32.2.1.4.4
-dnsResLameDelegationClass: 1.3.6.1.2.1.32.2.1.3.2.1.3
-dnsResConfigSbeltPref: 1.3.6.1.2.1.32.2.1.1.4.1.4
-dnsResCounterByOpcodeTable: 1.3.6.1.2.1.32.2.1.2.3
-dnsResNCacheErrCode: 1.3.6.1.2.1.32.2.1.5.5.1.7
-dnsResCounterByOpcodeResponses: 1.3.6.1.2.1.32.2.1.2.3.1.3
-dnsResCounterByRcodeResponses: 1.3.6.1.2.1.32.2.1.2.4.1.2
-dnsResMIBObjects: 1.3.6.1.2.1.32.2.1
-dnsResConfigResetTime: 1.3.6.1.2.1.32.2.1.1.6
-dnsResOptCounter: 1.3.6.1.2.1.32.2.1.6
-dnsResCache: 1.3.6.1.2.1.32.2.1.4
-dnsResCounterNonAuthNoDataResps: 1.3.6.1.2.1.32.2.1.2.6
-dnsResCacheGoodCaches: 1.3.6.1.2.1.32.2.1.4.3
-dnsResCounterByRcodeCode: 1.3.6.1.2.1.32.2.1.2.4.1.1
-dnsResConfigSbeltName: 1.3.6.1.2.1.32.2.1.1.4.1.2
-dnsResCounterMartians: 1.3.6.1.2.1.32.2.1.2.7
-dnsResNCacheErrQType: 1.3.6.1.2.1.32.2.1.5.5.1.3
-dnsResCacheRREntry: 1.3.6.1.2.1.32.2.1.4.5.1
-dnsResCacheRRStatus: 1.3.6.1.2.1.32.2.1.4.5.1.8
-dnsResCounter: 1.3.6.1.2.1.32.2.1.2
-dnsResConfigSbeltTable: 1.3.6.1.2.1.32.2.1.1.4
+dnsResConfigImplementIdent: 
+  oid: 1.3.6.1.2.1.32.2.1.1.1
+dnsResConfigSbeltSubTree: 
+  oid: 1.3.6.1.2.1.32.2.1.1.4.1.5
+dnsResLameDelegationSource: 
+  oid: 1.3.6.1.2.1.32.2.1.3.2.1.1
+dnsResLameDelegationName: 
+  oid: 1.3.6.1.2.1.32.2.1.3.2.1.2
+dnsResNCacheErrTTL: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5.1.4
+dnsResNCacheErrEntry: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5.1
+dnsResCacheRRType: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5.1.3
+dnsResConfigReset: 
+  oid: 1.3.6.1.2.1.32.2.1.1.7
+dnsResCounterByOpcodeEntry: 
+  oid: 1.3.6.1.2.1.32.2.1.2.3.1
+dnsResCounterByOpcodeQueries: 
+  oid: 1.3.6.1.2.1.32.2.1.2.3.1.2
+dnsResNCacheErrStatus: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5.1.8
+dnsResCounterByRcodeTable: 
+  oid: 1.3.6.1.2.1.32.2.1.2.4
+dnsResCacheRRData: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5.1.7
+dnsResNCacheErrQClass: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5.1.2
+dnsResNCache: 
+  oid: 1.3.6.1.2.1.32.2.1.5
+dnsResOptCounterRootRetrans: 
+  oid: 1.3.6.1.2.1.32.2.1.6.4
+dnsResCounterFallbacks: 
+  oid: 1.3.6.1.2.1.32.2.1.2.10
+dnsResCacheRRClass: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5.1.2
+dnsResLameDelegation: 
+  oid: 1.3.6.1.2.1.32.2.1.3
+dnsResOptCounterInternalTimeOuts: 
+  oid: 1.3.6.1.2.1.32.2.1.6.6
+dnsResConfigSbeltAddr: 
+  oid: 1.3.6.1.2.1.32.2.1.1.4.1.1
+dnsResCounterRecdResponses: 
+  oid: 1.3.6.1.2.1.32.2.1.2.8
+dnsResCounterUnparseResps: 
+  oid: 1.3.6.1.2.1.32.2.1.2.9
+dnsResCacheStatus: 
+  oid: 1.3.6.1.2.1.32.2.1.4.1
+dnsResCacheRRElapsedTTL: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5.1.5
+dnsResConfigSbeltEntry: 
+  oid: 1.3.6.1.2.1.32.2.1.1.4.1
+dnsResNCacheErrElapsedTTL: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5.1.5
+dnsResCacheRRSource: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5.1.6
+dnsResConfigService: 
+  oid: 1.3.6.1.2.1.32.2.1.1.2
+dnsResOptCounterReferals: 
+  oid: 1.3.6.1.2.1.32.2.1.6.1
+dnsResNCacheStatus: 
+  oid: 1.3.6.1.2.1.32.2.1.5.1
+dnsResNCacheErrSource: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5.1.6
+dnsResCounterByRcodeEntry: 
+  oid: 1.3.6.1.2.1.32.2.1.2.4.1
+dnsResLameDelegationTable: 
+  oid: 1.3.6.1.2.1.32.2.1.3.2
+dnsResLameDelegationEntry: 
+  oid: 1.3.6.1.2.1.32.2.1.3.2.1
+dnsResConfig: 
+  oid: 1.3.6.1.2.1.32.2.1.1
+dnsResCacheRRIndex: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5.1.9
+dnsResOptCounterRetrans: 
+  oid: 1.3.6.1.2.1.32.2.1.6.2
+dnsResMIB: 
+  oid: 1.3.6.1.2.1.32.2
+dnsResMIBGroups: 
+  oid: 1.3.6.1.2.1.32.2.2
+dnsResConfigSbeltStatus: 
+  oid: 1.3.6.1.2.1.32.2.1.1.4.1.7
+dnsResOptCounterInternals: 
+  oid: 1.3.6.1.2.1.32.2.1.6.5
+dnsResNCacheErrPrettyName: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5.1.10
+dnsResCacheMaxTTL: 
+  oid: 1.3.6.1.2.1.32.2.1.4.2
+dnsResNCacheErrIndex: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5.1.9
+dnsResCacheRRTable: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5
+dnsResNCacheErrQName: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5.1.1
+dnsResConfigUpTime: 
+  oid: 1.3.6.1.2.1.32.2.1.1.5
+dnsResCacheRRPrettyName: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5.1.10
+dnsResNCacheBadNCaches: 
+  oid: 1.3.6.1.2.1.32.2.1.5.4
+dnsResLameDelegationStatus: 
+  oid: 1.3.6.1.2.1.32.2.1.3.2.1.5
+dnsResLameDelegationOverflows: 
+  oid: 1.3.6.1.2.1.32.2.1.3.1
+dnsResConfigSbeltClass: 
+  oid: 1.3.6.1.2.1.32.2.1.1.4.1.6
+dnsResCounterByOpcodeCode: 
+  oid: 1.3.6.1.2.1.32.2.1.2.3.1.1
+dnsResCacheRRTTL: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5.1.4
+dnsResConfigSbeltRecursion: 
+  oid: 1.3.6.1.2.1.32.2.1.1.4.1.3
+dnsResConfigMaxCnames: 
+  oid: 1.3.6.1.2.1.32.2.1.1.3
+dnsResCounterNonAuthDataResps: 
+  oid: 1.3.6.1.2.1.32.2.1.2.5
+dnsResNCacheErrTable: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5
+dnsResNCacheMaxTTL: 
+  oid: 1.3.6.1.2.1.32.2.1.5.2
+dnsResLameDelegationCounts: 
+  oid: 1.3.6.1.2.1.32.2.1.3.2.1.4
+dnsResNCacheGoodNCaches: 
+  oid: 1.3.6.1.2.1.32.2.1.5.3
+dnsResCacheRRName: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5.1.1
+dnsResMIBCompliances: 
+  oid: 1.3.6.1.2.1.32.2.3
+dnsResOptCounterNoResponses: 
+  oid: 1.3.6.1.2.1.32.2.1.6.3
+dnsResNCacheErrCode: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5.1.7
+dnsResCounterByOpcodeTable: 
+  oid: 1.3.6.1.2.1.32.2.1.2.3
+dnsResConfigSbeltPref: 
+  oid: 1.3.6.1.2.1.32.2.1.1.4.1.4
+dnsResLameDelegationClass: 
+  oid: 1.3.6.1.2.1.32.2.1.3.2.1.3
+dnsResCacheBadCaches: 
+  oid: 1.3.6.1.2.1.32.2.1.4.4
+dnsResOptCounter: 
+  oid: 1.3.6.1.2.1.32.2.1.6
+dnsResConfigResetTime: 
+  oid: 1.3.6.1.2.1.32.2.1.1.6
+dnsResMIBObjects: 
+  oid: 1.3.6.1.2.1.32.2.1
+dnsResCounterByRcodeResponses: 
+  oid: 1.3.6.1.2.1.32.2.1.2.4.1.2
+dnsResCounterByOpcodeResponses: 
+  oid: 1.3.6.1.2.1.32.2.1.2.3.1.3
+dnsResNCacheErrQType: 
+  oid: 1.3.6.1.2.1.32.2.1.5.5.1.3
+dnsResCounterMartians: 
+  oid: 1.3.6.1.2.1.32.2.1.2.7
+dnsResConfigSbeltName: 
+  oid: 1.3.6.1.2.1.32.2.1.1.4.1.2
+dnsResCounterByRcodeCode: 
+  oid: 1.3.6.1.2.1.32.2.1.2.4.1.1
+dnsResCacheGoodCaches: 
+  oid: 1.3.6.1.2.1.32.2.1.4.3
+dnsResCounterNonAuthNoDataResps: 
+  oid: 1.3.6.1.2.1.32.2.1.2.6
+dnsResCache: 
+  oid: 1.3.6.1.2.1.32.2.1.4
+dnsResConfigSbeltTable: 
+  oid: 1.3.6.1.2.1.32.2.1.1.4
+dnsResCounter: 
+  oid: 1.3.6.1.2.1.32.2.1.2
+dnsResCacheRRStatus: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5.1.8
+dnsResCacheRREntry: 
+  oid: 1.3.6.1.2.1.32.2.1.4.5.1

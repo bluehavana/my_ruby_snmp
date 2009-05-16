@@ -1,64 +1,127 @@
 --- 
-rohcChannelDescr: 1.3.6.1.2.1.112.1.1.1.1.5
-rohcChannelStatus: 1.3.6.1.2.1.112.1.1.1.1.6
-rohcInstanceType: 1.3.6.1.2.1.112.1.1.2.1.2
-rohcProfileTable: 1.3.6.1.2.1.112.1.1.3
-rohcContextCID: 1.3.6.1.2.1.112.1.2.1.2
-rohcConformance: 1.3.6.1.2.1.112.2
-rohcCompliances: 1.3.6.1.2.1.112.2.1
-rohcProfileEntry: 1.3.6.1.2.1.112.1.1.3.1
-rohcProfileNegotiated: 1.3.6.1.2.1.112.1.1.3.1.6
-rohcContextTable: 1.3.6.1.2.1.112.1.2
-rohcContextIRs: 1.3.6.1.2.1.112.1.2.1.10
-rohcGroups: 1.3.6.1.2.1.112.2.2
-rohcInstanceClockRes: 1.3.6.1.2.1.112.1.1.2.1.8
-rohcInstanceStatus: 1.3.6.1.2.1.112.1.1.2.1.13
-rohcContextPackets: 1.3.6.1.2.1.112.1.2.1.9
-rohcContextDecompressorRepairs: 1.3.6.1.2.1.112.1.2.1.14
-rohcContextAllHeadersMeanSize: 1.3.6.1.2.1.112.1.2.1.18
-rohcContextLastHeadersMeanSize: 1.3.6.1.2.1.112.1.2.1.22
-rohcInstanceVendor: 1.3.6.1.2.1.112.1.1.2.1.5
-rohcContextAllPacketsRatio: 1.3.6.1.2.1.112.1.2.1.15
-rohcInstanceVersion: 1.3.6.1.2.1.112.1.1.2.1.6
-rohcContextActivationTime: 1.3.6.1.2.1.112.1.2.1.7
-rohcContextAllHeadersRatio: 1.3.6.1.2.1.112.1.2.1.16
-rohcInstanceTable: 1.3.6.1.2.1.112.1.1.2
-rohcInstanceEntry: 1.3.6.1.2.1.112.1.1.2.1
-rohcInstanceFeedbacks: 1.3.6.1.2.1.112.1.1.2.1.19
-rohcProfileDescr: 1.3.6.1.2.1.112.1.1.3.1.5
-rohcContextFeedbacks: 1.3.6.1.2.1.112.1.2.1.12
-rohcProfile: 1.3.6.1.2.1.112.1.1.3.1.2
-rohcContextDecompressorDepth: 1.3.6.1.2.1.112.1.2.1.5
-rohcContextStorageTime: 1.3.6.1.2.1.112.1.2.1.6
-rohcContextDecompressorFailures: 1.3.6.1.2.1.112.1.2.1.13
-rohcContextLastPacketsRatio: 1.3.6.1.2.1.112.1.2.1.19
-rohcMIB: 1.3.6.1.2.1.112
-rohcInstanceObjects: 1.3.6.1.2.1.112.1.1
-rohcChannelTable: 1.3.6.1.2.1.112.1.1.1
-rohcChannelEntry: 1.3.6.1.2.1.112.1.1.1.1
-rohcChannelFeedbackFor: 1.3.6.1.2.1.112.1.1.1.1.4
-rohcInstanceMaxCID: 1.3.6.1.2.1.112.1.1.2.1.9
-rohcInstanceLargeCIDs: 1.3.6.1.2.1.112.1.1.2.1.10
-rohcInstanceIRs: 1.3.6.1.2.1.112.1.1.2.1.17
-rohcInstanceCompressionRatio: 1.3.6.1.2.1.112.1.1.2.1.20
-rohcProfileVendor: 1.3.6.1.2.1.112.1.1.3.1.3
-rohcProfileVersion: 1.3.6.1.2.1.112.1.1.3.1.4
-rohcContextProfile: 1.3.6.1.2.1.112.1.2.1.4
-rohcContextAllPacketsMeanSize: 1.3.6.1.2.1.112.1.2.1.17
-rohcContextLastHeadersRatio: 1.3.6.1.2.1.112.1.2.1.20
-rohcInstanceContextsTotal: 1.3.6.1.2.1.112.1.1.2.1.14
-rohcInstanceContextsCurrent: 1.3.6.1.2.1.112.1.1.2.1.15
-rohcInstancePackets: 1.3.6.1.2.1.112.1.1.2.1.16
-rohcContextIRDYNs: 1.3.6.1.2.1.112.1.2.1.11
-rohcContextLastPacketsMeanSize: 1.3.6.1.2.1.112.1.2.1.21
-rohcChannelType: 1.3.6.1.2.1.112.1.1.1.1.3
-rohcInstanceDescr: 1.3.6.1.2.1.112.1.1.2.1.7
-rohcInstanceIRDYNs: 1.3.6.1.2.1.112.1.1.2.1.18
-rohcContextEntry: 1.3.6.1.2.1.112.1.2.1
-rohcContextDeactivationTime: 1.3.6.1.2.1.112.1.2.1.8
-rohcObjects: 1.3.6.1.2.1.112.1
-rohcChannelID: 1.3.6.1.2.1.112.1.1.1.1.2
-rohcInstanceFBChannelID: 1.3.6.1.2.1.112.1.1.2.1.4
-rohcInstanceMRRU: 1.3.6.1.2.1.112.1.1.2.1.11
-rohcInstanceContextStorageTime: 1.3.6.1.2.1.112.1.1.2.1.12
-rohcContextCIDState: 1.3.6.1.2.1.112.1.2.1.3
+rohcCompliances: 
+  oid: 1.3.6.1.2.1.112.2.1
+rohcConformance: 
+  oid: 1.3.6.1.2.1.112.2
+rohcContextCID: 
+  oid: 1.3.6.1.2.1.112.1.2.1.2
+rohcProfileTable: 
+  oid: 1.3.6.1.2.1.112.1.1.3
+rohcInstanceType: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.2
+rohcChannelStatus: 
+  oid: 1.3.6.1.2.1.112.1.1.1.1.6
+rohcChannelDescr: 
+  oid: 1.3.6.1.2.1.112.1.1.1.1.5
+rohcGroups: 
+  oid: 1.3.6.1.2.1.112.2.2
+rohcContextIRs: 
+  oid: 1.3.6.1.2.1.112.1.2.1.10
+rohcContextTable: 
+  oid: 1.3.6.1.2.1.112.1.2
+rohcProfileNegotiated: 
+  oid: 1.3.6.1.2.1.112.1.1.3.1.6
+rohcProfileEntry: 
+  oid: 1.3.6.1.2.1.112.1.1.3.1
+rohcContextLastHeadersMeanSize: 
+  oid: 1.3.6.1.2.1.112.1.2.1.22
+rohcContextAllHeadersMeanSize: 
+  oid: 1.3.6.1.2.1.112.1.2.1.18
+rohcContextDecompressorRepairs: 
+  oid: 1.3.6.1.2.1.112.1.2.1.14
+rohcContextPackets: 
+  oid: 1.3.6.1.2.1.112.1.2.1.9
+rohcInstanceStatus: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.13
+rohcInstanceClockRes: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.8
+rohcContextAllPacketsRatio: 
+  oid: 1.3.6.1.2.1.112.1.2.1.15
+rohcInstanceVendor: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.5
+rohcContextAllHeadersRatio: 
+  oid: 1.3.6.1.2.1.112.1.2.1.16
+rohcContextActivationTime: 
+  oid: 1.3.6.1.2.1.112.1.2.1.7
+rohcInstanceVersion: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.6
+rohcContextFeedbacks: 
+  oid: 1.3.6.1.2.1.112.1.2.1.12
+rohcProfileDescr: 
+  oid: 1.3.6.1.2.1.112.1.1.3.1.5
+rohcInstanceFeedbacks: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.19
+rohcInstanceEntry: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1
+rohcInstanceTable: 
+  oid: 1.3.6.1.2.1.112.1.1.2
+rohcContextLastPacketsRatio: 
+  oid: 1.3.6.1.2.1.112.1.2.1.19
+rohcContextDecompressorFailures: 
+  oid: 1.3.6.1.2.1.112.1.2.1.13
+rohcContextStorageTime: 
+  oid: 1.3.6.1.2.1.112.1.2.1.6
+rohcContextDecompressorDepth: 
+  oid: 1.3.6.1.2.1.112.1.2.1.5
+rohcProfile: 
+  oid: 1.3.6.1.2.1.112.1.1.3.1.2
+rohcContextLastHeadersRatio: 
+  oid: 1.3.6.1.2.1.112.1.2.1.20
+rohcContextAllPacketsMeanSize: 
+  oid: 1.3.6.1.2.1.112.1.2.1.17
+rohcContextProfile: 
+  oid: 1.3.6.1.2.1.112.1.2.1.4
+rohcProfileVersion: 
+  oid: 1.3.6.1.2.1.112.1.1.3.1.4
+rohcProfileVendor: 
+  oid: 1.3.6.1.2.1.112.1.1.3.1.3
+rohcInstanceCompressionRatio: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.20
+rohcInstanceIRs: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.17
+rohcInstanceLargeCIDs: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.10
+rohcInstanceMaxCID: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.9
+rohcChannelFeedbackFor: 
+  oid: 1.3.6.1.2.1.112.1.1.1.1.4
+rohcChannelEntry: 
+  oid: 1.3.6.1.2.1.112.1.1.1.1
+rohcChannelTable: 
+  oid: 1.3.6.1.2.1.112.1.1.1
+rohcInstanceObjects: 
+  oid: 1.3.6.1.2.1.112.1.1
+rohcMIB: 
+  oid: 1.3.6.1.2.1.112
+rohcContextLastPacketsMeanSize: 
+  oid: 1.3.6.1.2.1.112.1.2.1.21
+rohcContextIRDYNs: 
+  oid: 1.3.6.1.2.1.112.1.2.1.11
+rohcInstancePackets: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.16
+rohcInstanceContextsCurrent: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.15
+rohcInstanceContextsTotal: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.14
+rohcContextDeactivationTime: 
+  oid: 1.3.6.1.2.1.112.1.2.1.8
+rohcContextEntry: 
+  oid: 1.3.6.1.2.1.112.1.2.1
+rohcInstanceIRDYNs: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.18
+rohcInstanceDescr: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.7
+rohcChannelType: 
+  oid: 1.3.6.1.2.1.112.1.1.1.1.3
+rohcContextCIDState: 
+  oid: 1.3.6.1.2.1.112.1.2.1.3
+rohcInstanceContextStorageTime: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.12
+rohcInstanceMRRU: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.11
+rohcInstanceFBChannelID: 
+  oid: 1.3.6.1.2.1.112.1.1.2.1.4
+rohcChannelID: 
+  oid: 1.3.6.1.2.1.112.1.1.1.1.2
+rohcObjects: 
+  oid: 1.3.6.1.2.1.112.1

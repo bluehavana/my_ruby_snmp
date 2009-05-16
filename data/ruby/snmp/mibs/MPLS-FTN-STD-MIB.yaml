@@ -1,44 +1,87 @@
 --- 
-mplsFTNDescr: 1.3.6.1.2.1.10.166.8.1.3.1.3
-mplsFTNSourcePortMax: 1.3.6.1.2.1.10.166.8.1.3.1.11
-mplsFTNDscp: 1.3.6.1.2.1.10.166.8.1.3.1.15
-mplsFTNObjects: 1.3.6.1.2.1.10.166.8.1
-mplsFTNPerfDiscontinuityTime: 1.3.6.1.2.1.10.166.8.1.6.1.5
-mplsFTNMask: 1.3.6.1.2.1.10.166.8.1.3.1.4
-mplsFTNSourceAddrMax: 1.3.6.1.2.1.10.166.8.1.3.1.7
-mplsFTNStorageType: 1.3.6.1.2.1.10.166.8.1.3.1.18
-mplsFTNConformance: 1.3.6.1.2.1.10.166.8.2
-mplsFTNCompliances: 1.3.6.1.2.1.10.166.8.2.2
-mplsFTNProtocol: 1.3.6.1.2.1.10.166.8.1.3.1.14
-mplsFTNRowStatus: 1.3.6.1.2.1.10.166.8.1.3.1.2
-mplsFTNSourcePortMin: 1.3.6.1.2.1.10.166.8.1.3.1.10
-mplsFTNDestPortMax: 1.3.6.1.2.1.10.166.8.1.3.1.13
-mplsFTNMapTableLastChanged: 1.3.6.1.2.1.10.166.8.1.4
-mplsFTNMapStorageType: 1.3.6.1.2.1.10.166.8.1.5.1.5
-mplsFTNAddrType: 1.3.6.1.2.1.10.166.8.1.3.1.5
-mplsFTNSourceAddrMin: 1.3.6.1.2.1.10.166.8.1.3.1.6
-mplsFTNDestAddrMax: 1.3.6.1.2.1.10.166.8.1.3.1.9
-mplsFTNMapEntry: 1.3.6.1.2.1.10.166.8.1.5.1
-mplsFTNMapIndex: 1.3.6.1.2.1.10.166.8.1.5.1.1
-mplsFTNPerfCurrIndex: 1.3.6.1.2.1.10.166.8.1.6.1.2
-mplsFTNTableLastChanged: 1.3.6.1.2.1.10.166.8.1.2
-mplsFTNTable: 1.3.6.1.2.1.10.166.8.1.3
-mplsFTNEntry: 1.3.6.1.2.1.10.166.8.1.3.1
-mplsFTNIndex: 1.3.6.1.2.1.10.166.8.1.3.1.1
-mplsFTNActionType: 1.3.6.1.2.1.10.166.8.1.3.1.16
-mplsFTNActionPointer: 1.3.6.1.2.1.10.166.8.1.3.1.17
-mplsFTNStdMIB: 1.3.6.1.2.1.10.166.8
-mplsFTNNotifications: 1.3.6.1.2.1.10.166.8.0
-mplsFTNDestPortMin: 1.3.6.1.2.1.10.166.8.1.3.1.12
-mplsFTNMapPrevIndex: 1.3.6.1.2.1.10.166.8.1.5.1.2
-mplsFTNIndexNext: 1.3.6.1.2.1.10.166.8.1.1
-mplsFTNMapTable: 1.3.6.1.2.1.10.166.8.1.5
-mplsFTNMapCurrIndex: 1.3.6.1.2.1.10.166.8.1.5.1.3
-mplsFTNPerfTable: 1.3.6.1.2.1.10.166.8.1.6
-mplsFTNPerfEntry: 1.3.6.1.2.1.10.166.8.1.6.1
-mplsFTNPerfIndex: 1.3.6.1.2.1.10.166.8.1.6.1.1
-mplsFTNDestAddrMin: 1.3.6.1.2.1.10.166.8.1.3.1.8
-mplsFTNPerfMatchedOctets: 1.3.6.1.2.1.10.166.8.1.6.1.4
-mplsFTNMapRowStatus: 1.3.6.1.2.1.10.166.8.1.5.1.4
-mplsFTNPerfMatchedPackets: 1.3.6.1.2.1.10.166.8.1.6.1.3
-mplsFTNGroups: 1.3.6.1.2.1.10.166.8.2.1
+mplsFTNDscp: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.15
+mplsFTNSourcePortMax: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.11
+mplsFTNDescr: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.3
+mplsFTNPerfDiscontinuityTime: 
+  oid: 1.3.6.1.2.1.10.166.8.1.6.1.5
+mplsFTNObjects: 
+  oid: 1.3.6.1.2.1.10.166.8.1
+mplsFTNCompliances: 
+  oid: 1.3.6.1.2.1.10.166.8.2.2
+mplsFTNConformance: 
+  oid: 1.3.6.1.2.1.10.166.8.2
+mplsFTNStorageType: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.18
+mplsFTNSourceAddrMax: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.7
+mplsFTNMask: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.4
+mplsFTNProtocol: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.14
+mplsFTNMapStorageType: 
+  oid: 1.3.6.1.2.1.10.166.8.1.5.1.5
+mplsFTNMapTableLastChanged: 
+  oid: 1.3.6.1.2.1.10.166.8.1.4
+mplsFTNDestPortMax: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.13
+mplsFTNSourcePortMin: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.10
+mplsFTNRowStatus: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.2
+mplsFTNPerfCurrIndex: 
+  oid: 1.3.6.1.2.1.10.166.8.1.6.1.2
+mplsFTNMapIndex: 
+  oid: 1.3.6.1.2.1.10.166.8.1.5.1.1
+mplsFTNMapEntry: 
+  oid: 1.3.6.1.2.1.10.166.8.1.5.1
+mplsFTNDestAddrMax: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.9
+mplsFTNSourceAddrMin: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.6
+mplsFTNAddrType: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.5
+mplsFTNActionPointer: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.17
+mplsFTNActionType: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.16
+mplsFTNIndex: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.1
+mplsFTNEntry: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1
+mplsFTNTable: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3
+mplsFTNTableLastChanged: 
+  oid: 1.3.6.1.2.1.10.166.8.1.2
+mplsFTNMapPrevIndex: 
+  oid: 1.3.6.1.2.1.10.166.8.1.5.1.2
+mplsFTNDestPortMin: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.12
+mplsFTNNotifications: 
+  oid: 1.3.6.1.2.1.10.166.8.0
+mplsFTNStdMIB: 
+  oid: 1.3.6.1.2.1.10.166.8
+mplsFTNPerfIndex: 
+  oid: 1.3.6.1.2.1.10.166.8.1.6.1.1
+mplsFTNPerfEntry: 
+  oid: 1.3.6.1.2.1.10.166.8.1.6.1
+mplsFTNPerfTable: 
+  oid: 1.3.6.1.2.1.10.166.8.1.6
+mplsFTNMapCurrIndex: 
+  oid: 1.3.6.1.2.1.10.166.8.1.5.1.3
+mplsFTNMapTable: 
+  oid: 1.3.6.1.2.1.10.166.8.1.5
+mplsFTNIndexNext: 
+  oid: 1.3.6.1.2.1.10.166.8.1.1
+mplsFTNPerfMatchedOctets: 
+  oid: 1.3.6.1.2.1.10.166.8.1.6.1.4
+mplsFTNDestAddrMin: 
+  oid: 1.3.6.1.2.1.10.166.8.1.3.1.8
+mplsFTNGroups: 
+  oid: 1.3.6.1.2.1.10.166.8.2.1
+mplsFTNPerfMatchedPackets: 
+  oid: 1.3.6.1.2.1.10.166.8.1.6.1.3
+mplsFTNMapRowStatus: 
+  oid: 1.3.6.1.2.1.10.166.8.1.5.1.4

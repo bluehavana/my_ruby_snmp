@@ -1,9 +1,17 @@
 --- 
-mgmt: 1.3.6.1.2
-directory: 1.3.6.1.1
-dod: 1.3.6
-private: 1.3.6.1.4
-org: "1.3"
-internet: 1.3.6.1
-enterprises: 1.3.6.1.4.1
-experimental: 1.3.6.1.3
+mgmt: 
+  oid: 1.3.6.1.2
+directory: 
+  oid: 1.3.6.1.1
+private: 
+  oid: 1.3.6.1.4
+dod: 
+  oid: 1.3.6
+org: 
+  oid: "1.3"
+internet: 
+  oid: 1.3.6.1
+enterprises: 
+  oid: 1.3.6.1.4.1
+experimental: 
+  oid: 1.3.6.1.3

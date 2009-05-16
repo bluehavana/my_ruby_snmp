@@ -1,13 +1,25 @@
 --- 
-potName: 1.3.6.1.2.1.10.132.1
-potTemperature: 1.3.6.1.2.1.10.132.6.6
-lastStartTime: 1.3.6.1.2.1.10.132.6.5
-potLevel: 1.3.6.1.2.1.10.132.6.2
-potStartTime: 1.3.6.1.2.1.10.132.6.4
-coffee: 1.3.6.1.2.1.10.132
-potCapacity: 1.3.6.1.2.1.10.132.2
-potType: 1.3.6.1.2.1.10.132.3
-potMonitor: 1.3.6.1.2.1.10.132.6
-potMetric: 1.3.6.1.2.1.10.132.6.3
-potLocation: 1.3.6.1.2.1.10.132.4
-potOperStatus: 1.3.6.1.2.1.10.132.6.1
+potName: 
+  oid: 1.3.6.1.2.1.10.132.1
+potTemperature: 
+  oid: 1.3.6.1.2.1.10.132.6.6
+lastStartTime: 
+  oid: 1.3.6.1.2.1.10.132.6.5
+potStartTime: 
+  oid: 1.3.6.1.2.1.10.132.6.4
+potLevel: 
+  oid: 1.3.6.1.2.1.10.132.6.2
+coffee: 
+  oid: 1.3.6.1.2.1.10.132
+potType: 
+  oid: 1.3.6.1.2.1.10.132.3
+potCapacity: 
+  oid: 1.3.6.1.2.1.10.132.2
+potMetric: 
+  oid: 1.3.6.1.2.1.10.132.6.3
+potMonitor: 
+  oid: 1.3.6.1.2.1.10.132.6
+potOperStatus: 
+  oid: 1.3.6.1.2.1.10.132.6.1
+potLocation: 
+  oid: 1.3.6.1.2.1.10.132.4

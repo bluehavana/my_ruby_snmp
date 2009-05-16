@@ -1,22 +1,43 @@
 --- 
-sFlowCounterSamplingInterval: 1.3.6.1.4.1.4300.1.1.4.1.5
-sFlowVersion: 1.3.6.1.4.1.4300.1.1.1
-sFlowCollectorAddress: 1.3.6.1.4.1.4300.1.1.4.1.9
-sFlowMIBCompliances: 1.3.6.1.4.1.4300.1.2.2
-sFlowTable: 1.3.6.1.4.1.4300.1.1.4
-sFlowMaximumHeaderSize: 1.3.6.1.4.1.4300.1.1.4.1.6
-sFlowAgentAddressType: 1.3.6.1.4.1.4300.1.1.2
-sFlowTimeout: 1.3.6.1.4.1.4300.1.1.4.1.3
-sFlowDatagramVersion: 1.3.6.1.4.1.4300.1.1.4.1.11
-sFlowMIB: 1.3.6.1.4.1.4300.1
-sFlowMaximumDatagramSize: 1.3.6.1.4.1.4300.1.1.4.1.7
-sFlowMIBConformance: 1.3.6.1.4.1.4300.1.2
-sFlowCollectorAddressType: 1.3.6.1.4.1.4300.1.1.4.1.8
-sFlowCollectorPort: 1.3.6.1.4.1.4300.1.1.4.1.10
-sFlowOwner: 1.3.6.1.4.1.4300.1.1.4.1.2
-sFlowMIBGroups: 1.3.6.1.4.1.4300.1.2.1
-sFlowAgent: 1.3.6.1.4.1.4300.1.1
-sFlowAgentAddress: 1.3.6.1.4.1.4300.1.1.3
-sFlowPacketSamplingRate: 1.3.6.1.4.1.4300.1.1.4.1.4
-sFlowEntry: 1.3.6.1.4.1.4300.1.1.4.1
-sFlowDataSource: 1.3.6.1.4.1.4300.1.1.4.1.1
+sFlowCounterSamplingInterval: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1.5
+sFlowMIBCompliances: 
+  oid: 1.3.6.1.4.1.4300.1.2.2
+sFlowCollectorAddress: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1.9
+sFlowVersion: 
+  oid: 1.3.6.1.4.1.4300.1.1.1
+sFlowMaximumHeaderSize: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1.6
+sFlowTable: 
+  oid: 1.3.6.1.4.1.4300.1.1.4
+sFlowAgentAddressType: 
+  oid: 1.3.6.1.4.1.4300.1.1.2
+sFlowDatagramVersion: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1.11
+sFlowTimeout: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1.3
+sFlowMIBConformance: 
+  oid: 1.3.6.1.4.1.4300.1.2
+sFlowMaximumDatagramSize: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1.7
+sFlowMIB: 
+  oid: 1.3.6.1.4.1.4300.1
+sFlowCollectorPort: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1.10
+sFlowCollectorAddressType: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1.8
+sFlowMIBGroups: 
+  oid: 1.3.6.1.4.1.4300.1.2.1
+sFlowOwner: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1.2
+sFlowAgent: 
+  oid: 1.3.6.1.4.1.4300.1.1
+sFlowPacketSamplingRate: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1.4
+sFlowAgentAddress: 
+  oid: 1.3.6.1.4.1.4300.1.1.3
+sFlowDataSource: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1.1
+sFlowEntry: 
+  oid: 1.3.6.1.4.1.4300.1.1.4.1

@@ -1,9 +1,17 @@
 --- 
-ifInvStackEntry: 1.3.6.1.2.1.77.1.1.1
-ifInvGroups: 1.3.6.1.2.1.77.1.2.1
-ifInvStackTable: 1.3.6.1.2.1.77.1.1
-ifInvCompliances: 1.3.6.1.2.1.77.1.2.2
-ifInvConformance: 1.3.6.1.2.1.77.1.2
-ifInvMIBObjects: 1.3.6.1.2.1.77.1
-ifInvertedStackMIB: 1.3.6.1.2.1.77
-ifInvStackStatus: 1.3.6.1.2.1.77.1.1.1.1
+ifInvGroups: 
+  oid: 1.3.6.1.2.1.77.1.2.1
+ifInvStackEntry: 
+  oid: 1.3.6.1.2.1.77.1.1.1
+ifInvCompliances: 
+  oid: 1.3.6.1.2.1.77.1.2.2
+ifInvStackTable: 
+  oid: 1.3.6.1.2.1.77.1.1
+ifInvConformance: 
+  oid: 1.3.6.1.2.1.77.1.2
+ifInvMIBObjects: 
+  oid: 1.3.6.1.2.1.77.1
+ifInvertedStackMIB: 
+  oid: 1.3.6.1.2.1.77
+ifInvStackStatus: 
+  oid: 1.3.6.1.2.1.77.1.1.1.1

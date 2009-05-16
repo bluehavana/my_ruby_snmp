@@ -1,111 +1,221 @@
 --- 
-frLportContact: 1.3.6.1.2.1.10.44.1.1.1.2
-frPVCConnectIndexValue: 1.3.6.1.2.1.10.44.1.4
-frLportVCSigPointer: 1.3.6.1.2.1.10.44.1.1.1.7
-frAccountPVCSegmentSize: 1.3.6.1.2.1.10.44.1.6.1.2
-frPVCEndptInCongDiscards: 1.3.6.1.2.1.10.44.1.3.1.26
-frnetservObjects: 1.3.6.1.2.1.10.44.1
-frMgtVCSigUserT391: 1.3.6.1.2.1.10.44.1.2.1.5
-frMgtVCSigProcedAdmin: 1.3.6.1.2.1.10.44.1.2.1.17
-frPVCEndptRcvdSigStatus: 1.3.6.1.2.1.10.44.1.3.1.12
-frPVCEndptInExcessFrames: 1.3.6.1.2.1.10.44.1.3.1.16
-frMgtVCSigNetT392Admin: 1.3.6.1.2.1.10.44.1.2.1.24
-frAccountLportInSegments: 1.3.6.1.2.1.10.44.1.7.1.2
-frMgtVCSigNetnT3: 1.3.6.1.2.1.10.44.1.2.1.10
-frAccountPVCEntry: 1.3.6.1.2.1.10.44.1.6.1
-frAccountPVCTable: 1.3.6.1.2.1.10.44.1.6
-frLportAddrDLCILen: 1.3.6.1.2.1.10.44.1.1.1.5
-frPVCEndptInFramesBECNSet: 1.3.6.1.2.1.10.44.1.3.1.24
-frPVCEndptInFramesFECNSet: 1.3.6.1.2.1.10.44.1.3.1.22
-frMgtVCSigNetLinkRelErrors: 1.3.6.1.2.1.10.44.1.2.1.14
-frPVCConnectL2hLastChange: 1.3.6.1.2.1.10.44.1.5.1.9
-frAccountPVCInSegments: 1.3.6.1.2.1.10.44.1.6.1.3
-frnetservCompliances: 1.3.6.1.2.1.10.44.3.2
-frMgtVCSigNetN392: 1.3.6.1.2.1.10.44.1.2.1.6
-frPVCEndptInCIR: 1.3.6.1.2.1.10.44.1.3.1.5
-frMgtVCSigUserT391Admin: 1.3.6.1.2.1.10.44.1.2.1.21
-frPVCEndptOutBc: 1.3.6.1.2.1.10.44.1.3.1.7
-frMgtVCSigUserN393Admin: 1.3.6.1.2.1.10.44.1.2.1.20
-frLportDLCIIndexValue: 1.3.6.1.2.1.10.44.1.1.1.8
-frLportTable: 1.3.6.1.2.1.10.44.1.1
-frAccountPVCDLCIIndex: 1.3.6.1.2.1.10.44.1.6.1.1
-frPVCConnectRowStatus: 1.3.6.1.2.1.10.44.1.5.1.11
-frMgtVCSigNetN393: 1.3.6.1.2.1.10.44.1.2.1.7
-frMgtVCSigUserN392Admin: 1.3.6.1.2.1.10.44.1.2.1.19
-frPVCEndptInDEFrames: 1.3.6.1.2.1.10.44.1.3.1.15
-frMgtVCSigNetnN4: 1.3.6.1.2.1.10.44.1.2.1.9
-frLportTypeAdmin: 1.3.6.1.2.1.10.44.1.1.1.9
-frPVCEndptOutBe: 1.3.6.1.2.1.10.44.1.3.1.8
-frAccountLportEntry: 1.3.6.1.2.1.10.44.1.7.1
-frAccountLportTable: 1.3.6.1.2.1.10.44.1.7
-frPVCConnectIndex: 1.3.6.1.2.1.10.44.1.5.1.1
-frPVCEndptOutFramesBECNSet: 1.3.6.1.2.1.10.44.1.3.1.25
-frPVCConnectStatusChange: 1.3.6.1.2.1.10.44.2.1
-frPVCEndptInOctets: 1.3.6.1.2.1.10.44.1.3.1.19
-frPVCEndptInFrames: 1.3.6.1.2.1.10.44.1.3.1.13
-frMgtVCSigTable: 1.3.6.1.2.1.10.44.1.2
-frMgtVCSigUserN391: 1.3.6.1.2.1.10.44.1.2.1.2
-frnetservGroups: 1.3.6.1.2.1.10.44.3.1
-frPVCEndptOutOctets: 1.3.6.1.2.1.10.44.1.3.1.20
-frPVCEndptOutDEFrames: 1.3.6.1.2.1.10.44.1.3.1.30
-frLportNumPlan: 1.3.6.1.2.1.10.44.1.1.1.1
-frMgtVCSigUserN392: 1.3.6.1.2.1.10.44.1.2.1.3
-frMgtVCSigNetN393Admin: 1.3.6.1.2.1.10.44.1.2.1.23
-frPVCEndptTable: 1.3.6.1.2.1.10.44.1.3
-frPVCConnectProviderName: 1.3.6.1.2.1.10.44.1.5.1.13
-frPVCConnectTable: 1.3.6.1.2.1.10.44.1.5
-frPVCEndptOutFrames: 1.3.6.1.2.1.10.44.1.3.1.14
-frPVCEndptOutDECongDiscards: 1.3.6.1.2.1.10.44.1.3.1.29
-frnetservMIB: 1.3.6.1.2.1.10.44
-frPVCConnectUserName: 1.3.6.1.2.1.10.44.1.5.1.12
-frMgtVCSigNetN392Admin: 1.3.6.1.2.1.10.44.1.2.1.22
-frPVCConnectHighDLCIIndex: 1.3.6.1.2.1.10.44.1.5.1.5
-frLportFragSize: 1.3.6.1.2.1.10.44.1.1.1.12
-frPVCEndptOutCIR: 1.3.6.1.2.1.10.44.1.3.1.9
-frMgtVCSigUserN393: 1.3.6.1.2.1.10.44.1.2.1.4
-frMgtVCSigUserChanInactive: 1.3.6.1.2.1.10.44.1.2.1.13
-frPVCConnectH2lOperStatus: 1.3.6.1.2.1.10.44.1.5.1.8
-frMgtVCSigUserLinkRelErrors: 1.3.6.1.2.1.10.44.1.2.1.11
-frPVCConnectH2lLastChange: 1.3.6.1.2.1.10.44.1.5.1.10
-frPVCConnectL2hOperStatus: 1.3.6.1.2.1.10.44.1.5.1.7
-frPVCConnectLowDLCIIndex: 1.3.6.1.2.1.10.44.1.5.1.3
-frPVCConnectStatusNotif: 1.3.6.1.2.1.10.44.2.0.2
-frMgtVCSigNetChanInactive: 1.3.6.1.2.1.10.44.1.2.1.16
-frLportVCSigProtocol: 1.3.6.1.2.1.10.44.1.1.1.6
-frPVCEndptInDiscards: 1.3.6.1.2.1.10.44.1.3.1.18
-frLportEntry: 1.3.6.1.2.1.10.44.1.1.1
-frPVCEndptAtmIwfConnIndex: 1.3.6.1.2.1.10.44.1.3.1.31
-frPVCConnectAdminStatus: 1.3.6.1.2.1.10.44.1.5.1.6
-frAccountPVCOutSegments: 1.3.6.1.2.1.10.44.1.6.1.4
-frnetservTrapsPrefix: 1.3.6.1.2.1.10.44.2.0
-frLportLocation: 1.3.6.1.2.1.10.44.1.1.1.3
-frPVCEndptConnectIdentifier: 1.3.6.1.2.1.10.44.1.3.1.10
-frMgtVCSigUserN391Admin: 1.3.6.1.2.1.10.44.1.2.1.18
-frAccountLportOutSegments: 1.3.6.1.2.1.10.44.1.7.1.3
-frPVCEndptDLCIIndex: 1.3.6.1.2.1.10.44.1.3.1.1
-frPVCEndptOutMaxFrameSize: 1.3.6.1.2.1.10.44.1.3.1.6
-frLportFragControl: 1.3.6.1.2.1.10.44.1.1.1.11
-frMgtVCSigEntry: 1.3.6.1.2.1.10.44.1.2.1
-frPVCEndptInBc: 1.3.6.1.2.1.10.44.1.3.1.3
-frPVCEndptOutFramesFECNSet: 1.3.6.1.2.1.10.44.1.3.1.23
-frPVCConnectLowIfIndex: 1.3.6.1.2.1.10.44.1.5.1.2
-frAccountLportSegmentSize: 1.3.6.1.2.1.10.44.1.7.1.1
-frMgtVCSigUserProtErrors: 1.3.6.1.2.1.10.44.1.2.1.12
-frMgtVCSigProced: 1.3.6.1.2.1.10.44.1.2.1.1
-frMgtVCSigNetProtErrors: 1.3.6.1.2.1.10.44.1.2.1.15
-frMgtVCSigNetnT3Admin: 1.3.6.1.2.1.10.44.1.2.1.25
-frPVCEndptInDECongDiscards: 1.3.6.1.2.1.10.44.1.3.1.27
-frPVCConnectHighIfIndex: 1.3.6.1.2.1.10.44.1.5.1.4
-frnetservTraps: 1.3.6.1.2.1.10.44.2
-frPVCEndptInBe: 1.3.6.1.2.1.10.44.1.3.1.4
-frPVCEndptRowStatus: 1.3.6.1.2.1.10.44.1.3.1.11
-frMgtVCSigNetT392: 1.3.6.1.2.1.10.44.1.2.1.8
-frPVCEndptInMaxFrameSize: 1.3.6.1.2.1.10.44.1.3.1.2
-frPVCEndptEntry: 1.3.6.1.2.1.10.44.1.3.1
-frPVCEndptOutCongDiscards: 1.3.6.1.2.1.10.44.1.3.1.28
-frPVCConnectEntry: 1.3.6.1.2.1.10.44.1.5.1
-frnetservConformance: 1.3.6.1.2.1.10.44.3
-frLportVCSigProtocolAdmin: 1.3.6.1.2.1.10.44.1.1.1.10
-frPVCEndptInDiscardsDESet: 1.3.6.1.2.1.10.44.1.3.1.21
-frPVCEndptOutExcessFrames: 1.3.6.1.2.1.10.44.1.3.1.17
-frLportType: 1.3.6.1.2.1.10.44.1.1.1.4
+frLportContact: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.2
+frPVCConnectIndexValue: 
+  oid: 1.3.6.1.2.1.10.44.1.4
+frLportVCSigPointer: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.7
+frAccountPVCSegmentSize: 
+  oid: 1.3.6.1.2.1.10.44.1.6.1.2
+frPVCEndptInCongDiscards: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.26
+frnetservObjects: 
+  oid: 1.3.6.1.2.1.10.44.1
+frMgtVCSigUserT391: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.5
+frMgtVCSigProcedAdmin: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.17
+frPVCEndptRcvdSigStatus: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.12
+frPVCEndptInExcessFrames: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.16
+frMgtVCSigNetT392Admin: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.24
+frAccountLportInSegments: 
+  oid: 1.3.6.1.2.1.10.44.1.7.1.2
+frMgtVCSigNetnT3: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.10
+frAccountPVCEntry: 
+  oid: 1.3.6.1.2.1.10.44.1.6.1
+frAccountPVCTable: 
+  oid: 1.3.6.1.2.1.10.44.1.6
+frLportAddrDLCILen: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.5
+frPVCEndptInFramesBECNSet: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.24
+frPVCEndptInFramesFECNSet: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.22
+frMgtVCSigNetLinkRelErrors: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.14
+frPVCConnectL2hLastChange: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.9
+frAccountPVCInSegments: 
+  oid: 1.3.6.1.2.1.10.44.1.6.1.3
+frnetservCompliances: 
+  oid: 1.3.6.1.2.1.10.44.3.2
+frMgtVCSigNetN392: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.6
+frPVCEndptInCIR: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.5
+frMgtVCSigUserT391Admin: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.21
+frPVCEndptOutBc: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.7
+frMgtVCSigUserN393Admin: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.20
+frLportDLCIIndexValue: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.8
+frLportTable: 
+  oid: 1.3.6.1.2.1.10.44.1.1
+frAccountPVCDLCIIndex: 
+  oid: 1.3.6.1.2.1.10.44.1.6.1.1
+frPVCConnectRowStatus: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.11
+frMgtVCSigNetN393: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.7
+frMgtVCSigUserN392Admin: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.19
+frPVCEndptInDEFrames: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.15
+frMgtVCSigNetnN4: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.9
+frLportTypeAdmin: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.9
+frPVCEndptOutBe: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.8
+frAccountLportEntry: 
+  oid: 1.3.6.1.2.1.10.44.1.7.1
+frAccountLportTable: 
+  oid: 1.3.6.1.2.1.10.44.1.7
+frPVCConnectIndex: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.1
+frPVCEndptOutFramesBECNSet: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.25
+frPVCConnectStatusChange: 
+  oid: 1.3.6.1.2.1.10.44.2.1
+frPVCEndptInOctets: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.19
+frPVCEndptInFrames: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.13
+frMgtVCSigTable: 
+  oid: 1.3.6.1.2.1.10.44.1.2
+frMgtVCSigUserN391: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.2
+frnetservGroups: 
+  oid: 1.3.6.1.2.1.10.44.3.1
+frPVCEndptOutOctets: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.20
+frPVCEndptOutDEFrames: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.30
+frLportNumPlan: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.1
+frMgtVCSigUserN392: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.3
+frMgtVCSigNetN393Admin: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.23
+frPVCEndptTable: 
+  oid: 1.3.6.1.2.1.10.44.1.3
+frPVCConnectProviderName: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.13
+frPVCConnectTable: 
+  oid: 1.3.6.1.2.1.10.44.1.5
+frPVCEndptOutFrames: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.14
+frPVCEndptOutDECongDiscards: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.29
+frnetservMIB: 
+  oid: 1.3.6.1.2.1.10.44
+frPVCConnectUserName: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.12
+frMgtVCSigNetN392Admin: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.22
+frPVCConnectHighDLCIIndex: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.5
+frLportFragSize: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.12
+frPVCConnectLowDLCIIndex: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.3
+frPVCConnectL2hOperStatus: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.7
+frPVCConnectH2lLastChange: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.10
+frMgtVCSigUserLinkRelErrors: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.11
+frPVCConnectH2lOperStatus: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.8
+frMgtVCSigUserChanInactive: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.13
+frMgtVCSigUserN393: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.4
+frPVCEndptOutCIR: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.9
+frnetservTrapsPrefix: 
+  oid: 1.3.6.1.2.1.10.44.2.0
+frAccountPVCOutSegments: 
+  oid: 1.3.6.1.2.1.10.44.1.6.1.4
+frPVCConnectAdminStatus: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.6
+frPVCEndptAtmIwfConnIndex: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.31
+frLportEntry: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1
+frPVCEndptInDiscards: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.18
+frLportVCSigProtocol: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.6
+frMgtVCSigNetChanInactive: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.16
+frPVCConnectStatusNotif: 
+  oid: 1.3.6.1.2.1.10.44.2.0.2
+frAccountLportOutSegments: 
+  oid: 1.3.6.1.2.1.10.44.1.7.1.3
+frMgtVCSigUserN391Admin: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.18
+frPVCEndptConnectIdentifier: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.10
+frLportLocation: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.3
+frAccountLportSegmentSize: 
+  oid: 1.3.6.1.2.1.10.44.1.7.1.1
+frPVCConnectLowIfIndex: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.2
+frPVCEndptOutFramesFECNSet: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.23
+frPVCEndptInBc: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.3
+frMgtVCSigEntry: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1
+frLportFragControl: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.11
+frPVCEndptOutMaxFrameSize: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.6
+frPVCEndptDLCIIndex: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.1
+frnetservTraps: 
+  oid: 1.3.6.1.2.1.10.44.2
+frPVCConnectHighIfIndex: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1.4
+frPVCEndptInDECongDiscards: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.27
+frMgtVCSigNetnT3Admin: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.25
+frMgtVCSigNetProtErrors: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.15
+frMgtVCSigProced: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.1
+frMgtVCSigUserProtErrors: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.12
+frnetservConformance: 
+  oid: 1.3.6.1.2.1.10.44.3
+frPVCConnectEntry: 
+  oid: 1.3.6.1.2.1.10.44.1.5.1
+frPVCEndptOutCongDiscards: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.28
+frPVCEndptEntry: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1
+frPVCEndptInMaxFrameSize: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.2
+frMgtVCSigNetT392: 
+  oid: 1.3.6.1.2.1.10.44.1.2.1.8
+frPVCEndptRowStatus: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.11
+frPVCEndptInBe: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.4
+frLportType: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.4
+frPVCEndptOutExcessFrames: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.17
+frPVCEndptInDiscardsDESet: 
+  oid: 1.3.6.1.2.1.10.44.1.3.1.21
+frLportVCSigProtocolAdmin: 
+  oid: 1.3.6.1.2.1.10.44.1.1.1.10

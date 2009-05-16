@@ -1,2 +1,3 @@
 --- 
-diffServDSCPTC: 1.3.6.1.2.1.96
+diffServDSCPTC: 
+  oid: 1.3.6.1.2.1.96

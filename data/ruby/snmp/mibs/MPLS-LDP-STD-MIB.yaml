@@ -1,122 +1,243 @@
 --- 
-mplsLdpEntityStatsSessionRejectedAdErrors: 1.3.6.1.2.1.10.166.4.1.2.4.1.3
-mplsLdpEntityStatsEntry: 1.3.6.1.2.1.10.166.4.1.2.4.1
-mplsLdpHelloAdjacencyEntry: 1.3.6.1.2.1.10.166.4.1.3.5.1.1
-mplsLdpLsrObjects: 1.3.6.1.2.1.10.166.4.1.1
-mplsLdpLspFecRowStatus: 1.3.6.1.2.1.10.166.4.1.3.10.1.5
-mplsLdpEntityStatsSessionRejectedMaxPduErrors: 1.3.6.1.2.1.10.166.4.1.2.4.1.4
-mplsLdpSessionDiscontinuityTime: 1.3.6.1.2.1.10.166.4.1.3.3.1.8
-mplsFecAddrPrefixLength: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.3
-mplsLdpPeerLdpId: 1.3.6.1.2.1.10.166.4.1.3.2.1.1
-mplsLdpEntityStatsKeepAliveTimerExpErrors: 1.3.6.1.2.1.10.166.4.1.2.4.1.11
-mplsLdpLspFecSegmentIndex: 1.3.6.1.2.1.10.166.4.1.3.10.1.2
-mplsLdpEntityRowStatus: 1.3.6.1.2.1.10.166.4.1.2.3.1.23
-mplsLdpSessionDown: 1.3.6.1.2.1.10.166.4.0.4
-mplsLdpHelloAdjacencyIndex: 1.3.6.1.2.1.10.166.4.1.3.5.1.1.1
-mplsLdpEntityStatsBadMessageLengthErrors: 1.3.6.1.2.1.10.166.4.1.2.4.1.8
-mplsLdpSessionPeerNextHopAddr: 1.3.6.1.2.1.10.166.4.1.3.11.1.3
-mplsLdpHelloAdjacencyType: 1.3.6.1.2.1.10.166.4.1.3.5.1.1.4
-mplsLdpEntityLabelType: 1.3.6.1.2.1.10.166.4.1.2.3.1.20
-mplsLdpSessionTable: 1.3.6.1.2.1.10.166.4.1.3.3
-mplsLdpLspFecTable: 1.3.6.1.2.1.10.166.4.1.3.10
-mplsLdpEntityObjects: 1.3.6.1.2.1.10.166.4.1.2
-mplsInSegmentLdpLspTable: 1.3.6.1.2.1.10.166.4.1.3.6
-mplsLdpEntityStatsBadPduLengthErrors: 1.3.6.1.2.1.10.166.4.1.2.4.1.7
-mplsLdpEntityIndexNext: 1.3.6.1.2.1.10.166.4.1.2.2
-mplsLdpEntityDiscontinuityTime: 1.3.6.1.2.1.10.166.4.1.2.3.1.21
-mplsLdpSessionStatsUnknownTlvErrors: 1.3.6.1.2.1.10.166.4.1.3.4.1.2
-mplsLdpSessionPeerAddrTable: 1.3.6.1.2.1.10.166.4.1.3.11
-mplsFecStorageType: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.6
-mplsFecEntry: 1.3.6.1.2.1.10.166.4.1.3.8.3.1
-mplsLdpEntityMaxPduLength: 1.3.6.1.2.1.10.166.4.1.2.3.1.8
-mplsLdpSessionStatsEntry: 1.3.6.1.2.1.10.166.4.1.3.4.1
-mplsFecLastChange: 1.3.6.1.2.1.10.166.4.1.3.8.1
-mplsOutSegmentLdpLspTable: 1.3.6.1.2.1.10.166.4.1.3.7
-mplsLdpEntityLabelRetentionMode: 1.3.6.1.2.1.10.166.4.1.2.3.1.13
-mplsLdpEntityHopCountLimit: 1.3.6.1.2.1.10.166.4.1.2.3.1.15
-mplsLdpEntityLastChange: 1.3.6.1.2.1.10.166.4.1.2.1
-mplsLdpLspFecStorageType: 1.3.6.1.2.1.10.166.4.1.3.10.1.4
-mplsFecIndex: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.1
-mplsLdpEntityStatsSessionRejectedLRErrors: 1.3.6.1.2.1.10.166.4.1.2.4.1.5
-mplsInSegmentLdpLspType: 1.3.6.1.2.1.10.166.4.1.3.6.1.3
-mplsFecAddrType: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.4
-mplsLdpStdMIB: 1.3.6.1.2.1.10.166.4
-mplsLdpEntityOperStatus: 1.3.6.1.2.1.10.166.4.1.2.3.1.5
-mplsLdpObjects: 1.3.6.1.2.1.10.166.4.1
-mplsLdpInitSessionThresholdExceeded: 1.3.6.1.2.1.10.166.4.0.1
-mplsLdpSessionKeepAliveTime: 1.3.6.1.2.1.10.166.4.1.3.3.1.6
-mplsLdpEntityTargetPeer: 1.3.6.1.2.1.10.166.4.1.2.3.1.17
-mplsLdpEntityTargetPeerAddrType: 1.3.6.1.2.1.10.166.4.1.2.3.1.18
-mplsLdpSessionObjects: 1.3.6.1.2.1.10.166.4.1.3
-mplsLdpSessionKeepAliveHoldTimeRem: 1.3.6.1.2.1.10.166.4.1.3.3.1.5
-mplsLdpPeerTransportAddrType: 1.3.6.1.2.1.10.166.4.1.3.2.1.4
-mplsLdpEntityStatsSessionRejectedNoHelloErrors: 1.3.6.1.2.1.10.166.4.1.2.4.1.2
-mplsLdpLsrId: 1.3.6.1.2.1.10.166.4.1.1.1
-mplsLdpPeerTable: 1.3.6.1.2.1.10.166.4.1.3.2
-mplsInSegmentLdpLspLabelType: 1.3.6.1.2.1.10.166.4.1.3.6.1.2
-mplsLdpEntityStatsBadLdpIdentifierErrors: 1.3.6.1.2.1.10.166.4.1.2.4.1.6
-mplsLdpEntityUdpDscPort: 1.3.6.1.2.1.10.166.4.1.2.3.1.7
-mplsLdpEntityProtocolVersion: 1.3.6.1.2.1.10.166.4.1.2.3.1.3
-mplsLdpEntityLdpId: 1.3.6.1.2.1.10.166.4.1.2.3.1.1
-mplsLdpEntityKeepAliveHoldTimer: 1.3.6.1.2.1.10.166.4.1.2.3.1.9
-mplsLdpCompliances: 1.3.6.1.2.1.10.166.4.2.2
-mplsLdpHelloAdjacencyTable: 1.3.6.1.2.1.10.166.4.1.3.5.1
-mplsLdpEntityStorageType: 1.3.6.1.2.1.10.166.4.1.2.3.1.22
-mplsLdpEntityStatsTable: 1.3.6.1.2.1.10.166.4.1.2.4
-mplsLdpSessionMaxPduLength: 1.3.6.1.2.1.10.166.4.1.3.3.1.7
-mplsLdpEntityIndex: 1.3.6.1.2.1.10.166.4.1.2.3.1.2
-mplsLdpPeerTransportAddr: 1.3.6.1.2.1.10.166.4.1.3.2.1.5
-mplsLdpEntityHelloHoldTimer: 1.3.6.1.2.1.10.166.4.1.2.3.1.10
-mplsLdpLspFecLastChange: 1.3.6.1.2.1.10.166.4.1.3.9
-mplsLdpPathVectorLimitMismatch: 1.3.6.1.2.1.10.166.4.0.2
-mplsLdpSessionStatsUnknownMesTypeErrors: 1.3.6.1.2.1.10.166.4.1.3.4.1.1
-mplsLdpEntityEntry: 1.3.6.1.2.1.10.166.4.1.2.3.1
-mplsLdpLspFecEntry: 1.3.6.1.2.1.10.166.4.1.3.10.1
-mplsLdpLspFecSegment: 1.3.6.1.2.1.10.166.4.1.3.10.1.1
-mplsLdpSessionPeerAddrEntry: 1.3.6.1.2.1.10.166.4.1.3.11.1
-mplsInSegmentLdpLspEntry: 1.3.6.1.2.1.10.166.4.1.3.6.1
-mplsLdpSessionUp: 1.3.6.1.2.1.10.166.4.0.3
-mplsLdpSessionState: 1.3.6.1.2.1.10.166.4.1.3.3.1.2
-mplsLdpEntityStatsShutdownSentNotifications: 1.3.6.1.2.1.10.166.4.1.2.4.1.13
-mplsOutSegmentLdpLspLabelType: 1.3.6.1.2.1.10.166.4.1.3.7.1.2
-mplsLdpSessionPeerNextHopAddrType: 1.3.6.1.2.1.10.166.4.1.3.11.1.2
-mplsLdpConformance: 1.3.6.1.2.1.10.166.4.2
-mplsLdpLspFecIndex: 1.3.6.1.2.1.10.166.4.1.3.10.1.3
-mplsLdpLsrLoopDetectionCapable: 1.3.6.1.2.1.10.166.4.1.1.2
-mplsLdpGroups: 1.3.6.1.2.1.10.166.4.2.1
-mplsLdpEntityStatsSessionAttempts: 1.3.6.1.2.1.10.166.4.1.2.4.1.1
-mplsLdpEntityTransportAddrKind: 1.3.6.1.2.1.10.166.4.1.2.3.1.16
-mplsLdpEntityLabelDistMethod: 1.3.6.1.2.1.10.166.4.1.2.3.1.12
-mplsLdpSessionPeerAddrIndex: 1.3.6.1.2.1.10.166.4.1.3.11.1.1
-mplsInSegmentLdpLspIndex: 1.3.6.1.2.1.10.166.4.1.3.6.1.1
-mplsFecObjects: 1.3.6.1.2.1.10.166.4.1.3.8
-mplsLdpHelloAdjacencyObjects: 1.3.6.1.2.1.10.166.4.1.3.5
-mplsLdpHelloAdjacencyHoldTimeRem: 1.3.6.1.2.1.10.166.4.1.3.5.1.1.2
-mplsFecTable: 1.3.6.1.2.1.10.166.4.1.3.8.3
-mplsLdpEntityStatsMalformedTlvValueErrors: 1.3.6.1.2.1.10.166.4.1.2.4.1.10
-mplsFecRowStatus: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.7
-mplsLdpPeerPathVectorLimit: 1.3.6.1.2.1.10.166.4.1.3.2.1.3
-mplsLdpSessionStatsTable: 1.3.6.1.2.1.10.166.4.1.3.4
-mplsLdpEntityPathVectorLimit: 1.3.6.1.2.1.10.166.4.1.2.3.1.14
-mplsLdpSessionEntry: 1.3.6.1.2.1.10.166.4.1.3.3.1
-mplsLdpEntityStatsShutdownReceivedNotifications: 1.3.6.1.2.1.10.166.4.1.2.4.1.12
-mplsLdpEntityAdminStatus: 1.3.6.1.2.1.10.166.4.1.2.3.1.4
-mplsOutSegmentLdpLspEntry: 1.3.6.1.2.1.10.166.4.1.3.7.1
-mplsOutSegmentLdpLspType: 1.3.6.1.2.1.10.166.4.1.3.7.1.3
-mplsLdpEntityTargetPeerAddr: 1.3.6.1.2.1.10.166.4.1.2.3.1.19
-mplsLdpNotifications: 1.3.6.1.2.1.10.166.4.0
-mplsLdpSessionRole: 1.3.6.1.2.1.10.166.4.1.3.3.1.3
-mplsLdpPeerLastChange: 1.3.6.1.2.1.10.166.4.1.3.1
-mplsOutSegmentLdpLspIndex: 1.3.6.1.2.1.10.166.4.1.3.7.1.1
-mplsLdpPeerLabelDistMethod: 1.3.6.1.2.1.10.166.4.1.3.2.1.2
-mplsLdpSessionProtocolVersion: 1.3.6.1.2.1.10.166.4.1.3.3.1.4
-mplsLdpEntityStatsBadTlvLengthErrors: 1.3.6.1.2.1.10.166.4.1.2.4.1.9
-mplsLdpSessionStateLastChange: 1.3.6.1.2.1.10.166.4.1.3.3.1.1
-mplsLdpEntityTable: 1.3.6.1.2.1.10.166.4.1.2.3
-mplsLdpHelloAdjacencyHoldTime: 1.3.6.1.2.1.10.166.4.1.3.5.1.1.3
-mplsLdpPeerEntry: 1.3.6.1.2.1.10.166.4.1.3.2.1
-mplsFecType: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.2
-mplsFecIndexNext: 1.3.6.1.2.1.10.166.4.1.3.8.2
-mplsFecAddr: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.5
-mplsLdpEntityInitSessionThreshold: 1.3.6.1.2.1.10.166.4.1.2.3.1.11
-mplsLdpEntityTcpPort: 1.3.6.1.2.1.10.166.4.1.2.3.1.6
+mplsLdpEntityStatsSessionRejectedAdErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.3
+mplsLdpEntityStatsEntry: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1
+mplsLdpHelloAdjacencyEntry: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.5.1.1
+mplsLdpLsrObjects: 
+  oid: 1.3.6.1.2.1.10.166.4.1.1
+mplsLdpLspFecRowStatus: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.10.1.5
+mplsLdpEntityStatsSessionRejectedMaxPduErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.4
+mplsLdpSessionDiscontinuityTime: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.3.1.8
+mplsFecAddrPrefixLength: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.3
+mplsLdpPeerLdpId: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.2.1.1
+mplsLdpEntityStatsKeepAliveTimerExpErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.11
+mplsLdpLspFecSegmentIndex: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.10.1.2
+mplsLdpEntityRowStatus: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.23
+mplsLdpHelloAdjacencyIndex: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.5.1.1.1
+mplsLdpEntityStatsBadMessageLengthErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.8
+mplsLdpSessionPeerNextHopAddr: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.11.1.3
+mplsLdpSessionDown: 
+  oid: 1.3.6.1.2.1.10.166.4.0.4
+mplsLdpHelloAdjacencyType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.5.1.1.4
+mplsLdpEntityLabelType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.20
+mplsLdpSessionTable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.3
+mplsLdpLspFecTable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.10
+mplsLdpEntityObjects: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2
+mplsInSegmentLdpLspTable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.6
+mplsLdpEntityStatsBadPduLengthErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.7
+mplsLdpEntityIndexNext: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.2
+mplsLdpEntityDiscontinuityTime: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.21
+mplsLdpSessionStatsUnknownTlvErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.4.1.2
+mplsLdpSessionPeerAddrTable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.11
+mplsFecStorageType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.6
+mplsFecEntry: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8.3.1
+mplsLdpEntityMaxPduLength: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.8
+mplsLdpSessionStatsEntry: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.4.1
+mplsFecLastChange: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8.1
+mplsOutSegmentLdpLspTable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.7
+mplsLdpEntityHopCountLimit: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.15
+mplsLdpEntityLabelRetentionMode: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.13
+mplsLdpEntityLastChange: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.1
+mplsLdpLspFecStorageType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.10.1.4
+mplsFecIndex: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.1
+mplsLdpEntityStatsSessionRejectedLRErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.5
+mplsInSegmentLdpLspType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.6.1.3
+mplsFecAddrType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.4
+mplsLdpStdMIB: 
+  oid: 1.3.6.1.2.1.10.166.4
+mplsLdpEntityOperStatus: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.5
+mplsLdpObjects: 
+  oid: 1.3.6.1.2.1.10.166.4.1
+mplsLdpInitSessionThresholdExceeded: 
+  oid: 1.3.6.1.2.1.10.166.4.0.1
+mplsLdpSessionKeepAliveTime: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.3.1.6
+mplsLdpEntityTargetPeer: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.17
+mplsLdpEntityTargetPeerAddrType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.18
+mplsLdpSessionObjects: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3
+mplsLdpSessionKeepAliveHoldTimeRem: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.3.1.5
+mplsLdpPeerTransportAddrType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.2.1.4
+mplsLdpEntityStatsSessionRejectedNoHelloErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.2
+mplsLdpLsrId: 
+  oid: 1.3.6.1.2.1.10.166.4.1.1.1
+mplsLdpPeerTable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.2
+mplsInSegmentLdpLspLabelType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.6.1.2
+mplsLdpEntityStatsBadLdpIdentifierErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.6
+mplsLdpEntityUdpDscPort: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.7
+mplsLdpEntityProtocolVersion: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.3
+mplsLdpEntityLdpId: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.1
+mplsLdpEntityKeepAliveHoldTimer: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.9
+mplsLdpCompliances: 
+  oid: 1.3.6.1.2.1.10.166.4.2.2
+mplsLdpHelloAdjacencyTable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.5.1
+mplsLdpEntityStorageType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.22
+mplsLdpEntityStatsTable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4
+mplsLdpSessionMaxPduLength: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.3.1.7
+mplsLdpEntityIndex: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.2
+mplsLdpPeerTransportAddr: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.2.1.5
+mplsLdpEntityHelloHoldTimer: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.10
+mplsLdpLspFecLastChange: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.9
+mplsLdpSessionStatsUnknownMesTypeErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.4.1.1
+mplsLdpEntityEntry: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1
+mplsLdpLspFecEntry: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.10.1
+mplsLdpPathVectorLimitMismatch: 
+  oid: 1.3.6.1.2.1.10.166.4.0.2
+mplsLdpLspFecSegment: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.10.1.1
+mplsLdpSessionPeerAddrEntry: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.11.1
+mplsInSegmentLdpLspEntry: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.6.1
+mplsLdpSessionState: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.3.1.2
+mplsLdpSessionUp: 
+  oid: 1.3.6.1.2.1.10.166.4.0.3
+mplsLdpEntityStatsShutdownSentNotifications: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.13
+mplsOutSegmentLdpLspLabelType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.7.1.2
+mplsLdpSessionPeerNextHopAddrType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.11.1.2
+mplsLdpConformance: 
+  oid: 1.3.6.1.2.1.10.166.4.2
+mplsLdpLspFecIndex: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.10.1.3
+mplsLdpLsrLoopDetectionCapable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.1.2
+mplsLdpGroups: 
+  oid: 1.3.6.1.2.1.10.166.4.2.1
+mplsLdpEntityStatsSessionAttempts: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.1
+mplsLdpEntityTransportAddrKind: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.16
+mplsLdpEntityLabelDistMethod: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.12
+mplsLdpSessionPeerAddrIndex: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.11.1.1
+mplsInSegmentLdpLspIndex: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.6.1.1
+mplsFecObjects: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8
+mplsLdpHelloAdjacencyObjects: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.5
+mplsLdpHelloAdjacencyHoldTimeRem: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.5.1.1.2
+mplsFecTable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8.3
+mplsLdpEntityStatsMalformedTlvValueErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.10
+mplsFecRowStatus: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.7
+mplsLdpPeerPathVectorLimit: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.2.1.3
+mplsLdpSessionStatsTable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.4
+mplsLdpEntityPathVectorLimit: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.14
+mplsLdpSessionEntry: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.3.1
+mplsLdpEntityStatsShutdownReceivedNotifications: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.12
+mplsLdpEntityAdminStatus: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.4
+mplsOutSegmentLdpLspEntry: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.7.1
+mplsOutSegmentLdpLspType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.7.1.3
+mplsLdpEntityTargetPeerAddr: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.19
+mplsLdpNotifications: 
+  oid: 1.3.6.1.2.1.10.166.4.0
+mplsLdpSessionRole: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.3.1.3
+mplsLdpPeerLastChange: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.1
+mplsOutSegmentLdpLspIndex: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.7.1.1
+mplsLdpPeerLabelDistMethod: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.2.1.2
+mplsLdpSessionProtocolVersion: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.3.1.4
+mplsLdpEntityStatsBadTlvLengthErrors: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.4.1.9
+mplsLdpSessionStateLastChange: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.3.1.1
+mplsLdpEntityTable: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3
+mplsLdpHelloAdjacencyHoldTime: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.5.1.1.3
+mplsLdpEntityTcpPort: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.6
+mplsLdpEntityInitSessionThreshold: 
+  oid: 1.3.6.1.2.1.10.166.4.1.2.3.1.11
+mplsFecAddr: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.5
+mplsFecIndexNext: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8.2
+mplsFecType: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.8.3.1.2
+mplsLdpPeerEntry: 
+  oid: 1.3.6.1.2.1.10.166.4.1.3.2.1

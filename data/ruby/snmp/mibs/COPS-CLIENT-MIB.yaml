@@ -1,54 +1,107 @@
 --- 
-copsClientServerCurrentTable: 1.3.6.1.2.1.89.1.2.1
-copsClientServerCurrentEntry: 1.3.6.1.2.1.89.1.2.1.1
-copsClientMIB: 1.3.6.1.2.1.89
-copsClientServerType: 1.3.6.1.2.1.89.1.2.1.1.5
-copsClientState: 1.3.6.1.2.1.89.1.2.1.1.8
-copsClientServerConfigEntry: 1.3.6.1.2.1.89.1.3.1.1
-copsClientServerConfigAuthType: 1.3.6.1.2.1.89.1.3.1.1.4
-copsClientCompliances: 1.3.6.1.2.1.89.2.2
-copsClientServerClientType: 1.3.6.1.2.1.89.1.2.1.1.3
-copsClientServerKeepaliveTime: 1.3.6.1.2.1.89.1.2.1.1.9
-copsClientServerAccountingTime: 1.3.6.1.2.1.89.1.2.1.1.10
-copsClientTcpConnectAttempts: 1.3.6.1.2.1.89.1.2.1.1.15
-copsClientErrLengthMismatch: 1.3.6.1.2.1.89.1.2.1.1.21
-copsClientErrUnknownCnum: 1.3.6.1.2.1.89.1.2.1.1.23
-copsClientServerLastConnAttempt: 1.3.6.1.2.1.89.1.2.1.1.7
-copsClientOutPkts: 1.3.6.1.2.1.89.1.2.1.1.12
-copsClientConfigGroup: 1.3.6.1.2.1.89.1.3
-copsClientServerConfigAddress: 1.3.6.1.2.1.89.1.3.1.1.2
-copsClientServerConfigRetryAlgrm: 1.3.6.1.2.1.89.1.3.2
-copsClientGroups: 1.3.6.1.2.1.89.2.1
-copsClientServerConfigTable: 1.3.6.1.2.1.89.1.3.1
-copsClientServerAddress: 1.3.6.1.2.1.89.1.2.1.1.2
-copsClientServerTcpPort: 1.3.6.1.2.1.89.1.2.1.1.4
-copsClientTcpConnectFailures: 1.3.6.1.2.1.89.1.2.1.1.16
-copsClientErrUnsupportClienttype: 1.3.6.1.2.1.89.1.2.1.1.19
-copsClientErrWrongOpcode: 1.3.6.1.2.1.89.1.2.1.1.27
-copsClientKaTimedoutClients: 1.3.6.1.2.1.89.1.2.1.1.28
-copsClientConformance: 1.3.6.1.2.1.89.2
-copsClientInErrs: 1.3.6.1.2.1.89.1.2.1.1.13
-copsClientLastError: 1.3.6.1.2.1.89.1.2.1.1.14
-copsClientOpenFailures: 1.3.6.1.2.1.89.1.2.1.1.18
-copsClientErrUnknownOpcode: 1.3.6.1.2.1.89.1.2.1.1.22
-copsClientErrBadSends: 1.3.6.1.2.1.89.1.2.1.1.25
-copsClientServerConfigRowStatus: 1.3.6.1.2.1.89.1.3.1.1.7
-copsClientServerConfigRetryCount: 1.3.6.1.2.1.89.1.3.3
-copsClientInPkts: 1.3.6.1.2.1.89.1.2.1.1.11
-copsClientErrUnsupportedVersion: 1.3.6.1.2.1.89.1.2.1.1.20
-copsClientErrBadCtype: 1.3.6.1.2.1.89.1.2.1.1.24
-copsClientErrWrongObjects: 1.3.6.1.2.1.89.1.2.1.1.26
-copsClientServerConfigTcpPort: 1.3.6.1.2.1.89.1.3.1.1.5
-copsClientServerConfigPriority: 1.3.6.1.2.1.89.1.3.1.1.6
-copsClientMIBObjects: 1.3.6.1.2.1.89.1
-copsClientCapabilitiesGroup: 1.3.6.1.2.1.89.1.1
-copsClientStatusGroup: 1.3.6.1.2.1.89.1.2
-copsClientErrAuthMissing: 1.3.6.1.2.1.89.1.2.1.1.30
-copsClientServerConfigClientType: 1.3.6.1.2.1.89.1.3.1.1.3
-copsClientCapabilities: 1.3.6.1.2.1.89.1.1.1
-copsClientServerAuthType: 1.3.6.1.2.1.89.1.2.1.1.6
-copsClientServerAddressType: 1.3.6.1.2.1.89.1.2.1.1.1
-copsClientOpenAttempts: 1.3.6.1.2.1.89.1.2.1.1.17
-copsClientErrAuthFailures: 1.3.6.1.2.1.89.1.2.1.1.29
-copsClientServerConfigAddrType: 1.3.6.1.2.1.89.1.3.1.1.1
-copsClientServerConfigRetryIntvl: 1.3.6.1.2.1.89.1.3.4
+copsClientServerCurrentEntry: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1
+copsClientServerCurrentTable: 
+  oid: 1.3.6.1.2.1.89.1.2.1
+copsClientCompliances: 
+  oid: 1.3.6.1.2.1.89.2.2
+copsClientServerConfigAuthType: 
+  oid: 1.3.6.1.2.1.89.1.3.1.1.4
+copsClientServerConfigEntry: 
+  oid: 1.3.6.1.2.1.89.1.3.1.1
+copsClientState: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.8
+copsClientServerType: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.5
+copsClientMIB: 
+  oid: 1.3.6.1.2.1.89
+copsClientErrUnknownCnum: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.23
+copsClientErrLengthMismatch: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.21
+copsClientTcpConnectAttempts: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.15
+copsClientServerAccountingTime: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.10
+copsClientServerKeepaliveTime: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.9
+copsClientServerClientType: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.3
+copsClientGroups: 
+  oid: 1.3.6.1.2.1.89.2.1
+copsClientServerConfigRetryAlgrm: 
+  oid: 1.3.6.1.2.1.89.1.3.2
+copsClientServerConfigAddress: 
+  oid: 1.3.6.1.2.1.89.1.3.1.1.2
+copsClientConfigGroup: 
+  oid: 1.3.6.1.2.1.89.1.3
+copsClientOutPkts: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.12
+copsClientServerLastConnAttempt: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.7
+copsClientServerConfigTable: 
+  oid: 1.3.6.1.2.1.89.1.3.1
+copsClientConformance: 
+  oid: 1.3.6.1.2.1.89.2
+copsClientKaTimedoutClients: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.28
+copsClientErrWrongOpcode: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.27
+copsClientErrUnsupportClienttype: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.19
+copsClientTcpConnectFailures: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.16
+copsClientServerTcpPort: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.4
+copsClientServerAddress: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.2
+copsClientServerConfigRetryCount: 
+  oid: 1.3.6.1.2.1.89.1.3.3
+copsClientServerConfigRowStatus: 
+  oid: 1.3.6.1.2.1.89.1.3.1.1.7
+copsClientErrBadSends: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.25
+copsClientErrUnknownOpcode: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.22
+copsClientOpenFailures: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.18
+copsClientLastError: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.14
+copsClientInErrs: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.13
+copsClientServerConfigPriority: 
+  oid: 1.3.6.1.2.1.89.1.3.1.1.6
+copsClientServerConfigTcpPort: 
+  oid: 1.3.6.1.2.1.89.1.3.1.1.5
+copsClientErrWrongObjects: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.26
+copsClientErrBadCtype: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.24
+copsClientErrUnsupportedVersion: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.20
+copsClientInPkts: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.11
+copsClientServerConfigClientType: 
+  oid: 1.3.6.1.2.1.89.1.3.1.1.3
+copsClientErrAuthMissing: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.30
+copsClientStatusGroup: 
+  oid: 1.3.6.1.2.1.89.1.2
+copsClientCapabilitiesGroup: 
+  oid: 1.3.6.1.2.1.89.1.1
+copsClientMIBObjects: 
+  oid: 1.3.6.1.2.1.89.1
+copsClientServerAuthType: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.6
+copsClientCapabilities: 
+  oid: 1.3.6.1.2.1.89.1.1.1
+copsClientServerConfigRetryIntvl: 
+  oid: 1.3.6.1.2.1.89.1.3.4
+copsClientServerConfigAddrType: 
+  oid: 1.3.6.1.2.1.89.1.3.1.1.1
+copsClientErrAuthFailures: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.29
+copsClientOpenAttempts: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.17
+copsClientServerAddressType: 
+  oid: 1.3.6.1.2.1.89.1.2.1.1.1
